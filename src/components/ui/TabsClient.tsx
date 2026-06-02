@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface TabsProps {
   summary: string;
@@ -22,30 +23,52 @@ export function TabsClient({ summary, readmeTranslated, readmeOriginal }: TabsPr
   } as const;
 
   return (
-    <div>
-      <div className="flex flex-wrap gap-2 mb-8 border-b border-white/10 pb-4">
-        {(Object.entries(tabs) as [keyof typeof tabs, { label: string }][]).map(([id, tab]) => (
-          <button
-            key={id}
-            onClick={() => setActiveTab(id)}
-            className={cn(
-              "px-5 py-2.5 rounded-lg font-medium transition-all duration-200",
-              activeTab === id
-                ? "bg-white/10 text-white shadow-sm"
-                : "text-zinc-400 hover:text-white hover:bg-white/5"
-            )}
-          >
-            {tab.label}
-          </button>
-        ))}
+    <div className="flex flex-col gap-8">
+      {/* Animated Segmented Control */}
+      <div className="relative flex w-fit rounded-full bg-white/5 p-1 backdrop-blur-md border border-white/10">
+        {(Object.entries(tabs) as [keyof typeof tabs, { label: string }][]).map(([id, tab]) => {
+          const isActive = activeTab === id;
+          return (
+            <button
+              key={id}
+              onClick={() => setActiveTab(id)}
+              className={cn(
+                "relative px-6 py-2.5 text-sm font-medium rounded-full transition-colors z-10",
+                isActive ? "text-white" : "text-zinc-400 hover:text-zinc-200"
+              )}
+              style={{ WebkitTapHighlightColor: "transparent" }}
+            >
+              {isActive && (
+                <motion.div
+                  layoutId="active-tab-indicator"
+                  className="absolute inset-0 -z-10 rounded-full bg-purple-500/20 shadow-[0_0_15px_rgba(168,85,247,0.2)] border border-purple-500/30"
+                  transition={{ type: "spring", stiffness: 300, damping: 25 }}
+                />
+              )}
+              {tab.label}
+            </button>
+          );
+        })}
       </div>
 
-      <div className="prose prose-invert prose-purple max-w-none prose-pre:bg-white/5 prose-pre:border prose-pre:border-white/10">
-        <div className="break-words">
-          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-            {tabs[activeTab].content}
-          </ReactMarkdown>
-        </div>
+      <div className="rounded-3xl border border-white/5 bg-white/5 p-8 backdrop-blur-sm shadow-xl relative overflow-hidden">
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-purple-500/5 to-transparent pointer-events-none" />
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTab}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+            className="prose prose-invert prose-purple max-w-none prose-h1:text-3xl prose-h2:text-2xl prose-h2:border-b prose-h2:border-white/10 prose-h2:pb-2 prose-pre:bg-[#09090b] prose-pre:border prose-pre:border-white/10 prose-img:rounded-2xl"
+          >
+            <div className="break-words">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+                {tabs[activeTab].content}
+              </ReactMarkdown>
+            </div>
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );

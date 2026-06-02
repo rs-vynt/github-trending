@@ -1,46 +1,37 @@
 import { getRuns } from "@/lib/data";
-import Link from "next/link";
-import { Card } from "@/components/ui/Card";
+import { HomeGridClient } from "@/components/ui/HomeGridClient";
 
 export default async function Home() {
   const runs = await getRuns();
 
   return (
-    <div>
-      <header className="mb-12 text-center">
-        <h1 className="mb-2 bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-5xl font-extrabold text-transparent">
-          Dashboard Lịch Sử
+    <div className="flex flex-col gap-12">
+      <header className="relative flex flex-col items-center text-center">
+        <div className="absolute -top-24 left-1/4 -z-10 h-64 w-64 rounded-full bg-emerald-500/10 blur-[120px]" />
+        <div className="absolute -top-24 right-1/4 -z-10 h-64 w-64 rounded-full bg-zinc-500/10 blur-[120px]" />
+        
+        <div className="mb-4 inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1.5 text-sm font-medium text-emerald-300 backdrop-blur-md">
+          ✨ Tự động tổng hợp bằng AI
+        </div>
+        <h1 className="mb-6 text-5xl font-extrabold tracking-tight text-white sm:text-6xl lg:text-7xl">
+          Dashboard <br className="hidden sm:block" />
+          <span className="text-emerald-400">
+            Lịch Sử Trending
+          </span>
         </h1>
-        <p className="text-xl text-zinc-400">
-          Danh sách các lần cào dữ liệu GitHub Trending
+        <p className="max-w-2xl text-lg text-zinc-400 sm:text-xl">
+          Theo dõi các dự án mã nguồn mở nổi bật nhất trên GitHub, được phân tích và tóm tắt tự động bởi AI.
         </p>
       </header>
 
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {runs.map((run) => (
-          <Link
-            key={`${run.date}_${run.since}`}
-            href={`/run/${run.date}_${run.since}`}
-          >
-            <Card className="flex h-full flex-col justify-between">
-              <div>
-                <div className="mb-2 text-sm text-zinc-400">{run.date}</div>
-                <h2 className="mb-2 text-2xl font-bold capitalize">
-                  Bản tin {run.since}
-                </h2>
-              </div>
-              <p className="mt-4 text-zinc-400">
-                {run.total_fetched} Repositories
-              </p>
-            </Card>
-          </Link>
-        ))}
-        {runs.length === 0 && (
-          <p className="col-span-full text-center text-zinc-500">
-            Chưa có dữ liệu nào. Hãy chạy scraper!
-          </p>
-        )}
-      </div>
+      <section className="w-full">
+        <div className="mb-8 flex items-center justify-between">
+          <h2 className="text-2xl font-semibold text-white">Các bản tin gần đây</h2>
+          <div className="text-sm font-medium text-zinc-500">{runs.length} bản ghi</div>
+        </div>
+        
+        <HomeGridClient runs={runs} />
+      </section>
     </div>
   );
 }
