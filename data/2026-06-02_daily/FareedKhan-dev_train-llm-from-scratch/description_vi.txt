@@ -1,1 +1,0 @@
-Một hướng dẫn và mã nguồn hoàn chỉnh bằng PyTorch giúp bạn tự xây dựng và đào tạo một mô hình ngôn ngữ lớn (LLM) dựa trên kiến trúc Transformer từ con số không chỉ với một GPU duy nhất.

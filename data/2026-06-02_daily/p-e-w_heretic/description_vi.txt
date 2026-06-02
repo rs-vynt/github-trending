@@ -1,1 +1,0 @@
-Heretic là công cụ dòng lệnh hoàn toàn tự động giúp loại bỏ kiểm duyệt (abliteration) cho các mô hình ngôn ngữ kiến trúc transformer mà không làm suy giảm trí thông minh và hiệu suất của mô hình gốc.

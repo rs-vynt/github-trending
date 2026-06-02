@@ -1,0 +1,32 @@
+{
+  "id": "2026-06-01_daily",
+  "date": "2026-06-01",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "harry0703_MoneyPrinterTurbo",
+      "stars": 76217,
+      "rank": 1
+    },
+    {
+      "id": "microsoft_markitdown",
+      "stars": 136528,
+      "rank": 2
+    },
+    {
+      "id": "D4Vinci_Scrapling",
+      "stars": 57427,
+      "rank": 3
+    },
+    {
+      "id": "nesquena_hermes-webui",
+      "stars": 10405,
+      "rank": 4
+    },
+    {
+      "id": "EveryInc_compound-engineering-plugin",
+      "stars": 18918,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "supermemoryai_supermemory",
+  "fullName": "supermemoryai/supermemory",
+  "name": "supermemory",
+  "description": "Supermemory là một công cụ bộ nhớ siêu tốc, có khả năng mở rộng dành cho AI, giúp tự động ghi nhớ, quản lý ngữ cảnh trò chuyện và xây dựng hồ sơ người dùng một cách hiệu quả.",
+  "stars": 24195,
+  "forks": 0,
+  "readmeHash": "bc3d350df4a67bac31d893e97d217e09",
+  "aiSummary": "Supermemory là một công cụ ngữ cảnh và bộ nhớ tiên tiến dành cho các hệ thống AI, định vị bản thân như một giải pháp thay thế vượt trội cho các hệ thống RAG cơ bản. Dự án tập trung vào việc lưu trữ, gợi nhớ các dữ kiện, tự động theo dõi các bản cập nhật, giải quyết mâu thuẫn và loại bỏ các thông tin hết hạn để duy trì hồ sơ người dùng một cách chính xác. Supermemory cung cấp cả ứng dụng cho người dùng cuối cùng các API mạnh mẽ để các nhà phát triển dễ dàng tích hợp bộ nhớ dài hạn vào các công cụ và tác nhân AI tùy chỉnh của họ.\n\nCác tính năng nổi bật của dự án bao gồm khả năng tìm kiếm kết hợp (hybrid search) giữa RAG và bộ nhớ người dùng, tự động trích xuất và tạo hồ sơ người dùng từ ngữ cảnh trò chuyện, xử lý các tệp tin đa phương thức, và đồng bộ hóa thời gian thực với các nền tảng phổ biến như Google Drive, GitHub hay Notion. Hiện tại, Supermemory đang dẫn đầu trên nhiều công cụ đo lường hiệu năng bộ nhớ AI lớn như LongMemEval, LoCoMo, ConvoMem, đồng thời hỗ trợ tích hợp dễ dàng với các framework AI phổ biến như LangChain, Vercel AI SDK hay OpenAI.\n\nĐể bắt đầu, người dùng phổ thông có thể trải nghiệm miễn phí qua ứng dụng web hoặc tiện ích mở rộng trình duyệt để AI luôn ghi nhớ bối cảnh các cuộc trò chuyện. Đối với các nhà phát triển, chỉ cần cài đặt thư viện `supermemory` qua npm hoặc pip, sau đó sử dụng một vài dòng code API đơn giản để lưu trữ ngữ cảnh, truy xuất hồ sơ người dùng chi tiết và thực hiện các truy vấn tìm kiếm kết hợp mạnh mẽ.\n",
+  "tags": [
+    "AI",
+    "Memory",
+    "Context",
+    "RAG",
+    "LLM"
+  ]
+}

@@ -1,1 +1,0 @@
-Harness là một plugin dành cho Claude Code giúp tự động thiết kế và tạo ra các nhóm tác nhân AI cùng hệ thống kỹ năng chuyên biệt dựa trên 6 mẫu kiến trúc định sẵn.

@@ -1,7 +1,0 @@
-# Tóm tắt: revfactory/harness
-
-Harness (`revfactory/harness`) là một plugin "nhà máy kiến trúc nhóm" (team-architecture factory) dành cho hệ sinh thái Claude Code. Khi người dùng cung cấp một câu mô tả về một lĩnh vực hoặc dự án cụ thể, Harness sẽ tự động thiết kế và tạo ra một nhóm các AI agent (tác nhân) chuyên biệt cùng với các kỹ năng (skills) tương ứng. Công cụ này dựa trên 6 mẫu kiến trúc định sẵn để phân chia và phối hợp giải quyết các tác vụ phức tạp một cách tự động.
-
-Các tính năng nổi bật của dự án bao gồm khả năng thiết kế nhóm theo nhiều mô hình linh hoạt (như Pipeline, Supervisor, Fan-out/Fan-in, v.v.); tự động sinh file định nghĩa kỹ năng với tính năng Tiết lộ Dần dần (Progressive Disclosure) giúp tối ưu ngữ cảnh; và điều phối giao tiếp, truyền dữ liệu, cũng như xử lý lỗi giữa các tác nhân. Hệ thống cũng cung cấp cơ chế kiểm thử để xác thực tính hiệu quả, đã được nghiên cứu chứng minh có thể cải thiện 60% chất lượng đầu ra của các tác nhân mã LLM.
-
-Để bắt đầu, bạn cần bật tính năng Agent Teams trên Claude Code (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`). Bạn có thể cài đặt Harness thông qua marketplace bằng lệnh `/plugin marketplace add revfactory/harness` và `/plugin install harness@harness-marketplace`. Sau khi cài đặt, chỉ cần gọi các prompt như "Build a harness for this project" trong Claude Code, plugin sẽ tự động sinh ra các file cấu hình cần thiết nằm trong thư mục `.claude/agents/` và `.claude/skills/` của dự án.

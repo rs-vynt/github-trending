@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-01_monthly",
+  "date": "2026-06-01",
+  "since": "monthly",
+  "repos": [
+    {
+      "id": "colbymchenry_codegraph",
+      "stars": 36219,
+      "rank": 1
+    },
+    {
+      "id": "anthropics_financial-services",
+      "stars": 29201,
+      "rank": 2
+    },
+    {
+      "id": "CloakHQ_CloakBrowser",
+      "stars": 23007,
+      "rank": 3
+    },
+    {
+      "id": "rohitg00_agentmemory",
+      "stars": 20372,
+      "rank": 4
+    },
+    {
+      "id": "Lum1104_Understand-Anything",
+      "stars": 48169,
+      "rank": 5
+    },
+    {
+      "id": "Imbad0202_academic-research-skills",
+      "stars": 25490,
+      "rank": 6
+    },
+    {
+      "id": "HKUDS_ViMax",
+      "stars": 8502,
+      "rank": 7
+    },
+    {
+      "id": "mattpocock_skills",
+      "stars": 113675,
+      "rank": 8
+    },
+    {
+      "id": "rohitg00_ai-engineering-from-scratch",
+      "stars": 26385,
+      "rank": 9
+    },
+    {
+      "id": "decolua_9router",
+      "stars": 15579,
+      "rank": 10
+    },
+    {
+      "id": "harry0703_MoneyPrinterTurbo",
+      "stars": 76241,
+      "rank": 11
+    },
+    {
+      "id": "yikart_AiToEarn",
+      "stars": 17286,
+      "rank": 12
+    },
+    {
+      "id": "bytedance_UI-TARS-desktop",
+      "stars": 35842,
+      "rank": 13
+    },
+    {
+      "id": "ruvnet_ruflo",
+      "stars": 57115,
+      "rank": 14
+    },
+    {
+      "id": "AIDC-AI_Pixelle-Video",
+      "stars": 20801,
+      "rank": 15
+    }
+  ]
+}

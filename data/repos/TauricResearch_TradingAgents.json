@@ -1,0 +1,17 @@
+{
+  "id": "TauricResearch_TradingAgents",
+  "fullName": "TauricResearch/TradingAgents",
+  "name": "TradingAgents",
+  "description": "TradingAgents là một framework mã nguồn mở ứng dụng các Mô hình ngôn ngữ lớn (LLM) để xây dựng hệ thống giao dịch tài chính tự động thông qua sự phối hợp của nhiều tác nhân AI chuyên biệt.",
+  "stars": 82005,
+  "forks": 0,
+  "readmeHash": "ef5b1c58b161968c4b73b014326af6aa",
+  "aiSummary": "TradingAgents là một nền tảng giao dịch tài chính đa tác nhân mã nguồn mở dựa trên Mô hình Ngôn ngữ Lớn (LLM), được thiết kế để mô phỏng hệ sinh thái giao dịch thực tế. Nền tảng này phân chia các nhiệm vụ giao dịch phức tạp cho các tác nhân chuyên biệt như chuyên viên phân tích cơ bản, phân tích tâm lý, phân tích kỹ thuật, nhà nghiên cứu và quản lý danh mục đầu tư. Các tác nhân này phối hợp đánh giá thị trường, thảo luận chiến lược và đưa ra quyết định giao dịch tự động.\n\nDự án nổi bật với khả năng linh hoạt và tính mô-đun cao nhờ được xây dựng trên LangGraph, hỗ trợ đa dạng các nhà cung cấp LLM phổ biến hiện nay. Nó tích hợp các tính năng nâng cao như nhật ký quyết định liên tục (persistent decision log) giúp nền tảng học hỏi từ các giao dịch trước đó, và khả năng khôi phục từ điểm lưu (checkpoint resume) nhằm bảo vệ quá trình phân tích khỏi những sự cố gián đoạn.\n\nĐể bắt đầu, người dùng cần nhân bản (clone) kho lưu trữ, cài đặt các thư viện phụ thuộc bằng lệnh `pip install .` hoặc chạy thông qua Docker. Sau khi thiết lập các khóa API (API keys) cần thiết trong file `.env`, bạn có thể chạy công cụ giao diện dòng lệnh (CLI) bằng lệnh `tradingagents` để trực tiếp lựa chọn mã chứng khoán cần phân tích, hoặc dễ dàng tích hợp framework này vào mã Python thông qua thư viện `tradingagents`.\n",
+  "tags": [
+    "LLM",
+    "multi-agent",
+    "trading",
+    "finance",
+    "LangGraph"
+  ]
+}

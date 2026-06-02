@@ -1,27 +1,23 @@
-import { getRun, getRepoContent } from "@/lib/data";
+import { getRepoById, getRepoContent } from "@/lib/data";
 import Link from "next/link";
 import { Badge } from "@/components/ui/Badge";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { TabsClient } from "@/components/ui/TabsClient";
 
-export default async function RepoPage({ params }: { params: Promise<{ date_since: string, repo: string }> }) {
+export default async function GlobalRepoPage({ params }: { params: Promise<{ repo_id: string }> }) {
   const p = await params;
-  const [date, since] = p.date_since.split("_");
   
-  const run = await getRun(date, since);
-  if (!run) notFound();
-
-  const repo = run.repos.find((r) => r.folder === p.repo);
+  const repo = getRepoById(p.repo_id);
   if (!repo) notFound();
 
-  const content = await getRepoContent(p.repo);
+  const content = await getRepoContent(p.repo_id);
   if (!content) notFound();
 
   return (
     <div>
-      <Link href={`/run/${p.date_since}`} className="mb-8 inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors">
-        <ArrowLeft size={16} /> Back to {date}
+      <Link href="/" className="mb-8 inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors">
+        <ArrowLeft size={16} /> Quay lại Tìm kiếm
       </Link>
 
       <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-2xl">
@@ -30,7 +26,7 @@ export default async function RepoPage({ params }: { params: Promise<{ date_sinc
             {repo.name}
           </h1>
           <div className="mb-6 flex flex-wrap items-center gap-4">
-            <Badge className="text-sm px-3 py-1">⭐ {repo.stars}</Badge>
+            <Badge className="text-sm px-3 py-1">⭐ {repo.stars.toLocaleString()}</Badge>
             <a
               href={`https://github.com/${repo.name}`}
               target="_blank"

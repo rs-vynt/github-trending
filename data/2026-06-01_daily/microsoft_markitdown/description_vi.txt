@@ -1,1 +1,0 @@
-Công cụ Python để chuyển đổi tệp tin và tài liệu văn phòng sang định dạng Markdown.

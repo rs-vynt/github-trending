@@ -1,1 +1,0 @@
-Một AI coding agent toàn diện và tối ưu cho terminal, tích hợp sâu với LSP, trình gỡ lỗi và được tăng tốc nhờ các lõi xử lý bằng Rust.

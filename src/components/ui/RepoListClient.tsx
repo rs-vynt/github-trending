@@ -8,8 +8,8 @@ import { motion, AnimatePresence } from "framer-motion";
 interface RepoWithSummary {
   name: string;
   description: string;
-  stars: string;
   folder: string;
+  stars: string | number;
   tags?: string[];
   summary: string;
 }

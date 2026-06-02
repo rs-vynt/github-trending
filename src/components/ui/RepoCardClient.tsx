@@ -13,34 +13,18 @@ import { motion, AnimatePresence } from "framer-motion";
 interface Repo {
   name: string;
   description: string;
-  stars: string;
   folder: string;
+  stars: string | number;
   tags?: string[];
 }
 
 interface RepoCardClientProps {
   repo: Repo;
-  index: number;
-  dateSince: string;
+  index?: number;
+  dateSince?: string;
   summary: string;
 }
 
-// Function to generate pseudo-random colors for tags
-function getTagColor(tag: string) {
-  const colors = [
-    "bg-blue-500/10 text-blue-400 border-blue-500/20",
-    "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-    "bg-amber-500/10 text-amber-400 border-amber-500/20",
-    "bg-rose-500/10 text-rose-400 border-rose-500/20",
-    "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
-    "bg-fuchsia-500/10 text-fuchsia-400 border-fuchsia-500/20",
-  ];
-  let hash = 0;
-  for (let i = 0; i < tag.length; i++) {
-    hash = tag.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  return colors[Math.abs(hash) % colors.length];
-}
 
 export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClientProps) {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -63,22 +47,14 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-emerald-500/5 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <Link href={`/run/${dateSince}/${repo.folder}`} target="_blank" className="group/link transition-colors">
+          <Link href={dateSince ? `/run/${dateSince}/${repo.folder}` : `/repo/${repo.folder}`} target="_blank" className="group/link transition-colors flex-1 min-w-[200px]">
             <h2 className="text-2xl font-bold text-white group-hover/link:text-emerald-400">
-              <span className="text-zinc-500 font-mono text-xl mr-2">{String(index + 1).padStart(2, '0')}.</span> 
+              {index !== undefined && <span className="text-zinc-500 font-mono text-xl mr-2">{String(index + 1).padStart(2, '0')}.</span>}
               {repo.name}
             </h2>
           </Link>
-          <div className="flex items-center gap-3">
-            {repo.tags && repo.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2 mr-2">
-                {repo.tags.map(tag => (
-                  <Badge key={tag} className={`px-2.5 py-0.5 border ${getTagColor(tag)}`}>
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
-            )}
+          <div className="flex items-center gap-3 shrink-0">
+
             <Badge className="bg-white/10 text-zinc-200 border-white/10 flex items-center gap-1">
               <Star size={14} className="text-amber-400" /> {repo.stars}
             </Badge>
@@ -87,15 +63,25 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
                 e.preventDefault();
                 setIsSheetOpen(true);
               }}
-              className="text-xs font-semibold px-4 py-2 rounded-full bg-emerald-500/10 text-emerald-300 hover:bg-emerald-500/20 hover:text-emerald-200 transition-all border border-emerald-500/20 hover:border-emerald-500/40 hover:shadow-lg hover:shadow-emerald-500/20 active:scale-95"
+              className="whitespace-nowrap text-xs font-semibold px-4 py-2 rounded-full bg-emerald-500/10 text-emerald-300 hover:bg-emerald-500/20 hover:text-emerald-200 transition-all border border-emerald-500/20 hover:border-emerald-500/40 hover:shadow-lg hover:shadow-emerald-500/20 active:scale-95"
             >
               Xem nhanh Tóm tắt
             </button>
           </div>
         </div>
-        <p className="text-zinc-400 leading-relaxed max-w-4xl">
+        <p className="text-zinc-400 leading-relaxed max-w-4xl flex-1">
           {repo.description}
         </p>
+        
+        {repo.tags && repo.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-2 pt-4 border-t border-white/5">
+            {repo.tags.map(tag => (
+              <Badge key={tag} className="px-2.5 py-0.5 border bg-zinc-800/50 border-white/10 text-zinc-300 text-xs font-medium">
+                {tag}
+              </Badge>
+            ))}
+          </div>
+        )}
       </Card>
 
       {/* Side Sheet Slide-over */}
@@ -124,7 +110,7 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
                     <div className="flex items-center gap-4">
                       <h2 className="text-2xl font-bold text-white">{repo.name}</h2>
                       <Link
-                        href={`/run/${dateSince}/${repo.folder}`}
+                        href={dateSince ? `/run/${dateSince}/${repo.folder}` : `/repo/${repo.folder}`}
                         target="_blank"
                         className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors bg-blue-500/10 px-3 py-1 rounded-full"
                       >

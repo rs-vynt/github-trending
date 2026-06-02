@@ -15,7 +15,7 @@ export default async function RunPage({ params }: { params: Promise<{ date_since
 
   const reposWithSummary = await Promise.all(
     run.repos.map(async (repo) => {
-      const content = await getRepoContent(date, since, repo.folder);
+      const content = await getRepoContent(repo.folder);
       return {
         ...repo,
         summary: content ? content.summary : "Chưa có bản tóm tắt AI."

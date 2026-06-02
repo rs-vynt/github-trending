@@ -1,0 +1,11 @@
+{
+  "id": "EveryInc_compound-engineering-plugin",
+  "fullName": "EveryInc/compound-engineering-plugin",
+  "name": "compound-engineering-plugin",
+  "description": "Plugin Compound Engineering chính thức dành cho Claude Code, Codex, Cursor, và các công cụ khác.",
+  "stars": 18918,
+  "forks": 0,
+  "readmeHash": "82aef70f0b0cef00293b969d9daf63a8",
+  "aiSummary": "# 🚀 Compound Engineering Plugin\n## 🌟 Trọng tâm\nCung cấp các bộ kỹ năng AI và agent giúp tích lũy giá trị kỹ thuật theo thời gian, làm cho mỗi công việc lập trình tiếp theo trở nên dễ dàng hơn.\n## 🎯 Bài toán giải quyết & Mục tiêu\nCác dự án phần mềm thường tích lũy \"nợ kỹ thuật\" khiến việc duy trì và phát triển tính năng mới ngày càng khó khăn và chậm chạp. Plugin này giải quyết bài toán đó bằng cách đảo ngược quy trình: dành 80% cho thiết kế/đánh giá và 20% cho thực thi. Mục tiêu là giúp AI tự động hóa và hỗ trợ quy trình làm việc khép kín từ lên ý tưởng, thiết kế yêu cầu, lập kế hoạch, code, debug đến đánh giá và ghi chú lại kinh nghiệm (compound) để các agent trong tương lai không phải học lại từ đầu.\n## 🛠️ Công nghệ cốt lõi\nPlugin được thiết kế để tích hợp với đa dạng hệ sinh thái AI coding agent hiện nay, bao gồm: Claude Code, Cursor, Codex, GitHub Copilot, Factory Droid, Qwen Code, OpenCode, Pi, Gemini và Kiro. Sử dụng Bun và TypeScript cho các script cài đặt, chuyển đổi và CLI tương tác.\n## 💡 Tại sao đáng chú ý?\nCompound Engineering đưa ra triết lý phát triển phần mềm đột phá: \"Học hỏi và tích lũy có hệ thống thông qua AI\". Thay vì chỉ sử dụng AI như một công cụ sinh code đơn thuần, repo này thiết lập một vòng lặp hoàn chỉnh (Ideate - Brainstorm - Plan - Work - Review - Compound) giúp lưu giữ tri thức cục bộ. Nó sở hữu 37 kỹ năng và 51 agent, cung cấp khả năng tự động hóa việc lên chiến lược, lên kế hoạch chi tiết, review chéo giữa các agent và báo cáo nhịp độ sản phẩm một cách thông minh.\n",
+  "tags": []
+}

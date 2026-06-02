@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GitHub Trending Explorer
 
-## Getting Started
+Dự án này là một ứng dụng xem danh sách GitHub Trending được tối ưu hóa hiển thị với tốc độ cực nhanh, chạy trên kiến trúc **Serverless** kết hợp **Build-time Search Index**. 
 
-First, run the development server:
+Mọi dữ liệu được cào, xử lý bằng AI (tạo tóm tắt) và lưu trữ dưới dạng các tập tin JSON (Flat-file Database) trong thư mục `data/` mà không cần sử dụng bất kỳ hệ quản trị cơ sở dữ liệu bên ngoài nào (No PostgreSQL, No MongoDB).
 
+## Kiến trúc Hệ thống
+
+- **Frontend:** Next.js (App Router), React, TailwindCSS.
+- **Backend/Storage:** Serverless Flat-file Database (chỉ sử dụng tập tin `.json`).
+- **Tìm kiếm:** Client-side Global Search bằng Fuse.js, dữ liệu được sinh tự động thông qua Build-time Search Index (`search-index.json`).
+
+## Cấu trúc Dữ liệu
+
+Thư mục `data/` đóng vai trò là cơ sở dữ liệu cục bộ:
+- `data/repos/`: Chứa các file JSON thông tin chi tiết của từng Repository (gồm cả Tóm tắt tự động bằng AI).
+- `data/runs/`: Chứa các bản snapshot (kết quả cào) theo ngày.
+- `data/search-index.json`: File chỉ mục tìm kiếm gọn nhẹ, dùng cho Global Search ở Frontend. Được sinh tự động bởi script.
+
+## Hướng dẫn Vận hành
+
+### 1. Cào dữ liệu (Scraping)
+Để lấy dữ liệu mới từ GitHub Trending và tạo tóm tắt thông qua AI, hãy chạy:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx tsx scripts/scraper.ts
+```
+*Lưu ý: Script này sẽ tự động tạo/cập nhật dữ liệu trong `data/repos/`, `data/runs/` và đồng thời sinh lại `data/search-index.json` ở cuối quá trình.*
+
+### 2. Tái tạo Search Index
+Nếu bạn có can thiệp thủ công vào dữ liệu hoặc muốn cập nhật lại Index tìm kiếm mà không cần gọi API (không gọi AI, không cào lại), hãy chạy:
+```bash
+npx tsx scripts/regenerate-index.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Chạy Frontend
+Bật môi trường phát triển (Development):
+```bash
+npm run dev
+```
+Truy cập [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build Production
+Vì đây là ứng dụng Serverless và phụ thuộc vào dữ liệu tĩnh trong thư mục `data/`, mọi thay đổi về cấu trúc JSON cần được Build lại để Next.js pre-render:
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Dành cho AI Agents
+Nếu bạn là một AI Agent đang thao tác với dự án này, vui lòng đọc kỹ file `AGENTS.md` ở thư mục gốc trước khi thực hiện bất kỳ sửa đổi nào!

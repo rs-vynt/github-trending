@@ -1,0 +1,17 @@
+{
+  "id": "bytedance_UI-TARS-desktop",
+  "fullName": "bytedance/UI-TARS-desktop",
+  "name": "UI-TARS-desktop",
+  "description": "Ngăn xếp AI Agent đa phương thức mã nguồn mở: Kết nối các mô hình AI tiên tiến với hạ tầng Agent.",
+  "stars": 35842,
+  "forks": 0,
+  "readmeHash": "2a9294eab9849c42d8f5e5af84d427bc",
+  "aiSummary": "# 🚀 bytedance/UI-TARS-desktop\n\n## 🌟 Trọng tâm\nDự án là một ngăn xếp AI Agent đa phương thức toàn diện, kết nối các mô hình AI tiên tiến với hạ tầng Agent. Hệ thống bao gồm Agent TARS (cho Terminal, trình duyệt) và UI-TARS Desktop — một GUI Agent nguyên bản giúp thao tác trực tiếp trên máy tính thông qua nhận diện hình ảnh và lệnh bằng ngôn ngữ tự nhiên.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nHệ thống giải quyết bài toán tự động hóa thao tác trên máy tính và trình duyệt bằng cách mô phỏng hành vi tương tác với giao diện (GUI) của con người. Dự án hướng tới các nhà phát triển, kỹ sư AI, chuyên gia tự động hóa và những người dùng muốn tối ưu hóa quy trình làm việc hàng ngày trên Windows, macOS hoặc môi trường web một cách riêng tư.\n\n## 🛠️ Công nghệ cốt lõi\nDự án tận dụng các mô hình Vision-Language tiên tiến (Seed-1.5-VL/1.6) để hiểu giao diện và điều khiển chính xác chuột/bàn phím. Bên cạnh đó, hệ thống sử dụng giao thức MCP (Model Context Protocol) để kết nối công cụ thực tế, cùng chiến lược Hybrid Browser Agent (kết hợp nhận diện hình ảnh và DOM) và kiến trúc điều khiển bằng luồng sự kiện (Event Stream).\n\n## 💡 Tại sao đáng chú ý?\nUI-TARS Desktop nổi bật nhờ mang đến khả năng thao tác GUI cực kỳ chính xác và tự nhiên như con người với khả năng xử lý hoàn toàn cục bộ, đảm bảo tính bảo mật. Với hệ sinh thái phong phú từ CLI, SDK đến ứng dụng Desktop hỗ trợ điều khiển đa nền tảng và từ xa, đây là một giải pháp mã nguồn mở mạnh mẽ để ứng dụng AI tự động hóa vào thực tiễn.\n",
+  "tags": [
+    "AI Agent",
+    "Đa phương thức",
+    "Tự động hóa GUI",
+    "Ứng dụng Desktop",
+    "Mã nguồn mở"
+  ]
+}

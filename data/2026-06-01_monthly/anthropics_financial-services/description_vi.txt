@@ -1,1 +1,0 @@
-Tập hợp các tác nhân AI, kỹ năng và trình kết nối dữ liệu dựa trên Claude, được thiết kế để tự động hóa các quy trình làm việc trong lĩnh vực dịch vụ tài chính.

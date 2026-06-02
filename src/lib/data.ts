@@ -1,11 +1,15 @@
 import fs from 'fs';
 import path from 'path';
 
-export interface RepoMeta {
+export interface RepoDetails {
+  id: string;
+  fullName: string;
   name: string;
   description: string;
-  stars: string;
-  folder: string;
+  stars: number;
+  forks: number;
+  readmeHash: string;
+  aiSummary: string;
   tags?: string[];
 }
 
@@ -13,54 +17,52 @@ export interface RunInfo {
   date: string;
   since: string;
   total_fetched: number;
-  repos: RepoMeta[];
+  repos: (RepoDetails & { rank: number; folder: string })[];
 }
 
 const dataDir = path.join(process.cwd(), 'data');
+const reposDir = path.join(dataDir, 'repos');
+const runsDir = path.join(dataDir, 'runs');
+const searchIndexFile = path.join(dataDir, 'search-index.json');
+
+// Cache to avoid reading same repo JSON multiple times per request if possible
+export function getRepoById(id: string): RepoDetails | null {
+  const p = path.join(reposDir, `${id}.json`);
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, 'utf8'));
+}
 
 export async function getRuns(): Promise<RunInfo[]> {
-  if (!fs.existsSync(dataDir)) return [];
+  if (!fs.existsSync(runsDir)) return [];
   
-  const folders = fs.readdirSync(dataDir).filter(f => fs.statSync(path.join(dataDir, f)).isDirectory());
+  const files = fs.readdirSync(runsDir).filter(f => f.endsWith('.json'));
   
   const runs: RunInfo[] = [];
   
-  for (const folder of folders) {
-    const runInfoPath = path.join(dataDir, folder, 'run_info.json');
-    if (fs.existsSync(runInfoPath)) {
-      const data: RunInfo = JSON.parse(fs.readFileSync(runInfoPath, 'utf8'));
-      
-      // Override description with description_vi.txt if it exists
-      for (const repo of data.repos) {
-        let repoDir = path.join(dataDir, folder, repo.folder);
-        if (!fs.existsSync(repoDir)) {
-          // If not in current folder (e.g. skipped duplicate), search all folders
-          const allRuns = fs.readdirSync(dataDir).filter(f => fs.statSync(path.join(dataDir, f)).isDirectory());
-          for (const r of allRuns) {
-            const alt = path.join(dataDir, r, repo.folder);
-            if (fs.existsSync(alt)) {
-              repoDir = alt;
-              break;
-            }
-          }
-        }
-        
-        const descViPath = path.join(repoDir, 'description_vi.txt');
-        if (fs.existsSync(descViPath)) {
-          repo.description = fs.readFileSync(descViPath, 'utf8').trim();
-        }
-
-        const tagsPath = path.join(repoDir, 'tags.txt');
-        if (fs.existsSync(tagsPath)) {
-          const tagsStr = fs.readFileSync(tagsPath, 'utf8').trim();
-          if (tagsStr) {
-            repo.tags = tagsStr.split(',').map(t => t.trim());
-          }
-        }
+  for (const file of files) {
+    const runData = JSON.parse(fs.readFileSync(path.join(runsDir, file), 'utf8'));
+    
+    const enrichedRepos = [];
+    for (const runRepo of runData.repos) {
+      const repoDetails = getRepoById(runRepo.id);
+      if (repoDetails) {
+        enrichedRepos.push({
+          ...repoDetails,
+          ...runRepo,
+          // Map to old properties for UI compatibility
+          folder: repoDetails.id, 
+          stars: runRepo.stars.toLocaleString(), // Convert to string format
+          name: repoDetails.fullName
+        });
       }
-      
-      runs.push(data);
     }
+    
+    runs.push({
+      date: runData.date,
+      since: runData.since,
+      total_fetched: runData.repos.length,
+      repos: enrichedRepos
+    });
   }
   
   // Sort by date descending
@@ -68,35 +70,45 @@ export async function getRuns(): Promise<RunInfo[]> {
 }
 
 export async function getRun(date: string, since: string): Promise<RunInfo | null> {
-  const runs = await getRuns();
-  return runs.find(r => r.date === date && r.since === since) || null;
-}
+  const p = path.join(runsDir, `${date}_${since}.json`);
+  if (!fs.existsSync(p)) return null;
 
-export async function getRepoContent(date: string, since: string, folderName: string) {
-  let repoDir = path.join(dataDir, `${date}_${since}`, folderName);
-  
-  if (!fs.existsSync(repoDir)) {
-    // Search across all runs for the repo
-    const allRuns = fs.readdirSync(dataDir).filter(f => fs.statSync(path.join(dataDir, f)).isDirectory());
-    for (const run of allRuns) {
-      const altRepoDir = path.join(dataDir, run, folderName);
-      if (fs.existsSync(altRepoDir)) {
-        repoDir = altRepoDir;
-        break;
-      }
+  const runData = JSON.parse(fs.readFileSync(p, 'utf8'));
+  const enrichedRepos = [];
+  for (const runRepo of runData.repos) {
+    const repoDetails = getRepoById(runRepo.id);
+    if (repoDetails) {
+      enrichedRepos.push({
+        ...repoDetails,
+        ...runRepo,
+        folder: repoDetails.id,
+        stars: runRepo.stars.toLocaleString(),
+        name: repoDetails.fullName
+      });
     }
   }
 
-  if (!fs.existsSync(repoDir)) return null;
-  
-  const readMd = (filename: string, defaultText: string) => {
-    const p = path.join(repoDir, filename);
-    return fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : defaultText;
+  return {
+    date: runData.date,
+    since: runData.since,
+    total_fetched: runData.repos.length,
+    repos: enrichedRepos
   };
+}
+
+export async function getRepoContent(folderName: string) {
+  const repo = getRepoById(folderName);
+  if (!repo) return null;
   
   return {
-    summary: readMd("summary.md", "Chưa có bản tóm tắt AI."),
-    readmeTranslated: readMd("README_translated.md", "Chưa có bản dịch."),
-    readmeOriginal: readMd("README_original.md", "Chưa có README gốc.")
+    summary: repo.aiSummary || "Chưa có bản tóm tắt AI.",
+    // We no longer store translated/original README locally to save space
+    readmeTranslated: "Chưa có bản dịch.", 
+    readmeOriginal: "Chưa có README gốc."
   };
+}
+
+export async function getSearchIndex() {
+  if (!fs.existsSync(searchIndexFile)) return [];
+  return JSON.parse(fs.readFileSync(searchIndexFile, 'utf8'));
 }

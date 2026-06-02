@@ -1,1 +1,0 @@
-Tạo video ngắn chỉ bằng một cú nhấp chuột sử dụng mô hình ngôn ngữ lớn (LLM).

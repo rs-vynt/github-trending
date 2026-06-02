@@ -1,1 +1,0 @@
-AI agents, persistent memory, MCP, SQLite, vector search

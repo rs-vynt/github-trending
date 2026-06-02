@@ -1,1 +1,0 @@
-Trình duyệt Chromium tàng hình vượt qua mọi bài kiểm tra phát hiện bot, là giải pháp thay thế trực tiếp cho Playwright với các bản vá nhận dạng (fingerprint) ở cấp độ mã nguồn, vượt qua thành công 30/30 bài kiểm tra.

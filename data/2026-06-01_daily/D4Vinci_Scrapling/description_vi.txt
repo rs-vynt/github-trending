@@ -1,1 +1,0 @@
-🕷️ Một framework thu thập dữ liệu web thích ứng, có thể xử lý mọi thứ từ một truy vấn đơn lẻ đến càn quét toàn diện!
