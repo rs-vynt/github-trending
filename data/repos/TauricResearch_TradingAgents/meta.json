@@ -1,0 +1,16 @@
+{
+  "id": "TauricResearch_TradingAgents",
+  "fullName": "TauricResearch/TradingAgents",
+  "name": "TradingAgents",
+  "description": "TradingAgents là một framework mã nguồn mở ứng dụng các Mô hình ngôn ngữ lớn (LLM) để xây dựng hệ thống giao dịch tài chính tự động thông qua sự phối hợp của nhiều tác nhân AI chuyên biệt.",
+  "stars": 82005,
+  "forks": 0,
+  "readmeHash": "ef5b1c58b161968c4b73b014326af6aa",
+  "tags": [
+    "LLM",
+    "multi-agent",
+    "trading",
+    "finance",
+    "LangGraph"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "AIDC-AI_Pixelle-Video",
+  "fullName": "AIDC-AI/Pixelle-Video",
+  "name": "Pixelle-Video",
+  "description": "🚀 Công cụ tự động tạo video ngắn hoàn toàn bằng AI.",
+  "stars": 20801,
+  "forks": 0,
+  "readmeHash": "a99312b8f578bcb8de2439fe74fce6da",
+  "tags": [
+    "AI Video",
+    "LLM",
+    "ComfyUI",
+    "TTS",
+    "Tự động hóa"
+  ]
+}

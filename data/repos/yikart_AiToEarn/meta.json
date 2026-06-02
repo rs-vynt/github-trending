@@ -1,0 +1,16 @@
+{
+  "id": "yikart_AiToEarn",
+  "fullName": "yikart/AiToEarn",
+  "name": "AiToEarn",
+  "description": "AiToEarn là một nền tảng tự động hóa mạng xã hội toàn diện bằng AI Agent, giúp người dùng sản xuất, phân phối và kiếm tiền từ nội dung hiệu quả.",
+  "stars": 17286,
+  "forks": 0,
+  "readmeHash": "7c4c9619acefb622f1aab8f276d56963",
+  "tags": [
+    "AI Agent",
+    "Tự động hóa mạng xã hội",
+    "Sáng tạo nội dung",
+    "Kiếm tiền",
+    "Docker"
+  ]
+}

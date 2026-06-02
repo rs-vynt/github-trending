@@ -1,0 +1,16 @@
+{
+  "id": "rohitg00_agentmemory",
+  "fullName": "rohitg00/agentmemory",
+  "name": "agentmemory",
+  "description": "Bộ nhớ lưu trữ dài hạn số 1 dành cho các AI coding agent, được kiểm chứng qua các điểm chuẩn thực tế.",
+  "stars": 20372,
+  "forks": 0,
+  "readmeHash": "b8febb582bb8afb550e508ad12887070",
+  "tags": [
+    "AI agents",
+    "persistent memory",
+    "MCP",
+    "SQLite",
+    "vector search"
+  ]
+}

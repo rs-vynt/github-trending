@@ -47,7 +47,7 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-emerald-500/5 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <Link href={dateSince ? `/run/${dateSince}/${repo.folder}` : `/repo/${repo.folder}`} target="_blank" className="group/link transition-colors flex-1 min-w-[200px]">
+          <Link href={dateSince ? `/run/${dateSince}/${repo.folder}` : `/repo/${repo.folder}`} className="group/link transition-colors flex-1 min-w-[200px]">
             <h2 className="text-2xl font-bold text-white group-hover/link:text-emerald-400">
               {index !== undefined && <span className="text-zinc-500 font-mono text-xl mr-2">{String(index + 1).padStart(2, '0')}.</span>}
               {repo.name}

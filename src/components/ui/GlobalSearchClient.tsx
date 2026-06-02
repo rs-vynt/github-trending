@@ -68,9 +68,6 @@ export function GlobalSearchClient({ repos }: GlobalSearchClientProps) {
       result = result.filter(r => r.tags && r.tags.includes(selectedTag));
     }
 
-    // Sort by stars descending
-    result = [...result].sort((a, b) => (b.stars || 0) - (a.stars || 0));
-
     return result;
   }, [query, selectedTag, repos, fuse]);
 
@@ -189,9 +186,12 @@ export function GlobalSearchClient({ repos }: GlobalSearchClientProps) {
                       name: repo.name,
                       description: repo.description,
                       tags: repo.tags,
+                      // eslint-disable-next-line @typescript-eslint/no-explicit-any
                       stars: (repo as any).stars || "N/A",
+                      // eslint-disable-next-line @typescript-eslint/no-explicit-any
                       folder: (repo as any).folder || repo.id
                     }}
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     summary={(repo as any).summary || ""}
                   />
                 </motion.div>

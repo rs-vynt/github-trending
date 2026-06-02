@@ -4,22 +4,36 @@ import path from 'path';
 const dataDir = path.join(process.cwd(), 'data');
 const reposDir = path.join(dataDir, 'repos');
 
-console.log("Generating search-index.json...");
-const allReposFiles = fs.readdirSync(reposDir).filter(f => f.endsWith('.json'));
-const searchIndex = [];
+function run() {
+  console.log("Generating search-index.json...");
+  if (!fs.existsSync(reposDir)) return;
 
-for (const f of allReposFiles) {
-  const r = JSON.parse(fs.readFileSync(path.join(reposDir, f), 'utf8'));
-  searchIndex.push({
-    id: r.id,
-    name: r.fullName,
-    description: r.description,
-    tags: r.tags,
-    stars: r.stars,
-    folder: r.id,
-    summary: r.aiSummary
-  });
+  const folders = fs.readdirSync(reposDir).filter(f => fs.statSync(path.join(reposDir, f)).isDirectory());
+
+  const searchIndex = [];
+
+  for (const folder of folders) {
+    const metaPath = path.join(reposDir, folder, 'meta.json');
+    if (fs.existsSync(metaPath)) {
+      const r = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+      
+      const summaryPath = path.join(reposDir, folder, 'summary.md');
+      const aiSummary = fs.existsSync(summaryPath) ? fs.readFileSync(summaryPath, 'utf8') : "Chưa có bản tóm tắt AI.";
+
+      searchIndex.push({
+        id: r.id,
+        name: r.fullName,
+        description: r.description,
+        tags: r.tags,
+        stars: r.stars,
+        folder: r.id,
+        summary: aiSummary
+      });
+    }
+  }
+
+  fs.writeFileSync(path.join(dataDir, 'search-index.json'), JSON.stringify(searchIndex, null, 2));
+  console.log(`Successfully indexed ${searchIndex.length} repositories with rich metadata.`);
 }
 
-fs.writeFileSync(path.join(dataDir, 'search-index.json'), JSON.stringify(searchIndex, null, 2));
-console.log(`Successfully indexed ${searchIndex.length} repositories with rich metadata.`);
+run();

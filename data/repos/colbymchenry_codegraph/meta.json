@@ -1,0 +1,16 @@
+{
+  "id": "colbymchenry_codegraph",
+  "fullName": "colbymchenry/codegraph",
+  "name": "codegraph",
+  "description": "Đồ thị tri thức mã nguồn được lập chỉ mục sẵn dành cho Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro và Hermes Agent — ít token hơn, ít lượt gọi công cụ hơn, 100% cục bộ.",
+  "stars": 36219,
+  "forks": 0,
+  "readmeHash": "5593a61a3fcb619c8e68e280838c990e",
+  "tags": [
+    "AI Agents",
+    "Knowledge Graph",
+    "Tree-sitter",
+    "SQLite",
+    "Phân tích mã nguồn"
+  ]
+}

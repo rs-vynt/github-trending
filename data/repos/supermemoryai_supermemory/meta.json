@@ -1,0 +1,16 @@
+{
+  "id": "supermemoryai_supermemory",
+  "fullName": "supermemoryai/supermemory",
+  "name": "supermemory",
+  "description": "Supermemory là một công cụ bộ nhớ siêu tốc, có khả năng mở rộng dành cho AI, giúp tự động ghi nhớ, quản lý ngữ cảnh trò chuyện và xây dựng hồ sơ người dùng một cách hiệu quả.",
+  "stars": 24195,
+  "forks": 0,
+  "readmeHash": "bc3d350df4a67bac31d893e97d217e09",
+  "tags": [
+    "AI",
+    "Memory",
+    "Context",
+    "RAG",
+    "LLM"
+  ]
+}

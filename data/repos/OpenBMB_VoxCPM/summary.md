@@ -1,0 +1,7 @@
+# Tóm tắt dự án: VoxCPM
+
+**VoxCPM** là một hệ thống Text-to-Speech (TTS) tiên tiến không sử dụng tokenizer, do nhóm OpenBMB phát triển. Dự án này tận dụng kiến trúc tự hồi quy khuếch tán (diffusion autoregressive) đầu cuối để chuyển đổi trực tiếp văn bản thành giọng nói chất lượng cao 48kHz. Phiên bản mới nhất, VoxCPM2, có 2 tỷ tham số, được đào tạo với hơn 2 triệu giờ dữ liệu và hỗ trợ tới 30 ngôn ngữ khác nhau mà không cần cấu hình thẻ ngôn ngữ. 
+
+Các tính năng nổi bật của VoxCPM bao gồm "Thiết kế Giọng nói" (Voice Design) cho phép tạo ra những giọng nói hoàn toàn mới chỉ thông qua các đoạn mô tả bằng ngôn ngữ tự nhiên về độ tuổi, giới tính và cảm xúc. Ngoài ra, tính năng "Nhân bản Giọng nói Có thể Kiểm soát" (Controllable Voice Cloning) cho phép sao chép bất kỳ âm sắc nào từ một đoạn ghi âm ngắn, trong khi người dùng vẫn có thể điều chỉnh phong cách, cảm xúc và nhịp độ. Hơn nữa, với mô hình hỗ trợ tối ưu qua Nano-vLLM và vLLM-Omni, VoxCPM mang tới khả năng hoạt động trực tuyến thời gian thực (real-time streaming) với tốc độ vô cùng ấn tượng.
+
+Để bắt đầu, bạn chỉ cần cài đặt thư viện qua pip (`pip install voxcpm`). VoxCPM cung cấp một Python API rõ ràng để dễ dàng tạo giọng nói, nhân bản âm thanh hoặc tùy chỉnh giọng qua code. Công cụ cũng đi kèm với CLI trực quan và bản web demo giúp người dùng thử nghiệm tính năng nhanh chóng. Hơn thế, dự án hoàn toàn mở mã nguồn với giấy phép Apache-2.0, thích hợp cho cả việc nghiên cứu học thuật lẫn sử dụng cho các ứng dụng thương mại.

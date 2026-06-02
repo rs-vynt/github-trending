@@ -1,0 +1,16 @@
+{
+  "id": "can1357_oh-my-pi",
+  "fullName": "can1357/oh-my-pi",
+  "name": "oh-my-pi",
+  "description": "Một AI coding agent toàn diện và tối ưu cho terminal, tích hợp sâu với LSP, trình gỡ lỗi và được tăng tốc nhờ các lõi xử lý bằng Rust.",
+  "stars": 9659,
+  "forks": 0,
+  "readmeHash": "b798ecef56dc6065ba6139ba14b658c7",
+  "tags": [
+    "AI coding agent",
+    "terminal",
+    "rust",
+    "lsp",
+    "developer tools"
+  ]
+}

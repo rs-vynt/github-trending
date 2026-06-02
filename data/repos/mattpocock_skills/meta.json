@@ -1,0 +1,16 @@
+{
+  "id": "mattpocock_skills",
+  "fullName": "mattpocock/skills",
+  "name": "skills",
+  "description": "Các kỹ năng dành cho Kỹ sư Thực thụ, được lấy trực tiếp từ thư mục .claude của tôi.",
+  "stars": 113675,
+  "forks": 0,
+  "readmeHash": "b42d91a0feb8590711f05281e4f19266",
+  "tags": [
+    "AI Agent",
+    "Kỹ thuật phần mềm",
+    "Prompting",
+    "Công cụ phát triển",
+    "TDD"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "anthropics_financial-services",
+  "fullName": "anthropics/financial-services",
+  "name": "financial-services",
+  "description": "Tập hợp các tác nhân AI, kỹ năng và trình kết nối dữ liệu dựa trên Claude, được thiết kế để tự động hóa các quy trình làm việc trong lĩnh vực dịch vụ tài chính.",
+  "stars": 29201,
+  "forks": 0,
+  "readmeHash": "f47db4a25641a286691ca949f857df8a",
+  "tags": [
+    "AI Agent",
+    "Dịch vụ tài chính",
+    "Model Context Protocol",
+    "Claude API",
+    "Tự động hóa"
+  ]
+}

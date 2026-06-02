@@ -7,7 +7,9 @@ import { GlobalSearchClient } from "./GlobalSearchClient";
 import { HomeGridClient } from "./HomeGridClient";
 
 interface HomeTabsClientProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   runs: any[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   searchIndex: any[];
 }
 

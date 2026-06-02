@@ -11,6 +11,8 @@ export interface RepoDetails {
   readmeHash: string;
   aiSummary: string;
   tags?: string[];
+  readmeOriginal?: string;
+  readmeTranslated?: string;
 }
 
 export interface RunInfo {
@@ -27,9 +29,13 @@ const searchIndexFile = path.join(dataDir, 'search-index.json');
 
 // Cache to avoid reading same repo JSON multiple times per request if possible
 export function getRepoById(id: string): RepoDetails | null {
-  const p = path.join(reposDir, `${id}.json`);
+  const p = path.join(reposDir, id, 'meta.json');
   if (!fs.existsSync(p)) return null;
-  return JSON.parse(fs.readFileSync(p, 'utf8'));
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch (e) {
+    return null;
+  }
 }
 
 export async function getRuns(): Promise<RunInfo[]> {
@@ -100,15 +106,34 @@ export async function getRepoContent(folderName: string) {
   const repo = getRepoById(folderName);
   if (!repo) return null;
   
+  const repoDir = path.join(reposDir, folderName);
+  
+  const safeRead = (filename: string) => {
+    const f = path.join(repoDir, filename);
+    return fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : '';
+  };
+  
   return {
-    summary: repo.aiSummary || "Chưa có bản tóm tắt AI.",
-    // We no longer store translated/original README locally to save space
-    readmeTranslated: "Chưa có bản dịch.", 
-    readmeOriginal: "Chưa có README gốc."
+    summary: safeRead('summary.md') || "Chưa có bản tóm tắt AI.",
+    readmeTranslated: safeRead('README_translated.md') || "Chưa có bản dịch.", 
+    readmeOriginal: safeRead('README_original.md') || "Chưa có README gốc."
   };
 }
 
-export async function getSearchIndex() {
-  if (!fs.existsSync(searchIndexFile)) return [];
-  return JSON.parse(fs.readFileSync(searchIndexFile, 'utf8'));
+export function getSearchIndex(): RepoDetails[] {
+  const indexFile = path.join(dataDir, "search-index.json");
+  if (fs.existsSync(indexFile)) {
+    return JSON.parse(fs.readFileSync(indexFile, "utf-8"));
+  }
+  
+  // Fallback if no index exists
+  const repos: RepoDetails[] = [];
+  if (fs.existsSync(reposDir)) {
+    const folders = fs.readdirSync(reposDir).filter(f => fs.statSync(path.join(reposDir, f)).isDirectory());
+    for (const folder of folders) {
+      const repo = getRepoById(folder);
+      if (repo) repos.push(repo);
+    }
+  }
+  return repos;
 }

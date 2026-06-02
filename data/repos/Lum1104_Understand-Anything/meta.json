@@ -1,0 +1,16 @@
+{
+  "id": "Lum1104_Understand-Anything",
+  "fullName": "Lum1104/Understand-Anything",
+  "name": "Understand-Anything",
+  "description": "Đồ thị để giảng dạy > đồ thị để gây ấn tượng. Biến bất kỳ đoạn mã nào thành một đồ thị tri thức tương tác mà bạn có thể khám phá, tìm kiếm và đặt câu hỏi. Hoạt động với Claude Code, Codex, Cursor, Copilot, Gemini CLI, v.v.",
+  "stars": 48169,
+  "forks": 0,
+  "readmeHash": "b8afc76e7a83426974779dedb96d8754",
+  "tags": [
+    "Knowledge Graph",
+    "Phân tích mã nguồn",
+    "LLM",
+    "Tree-sitter",
+    "Developer Tools"
+  ]
+}

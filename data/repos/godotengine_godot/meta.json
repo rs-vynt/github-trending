@@ -1,0 +1,16 @@
+{
+  "id": "godotengine_godot",
+  "fullName": "godotengine/godot",
+  "name": "godot",
+  "description": "Godot Engine là một game engine 2D và 3D mã nguồn mở, miễn phí và đa nền tảng, giúp bạn dễ dàng tạo và xuất bản trò chơi trên nhiều hệ điều hành và thiết bị.",
+  "stars": 111782,
+  "forks": 0,
+  "readmeHash": "ba046419a70a5edc3131c97e025677fb",
+  "tags": [
+    "game-engine",
+    "open-source",
+    "2d",
+    "3d",
+    "cross-platform"
+  ]
+}

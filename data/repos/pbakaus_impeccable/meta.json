@@ -1,0 +1,15 @@
+{
+  "id": "pbakaus_impeccable",
+  "fullName": "pbakaus/impeccable",
+  "name": "impeccable",
+  "description": "Impeccable là một bộ kỹ năng thiết kế giao diện frontend đa năng dành cho các công cụ lập trình AI, cung cấp từ vựng thiết kế, các quy tắc anti-pattern và 23 lệnh tương tác giúp tạo ra giao diện tinh tế và tránh các khuôn mẫu nhàm chán.",
+  "stars": 33047,
+  "forks": 0,
+  "readmeHash": "c1bbfd7d272038090c5ef5c6f0844fbc",
+  "tags": [
+    "AI tools",
+    "Frontend design",
+    "UI/UX",
+    "AI skills"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bytedance_UI-TARS-desktop",
+  "fullName": "bytedance/UI-TARS-desktop",
+  "name": "UI-TARS-desktop",
+  "description": "Ngăn xếp AI Agent đa phương thức mã nguồn mở: Kết nối các mô hình AI tiên tiến với hạ tầng Agent.",
+  "stars": 35842,
+  "forks": 0,
+  "readmeHash": "2a9294eab9849c42d8f5e5af84d427bc",
+  "tags": [
+    "AI Agent",
+    "Đa phương thức",
+    "Tự động hóa GUI",
+    "Ứng dụng Desktop",
+    "Mã nguồn mở"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "HKUDS_ViMax",
+  "fullName": "HKUDS/ViMax",
+  "name": "ViMax",
+  "description": "ViMax: Tạo video dựa trên AI Agent (Đạo diễn, Biên kịch, Nhà sản xuất và Trình tạo video Tất cả trong một)",
+  "stars": 8502,
+  "forks": 0,
+  "readmeHash": "ad74dce2c0f881472fbbf4bfc0ab35db",
+  "tags": [
+    "AI",
+    "Video Generation",
+    "Multi-Agent",
+    "Text-to-Video",
+    "RAG"
+  ]
+}

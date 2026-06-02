@@ -45,7 +45,7 @@ export function HomeGridClient({ runs }: { runs: Run[] }) {
     >
       {runs.map((run) => (
         <motion.div key={`${run.date}_${run.since}`} variants={itemVariants}>
-          <Link href={`/run/${run.date}_${run.since}`} target="_blank">
+          <Link href={`/run/${run.date}_${run.since}`}>
             <Card className="group relative flex h-full flex-col justify-between overflow-hidden border-white/5 bg-white/5 p-6 backdrop-blur-md transition-all hover:-translate-y-1 hover:border-emerald-500/50 hover:bg-white/10 hover:shadow-2xl hover:shadow-emerald-500/10">
               <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-500/10 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
               <div>

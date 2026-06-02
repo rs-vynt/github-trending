@@ -1,0 +1,16 @@
+{
+  "id": "p-e-w_heretic",
+  "fullName": "p-e-w/heretic",
+  "name": "heretic",
+  "description": "Heretic là công cụ dòng lệnh hoàn toàn tự động giúp loại bỏ kiểm duyệt (abliteration) cho các mô hình ngôn ngữ kiến trúc transformer mà không làm suy giảm trí thông minh và hiệu suất của mô hình gốc.",
+  "stars": 23142,
+  "forks": 0,
+  "readmeHash": "98883f92323a2a3cef9177cbcc56d0c2",
+  "tags": [
+    "llm",
+    "uncensored",
+    "abliteration",
+    "transformer",
+    "interpretability"
+  ]
+}
