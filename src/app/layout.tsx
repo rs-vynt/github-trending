@@ -26,9 +26,14 @@ export default function RootLayout({
             </span>
           </Link>
         </nav>
-        <main className="mx-auto max-w-6xl px-6 py-12 md:px-12">
+        <main className="mx-auto max-w-6xl px-6 py-12 md:px-12 min-h-screen">
           {children}
         </main>
+        <footer className="py-8 text-center mt-12">
+          <p className="text-zinc-600/50 text-xs font-mono tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:text-zinc-500">
+             crafted by <a href="https://github.com/vynt" target="_blank" className="font-semibold hover:text-emerald-500/70 transition-colors">vynt</a>
+          </p>
+        </footer>
       </body>
     </html>
   );
