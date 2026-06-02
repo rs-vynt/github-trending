@@ -1,0 +1,1 @@
+Supermemory là một công cụ bộ nhớ siêu tốc, có khả năng mở rộng dành cho AI, giúp tự động ghi nhớ, quản lý ngữ cảnh trò chuyện và xây dựng hồ sơ người dùng một cách hiệu quả.

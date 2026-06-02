@@ -1,0 +1,1 @@
+VoxCPM là một hệ thống Text-to-Speech (TTS) mã nguồn mở tiên tiến không sử dụng tokenizer, hỗ trợ tạo giọng nói đa ngôn ngữ, thiết kế giọng nói theo mô tả và nhân bản giọng nói với chất lượng studio 48kHz.

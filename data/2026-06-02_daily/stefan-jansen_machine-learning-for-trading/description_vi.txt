@@ -1,0 +1,1 @@
+Kho lưu trữ chứa hơn 150 Jupyter notebook đi kèm cuốn sách "Học máy trong Giao dịch", hướng dẫn toàn diện cách ứng dụng các mô hình học máy và học sâu vào xây dựng, kiểm thử ngược và đánh giá các chiến lược giao dịch thuật toán.

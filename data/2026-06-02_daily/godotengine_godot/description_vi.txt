@@ -1,0 +1,1 @@
+Godot Engine là một game engine 2D và 3D mã nguồn mở, miễn phí và đa nền tảng, giúp bạn dễ dàng tạo và xuất bản trò chơi trên nhiều hệ điều hành và thiết bị.
