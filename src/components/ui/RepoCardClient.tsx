@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, ImgHTMLAttributes } from "react";
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 import { X, ExternalLink, Star } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -16,6 +17,10 @@ interface Repo {
   folder: string;
   stars: string | number;
   tags?: string[];
+  branch?: string;
+  fullName?: string;
+  descriptionVi?: string;
+  default_branch?: string;
 }
 
 interface RepoCardClientProps {
@@ -56,7 +61,7 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
           <div className="flex items-center gap-3 shrink-0">
 
             <Badge className="bg-white/10 text-zinc-200 border-white/10 flex items-center gap-1">
-              <Star size={14} className="text-amber-400" /> {repo.stars}
+              <Star size={14} className="text-amber-400" /> {repo.stars?.toLocaleString()}
             </Badge>
             <button
               onClick={(e) => {
@@ -70,7 +75,7 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
           </div>
         </div>
         <p className="text-zinc-400 leading-relaxed max-w-4xl flex-1">
-          {repo.description}
+          {repo.descriptionVi || repo.description}
         </p>
         
         {repo.tags && repo.tags.length > 0 && (
@@ -127,7 +132,61 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
                   
                   <div className="relative flex-1 px-6 py-8">
                     <div className="prose prose-invert max-w-none prose-h1:text-2xl prose-h2:text-xl prose-h2:border-b prose-h2:border-white/10 prose-h2:pb-2 prose-pre:bg-white/5 prose-pre:border prose-pre:border-white/10 prose-a:text-emerald-400 hover:prose-a:text-emerald-300 prose-img:rounded-xl">
-                      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+                      <ReactMarkdown 
+                        urlTransform={(url) => url}
+                        remarkPlugins={[remarkGfm]} 
+                        rehypePlugins={[
+                          rehypeRaw, 
+                          [rehypeSanitize, {
+                            ...defaultSchema,
+                            protocols: {
+                              ...defaultSchema.protocols,
+                              src: ['http', 'https', 'data']
+                            }
+                          }]
+                        ]}
+                        components={{
+                          img({ node, src, ...props }: ImgHTMLAttributes<HTMLImageElement> & { node?: unknown }) {
+                            void node;
+                            let finalSrc = typeof src === "string" ? src : "";
+                            if (finalSrc && !finalSrc.startsWith("http") && !finalSrc.startsWith("data:")) {
+                              if (finalSrc.startsWith("//")) {
+                                finalSrc = "https:" + finalSrc;
+                              } else {
+                                // 1. Decode URI component to handle %5C (encoded backslashes) from ReactMarkdown
+                                let decodedSrc = finalSrc;
+                                try {
+                                  decodedSrc = decodeURIComponent(finalSrc);
+                                } catch (e) {
+                                  decodedSrc = finalSrc.replace(/%5C/gi, '\\');
+                                }
+                                const posixPath = decodedSrc.replace(/\\/g, '/');
+                                
+                                // 2. Resolve the path against a dummy base root to natively normalize traversals
+                                try {
+                                  const dummyBase = 'http://dummy.local/';
+                                  const normalizedUrl = new URL(posixPath, dummyBase);
+                                  
+                                  // 3. Extract the resulting normalized pathname without the leading slash
+                                  const cleanPath = normalizedUrl.pathname.replace(/^\//, '') + normalizedUrl.search + normalizedUrl.hash;
+  
+                                  const branchName = (repo as any).default_branch || repo.branch || "main";
+                                  
+                                  // repo.fullName might be undefined, fallback to repo.name, then repo.folder
+                                  const actualRepoName = repo.fullName || repo.name || (repo as any).folder?.replace('_', '/');
+                                  
+                                  const baseUrl = `https://raw.githubusercontent.com/${actualRepoName}/${branchName}/`;
+                                  finalSrc = `${baseUrl}${cleanPath}`;
+                                } catch (err) {
+                                  // Fallback on Invalid URL DoS vector
+                                  finalSrc = "";
+                                }
+                              }
+                            }
+                            return <img {...props} src={finalSrc || (typeof src === "string" ? src : undefined)} />;
+                          }
+                        }}
+                      >
                         {summary}
                       </ReactMarkdown>
                     </div>

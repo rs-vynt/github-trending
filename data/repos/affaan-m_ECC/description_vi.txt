@@ -1,0 +1,1 @@
+Hệ thống tối ưu hiệu suất dành cho harness của tác nhân AI, bao gồm kỹ năng, bản năng, bộ nhớ, bảo mật và phát triển hướng nghiên cứu cho Claude Code, Codex, Opencode, Cursor và nhiều hơn nữa.

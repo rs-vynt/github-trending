@@ -26,9 +26,9 @@ export default async function GlobalRepoPage({ params }: { params: Promise<{ rep
             {repo.name}
           </h1>
           <div className="mb-6 flex flex-wrap items-center gap-4">
-            <Badge className="text-sm px-3 py-1">⭐ {repo.stars.toLocaleString()}</Badge>
+            <Badge className="text-sm px-3 py-1">⭐ {repo.stars?.toLocaleString()}</Badge>
             <a
-              href={`https://github.com/${repo.name}`}
+              href={`https://github.com/${repo.fullName}`}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-sm font-medium text-purple-400 hover:text-purple-300 transition-colors"
@@ -37,7 +37,7 @@ export default async function GlobalRepoPage({ params }: { params: Promise<{ rep
             </a>
           </div>
           <p className="text-lg text-zinc-300 leading-relaxed max-w-3xl">
-            {repo.description}
+            {repo.descriptionVi || repo.description}
           </p>
         </header>
 
@@ -45,6 +45,8 @@ export default async function GlobalRepoPage({ params }: { params: Promise<{ rep
           summary={content.summary}
           readmeTranslated={content.readmeTranslated}
           readmeOriginal={content.readmeOriginal}
+          repoFullName={repo.fullName}
+          branch={repo.default_branch || "main"}
         />
       </div>
     </div>

@@ -32,7 +32,7 @@
   {
     "id": "D4Vinci_Scrapling",
     "name": "D4Vinci/Scrapling",
-    "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+    "description": "🕷️ Khung Quét Web thích ứng có thể xử lý mọi thứ từ một yêu cầu duy nhất đến thu thập thông tin trên quy mô đầy đủ!",
     "tags": [],
     "stars": 59211,
     "folder": "D4Vinci_Scrapling",
@@ -125,7 +125,7 @@
   {
     "id": "OpenBMB_VoxCPM",
     "name": "OpenBMB/VoxCPM",
-    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "description": "VoxCPM2: TTS không cần mã thông báo để tạo giọng nói đa ngôn ngữ, thiết kế giọng nói sáng tạo và nhân bản chân thực",
     "tags": [],
     "stars": 25147,
     "folder": "OpenBMB_VoxCPM",
@@ -308,7 +308,7 @@
   {
     "id": "microsoft_markitdown",
     "name": "microsoft/markitdown",
-    "description": "Python tool for converting files and office documents to Markdown.",
+    "description": "Công cụ Python để chuyển đổi tập tin và tài liệu văn phòng sang Markdown.",
     "tags": [],
     "stars": 141217,
     "folder": "microsoft_markitdown",
@@ -317,7 +317,7 @@
   {
     "id": "nesquena_hermes-webui",
     "name": "nesquena/hermes-webui",
-    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "description": "Hermes WebUI: Cách tốt nhất để sử dụng Hermes Agent từ web hoặc từ điện thoại của bạn!",
     "tags": [],
     "stars": 12563,
     "folder": "nesquena_hermes-webui",
@@ -415,7 +415,7 @@
   {
     "id": "ruvnet_ruflo",
     "name": "ruvnet/ruflo",
-    "description": "🌊 Nền tảng siêu điều phối tác tử hàng đầu dành cho Claude, giúp triển khai các bầy đàn đa tác tử thông minh, điều phối các luồng công việc tự trị và xây dựng các hệ thống AI đàm thoại, với các tính năng nổi bật như kiến trúc cấp doanh nghiệp, trí tuệ bầy đàn tự học, tích hợp RAG và tương thích bản địa với Claude Code / Codex.",
+    "description": "🌊 Nền tảng siêu điều phối tác tử hàng đầu dành cho Claude, giúp triển khai các bầy đàn đa tác tử thông minh, điều phối các luồng công việc tự trị và xây dựng các hệ thống AI đàm thoại, với các tính năng nổi bật như kiến trúc cấp doanh nghiệp, trí tuệ bầy đàn tự học, tích hợp RAG và tương thích bản ...",
     "tags": [
       "Multi-agent",
       "AI Orchestration",
@@ -425,25 +425,39 @@
     ],
     "stars": 57115,
     "folder": "ruvnet_ruflo",
-    "summary": "# 🚀 Ruflo\n\n## 🌟 Trọng tâm\nRuflo là một nền tảng siêu điều phối tác tử (multi-agent harness) mạnh mẽ dành cho Claude Code và Codex, cho phép quản lý và điều phối hơn 100 tác tử AI chuyên biệt hoạt động phối hợp với nhau. Nó cung cấp trí tuệ bầy đàn (swarm intelligence), bộ nhớ tự học, khả năng giao tiếp liên kết an toàn và bảo mật cấp doanh nghiệp.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Giải quyết giới hạn của các công cụ AI đơn lẻ khi xử lý các dự án phức tạp cần sự phối hợp nhiều vai trò. Thay vì chỉ chạy một tác tử tĩnh, Ruflo giúp tự động hóa giao việc, điều phối nhóm tác tử (swarm), ghi nhớ qua nhiều phiên làm việc và bảo mật dữ liệu xuyên suốt các tác tử khác nhau (thậm chí trên nhiều máy/tổ chức).\n- **Khách hàng mục tiêu**: Các lập trình viên, nhà nghiên cứu AI, và doanh nghiệp sử dụng Claude Code/Codex cần một môi trường AI tự trị, mạnh mẽ để mở rộng quy mô phát triển phần mềm, tự động hóa luồng công việc và kiểm thử với các tác tử AI.\n\n## 🛠️ Công nghệ cốt lõi\n- **Swarms & Tổ chức đa tác tử**: Hỗ trợ 100+ tác tử AI với các cơ chế điều phối nhóm phân cấp và tự tương thích (mesh, adaptive topologies).\n- **AgentDB & Trí tuệ tự học**: Bộ nhớ vector được lập chỉ mục bằng thuật toán HNSW, học hỏi từ các truy vấn trước đó với hệ thống SONA và ReasoningBank.\n- **Zero-Trust Federation**: Giao thức liên kết cho phép các tác tử trao đổi an toàn xuyên qua các máy/tổ chức bằng mTLS + ed25519 và loại bỏ thông tin PII.\n- **Goal-Oriented Action Planning (GOAP)**: Công cụ lập kế hoạch dựa trên mục tiêu, cho phép tách mục tiêu bằng ngôn ngữ tự nhiên thành các nhánh tác vụ có thể thực thi.\n\n## 💡 Tại sao đáng chú ý?\nRuflo vượt ra ngoài các CLI truyền thống bằng cách mang đến \"hệ thần kinh\" cho Claude Code. Hệ sinh thái này có hơn 33 plugin mở rộng mọi khía cạnh: từ thị giác máy tính, phân tích kiến trúc, đến quản lý cơ sở dữ liệu. Nó bao gồm giao diện tương tác trên Web (WASM MCP tools), công cụ lập kế hoạch tự trị theo dõi trực tiếp qua GOAP, và được tối ưu hóa vượt trội so với các framework hiện tại (LangGraph, AutoGen) về thời gian khởi động, phản hồi cũng như sử dụng tài nguyên (nhanh gấp nhiều lần so với đối thủ).\n"
+    "summary": "# Edge Cases Repo\n![ProtocolRelative](//example.com/image3.png)"
   },
   {
     "id": "stefan-jansen_machine-learning-for-trading",
     "name": "stefan-jansen/machine-learning-for-trading",
-    "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+    "description": "Mã học máy cho giao dịch thuật toán, ấn bản thứ 2.",
     "tags": [],
     "stars": 18494,
     "folder": "stefan-jansen_machine-learning-for-trading",
-    "summary": "Cuốn sách \"Học máy trong Giao dịch - Phiên bản 2\" của Stefan Jansen trình bày cách ứng dụng hiệu quả các kỹ thuật Machine Learning (ML) vào các chiến lược giao dịch thuật toán. Repo này chứa hơn 150 Jupyter notebook đóng vai trò minh họa thực tế cho các thuật toán, mô hình và khái niệm được đề cập trong sách, bao gồm từ hồi quy tuyến tính cơ bản đến học tăng cường sâu (Deep Reinforcement Learning). Nó hỗ trợ người dùng xây dựng, kiểm thử ngược (backtest) và đánh giá các chiến lược giao dịch tự động.\n\nCác tính năng cốt lõi của repo bao gồm việc cung cấp quy trình phân tích và giao dịch (ML4T workflow) hoàn chỉnh: từ khâu lấy dữ liệu, trích xuất đặc trưng tài chính, tinh chỉnh các mô hình dự đoán, cho đến khi mô phỏng chiến lược trên dữ liệu lịch sử bằng các nền tảng như Zipline hay Backtrader. Các ví dụ mã nguồn bao quát việc ứng dụng ML trên nhiều loại dữ liệu như dữ liệu thị trường, báo cáo cơ bản, cũng như các dạng dữ liệu thay thế (alternative data) gồm hình ảnh vệ tinh, báo cáo SEC và phân tích cảm xúc từ tin tức. Bên cạnh đó, sách sử dụng những kỹ thuật Học sâu tiên tiến như CNN, RNN, bộ mã hóa tự động (autoencoders) và GAN.\n\nĐể bắt đầu sử dụng, người dùng được khuyến nghị sử dụng Docker image hoặc tạo các môi trường Conda đã được cấu hình sẵn trong thư mục `installation`. Hãy bắt đầu bằng việc đọc hướng dẫn cài đặt và thiết lập dữ liệu trong thư mục `data`. Các thư mục trong repo được tổ chức tương ứng với 24 chương của cuốn sách, mỗi thư mục sẽ chứa một file `README.md` riêng với nội dung chi tiết. Người dùng nên vừa tham khảo cuốn sách vừa chạy song song các notebook tương ứng để tiếp thu kiến thức một cách hiệu quả nhất.\n"
+    "summary": "# Edge Cases Repo\n![ParentPath](../docs/image2.png)"
   },
   {
     "id": "supermemoryai_supermemory",
     "name": "supermemoryai/supermemory",
-    "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+    "description": "Công cụ bộ nhớ và ứng dụng cực kỳ nhanh và có khả năng mở rộng. API bộ nhớ cho kỷ nguyên AI.",
     "tags": [],
     "stars": 24662,
     "folder": "supermemoryai_supermemory",
-    "summary": "Supermemory là một công cụ ngữ cảnh và bộ nhớ tiên tiến dành cho các hệ thống AI, định vị bản thân như một giải pháp thay thế vượt trội cho các hệ thống RAG cơ bản. Dự án tập trung vào việc lưu trữ, gợi nhớ các dữ kiện, tự động theo dõi các bản cập nhật, giải quyết mâu thuẫn và loại bỏ các thông tin hết hạn để duy trì hồ sơ người dùng một cách chính xác. Supermemory cung cấp cả ứng dụng cho người dùng cuối cùng các API mạnh mẽ để các nhà phát triển dễ dàng tích hợp bộ nhớ dài hạn vào các công cụ và tác nhân AI tùy chỉnh của họ.\n\nCác tính năng nổi bật của dự án bao gồm khả năng tìm kiếm kết hợp (hybrid search) giữa RAG và bộ nhớ người dùng, tự động trích xuất và tạo hồ sơ người dùng từ ngữ cảnh trò chuyện, xử lý các tệp tin đa phương thức, và đồng bộ hóa thời gian thực với các nền tảng phổ biến như Google Drive, GitHub hay Notion. Hiện tại, Supermemory đang dẫn đầu trên nhiều công cụ đo lường hiệu năng bộ nhớ AI lớn như LongMemEval, LoCoMo, ConvoMem, đồng thời hỗ trợ tích hợp dễ dàng với các framework AI phổ biến như LangChain, Vercel AI SDK hay OpenAI.\n\nĐể bắt đầu, người dùng phổ thông có thể trải nghiệm miễn phí qua ứng dụng web hoặc tiện ích mở rộng trình duyệt để AI luôn ghi nhớ bối cảnh các cuộc trò chuyện. Đối với các nhà phát triển, chỉ cần cài đặt thư viện `supermemory` qua npm hoặc pip, sau đó sử dụng một vài dòng code API đơn giản để lưu trữ ngữ cảnh, truy xuất hồ sơ người dùng chi tiết và thực hiện các truy vấn tìm kiếm kết hợp mạnh mẽ.\n"
+    "summary": "# Edge Cases Repo\n![DotSlash](./docs/image1.png)"
+  },
+  {
+    "id": "test-repo-1",
+    "name": "test/repo",
+    "description": "<script>alert(\"XSS\")</script><b>BoldTest</b>",
+    "stars": 10,
+    "folder": "test-repo-1",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "test-repo-empty",
+    "description": "<script>alert(\"XSS\")</script><b>BoldTest</b>",
+    "folder": "test-repo-empty",
+    "summary": "<img src=\"x\" onerror=\"window.__xss_triggered = true\" />"
   },
   {
     "id": "yikart_AiToEarn",
@@ -458,6 +472,6 @@
     ],
     "stars": 17286,
     "folder": "yikart_AiToEarn",
-    "summary": "# 🚀 yikart/AiToEarn\n\n## 🌟 Trọng tâm\nAiToEarn là một nền tảng tất cả trong một (All-in-One) tích hợp tự động hóa qua AI Agent, giúp các công ty một người (OPC), nhà sáng tạo nội dung, thương hiệu và doanh nghiệp xây dựng, phân phối cũng như kiếm tiền từ nội dung trên các nền tảng mạng xã hội chính thống toàn cầu.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Khách hàng mục tiêu:** Công ty một người (OPC), nhà sáng tạo cá nhân, doanh nghiệp và các thương hiệu.\n- **Bài toán giải quyết:** Công việc quản lý và phát triển các kênh mạng xã hội thường đòi hỏi rất nhiều thời gian, từ việc lên ý tưởng, sản xuất nội dung, đăng bài trên nhiều nền tảng, cho đến trả lời bình luận và tìm kiếm cơ hội hợp tác quảng cáo. AiToEarn giải quyết vấn đề này bằng cách tự động hóa toàn bộ quy trình, giúp các nhà sáng tạo tiết kiệm thời gian, mở rộng khả năng tiếp cận trên hơn 10 nền tảng lớn (như TikTok, YouTube, Douyin, Xiaohongshu, X, Facebook) và dễ dàng kiếm tiền hơn.\n\n## 🛠️ Công nghệ cốt lõi\nHệ thống xoay quanh 4 loại Agent AI chuyên biệt:\n- **Create Agent:** Tự động tạo nội dung (cả video và hình ảnh/văn bản) bằng cách gọi các mô hình AI tiên tiến (như Grok, Veo, Nano Banana) với khả năng tạo hàng loạt.\n- **Publish Agent:** Lên lịch và phân phối nội dung tự động lên hàng loạt nền tảng cùng lúc chỉ với một cú nhấp chuột.\n- **Engage Agent:** Cung cấp tiện ích tự động tương tác, trả lời bình luận thông minh, phân tích tín hiệu chuyển đổi mua hàng và theo dõi nhắc đến thương hiệu.\n- **Monetize Agent:** Giải pháp kiếm tiền linh hoạt với đa dạng các mô hình thanh toán định hướng kết quả (CPS, CPE, CPM).\nNgoài ra, hệ thống còn hỗ trợ tích hợp với Claude/Cursor thông qua giao thức Model Context Protocol (MCP) và hỗ trợ tự triển khai dễ dàng bằng Docker.\n\n## 💡 Tại sao đáng chú ý?\nDự án nổi bật bởi giải pháp \"All In Agent\" toàn diện, biến một cá nhân thành một đội ngũ marketing chuyên nghiệp thực thụ. Với việc là một dự án mã nguồn mở hỗ trợ cả ứng dụng web, tích hợp trợ lý AI lẫn triển khai nội bộ, AiToEarn mang đến sự linh hoạt tối đa cho người dùng. Khả năng tự động hóa từ khâu lên ý tưởng đến khâu kiếm tiền khiến nó trở thành một công cụ đột phá cho nền kinh tế sáng tạo.\n"
+    "summary": "\n# Test Repo\nHere is a relative image:\n![Relative](docs/image.png)\n![Absolute](https://example.com/image.png)\n"
   }
 ]

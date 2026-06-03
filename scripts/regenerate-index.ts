@@ -20,10 +20,19 @@ function run() {
       const summaryPath = path.join(reposDir, folder, 'summary.md');
       const aiSummary = fs.existsSync(summaryPath) ? fs.readFileSync(summaryPath, 'utf8') : "Chưa có bản tóm tắt AI.";
 
+      let finalDescription = r.description;
+      const descViPath = path.join(reposDir, folder, 'description_vi.txt');
+      if (fs.existsSync(descViPath)) {
+        const descVi = fs.readFileSync(descViPath, 'utf8').trim();
+        if (descVi) {
+          finalDescription = descVi.length > 300 ? descVi.substring(0, 300) + "..." : descVi;
+        }
+      }
+
       searchIndex.push({
         id: r.id,
         name: r.fullName,
-        description: r.description,
+        description: finalDescription,
         tags: r.tags,
         stars: r.stars,
         folder: r.id,

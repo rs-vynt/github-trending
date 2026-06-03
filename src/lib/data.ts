@@ -13,6 +13,8 @@ export interface RepoDetails {
   tags?: string[];
   readmeOriginal?: string;
   readmeTranslated?: string;
+  descriptionVi?: string;
+  default_branch?: string;
 }
 
 export interface RunInfo {
@@ -32,7 +34,14 @@ export async function getRepoById(id: string): Promise<RepoDetails | null> {
   const p = path.join(reposDir, id, 'meta.json');
   try {
     const data = await fs.promises.readFile(p, 'utf8');
-    return JSON.parse(data);
+    const repo = JSON.parse(data);
+    
+    try {
+      const descVi = await fs.promises.readFile(path.join(reposDir, id, 'description_vi.txt'), 'utf8');
+      repo.descriptionVi = descVi.trim();
+    } catch (e) { /* ignore */ }
+    
+    return repo;
   } catch (e) {
     return null;
   }

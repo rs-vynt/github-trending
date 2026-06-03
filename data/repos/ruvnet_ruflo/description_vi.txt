@@ -1,0 +1,1 @@
+🌊 Nền tảng siêu điều phối tác tử hàng đầu dành cho Claude, giúp triển khai các bầy đàn đa tác tử thông minh, điều phối các luồng công việc tự trị và xây dựng các hệ thống AI đàm thoại, với các tính năng nổi bật như kiến trúc cấp doanh nghiệp, trí tuệ bầy đàn tự học, tích hợp RAG và tương thích bản địa với Claude Code / Codex.

@@ -1,19 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ImgHTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface TabsProps {
   summary: string;
   readmeTranslated: string;
   readmeOriginal: string;
+  repoFullName: string;
+  branch?: string;
 }
 
-export function TabsClient({ summary, readmeTranslated, readmeOriginal }: TabsProps) {
+export function TabsClient({ summary, readmeTranslated, readmeOriginal, repoFullName, branch }: TabsProps) {
   const [activeTab, setActiveTab] = useState<"summary" | "translated" | "original">("summary");
 
   const tabs = {
@@ -63,7 +66,57 @@ export function TabsClient({ summary, readmeTranslated, readmeOriginal }: TabsPr
             className="prose prose-invert prose-purple max-w-none prose-h1:text-3xl prose-h2:text-2xl prose-h2:border-b prose-h2:border-white/10 prose-h2:pb-2 prose-pre:bg-[#09090b] prose-pre:border prose-pre:border-white/10 prose-img:rounded-2xl"
           >
             <div className="break-words">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+              <ReactMarkdown 
+                urlTransform={(url) => url}
+                remarkPlugins={[remarkGfm]} 
+                rehypePlugins={[
+                  rehypeRaw, 
+                  [rehypeSanitize, {
+                    ...defaultSchema,
+                    protocols: {
+                      ...defaultSchema.protocols,
+                      src: ['http', 'https', 'data']
+                    }
+                  }]
+                ]}
+                components={{
+                  img({ node, src, ...props }: ImgHTMLAttributes<HTMLImageElement> & { node?: unknown }) {
+                    void node;
+                    let finalSrc = typeof src === "string" ? src : "";
+                    if (finalSrc && !finalSrc.startsWith("http") && !finalSrc.startsWith("data:")) {
+                      if (finalSrc.startsWith("//")) {
+                        finalSrc = "https:" + finalSrc;
+                      } else {
+                        // 1. Decode URI component to handle %5C (encoded backslashes) from ReactMarkdown
+                        let decodedSrc = finalSrc;
+                        try {
+                          decodedSrc = decodeURIComponent(finalSrc);
+                        } catch (e) {
+                          decodedSrc = finalSrc.replace(/%5C/gi, '\\');
+                        }
+                        const posixPath = decodedSrc.replace(/\\/g, '/');
+                        
+                        // 2. Resolve the path against a dummy base root to natively normalize traversals
+                        try {
+                          const dummyBase = 'http://dummy.local/';
+                          const normalizedUrl = new URL(posixPath, dummyBase);
+                          
+                          // 3. Extract the resulting normalized pathname without the leading slash
+                          const cleanPath = normalizedUrl.pathname.replace(/^\//, '') + normalizedUrl.search + normalizedUrl.hash;
+
+                          const branchName = branch || "main";
+                          const baseUrl = `https://raw.githubusercontent.com/${repoFullName}/${branchName}/`;
+                          finalSrc = `${baseUrl}${cleanPath}`;
+                        } catch (err) {
+                          // Fallback on Invalid URL DoS vector
+                          finalSrc = "";
+                        }
+                      }
+                    }
+                    return <img {...props} src={finalSrc || (typeof src === "string" ? src : undefined)} />;
+                  }
+                }}
+              >
                 {tabs[activeTab].content}
               </ReactMarkdown>
             </div>

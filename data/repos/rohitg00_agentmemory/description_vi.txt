@@ -1,0 +1,1 @@
+Bộ nhớ lưu trữ dài hạn số 1 dành cho các AI coding agent, được kiểm chứng qua các điểm chuẩn thực tế.

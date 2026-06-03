@@ -14,6 +14,9 @@ interface SearchRepo {
   stars?: number;
   folder?: string;
   summary?: string;
+  descriptionVi?: string;
+  default_branch?: string;
+  fullName?: string;
 }
 
 interface GlobalSearchClientProps {
@@ -51,8 +54,9 @@ export function GlobalSearchClient({ repos }: GlobalSearchClientProps) {
   // Setup Fuse
   const fuse = useMemo(() => {
     return new Fuse(repos, {
-      keys: ["name", "description", "tags"],
+      keys: ["name", "description", "descriptionVi", "tags"],
       threshold: 0.3,
+      ignoreLocation: true,
     });
   }, [repos]);
 
@@ -189,7 +193,10 @@ export function GlobalSearchClient({ repos }: GlobalSearchClientProps) {
                       // eslint-disable-next-line @typescript-eslint/no-explicit-any
                       stars: (repo as any).stars || "N/A",
                       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                      folder: (repo as any).folder || repo.id
+                      folder: (repo as any).folder || repo.id,
+                      descriptionVi: repo.descriptionVi,
+                      default_branch: repo.default_branch,
+                      fullName: repo.fullName || repo.name
                     }}
                     // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     summary={(repo as any).summary || ""}

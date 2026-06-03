@@ -1,0 +1,1 @@
+Dự án là một khóa học thực hành toàn diện hướng dẫn xây dựng hệ thống trợ lý nghiên cứu Agentic RAG chuẩn production từ nền tảng tìm kiếm đến tích hợp LLM.

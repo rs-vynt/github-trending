@@ -1,0 +1,1 @@
+Trò chuyện với bất kỳ LLM nào thông qua tương tác giọng nói rảnh tay, hỗ trợ ngắt lời, cùng hình đại diện Live2D, chạy hoàn toàn cục bộ trên nhiều nền tảng.

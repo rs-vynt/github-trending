@@ -41,7 +41,7 @@ export default async function RepoPage({ params }: { params: Promise<{ date_sinc
             </a>
           </div>
           <p className="text-lg text-zinc-300 leading-relaxed max-w-3xl">
-            {repo.description}
+            {repo.descriptionVi || repo.description}
           </p>
         </header>
 
@@ -49,6 +49,8 @@ export default async function RepoPage({ params }: { params: Promise<{ date_sinc
           summary={content.summary}
           readmeTranslated={content.readmeTranslated}
           readmeOriginal={content.readmeOriginal}
+          repoFullName={repo.name}
+          branch={repo.default_branch || "main"}
         />
       </div>
     </div>

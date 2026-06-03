@@ -1,0 +1,1 @@
+Một nền tảng hiện đại hỗ trợ điều tra trực quan, linh hoạt và có khả năng mở rộng dựa trên đồ thị, dành cho các nhà phân tích an ninh mạng và điều tra viên.

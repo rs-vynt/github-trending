@@ -1,0 +1,1 @@
+VoxCPM2: TTS không cần mã thông báo để tạo giọng nói đa ngôn ngữ, thiết kế giọng nói sáng tạo và nhân bản chân thực

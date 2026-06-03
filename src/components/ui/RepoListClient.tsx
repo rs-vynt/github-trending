@@ -12,6 +12,9 @@ interface RepoWithSummary {
   stars: string | number;
   tags?: string[];
   summary: string;
+  descriptionVi?: string;
+  default_branch?: string;
+  fullName?: string;
 }
 
 interface RepoListClientProps {
@@ -22,12 +25,18 @@ interface RepoListClientProps {
 export function RepoListClient({ repos, dateSince }: RepoListClientProps) {
   const [searchTerm, setSearchTerm] = useState("");
 
+  const normalizeText = (text: string | null | undefined) => {
+    return (text || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  };
+
   const filteredRepos = repos.filter(repo => {
-    const term = searchTerm.toLowerCase();
+    const term = normalizeText(searchTerm);
+    if (!term) return true;
     return (
-      repo.name.toLowerCase().includes(term) ||
-      repo.description.toLowerCase().includes(term) ||
-      (repo.tags && repo.tags.some(tag => tag.toLowerCase().includes(term)))
+      normalizeText(repo.name).includes(term) ||
+      normalizeText(repo.description).includes(term) ||
+      normalizeText(repo.descriptionVi).includes(term) ||
+      (repo.tags && repo.tags.some(tag => normalizeText(tag).includes(term)))
     );
   });
 

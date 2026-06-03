@@ -1,0 +1,1 @@
+Plugin Compound Engineering chính thức dành cho Claude Code, Codex, Cursor, và các công cụ khác.
