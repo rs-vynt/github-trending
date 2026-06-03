@@ -8,7 +8,7 @@ import { TabsClient } from "@/components/ui/TabsClient";
 export default async function GlobalRepoPage({ params }: { params: Promise<{ repo_id: string }> }) {
   const p = await params;
   
-  const repo = getRepoById(p.repo_id);
+  const repo = await getRepoById(p.repo_id);
   if (!repo) notFound();
 
   const content = await getRepoContent(p.repo_id);
