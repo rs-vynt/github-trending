@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "scrape": "python3 ../src/scraper.py --since daily --limit 15 && npx tsx scripts/regenerate-index.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
