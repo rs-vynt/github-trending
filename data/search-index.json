@@ -32,9 +32,9 @@
   {
     "id": "D4Vinci_Scrapling",
     "name": "D4Vinci/Scrapling",
-    "description": "🕷️ Một framework thu thập dữ liệu web thích ứng, có thể xử lý mọi thứ từ một truy vấn đơn lẻ đến càn quét toàn diện!",
+    "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
     "tags": [],
-    "stars": 57427,
+    "stars": 59211,
     "folder": "D4Vinci_Scrapling",
     "summary": "# 🚀 Scrapling\n## 🌟 Trọng tâm\nScrapling là một framework Web Scraping có khả năng thích ứng cao, xử lý mọi thứ từ các yêu cầu đơn lẻ đến việc thu thập dữ liệu (crawl) ở quy mô toàn diện.\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nViệc thu thập dữ liệu web thường xuyên gặp khó khăn khi cấu trúc trang web thay đổi hoặc bị chặn bởi các hệ thống chống bot như Cloudflare Turnstile. Mục tiêu của Scrapling là giải quyết các vấn đề này một cách tự động và linh hoạt. Parser của framework này có khả năng tự học từ những thay đổi của trang web và tự động định vị lại các thành phần khi trang web cập nhật. Nó cũng cho phép vượt qua các hệ thống chống bot ngay từ đầu, hỗ trợ crawl đồng thời, đa phiên với khả năng tạm dừng/tiếp tục và tự động xoay vòng proxy.\n\n## 🛠️ Công nghệ cốt lõi\n- **Python 3.10+**\n- **Scrapy-like Spider API**: Xử lý crawling quy mô lớn với concurrency, multi-session, stream mode, và checkpoint.\n- **Fetchers (HTTP, Dynamic, Stealthy)**: Tích hợp requests siêu tốc, Playwright Chromium/Google Chrome, và cơ chế spoofing (ẩn danh) chống bot.\n- **Adaptive Parser**: Sử dụng thuật toán tương đồng thông minh, Regex, XPath, CSS selectors linh hoạt.\n- **MCP Server**: Tích hợp AI (Claude/Cursor) cho việc cào và trích xuất dữ liệu.\n\n## 💡 Tại sao đáng chú ý?\nScrapling nổi bật nhờ tính năng \"thích ứng\" thông minh (adaptive scraping) giúp code không bị hỏng khi website thay đổi giao diện, và khả năng qua mặt các cơ chế bảo vệ khắt khe nhất như Cloudflare. Hơn thế nữa, nó mang lại hiệu suất vượt trội (nhanh hơn các thư viện parse khác nhiều lần), hỗ trợ CLI, môi trường tương tác (interactive shell) cùng sự tương thích mạnh mẽ với trí tuệ nhân tạo (AI MCP Server), tất cả gói gọn trong một thư viện Python duy nhất mà không yêu cầu thiết lập phức tạp.\n"
   },
@@ -108,17 +108,26 @@
     "summary": "# 🚀 Understand Anything\n\n## 🌟 Trọng tâm\nUnderstand Anything giúp biến bất kỳ cơ sở mã, cơ sở tri thức hoặc tài liệu nào thành một đồ thị tri thức tương tác. Mục tiêu cốt lõi không phải là vẽ ra một đồ thị phức tạp để gây ấn tượng, mà là tạo ra một đồ thị có khả năng hướng dẫn và giúp bạn hiểu rõ cách các thành phần trong hệ thống liên kết với nhau.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nGiải quyết khó khăn khi tiếp cận các dự án lớn (hàng trăm nghìn dòng code) bằng cách cung cấp sơ đồ trực quan, tìm kiếm ngữ nghĩa và phân tích tác động của code. Công cụ hướng đến mọi đối tượng từ lập trình viên (junior/senior) cần hiểu kiến trúc và gỡ lỗi, cho đến Quản lý sản phẩm (PM) muốn nắm bắt luồng logic nghiệp vụ.\n\n## 🛠️ Công nghệ cốt lõi\nSử dụng phương pháp lai (hybrid) giữa Tree-sitter (phân tích tĩnh, trích xuất cấu trúc như hàm, lớp, phụ thuộc một cách tất định) và LLM (đường ống đa tác nhân phân tích ngữ nghĩa, tạo tóm tắt, nhóm kiến trúc và luồng nghiệp vụ). Công cụ tự động phát hiện ngôn ngữ và hỗ trợ phân tích tăng dần (incremental).\n\n## 💡 Tại sao đáng chú ý?\nHỗ trợ đa nền tảng mạnh mẽ (Claude Code, Cursor, VS Code Copilot, Gemini CLI, v.v.) và đa ngôn ngữ. Đồ thị tạo ra (dưới dạng JSON) có thể được lưu trữ cùng mã nguồn (docs-as-code) để toàn đội ngũ cùng sử dụng mà không cần chạy lại phân tích, lý tưởng cho việc đào tạo nhân sự mới và đánh giá Pull Request.\n"
   },
   {
+    "id": "Open-LLM-VTuber_Open-LLM-VTuber",
+    "name": "Open-LLM-VTuber/Open-LLM-VTuber",
+    "description": "Trò chuyện với bất kỳ LLM nào thông qua tương tác giọng nói rảnh tay, hỗ trợ ngắt lời, cùng hình đại diện Live2D, chạy hoàn toàn cục bộ trên nhiều nền tảng.",
+    "tags": [
+      "LLM",
+      "VTuber",
+      "Live2D",
+      "AI Companion",
+      "Open Source"
+    ],
+    "stars": 8385,
+    "folder": "Open-LLM-VTuber_Open-LLM-VTuber",
+    "summary": "# 🚀 Open-LLM-VTuber_Open-LLM-VTuber\n\n## 🌟 Trọng tâm\nOpen-LLM-VTuber là một trợ lý AI tương tác bằng giọng nói kết hợp với hình đại diện Live2D sinh động, hoạt động đa nền tảng. Dự án cho phép người dùng tạo ra các nhân vật ảo (bạn gái/bạn trai ảo, thú cưng...) có khả năng nhìn, nghe và trò chuyện theo thời gian thực mà có thể chạy hoàn toàn cục bộ trên máy tính.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Xây dựng một AI Companion/VTuber mã nguồn mở có khả năng tương tác đa phương thức tự nhiên (giọng nói, hình ảnh, xúc giác) và đặc biệt là có thể chạy ngoại tuyến để bảo vệ quyền riêng tư mà không phụ thuộc vào kết nối mạng hay dịch vụ API đám mây đắt đỏ.\n- **Khách hàng mục tiêu:** Người dùng cá nhân mong muốn có một trợ lý hoặc người bạn đồng hành ảo trên màn hình (desktop pet); các nhà phát triển muốn tùy chỉnh một AI VTuber của riêng mình; và những người đam mê các dự án mở về LLM, Live2D và AI Agents.\n\n## 🛠️ Công nghệ cốt lõi\n- **Mô hình Ngôn ngữ Lớn (LLM):** Hỗ trợ đa dạng từ các mô hình chạy cục bộ (Ollama, LM Studio, vLLM) đến các API đám mây (OpenAI, Gemini, Claude, DeepSeek, Zhipu AI).\n- **Nhận diện Giọng nói (ASR):** Tích hợp sherpa-onnx, FunASR, Faster-Whisper, Whisper.cpp, Azure ASR...\n- **Chuyển đổi Văn bản thành Giọng nói (TTS):** Hỗ trợ sherpa-onnx, pyttsx3, MeloTTS, GPTSoVITS, CosyVoice, Edge TTS, Azure TTS...\n- **Giao diện & Tương tác:** Tích hợp Live2D, nhận thức hình ảnh qua camera hoặc chụp màn hình, phản hồi thao tác chạm, hỗ trợ chế độ web và desktop client.\n- **Kiến trúc mở rộng:** Cung cấp giao diện Agent linh hoạt, dễ dàng tích hợp các hệ thống như HumeAI EVI, Mem0.\n\n## 💡 Tại sao đáng chú ý?\n- **Bảo mật & Ngoại tuyến:** Hoạt động 100% offline với mô hình cục bộ, đảm bảo quyền riêng tư tuyệt đối cho các cuộc trò chuyện.\n- **Tương tác thông minh & Tự nhiên:** Khả năng nhận thức trực quan (nhìn), ngắt lời bằng giọng nói (voice interruption), AI chủ động bắt chuyện, và hiển thị \"suy nghĩ nội tâm\".\n- **Tùy biến vô hạn:** Dễ dàng thay đổi mô hình Live2D, cấu hình Prompt để tạo tính cách riêng, hay nhân bản giọng nói (voice cloning) cho nhân vật.\n- **Chế độ Thú cưng Desktop (Pet Mode):** Hỗ trợ hình nền trong suốt và thao tác chuột xuyên qua, cho phép nhân vật ảo xuất hiện ở bất kỳ đâu trên màn hình máy tính.\n- **Đa nền tảng & Tối ưu phần cứng:** Chạy tốt trên macOS, Linux, Windows; hỗ trợ cả GPU của NVIDIA và các hãng khác, thậm chí có thể chạy trên CPU.\n"
+  },
+  {
     "id": "OpenBMB_VoxCPM",
     "name": "OpenBMB/VoxCPM",
-    "description": "VoxCPM là một hệ thống Text-to-Speech (TTS) mã nguồn mở tiên tiến không sử dụng tokenizer, hỗ trợ tạo giọng nói đa ngôn ngữ, thiết kế giọng nói theo mô tả và nhân bản giọng nói với chất lượng studio 48kHz.",
-    "tags": [
-      "Text-to-Speech",
-      "Voice Cloning",
-      "Generative AI",
-      "Audio Synthesis",
-      "Multilingual"
-    ],
-    "stars": 24547,
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "tags": [],
+    "stars": 25147,
     "folder": "OpenBMB_VoxCPM",
     "summary": "# Tóm tắt dự án: VoxCPM\n\n**VoxCPM** là một hệ thống Text-to-Speech (TTS) tiên tiến không sử dụng tokenizer, do nhóm OpenBMB phát triển. Dự án này tận dụng kiến trúc tự hồi quy khuếch tán (diffusion autoregressive) đầu cuối để chuyển đổi trực tiếp văn bản thành giọng nói chất lượng cao 48kHz. Phiên bản mới nhất, VoxCPM2, có 2 tỷ tham số, được đào tạo với hơn 2 triệu giờ dữ liệu và hỗ trợ tới 30 ngôn ngữ khác nhau mà không cần cấu hình thẻ ngôn ngữ. \n\nCác tính năng nổi bật của VoxCPM bao gồm \"Thiết kế Giọng nói\" (Voice Design) cho phép tạo ra những giọng nói hoàn toàn mới chỉ thông qua các đoạn mô tả bằng ngôn ngữ tự nhiên về độ tuổi, giới tính và cảm xúc. Ngoài ra, tính năng \"Nhân bản Giọng nói Có thể Kiểm soát\" (Controllable Voice Cloning) cho phép sao chép bất kỳ âm sắc nào từ một đoạn ghi âm ngắn, trong khi người dùng vẫn có thể điều chỉnh phong cách, cảm xúc và nhịp độ. Hơn nữa, với mô hình hỗ trợ tối ưu qua Nano-vLLM và vLLM-Omni, VoxCPM mang tới khả năng hoạt động trực tuyến thời gian thực (real-time streaming) với tốc độ vô cùng ấn tượng.\n\nĐể bắt đầu, bạn chỉ cần cài đặt thư viện qua pip (`pip install voxcpm`). VoxCPM cung cấp một Python API rõ ràng để dễ dàng tạo giọng nói, nhân bản âm thanh hoặc tùy chỉnh giọng qua code. Công cụ cũng đi kèm với CLI trực quan và bản web demo giúp người dùng thử nghiệm tính năng nhanh chóng. Hơn thế, dự án hoàn toàn mở mã nguồn với giấy phép Apache-2.0, thích hợp cho cả việc nghiên cứu học thuật lẫn sử dụng cho các ứng dụng thương mại.\n"
   },
@@ -136,6 +145,21 @@
     "stars": 82005,
     "folder": "TauricResearch_TradingAgents",
     "summary": "TradingAgents là một nền tảng giao dịch tài chính đa tác nhân mã nguồn mở dựa trên Mô hình Ngôn ngữ Lớn (LLM), được thiết kế để mô phỏng hệ sinh thái giao dịch thực tế. Nền tảng này phân chia các nhiệm vụ giao dịch phức tạp cho các tác nhân chuyên biệt như chuyên viên phân tích cơ bản, phân tích tâm lý, phân tích kỹ thuật, nhà nghiên cứu và quản lý danh mục đầu tư. Các tác nhân này phối hợp đánh giá thị trường, thảo luận chiến lược và đưa ra quyết định giao dịch tự động.\n\nDự án nổi bật với khả năng linh hoạt và tính mô-đun cao nhờ được xây dựng trên LangGraph, hỗ trợ đa dạng các nhà cung cấp LLM phổ biến hiện nay. Nó tích hợp các tính năng nâng cao như nhật ký quyết định liên tục (persistent decision log) giúp nền tảng học hỏi từ các giao dịch trước đó, và khả năng khôi phục từ điểm lưu (checkpoint resume) nhằm bảo vệ quá trình phân tích khỏi những sự cố gián đoạn.\n\nĐể bắt đầu, người dùng cần nhân bản (clone) kho lưu trữ, cài đặt các thư viện phụ thuộc bằng lệnh `pip install .` hoặc chạy thông qua Docker. Sau khi thiết lập các khóa API (API keys) cần thiết trong file `.env`, bạn có thể chạy công cụ giao diện dòng lệnh (CLI) bằng lệnh `tradingagents` để trực tiếp lựa chọn mã chứng khoán cần phân tích, hoặc dễ dàng tích hợp framework này vào mã Python thông qua thư viện `tradingagents`.\n"
+  },
+  {
+    "id": "affaan-m_ECC",
+    "name": "affaan-m/ECC",
+    "description": "Hệ thống tối ưu hiệu suất dành cho harness của tác nhân AI, bao gồm kỹ năng, bản năng, bộ nhớ, bảo mật và phát triển hướng nghiên cứu cho Claude Code, Codex, Opencode, Cursor và nhiều hơn nữa.",
+    "tags": [
+      "AI Agents",
+      "Multi-agent",
+      "CLI",
+      "Security",
+      "Optimization"
+    ],
+    "stars": 204022,
+    "folder": "affaan-m_ECC",
+    "summary": "# 🚀 affaan-m_ECC\n## 🌟 Trọng tâm\nECC là một hệ thống tối ưu hóa và quản lý hiệu suất (operator system) dành cho các tác nhân AI (AI agents) hoạt động trên nhiều nền tảng (multi-harness). Hệ thống cung cấp một bộ công cụ hoàn chỉnh bao gồm các kỹ năng (skills), bản năng (instincts), tối ưu hóa bộ nhớ, học tập liên tục và quét bảo mật.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Vượt qua giới hạn của các cấu hình đơn giản bằng cách cung cấp một hệ thống toàn diện để thiết lập, quản lý và bảo mật quy trình làm việc của tác nhân AI. Giải quyết các vấn đề về token, giới hạn bộ nhớ, và sự thiếu đồng bộ khi làm việc trên nhiều môi trường khác nhau.\n- **Khách hàng mục tiêu:** Các lập trình viên, kỹ sư phần mềm, và các nhóm phát triển sử dụng công cụ AI (như Claude Code, Cursor, Codex, OpenCode, Zed) mong muốn xây dựng các quy trình tự động hóa mạnh mẽ, an toàn và sẵn sàng cho môi trường sản xuất.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ hỗ trợ:** Hỗ trợ hơn 12 hệ sinh thái ngôn ngữ bao gồm TypeScript, Python, Go, Java, C++, Rust, v.v.\n- **Công nghệ nền tảng:** Node.js, Shell scripting.\n- **Nền tảng tích hợp (Harnesses):** Claude Code CLI, Cursor, OpenAI Codex, OpenCode, Zed, Gemini, GitHub Copilot.\n- **Bảo mật:** Tích hợp AgentShield (Security Auditor) để quét tĩnh, kiểm tra quyền và phát hiện rủi ro bảo mật trong quy trình AI.\n\n## 💡 Tại sao đáng chú ý?\n- **Sự ủng hộ cực lớn từ cộng đồng:** Đạt hơn 182,000 sao, 28,000 forks và hơn 170 người đóng góp trên GitHub.\n- **Hệ sinh thái công cụ đồ sộ:** Tích hợp sẵn 63 subagents chuyên dụng và 249 kỹ năng xử lý mọi khía cạnh từ lập trình, TDD, review code đến viết tài liệu và quản trị hệ thống.\n- **Khả năng tự động hóa và học tập:** Trang bị tính năng học tập liên tục (Continuous Learning v2) tự động trích xuất mẫu từ phiên làm việc, cùng khả năng điều phối đa tác nhân (multi-agent orchestration).\n- **Tính di động và tương thích cao:** Hoạt động liền mạch xuyên suốt các hệ điều hành (Windows, macOS, Linux) và tương thích hoàn toàn với nhiều CLI và IDE hiện đại.\n"
   },
   {
     "id": "anthropics_financial-services",
@@ -181,6 +205,21 @@
     "stars": 9659,
     "folder": "can1357_oh-my-pi",
     "summary": "Dự án \"oh-my-pi\" (omp) là một AI coding agent mạnh mẽ dành cho terminal, được phân nhánh (fork) từ dự án Pi, với thiết kế chú trọng vào tương tác trực tiếp và tích hợp sâu với quy trình lập trình. omp nổi bật nhờ khả năng kết nối trực tiếp với các tính năng của IDE (thông qua LSP), cho phép agent thực hiện các thao tác phức tạp như cấu trúc lại mã, đổi tên an toàn, và thậm chí điều khiển các trình gỡ lỗi (debugger) thực thụ đối với các dự án C, Go, hoặc Python. Thay vì gọi các lệnh shell bên ngoài một cách chậm chạp, hệ thống sử dụng hơn 27.000 dòng mã Rust lõi để tăng tốc tối đa các thao tác xử lý file, tìm kiếm, mô phỏng shell và phân tích cú pháp AST.\n\nBên cạnh đó, dự án sở hữu một hệ sinh thái cực kỳ linh hoạt: hỗ trợ hơn 40 nhà cung cấp LLM khác nhau và cung cấp 32 công cụ tích hợp sẵn. Agent có thể điều khiển trình duyệt, tìm kiếm và phân tích nội dung web (kể cả PDF và báo cáo từ arxiv), chia nhỏ công việc bằng cách sinh ra các subagent (đại lý phụ) xử lý song song trong môi trường bị cô lập, và xử lý xung đột hợp nhất (merge conflict) của Git dễ dàng. Agent còn tự động ghi nhớ bối cảnh các kho mã lưu trữ thông qua cơ chế \"Hindsight\", và đọc hiểu trực tiếp các file quy tắc từ các công cụ khác như Cursor, Cline hay Copilot.\n\nĐể bắt đầu, lập trình viên có thể dễ dàng cài đặt qua lệnh shell (`curl -fsSL https://omp.sh/install | sh`) trên môi trường macOS/Linux, hoặc thông qua package manager như Bun (`bun install -g @oh-my-pi/pi-coding-agent`). Sau khi cài đặt, chỉ cần gọi lệnh `omp` tại terminal để mở một giao diện đồ họa đầu cuối (TUI) trực quan. Bạn có thể thay đổi các mô hình AI trực tiếp trong phiên bằng câu lệnh `/model`, cấu hình kết nối trực tiếp vào trong IDE (thông qua ACP), và tận hưởng sự trợ giúp đắc lực của một trong những công cụ coding agent nhanh và mạnh nhất hiện nay.\n"
+  },
+  {
+    "id": "chopratejas_headroom",
+    "name": "chopratejas/headroom",
+    "description": "Nén đầu ra của công cụ, log, file và các đoạn RAG trước khi đến LLM, giúp giảm 60-95% lượng token mà vẫn giữ nguyên câu trả lời, được hỗ trợ dưới dạng thư viện, proxy và MCP server.",
+    "tags": [
+      "AI Agent",
+      "Token Optimization",
+      "MCP",
+      "Python",
+      "Context Compression"
+    ],
+    "stars": 6559,
+    "folder": "chopratejas_headroom",
+    "summary": "# 🚀 chopratejas_headroom\n\n## 🌟 Trọng tâm\nHeadroom là một lớp nén ngữ cảnh dành cho các AI agent, giúp nén mọi dữ liệu (đầu ra công cụ, log, kết quả RAG, tệp, lịch sử trò chuyện) trước khi gửi tới LLM. Công cụ này giúp giảm từ 60-95% lượng token tiêu thụ mà vẫn đảm bảo độ chính xác của câu trả lời.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Các AI agent thường tiêu tốn lượng lớn token do phải xử lý ngữ cảnh dài (log chi tiết, tệp mã nguồn lớn, kết quả từ các công cụ), dẫn đến chi phí cao, thời gian phản hồi chậm và vượt quá giới hạn ngữ cảnh của LLM.\n- **Khách hàng mục tiêu:** Các nhà phát triển làm việc thường xuyên với AI agent lập trình (như Claude Code, Cursor, Aider, Copilot) hoặc những người xây dựng ứng dụng LLM muốn tối ưu chi phí và tăng tốc độ mà không phải thay đổi mã nguồn (zero code changes).\n\n## 🛠️ Công nghệ cốt lõi\n- **Đa dạng chế độ hoạt động:** Có thể sử dụng như một thư viện (Python/TypeScript), proxy độc lập (`headroom proxy`), công cụ bọc agent (`headroom wrap`) hoặc MCP server.\n- **ContentRouter & Các bộ nén chuyên dụng:** Tự động phát hiện loại nội dung để chọn bộ nén phù hợp: `SmartCrusher` cho JSON, `CodeCompressor` cho mã nguồn (dựa trên AST), và mô hình `Kompress-base` (trên HuggingFace) cho văn bản.\n- **Continuous Context Reversibility (CCR):** Nén có thể khôi phục. Các tệp gốc được lưu trữ cục bộ và LLM có thể gọi công cụ `headroom_retrieve` để lấy lại thông tin chi tiết nguyên bản khi cần.\n- **CacheAligner:** Ổn định các đoạn tiền tố (prefix) để tối đa hóa tỷ lệ hit (cache hit) trên bộ nhớ đệm KV của các nhà cung cấp như Anthropic và OpenAI.\n- **Bộ nhớ chéo (Cross-agent memory) & Học lỗi (`headroom learn`):** Chia sẻ ngữ cảnh giữa nhiều agent khác nhau (Claude, Codex, Gemini...) và tự động ghi nhận các phiên lỗi để tạo quy tắc/bản sửa lỗi trong `CLAUDE.md` / `AGENTS.md`.\n\n## 💡 Tại sao đáng chú ý?\n- **Hiệu năng ấn tượng:** Có thể giảm đến 92% số lượng token cho các tác vụ tốn kém (như tìm kiếm mã nguồn, gỡ lỗi) nhưng vẫn duy trì độ chính xác 100% trên các benchmark như GSM8K.\n- **Quyền riêng tư & Bảo mật (Local-first):** Toàn bộ dữ liệu được xử lý trực tiếp trên máy tính của người dùng (local), an toàn hơn hẳn so với việc gửi qua các API nén bên thứ ba.\n- **Khả năng tích hợp liền mạch:** Chế độ proxy và wrap cho phép người dùng áp dụng ngay lập tức các lợi ích giảm thiểu token mà không yêu cầu chỉnh sửa mã (zero code changes) trên công cụ hiện tại.\n"
   },
   {
     "id": "colbymchenry_codegraph",
@@ -237,6 +276,21 @@
     "summary": "# 🚀 MoneyPrinterTurbo\n## 🌟 Trọng tâm\nTự động hóa hoàn toàn quy trình sản xuất video ngắn chất lượng cao chỉ từ một từ khóa hoặc chủ đề.\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nMoneyPrinterTurbo giải quyết khó khăn trong việc sáng tạo nội dung video ngắn thông qua việc tự động hóa các công đoạn phức tạp. Dự án hướng tới mục tiêu cung cấp giải pháp trọn gói tạo video chỉ với một nút bấm (one-click) từ kịch bản, âm thanh, phụ đề đến cảnh quay, giúp nhà sáng tạo nội dung, những nhà tiếp thị tiết kiệm hàng giờ chỉnh sửa thủ công và có thể sản xuất nội dung hàng loạt một cách nhất quán, dễ dàng hơn.\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc:** MVC hỗ trợ cả giao diện Web và API\n- **Ngôn ngữ:** Python (mặc định 3.11, quản lý môi trường với `uv`)\n- **Tích hợp LLM:** OpenAI, Claude, Gemini, DeepSeek, Moonshot, Azure, Tongyi Qianwen, Ollama, AIHubMix,...\n- **Xử lý âm thanh/phụ đề:** TTS đa giọng, Whisper, Edge TTS\n- **Xử lý Video/Hình ảnh:** ImageMagick, ffmpeg\n- **Triển khai:** Streamlit (WebUI), FastAPI (API), Docker Compose, Google Colab\n\n## 💡 Tại sao đáng chú ý?\nDự án cung cấp khả năng tự động hóa \"end-to-end\" từ ý tưởng cho đến sản phẩm video hoàn thiện, loại bỏ hoàn toàn rào cản kỹ thuật. Với việc hỗ trợ linh hoạt hàng loạt nền tảng LLM tiên tiến nhất hiện nay, cung cấp nguồn tài nguyên video HD miễn phí bản quyền và khả năng triển khai đa dạng, đây là công cụ mạnh mẽ tạo ra nội dung chuẩn xu hướng như YouTube Shorts hay TikTok một cách nhanh chóng, hiệu quả.\n"
   },
   {
+    "id": "jamwithai_production-agentic-rag-course",
+    "name": "jamwithai/production-agentic-rag-course",
+    "description": "Dự án là một khóa học thực hành toàn diện hướng dẫn xây dựng hệ thống trợ lý nghiên cứu Agentic RAG chuẩn production từ nền tảng tìm kiếm đến tích hợp LLM.",
+    "tags": [
+      "AI",
+      "RAG",
+      "Python",
+      "Course",
+      "FastAPI"
+    ],
+    "stars": 6398,
+    "folder": "jamwithai_production-agentic-rag-course",
+    "summary": "# 🚀 jamwithai_production-agentic-rag-course\n\n## 🌟 Trọng tâm\nKhóa học thực hành chuyên sâu (project-based) tập trung vào việc tự xây dựng hệ thống RAG (Retrieval-Augmented Generation) chuẩn production từ con số không. Khóa học nhấn mạnh vào lộ trình chuyên nghiệp: thiết lập nền tảng tìm kiếm từ khóa vững chắc (BM25) trước, sau đó mới nâng cấp lên tìm kiếm vector (hybrid search) và tích hợp AI, thay vì chỉ ưu tiên AI mà bỏ qua các nền tảng cốt lõi. Sản phẩm thực tế cuối cùng là một Trợ lý nghiên cứu bài báo khoa học (arXiv Paper Curator) tự động với Agentic RAG.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết tình trạng các hướng dẫn trên mạng thường đi thẳng vào việc dùng vector search mà bỏ qua kiến trúc nền tảng cũng như các bước quan trọng cho môi trường thực tế (như chunking, hybrid search, caching, monitoring, agentic logic).\n- **Khách hàng mục tiêu:** Các kỹ sư AI/ML, kỹ sư phần mềm, và nhà khoa học dữ liệu muốn vượt ra khỏi những tutorial cơ bản để xây dựng hệ thống AI hoàn chỉnh (end-to-end) áp dụng các best practices công nghiệp.\n\n## 🛠️ Công nghệ cốt lõi\n- **Backend & Môi trường:** Python 3.12+, FastAPI, Docker Compose, UV.\n- **Lưu trữ & Tìm kiếm:** PostgreSQL 16 (lưu metadata), OpenSearch 2.19 (hỗ trợ BM25 & Vector).\n- **Data Pipeline:** Apache Airflow 3.0 (tự động hóa), Docling (parse PDF).\n- **Trí tuệ nhân tạo (AI/LLM):** Ollama (Local LLM), Jina AI (Embeddings), LangGraph (tạo quy trình Agentic).\n- **Tối ưu & Giám sát:** Redis (Caching), Langfuse (Observability/Tracing).\n- **Giao diện người dùng:** Gradio (Web UI), Telegram Bot (tương tác qua mobile).\n\n## 💡 Tại sao đáng chú ý?\n- **Cách tiếp cận \"Foundation First\":** Tập trung xây dựng kỹ thuật tìm kiếm hiệu quả theo tiêu chuẩn công nghiệp trước khi kết hợp thêm lớp ngữ nghĩa (semantic layer) và AI.\n- **Kiến trúc Agentic RAG tiên tiến:** Áp dụng hệ thống tác vụ tự hành (LangGraph) với khả năng tự đánh giá độ liên quan của văn bản, viết lại truy vấn (query rewriting) và kiểm soát chặt chẽ (guardrails) để tránh hiện tượng ảo giác (hallucination).\n- **Hệ thống End-to-End toàn diện:** Xây dựng đầy đủ từ pipeline tự động thu thập bài báo arXiv, xử lý dữ liệu PDF, cho đến công cụ giám sát, tối ưu bộ nhớ đệm (caching) giúp tăng tốc độ phản hồi lên đến hàng trăm lần.\n- **Bảo mật và miễn phí hoàn toàn:** Toàn bộ hệ thống được thiết kế để có thể chạy cục bộ 100% giúp bảo vệ dữ liệu, đồng thời tiết kiệm chi phí sử dụng API.\n"
+  },
+  {
     "id": "mattpocock_skills",
     "name": "mattpocock/skills",
     "description": "Các kỹ năng dành cho Kỹ sư Thực thụ, được lấy trực tiếp từ thư mục .claude của tôi.",
@@ -254,18 +308,18 @@
   {
     "id": "microsoft_markitdown",
     "name": "microsoft/markitdown",
-    "description": "Công cụ Python để chuyển đổi tệp tin và tài liệu văn phòng sang định dạng Markdown.",
+    "description": "Python tool for converting files and office documents to Markdown.",
     "tags": [],
-    "stars": 136528,
+    "stars": 141217,
     "folder": "microsoft_markitdown",
     "summary": "# 🚀 Tên Repo\nMarkItDown\n\n## 🌟 Trọng tâm\nMarkItDown là một công cụ Python gọn nhẹ giúp chuyển đổi đa dạng các định dạng file (PDF, Word, Excel, Audio, HTML...) sang Markdown, tối ưu hóa nội dung để sử dụng trong các quy trình AI và mô hình ngôn ngữ lớn (LLM).\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nCác mô hình ngôn ngữ lớn (như GPT-4o) hiểu và xử lý định dạng Markdown rất tốt, nhưng các tài liệu trong thực tế lại ở dưới nhiều định dạng phức tạp như PDF, PowerPoint, hoặc Excel.\nMarkItDown giải quyết bài toán này bằng cách cung cấp một tiện ích dễ sử dụng, cho phép trích xuất nội dung văn bản và bảo toàn cấu trúc tài liệu (tiêu đề, bảng biểu, danh sách) từ nhiều nguồn khác nhau. Mục tiêu là tạo ra một đầu vào sạch, hiệu quả về mặt token (token-efficient) cho các công cụ phân tích văn bản và hệ thống AI mà không cần phải thiết lập các pipeline phức tạp.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ**: Python (yêu cầu bản 3.10 trở lên)\n- **Kiến trúc**: Hỗ trợ giao diện dòng lệnh (CLI) và Python API.\n- **Tích hợp**: Hỗ trợ gọi các LLM Vision (như GPT-4o qua OpenAI API) để mô tả hình ảnh hoặc OCR, và tích hợp với các dịch vụ đám mây mạnh mẽ như Azure Content Understanding và Azure Document Intelligence.\n- **Hệ sinh thái**: Hỗ trợ mở rộng thông qua các plugin (ví dụ: `markitdown-ocr`).\n\n## 💡 Tại sao đáng chú ý?\nMarkItDown đang cực kỳ thu hút vì nó là một mảnh ghép thiết yếu trong hệ sinh thái RAG (Retrieval-Augmented Generation) và AI Agents. Việc xây dựng ứng dụng AI đòi hỏi phải xử lý dữ liệu từ đủ mọi nguồn file khác nhau, và MarkItDown xử lý tất cả chúng một cách gọn nhẹ thông qua một API duy nhất. Điểm đặc biệt là nó tận dụng chính các LLM để thực hiện OCR và mô tả hình ảnh, biến mọi tài liệu thành Markdown – định dạng \"ngôn ngữ mẹ đẻ\" mà các LLM cực kỳ yêu thích.\n"
   },
   {
     "id": "nesquena_hermes-webui",
     "name": "nesquena/hermes-webui",
-    "description": "Hermes WebUI: Cách tuyệt vời nhất để sử dụng Hermes Agent từ trình duyệt web hoặc điện thoại của bạn!",
+    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
     "tags": [],
-    "stars": 10405,
+    "stars": 12563,
     "folder": "nesquena_hermes-webui",
     "summary": "# 🚀 Hermes Web UI\n\n## 🌟 Trọng tâm\nGiao diện web nhẹ nhàng, giao diện tối (dark-theme) trên trình duyệt dành cho Hermes Agent, cung cấp trải nghiệm đầy đủ như CLI với bộ nhớ bền bỉ và khả năng tự cải thiện theo thời gian.\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nCác công cụ AI hiện nay thường khởi động lại từ đầu ở mỗi phiên làm việc, không nhớ người dùng là ai, đang làm gì hay tuân theo các quy ước nào của dự án. Hermes WebUI giải quyết vấn đề đó bằng cách kết hợp với Hermes Agent để tạo ra một trợ lý AI luôn hoạt động, có khả năng duy trì ngữ cảnh xuyên suốt các phiên, tự động chạy các công việc theo lịch ngay cả khi người dùng ngoại tuyến, và ngày càng thông minh hơn khi tiếp xúc lâu dài với môi trường làm việc. Mục tiêu là mang lại một trải nghiệm sử dụng trơn tru, đầy đủ chức năng 1:1 như giao diện dòng lệnh (CLI) nhưng trên một giao diện web tiện lợi, có thể truy cập an toàn từ mọi nơi.\n\n## 🛠️ Công nghệ cốt lõi\nDự án được xây dựng theo hướng cực kỳ tối giản nhưng hiệu quả:\n- **Backend**: Python thuần (Standard library HTTP server), không cần framework hay dependencies phức tạp.\n- **Frontend**: Vanilla JavaScript, HTML, CSS (không cần quá trình build, không bundler).\n- **Tính năng nổi bật**: SSE (Server-Sent Events) cho streaming thời gian thực, Web Speech API cho nhập liệu bằng giọng nói, Prism.js cho syntax highlighting.\n- **Hệ sinh thái AI**: Hỗ trợ nhiều nhà cung cấp (OpenAI, Anthropic, Google, DeepSeek, OpenRouter, MiniMax...) và có thể điều phối các subagent khác như Claude Code hoặc Codex.\n\n## 💡 Tại sao đáng chú ý?\nHermes WebUI đang là một xu hướng đáng chú ý vì nó mang đến giải pháp **tự lưu trữ (self-hosted)** thực thụ cho AI có bộ nhớ vĩnh viễn và tự viết các kỹ năng mới dựa trên kinh nghiệm thay vì phụ thuộc vào một kho plugin cộng đồng. Khác với các đối thủ, Hermes hoạt động mượt mà trong hệ sinh thái Python, cho phép quản lý công việc ngầm (cron jobs), tích hợp với hơn 10 nền tảng nhắn tin (Telegram, Discord, Slack...) và cung cấp giao diện quản lý workspace (file browser, editor) trực quan ngay cạnh khung chat. Kiến trúc \"không build step\" của nó khiến cho việc cài đặt và mở rộng vô cùng dễ dàng đối với các nhà phát triển.\n"
   },
@@ -297,6 +351,21 @@
     "stars": 33047,
     "folder": "pbakaus_impeccable",
     "summary": "Impeccable là một bộ công cụ (kỹ năng) thiết kế giao diện frontend toàn diện dành cho các công cụ AI lập trình (như Claude Code, Cursor, Gemini CLI, v.v.), giúp vượt qua những hạn chế và thiết kế khuôn mẫu thường gặp (AI slop) trên các mô hình AI hiện nay. Bằng cách cung cấp một từ vựng thiết kế bao gồm 23 lệnh và 7 tệp tham chiếu chuyên sâu (như kiểu chữ, màu sắc, không gian, chuyển động), Impeccable hướng dẫn AI tránh các lỗi thiết kế phổ biến (anti-patterns) và tạo ra các giao diện tinh tế, thẩm mỹ hơn.\n\nCác tính năng chính của Impeccable bao gồm bộ kiểm tra quy tắc tự động với 27 quy tắc thiết kế (chạy được trên CLI không cần API AI) và quy trình đánh giá LLM mở rộng. Người dùng có thể sử dụng các lệnh như `/impeccable polish` để dọn dẹp thiết kế cuối cùng, `/audit` để kiểm tra chất lượng, hoặc `/critique` để nhận phản hồi UX chuyên sâu. Công cụ còn bao gồm các hướng dẫn cụ thể để tránh những kiểu thiết kế nhàm chán như việc lạm dụng font Inter, bóng mờ màu xám trên nền màu, hay các thẻ lồng nhau.\n\nĐể bắt đầu, bạn có thể dễ dàng cài đặt công cụ thông qua lệnh CLI `npx impeccable skills install` ở thư mục gốc của dự án. Trình cài đặt sẽ tự động nhận diện và cấu hình phù hợp với môi trường AI bạn đang dùng. Ngoài ra, bạn cũng có thể tải trực tiếp file từ trang chủ hoặc sao chép thủ công từ kho lưu trữ. Sau khi cài đặt, bạn chỉ cần gõ `/impeccable` để xem danh sách toàn bộ các công cụ và bắt đầu trải nghiệm quá trình nâng cấp thiết kế.\n"
+  },
+  {
+    "id": "reconurge_flowsint",
+    "name": "reconurge/flowsint",
+    "description": "Một nền tảng hiện đại hỗ trợ điều tra trực quan, linh hoạt và có khả năng mở rộng dựa trên đồ thị, dành cho các nhà phân tích an ninh mạng và điều tra viên.",
+    "tags": [
+      "OSINT",
+      "Cybersecurity",
+      "Graph Database",
+      "Python",
+      "FastAPI"
+    ],
+    "stars": 4530,
+    "folder": "reconurge_flowsint",
+    "summary": "# 🚀 reconurge_flowsint\n## 🌟 Trọng tâm\nFlowsint là một công cụ phân tích tình báo nguồn mở (OSINT) và khám phá bằng đồ thị. Trọng tâm của dự án là hỗ trợ các cuộc điều tra đạo đức, minh bạch và có tính xác minh, thông qua việc trực quan hóa các mối quan hệ giữa các thực thể và tự động hóa việc làm giàu dữ liệu (enrichment).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết nhu cầu trinh sát, thu thập thông tin và liên kết các thực thể phức tạp (như Domain, IP, Mạng xã hội, Email, Tổ chức, Website, Crypto, v.v.) trong các cuộc điều tra số. Đặc biệt đảm bảo tính riêng tư an toàn do mọi dữ liệu điều tra đều được lưu trữ hoàn toàn trên thiết bị nội bộ của người dùng.\n- **Khách hàng mục tiêu:** Các nhà phân tích và nghiên cứu an ninh mạng, các nhà báo điều tra, đội ngũ phòng chống gian lận và thực thi pháp luật, cũng như các chuyên gia tình báo mối đe dọa nội bộ (threat intelligence).\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc mô-đun (Modular Architecture):** Phân tách rõ ràng giữa `flowsint-core` (lõi orchestrator, vault), `flowsint-types` (Pydantic models), `flowsint-enrichers` (logic quét và công cụ thu thập), `flowsint-api` (FastAPI backend server) và `flowsint-app` (Frontend).\n- **Backend & Database:** Viết bằng Python, sử dụng FastAPI. Tích hợp các cơ sở dữ liệu PostgreSQL và Neo4j (Graph Database) chuyên biệt cho việc xử lý cấu trúc đồ thị.\n- **Frontend:** Ứng dụng có giao diện hiện đại, dễ sử dụng, được tối ưu hóa để hiển thị mượt mà hàng ngàn điểm dữ liệu (nodes) mà không gặp hiện tượng giật lag.\n- **Triển khai:** Khởi chạy cực kỳ dễ dàng thông qua Docker và Make.\n\n## 💡 Tại sao đáng chú ý?\n- **Hệ sinh thái Enricher mạnh mẽ:** Hỗ trợ sẵn hàng chục công cụ làm giàu dữ liệu mạnh mẽ như tra cứu DNS, IP, quét MXH (tích hợp Maigret), trích xuất liên kết website, truy vết giao dịch ví Crypto và quét rò rỉ dữ liệu qua Email/Số điện thoại.\n- **Bảo vệ quyền riêng tư:** Toàn bộ công việc OSINT đều được thực hiện locally, mang lại sự an tâm tuyệt đối khi điều tra các dữ liệu nhạy cảm.\n- **Sức mạnh trực quan hóa:** Chuyển đổi lượng dữ liệu tình báo lớn và rời rạc thành các bản đồ quan hệ tương tác đồ họa sinh động.\n- **Linh hoạt và dễ mở rộng:** Dễ dàng bổ sung các module phân tích mới, tích hợp API bên ngoài (như N8n Connector) nhờ cấu trúc project tiêu chuẩn.\n"
   },
   {
     "id": "revfactory_harness",
@@ -361,30 +430,18 @@
   {
     "id": "stefan-jansen_machine-learning-for-trading",
     "name": "stefan-jansen/machine-learning-for-trading",
-    "description": "Kho lưu trữ chứa hơn 150 Jupyter notebook đi kèm cuốn sách \"Học máy trong Giao dịch\", hướng dẫn toàn diện cách ứng dụng các mô hình học máy và học sâu vào xây dựng, kiểm thử ngược và đánh giá các chiến lược giao dịch thuật toán.",
-    "tags": [
-      "machine-learning",
-      "algorithmic-trading",
-      "python",
-      "deep-learning",
-      "finance"
-    ],
-    "stars": 18027,
+    "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+    "tags": [],
+    "stars": 18494,
     "folder": "stefan-jansen_machine-learning-for-trading",
     "summary": "Cuốn sách \"Học máy trong Giao dịch - Phiên bản 2\" của Stefan Jansen trình bày cách ứng dụng hiệu quả các kỹ thuật Machine Learning (ML) vào các chiến lược giao dịch thuật toán. Repo này chứa hơn 150 Jupyter notebook đóng vai trò minh họa thực tế cho các thuật toán, mô hình và khái niệm được đề cập trong sách, bao gồm từ hồi quy tuyến tính cơ bản đến học tăng cường sâu (Deep Reinforcement Learning). Nó hỗ trợ người dùng xây dựng, kiểm thử ngược (backtest) và đánh giá các chiến lược giao dịch tự động.\n\nCác tính năng cốt lõi của repo bao gồm việc cung cấp quy trình phân tích và giao dịch (ML4T workflow) hoàn chỉnh: từ khâu lấy dữ liệu, trích xuất đặc trưng tài chính, tinh chỉnh các mô hình dự đoán, cho đến khi mô phỏng chiến lược trên dữ liệu lịch sử bằng các nền tảng như Zipline hay Backtrader. Các ví dụ mã nguồn bao quát việc ứng dụng ML trên nhiều loại dữ liệu như dữ liệu thị trường, báo cáo cơ bản, cũng như các dạng dữ liệu thay thế (alternative data) gồm hình ảnh vệ tinh, báo cáo SEC và phân tích cảm xúc từ tin tức. Bên cạnh đó, sách sử dụng những kỹ thuật Học sâu tiên tiến như CNN, RNN, bộ mã hóa tự động (autoencoders) và GAN.\n\nĐể bắt đầu sử dụng, người dùng được khuyến nghị sử dụng Docker image hoặc tạo các môi trường Conda đã được cấu hình sẵn trong thư mục `installation`. Hãy bắt đầu bằng việc đọc hướng dẫn cài đặt và thiết lập dữ liệu trong thư mục `data`. Các thư mục trong repo được tổ chức tương ứng với 24 chương của cuốn sách, mỗi thư mục sẽ chứa một file `README.md` riêng với nội dung chi tiết. Người dùng nên vừa tham khảo cuốn sách vừa chạy song song các notebook tương ứng để tiếp thu kiến thức một cách hiệu quả nhất.\n"
   },
   {
     "id": "supermemoryai_supermemory",
     "name": "supermemoryai/supermemory",
-    "description": "Supermemory là một công cụ bộ nhớ siêu tốc, có khả năng mở rộng dành cho AI, giúp tự động ghi nhớ, quản lý ngữ cảnh trò chuyện và xây dựng hồ sơ người dùng một cách hiệu quả.",
-    "tags": [
-      "AI",
-      "Memory",
-      "Context",
-      "RAG",
-      "LLM"
-    ],
-    "stars": 24195,
+    "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+    "tags": [],
+    "stars": 24662,
     "folder": "supermemoryai_supermemory",
     "summary": "Supermemory là một công cụ ngữ cảnh và bộ nhớ tiên tiến dành cho các hệ thống AI, định vị bản thân như một giải pháp thay thế vượt trội cho các hệ thống RAG cơ bản. Dự án tập trung vào việc lưu trữ, gợi nhớ các dữ kiện, tự động theo dõi các bản cập nhật, giải quyết mâu thuẫn và loại bỏ các thông tin hết hạn để duy trì hồ sơ người dùng một cách chính xác. Supermemory cung cấp cả ứng dụng cho người dùng cuối cùng các API mạnh mẽ để các nhà phát triển dễ dàng tích hợp bộ nhớ dài hạn vào các công cụ và tác nhân AI tùy chỉnh của họ.\n\nCác tính năng nổi bật của dự án bao gồm khả năng tìm kiếm kết hợp (hybrid search) giữa RAG và bộ nhớ người dùng, tự động trích xuất và tạo hồ sơ người dùng từ ngữ cảnh trò chuyện, xử lý các tệp tin đa phương thức, và đồng bộ hóa thời gian thực với các nền tảng phổ biến như Google Drive, GitHub hay Notion. Hiện tại, Supermemory đang dẫn đầu trên nhiều công cụ đo lường hiệu năng bộ nhớ AI lớn như LongMemEval, LoCoMo, ConvoMem, đồng thời hỗ trợ tích hợp dễ dàng với các framework AI phổ biến như LangChain, Vercel AI SDK hay OpenAI.\n\nĐể bắt đầu, người dùng phổ thông có thể trải nghiệm miễn phí qua ứng dụng web hoặc tiện ích mở rộng trình duyệt để AI luôn ghi nhớ bối cảnh các cuộc trò chuyện. Đối với các nhà phát triển, chỉ cần cài đặt thư viện `supermemory` qua npm hoặc pip, sau đó sử dụng một vài dòng code API đơn giản để lưu trữ ngữ cảnh, truy xuất hồ sơ người dùng chi tiết và thực hiện các truy vấn tìm kiếm kết hợp mạnh mẽ.\n"
   },

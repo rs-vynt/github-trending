@@ -1,0 +1,16 @@
+{
+  "id": "affaan-m_ECC",
+  "fullName": "affaan-m/ECC",
+  "name": "ECC",
+  "description": "Hệ thống tối ưu hiệu suất dành cho harness của tác nhân AI, bao gồm kỹ năng, bản năng, bộ nhớ, bảo mật và phát triển hướng nghiên cứu cho Claude Code, Codex, Opencode, Cursor và nhiều hơn nữa.",
+  "stars": 204022,
+  "forks": 0,
+  "readmeHash": "ba6ba67321fe1da1a31599fb3d59df8e",
+  "tags": [
+    "AI Agents",
+    "Multi-agent",
+    "CLI",
+    "Security",
+    "Optimization"
+  ]
+}

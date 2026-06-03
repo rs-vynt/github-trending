@@ -1,0 +1,16 @@
+{
+  "id": "Open-LLM-VTuber_Open-LLM-VTuber",
+  "fullName": "Open-LLM-VTuber/Open-LLM-VTuber",
+  "name": "Open-LLM-VTuber",
+  "description": "Trò chuyện với bất kỳ LLM nào thông qua tương tác giọng nói rảnh tay, hỗ trợ ngắt lời, cùng hình đại diện Live2D, chạy hoàn toàn cục bộ trên nhiều nền tảng.",
+  "stars": 8385,
+  "forks": 0,
+  "readmeHash": "5ca4bee3e6464cfdd6c29109da7ec89b",
+  "tags": [
+    "LLM",
+    "VTuber",
+    "Live2D",
+    "AI Companion",
+    "Open Source"
+  ]
+}

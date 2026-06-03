@@ -1,0 +1,16 @@
+{
+  "id": "jamwithai_production-agentic-rag-course",
+  "fullName": "jamwithai/production-agentic-rag-course",
+  "name": "production-agentic-rag-course",
+  "description": "Dự án là một khóa học thực hành toàn diện hướng dẫn xây dựng hệ thống trợ lý nghiên cứu Agentic RAG chuẩn production từ nền tảng tìm kiếm đến tích hợp LLM.",
+  "stars": 6398,
+  "forks": 0,
+  "readmeHash": "8c51ad8d849f035b139d813e47ccef31",
+  "tags": [
+    "AI",
+    "RAG",
+    "Python",
+    "Course",
+    "FastAPI"
+  ]
+}

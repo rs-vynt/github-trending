@@ -1,0 +1,16 @@
+{
+  "id": "chopratejas_headroom",
+  "fullName": "chopratejas/headroom",
+  "name": "headroom",
+  "description": "Nén đầu ra của công cụ, log, file và các đoạn RAG trước khi đến LLM, giúp giảm 60-95% lượng token mà vẫn giữ nguyên câu trả lời, được hỗ trợ dưới dạng thư viện, proxy và MCP server.",
+  "stars": 6559,
+  "forks": 0,
+  "readmeHash": "21202b1bf71602fcd589bea257075988",
+  "tags": [
+    "AI Agent",
+    "Token Optimization",
+    "MCP",
+    "Python",
+    "Context Compression"
+  ]
+}

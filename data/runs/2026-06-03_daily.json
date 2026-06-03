@@ -1,0 +1,62 @@
+{
+  "id": "2026-06-03_daily",
+  "date": "2026-06-03",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "chopratejas_headroom",
+      "stars": 6559,
+      "rank": 1
+    },
+    {
+      "id": "microsoft_markitdown",
+      "stars": 141217,
+      "rank": 2
+    },
+    {
+      "id": "affaan-m_ECC",
+      "stars": 204022,
+      "rank": 3
+    },
+    {
+      "id": "D4Vinci_Scrapling",
+      "stars": 59211,
+      "rank": 4
+    },
+    {
+      "id": "nesquena_hermes-webui",
+      "stars": 12563,
+      "rank": 5
+    },
+    {
+      "id": "reconurge_flowsint",
+      "stars": 4530,
+      "rank": 6
+    },
+    {
+      "id": "OpenBMB_VoxCPM",
+      "stars": 25147,
+      "rank": 7
+    },
+    {
+      "id": "stefan-jansen_machine-learning-for-trading",
+      "stars": 18494,
+      "rank": 8
+    },
+    {
+      "id": "jamwithai_production-agentic-rag-course",
+      "stars": 6398,
+      "rank": 9
+    },
+    {
+      "id": "supermemoryai_supermemory",
+      "stars": 24662,
+      "rank": 10
+    },
+    {
+      "id": "Open-LLM-VTuber_Open-LLM-VTuber",
+      "stars": 8385,
+      "rank": 11
+    }
+  ]
+}

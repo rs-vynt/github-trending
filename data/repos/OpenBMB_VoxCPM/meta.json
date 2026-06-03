@@ -2,15 +2,9 @@
   "id": "OpenBMB_VoxCPM",
   "fullName": "OpenBMB/VoxCPM",
   "name": "VoxCPM",
-  "description": "VoxCPM là một hệ thống Text-to-Speech (TTS) mã nguồn mở tiên tiến không sử dụng tokenizer, hỗ trợ tạo giọng nói đa ngôn ngữ, thiết kế giọng nói theo mô tả và nhân bản giọng nói với chất lượng studio 48kHz.",
-  "stars": 24547,
+  "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+  "stars": 25147,
   "forks": 0,
-  "readmeHash": "e1c39b82dc45f1056cc958902bce53d0",
-  "tags": [
-    "Text-to-Speech",
-    "Voice Cloning",
-    "Generative AI",
-    "Audio Synthesis",
-    "Multilingual"
-  ]
+  "readmeHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "tags": []
 }

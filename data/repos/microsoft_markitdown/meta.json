@@ -2,9 +2,9 @@
   "id": "microsoft_markitdown",
   "fullName": "microsoft/markitdown",
   "name": "markitdown",
-  "description": "Công cụ Python để chuyển đổi tệp tin và tài liệu văn phòng sang định dạng Markdown.",
-  "stars": 136528,
+  "description": "Python tool for converting files and office documents to Markdown.",
+  "stars": 141217,
   "forks": 0,
-  "readmeHash": "8dce5929bbd60aed685d3795888460fc",
+  "readmeHash": "d41d8cd98f00b204e9800998ecf8427e",
   "tags": []
 }
