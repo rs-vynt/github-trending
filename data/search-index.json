@@ -78,6 +78,15 @@
     "summary": "# 🚀 HKUDS/ViMax\n\n## 🌟 Trọng tâm\nViMax là một khuôn khổ tạo video đa tác nhân (multi-agent) hoạt động như một hệ thống \"Tất cả trong một\" bao gồm đạo diễn, biên kịch, nhà sản xuất và công cụ tạo video. Hệ thống này cho phép tự động hóa toàn bộ quy trình tạo video để biến kịch bản, ý tưởng hoặc tiểu thuyết thành các video có cốt truyện với độ nhất quán cao giữa các cảnh quay.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n**Bài toán giải quyết:** Công cụ này giải quyết những hạn chế của các mô hình AI tạo video hiện tại, vốn chỉ tạo được các đoạn clip rất ngắn, thiếu tính nhất quán về nhân vật/bối cảnh qua các khung hình, và không có khả năng xây dựng kịch bản, âm thanh hay cấu trúc kể chuyện sâu sắc.\n**Khách hàng mục tiêu:** Các nhà sáng tạo nội dung độc lập, nhà làm phim, người kể chuyện, và bất kỳ ai muốn biến những ý tưởng hay câu chuyện dài thành những video có hình ảnh chất lượng chuyên nghiệp mà không cần kinh nghiệm sản xuất video.\n\n## 🛠️ Công nghệ cốt lõi\n- **Hệ thống tạo kịch bản dài dựa trên RAG:** Phân tích một cách thông minh các câu chuyện dài và chia chúng thành định dạng kịch bản đa cảnh.\n- **Workflow Đa Tác Nhân (Multi-Agent):** Điều phối trung tâm quy trình từ hiểu kịch bản, thiết kế bảng phân cảnh (storyboard), đến lựa chọn hình ảnh tham chiếu và kết xuất video.\n- **Mô phỏng đa góc máy và kiểm tra tính nhất quán:** Sử dụng MLLM/VLM để duy trì sự ổn định của bối cảnh và nhân vật, chọn ra khung hình tốt nhất làm tiêu chuẩn.\n\n## 💡 Tại sao đáng chú ý?\nViMax mang tới một bước tiến quan trọng từ việc chỉ tạo ra các đoạn phim ngắn ngẫu nhiên bằng AI sang việc \"làm phim tự động\". Hệ thống hỗ trợ đa dạng phương thức tạo nội dung: từ ý tưởng đến video (Idea2Video), từ tiểu thuyết thành phim (Novel2Video), từ kịch bản có sẵn (Script2Video), hay thậm chí là thêm hình ảnh của chính người dùng vào cốt truyện (AutoCameo). Đây là giải pháp đột phá mở ra sự tự do sáng tạo vô tận cho nghệ thuật kể chuyện bằng hình ảnh.\n"
   },
   {
+    "id": "HKUDS_Vibe-Trading",
+    "name": "HKUDS/Vibe-Trading",
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "tags": [],
+    "stars": 10148,
+    "folder": "HKUDS_Vibe-Trading",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "Imbad0202_academic-research-skills",
     "name": "Imbad0202/academic-research-skills",
     "description": "Kỹ năng Nghiên cứu Học thuật dành cho Claude Code: nghiên cứu → viết → phản biện → chỉnh sửa → hoàn thiện",
@@ -106,6 +115,15 @@
     "stars": 48169,
     "folder": "Lum1104_Understand-Anything",
     "summary": "# 🚀 Understand Anything\n\n## 🌟 Trọng tâm\nUnderstand Anything giúp biến bất kỳ cơ sở mã, cơ sở tri thức hoặc tài liệu nào thành một đồ thị tri thức tương tác. Mục tiêu cốt lõi không phải là vẽ ra một đồ thị phức tạp để gây ấn tượng, mà là tạo ra một đồ thị có khả năng hướng dẫn và giúp bạn hiểu rõ cách các thành phần trong hệ thống liên kết với nhau.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nGiải quyết khó khăn khi tiếp cận các dự án lớn (hàng trăm nghìn dòng code) bằng cách cung cấp sơ đồ trực quan, tìm kiếm ngữ nghĩa và phân tích tác động của code. Công cụ hướng đến mọi đối tượng từ lập trình viên (junior/senior) cần hiểu kiến trúc và gỡ lỗi, cho đến Quản lý sản phẩm (PM) muốn nắm bắt luồng logic nghiệp vụ.\n\n## 🛠️ Công nghệ cốt lõi\nSử dụng phương pháp lai (hybrid) giữa Tree-sitter (phân tích tĩnh, trích xuất cấu trúc như hàm, lớp, phụ thuộc một cách tất định) và LLM (đường ống đa tác nhân phân tích ngữ nghĩa, tạo tóm tắt, nhóm kiến trúc và luồng nghiệp vụ). Công cụ tự động phát hiện ngôn ngữ và hỗ trợ phân tích tăng dần (incremental).\n\n## 💡 Tại sao đáng chú ý?\nHỗ trợ đa nền tảng mạnh mẽ (Claude Code, Cursor, VS Code Copilot, Gemini CLI, v.v.) và đa ngôn ngữ. Đồ thị tạo ra (dưới dạng JSON) có thể được lưu trữ cùng mã nguồn (docs-as-code) để toàn đội ngũ cùng sử dụng mà không cần chạy lại phân tích, lý tưởng cho việc đào tạo nhân sự mới và đánh giá Pull Request.\n"
+  },
+  {
+    "id": "NousResearch_hermes-agent",
+    "name": "NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "tags": [],
+    "stars": 179497,
+    "folder": "NousResearch_hermes-agent",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "Open-LLM-VTuber_Open-LLM-VTuber",
@@ -175,6 +193,15 @@
     "stars": 29201,
     "folder": "anthropics_financial-services",
     "summary": "# 🚀 Claude for Financial Services\n\n## 🌟 Trọng tâm\nDự án cung cấp các tác nhân tham chiếu (reference agents), bộ kỹ năng (skills) và trình kết nối dữ liệu (data connectors) được tối ưu hóa cho các quy trình làm việc phổ biến trong lĩnh vực dịch vụ tài chính, bao gồm ngân hàng đầu tư, nghiên cứu cổ phiếu, vốn cổ phần tư nhân và quản lý gia sản.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nGiải quyết bài toán tự động hóa và tăng cường hiệu suất trong các tác vụ tài chính phức tạp như phân tích công ty so sánh, định giá DCF, theo dõi danh mục đầu tư và kiểm toán báo cáo. Khách hàng mục tiêu là các chuyên gia tài chính, nhà phân tích, quản lý quỹ và cố vấn tài sản tại các tổ chức tài chính, giúp họ nhanh chóng tạo ra các bản thảo tài liệu chuyên nghiệp để con người đánh giá và ký duyệt.\n\n## 🛠️ Công nghệ cốt lõi\nHệ thống sử dụng Claude Managed Agents API, kiến trúc Model Context Protocol (MCP) để kết nối dữ liệu, và Claude Cowork dưới dạng plugin. Các thành phần được xây dựng hoàn toàn dựa trên tệp (markdown, YAML, JSON), cho phép triển khai linh hoạt (headless hoặc qua giao diện). Nó cũng tích hợp sẵn với hệ sinh thái Microsoft 365 và các nhà cung cấp dữ liệu hàng đầu (S&P Global, PitchBook, FactSet, LSEG).\n\n## 💡 Tại sao đáng chú ý?\nKho lưu trữ cung cấp một giải pháp \"hai trong một\" ấn tượng: vừa là công cụ cài đặt dùng ngay, vừa là bộ khung (framework) dễ dàng tùy chỉnh theo ngữ cảnh của từng công ty. Với sự hỗ trợ mạnh mẽ cho các thao tác Excel, PowerPoint và khả năng kết nối dữ liệu theo thời gian thực qua MCP, dự án này giúp các luồng công việc tài chính chuyên sâu trở nên chuẩn hóa, nhanh chóng và giảm thiểu sai sót một cách đáng kể.\n"
+  },
+  {
+    "id": "aquasecurity_trivy",
+    "name": "aquasecurity/trivy",
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "tags": [],
+    "stars": 35464,
+    "folder": "aquasecurity_trivy",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "bytedance_UI-TARS-desktop",
@@ -291,6 +318,24 @@
     "summary": "# 🚀 jamwithai_production-agentic-rag-course\n\n## 🌟 Trọng tâm\nKhóa học thực hành chuyên sâu (project-based) tập trung vào việc tự xây dựng hệ thống RAG (Retrieval-Augmented Generation) chuẩn production từ con số không. Khóa học nhấn mạnh vào lộ trình chuyên nghiệp: thiết lập nền tảng tìm kiếm từ khóa vững chắc (BM25) trước, sau đó mới nâng cấp lên tìm kiếm vector (hybrid search) và tích hợp AI, thay vì chỉ ưu tiên AI mà bỏ qua các nền tảng cốt lõi. Sản phẩm thực tế cuối cùng là một Trợ lý nghiên cứu bài báo khoa học (arXiv Paper Curator) tự động với Agentic RAG.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết tình trạng các hướng dẫn trên mạng thường đi thẳng vào việc dùng vector search mà bỏ qua kiến trúc nền tảng cũng như các bước quan trọng cho môi trường thực tế (như chunking, hybrid search, caching, monitoring, agentic logic).\n- **Khách hàng mục tiêu:** Các kỹ sư AI/ML, kỹ sư phần mềm, và nhà khoa học dữ liệu muốn vượt ra khỏi những tutorial cơ bản để xây dựng hệ thống AI hoàn chỉnh (end-to-end) áp dụng các best practices công nghiệp.\n\n## 🛠️ Công nghệ cốt lõi\n- **Backend & Môi trường:** Python 3.12+, FastAPI, Docker Compose, UV.\n- **Lưu trữ & Tìm kiếm:** PostgreSQL 16 (lưu metadata), OpenSearch 2.19 (hỗ trợ BM25 & Vector).\n- **Data Pipeline:** Apache Airflow 3.0 (tự động hóa), Docling (parse PDF).\n- **Trí tuệ nhân tạo (AI/LLM):** Ollama (Local LLM), Jina AI (Embeddings), LangGraph (tạo quy trình Agentic).\n- **Tối ưu & Giám sát:** Redis (Caching), Langfuse (Observability/Tracing).\n- **Giao diện người dùng:** Gradio (Web UI), Telegram Bot (tương tác qua mobile).\n\n## 💡 Tại sao đáng chú ý?\n- **Cách tiếp cận \"Foundation First\":** Tập trung xây dựng kỹ thuật tìm kiếm hiệu quả theo tiêu chuẩn công nghiệp trước khi kết hợp thêm lớp ngữ nghĩa (semantic layer) và AI.\n- **Kiến trúc Agentic RAG tiên tiến:** Áp dụng hệ thống tác vụ tự hành (LangGraph) với khả năng tự đánh giá độ liên quan của văn bản, viết lại truy vấn (query rewriting) và kiểm soát chặt chẽ (guardrails) để tránh hiện tượng ảo giác (hallucination).\n- **Hệ thống End-to-End toàn diện:** Xây dựng đầy đủ từ pipeline tự động thu thập bài báo arXiv, xử lý dữ liệu PDF, cho đến công cụ giám sát, tối ưu bộ nhớ đệm (caching) giúp tăng tốc độ phản hồi lên đến hàng trăm lần.\n- **Bảo mật và miễn phí hoàn toàn:** Toàn bộ hệ thống được thiết kế để có thể chạy cục bộ 100% giúp bảo vệ dữ liệu, đồng thời tiết kiệm chi phí sử dụng API.\n"
   },
   {
+    "id": "jwasham_coding-interview-university",
+    "name": "jwasham/coding-interview-university",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "tags": [],
+    "stars": 349158,
+    "folder": "jwasham_coding-interview-university",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "lyogavin_airllm",
+    "name": "lyogavin/airllm",
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "tags": [],
+    "stars": 19008,
+    "folder": "lyogavin_airllm",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "mattpocock_skills",
     "name": "mattpocock/skills",
     "description": "Các kỹ năng dành cho Kỹ sư Thực thụ, được lấy trực tiếp từ thư mục .claude của tôi.",
@@ -322,6 +367,24 @@
     "stars": 12563,
     "folder": "nesquena_hermes-webui",
     "summary": "# 🚀 Hermes Web UI\n\n## 🌟 Trọng tâm\nGiao diện web nhẹ nhàng, giao diện tối (dark-theme) trên trình duyệt dành cho Hermes Agent, cung cấp trải nghiệm đầy đủ như CLI với bộ nhớ bền bỉ và khả năng tự cải thiện theo thời gian.\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nCác công cụ AI hiện nay thường khởi động lại từ đầu ở mỗi phiên làm việc, không nhớ người dùng là ai, đang làm gì hay tuân theo các quy ước nào của dự án. Hermes WebUI giải quyết vấn đề đó bằng cách kết hợp với Hermes Agent để tạo ra một trợ lý AI luôn hoạt động, có khả năng duy trì ngữ cảnh xuyên suốt các phiên, tự động chạy các công việc theo lịch ngay cả khi người dùng ngoại tuyến, và ngày càng thông minh hơn khi tiếp xúc lâu dài với môi trường làm việc. Mục tiêu là mang lại một trải nghiệm sử dụng trơn tru, đầy đủ chức năng 1:1 như giao diện dòng lệnh (CLI) nhưng trên một giao diện web tiện lợi, có thể truy cập an toàn từ mọi nơi.\n\n## 🛠️ Công nghệ cốt lõi\nDự án được xây dựng theo hướng cực kỳ tối giản nhưng hiệu quả:\n- **Backend**: Python thuần (Standard library HTTP server), không cần framework hay dependencies phức tạp.\n- **Frontend**: Vanilla JavaScript, HTML, CSS (không cần quá trình build, không bundler).\n- **Tính năng nổi bật**: SSE (Server-Sent Events) cho streaming thời gian thực, Web Speech API cho nhập liệu bằng giọng nói, Prism.js cho syntax highlighting.\n- **Hệ sinh thái AI**: Hỗ trợ nhiều nhà cung cấp (OpenAI, Anthropic, Google, DeepSeek, OpenRouter, MiniMax...) và có thể điều phối các subagent khác như Claude Code hoặc Codex.\n\n## 💡 Tại sao đáng chú ý?\nHermes WebUI đang là một xu hướng đáng chú ý vì nó mang đến giải pháp **tự lưu trữ (self-hosted)** thực thụ cho AI có bộ nhớ vĩnh viễn và tự viết các kỹ năng mới dựa trên kinh nghiệm thay vì phụ thuộc vào một kho plugin cộng đồng. Khác với các đối thủ, Hermes hoạt động mượt mà trong hệ sinh thái Python, cho phép quản lý công việc ngầm (cron jobs), tích hợp với hơn 10 nền tảng nhắn tin (Telegram, Discord, Slack...) và cung cấp giao diện quản lý workspace (file browser, editor) trực quan ngay cạnh khung chat. Kiến trúc \"không build step\" của nó khiến cho việc cài đặt và mở rộng vô cùng dễ dàng đối với các nhà phát triển.\n"
+  },
+  {
+    "id": "odoo_odoo",
+    "name": "odoo/odoo",
+    "description": "Odoo. Open Source Apps To Grow Your Business.",
+    "tags": [],
+    "stars": 52019,
+    "folder": "odoo_odoo",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "opendataloader-project_opendataloader-pdf",
+    "name": "opendataloader-project/opendataloader-pdf",
+    "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+    "tags": [],
+    "stars": 23414,
+    "folder": "opendataloader-project_opendataloader-pdf",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "p-e-w_heretic",
@@ -430,11 +493,11 @@
   {
     "id": "stefan-jansen_machine-learning-for-trading",
     "name": "stefan-jansen/machine-learning-for-trading",
-    "description": "Mã học máy cho giao dịch thuật toán, ấn bản thứ 2.",
+    "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...",
     "tags": [],
     "stars": 18494,
     "folder": "stefan-jansen_machine-learning-for-trading",
-    "summary": "# Edge Cases Repo\n![ParentPath](../docs/image2.png)"
+    "summary": "# Edge Cases Repo\n![ParentPath](../docs/image2.png)\n"
   },
   {
     "id": "supermemoryai_supermemory",
@@ -446,23 +509,9 @@
     "summary": "# Edge Cases Repo\n![DotSlash](./docs/image1.png)"
   },
   {
-    "id": "test-repo-1",
-    "name": "test/repo",
-    "description": "<script>alert(\"XSS\")</script><b>BoldTest</b>",
-    "stars": 10,
-    "folder": "test-repo-1",
-    "summary": "Chưa có bản tóm tắt AI."
-  },
-  {
-    "id": "test-repo-empty",
-    "description": "<script>alert(\"XSS\")</script><b>BoldTest</b>",
-    "folder": "test-repo-empty",
-    "summary": "<img src=\"x\" onerror=\"window.__xss_triggered = true\" />"
-  },
-  {
     "id": "yikart_AiToEarn",
     "name": "yikart/AiToEarn",
-    "description": "AiToEarn là một nền tảng tự động hóa mạng xã hội toàn diện bằng AI Agent, giúp người dùng sản xuất, phân phối và kiếm tiền từ nội dung hiệu quả.",
+    "description": "This is a unique Vietnamese description 1780478194286",
     "tags": [
       "AI Agent",
       "Tự động hóa mạng xã hội",

@@ -21,6 +21,7 @@ interface Repo {
   fullName?: string;
   descriptionVi?: string;
   default_branch?: string;
+  isNew?: boolean;
 }
 
 interface RepoCardClientProps {
@@ -59,7 +60,15 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
             </h2>
           </Link>
           <div className="flex items-center gap-3 shrink-0">
-
+            {repo.isNew && (
+              <div className="flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                <span className="relative flex h-1.5 w-1.5">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+                </span>
+                NEW
+              </div>
+            )}
             <Badge className="bg-white/10 text-zinc-200 border-white/10 flex items-center gap-1">
               <Star size={14} className="text-amber-400" /> {repo.stars?.toLocaleString()}
             </Badge>

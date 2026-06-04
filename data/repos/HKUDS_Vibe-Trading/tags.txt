@@ -1,0 +1,1 @@
+Python, FastAPI, React, AI Agent, Algorithmic Trading, Backtesting, Quantitative Finance, MCP

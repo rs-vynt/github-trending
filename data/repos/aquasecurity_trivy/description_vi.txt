@@ -1,0 +1,1 @@
+Trivy là một công cụ quét bảo mật mã nguồn mở linh hoạt và toàn diện, giúp phát hiện lỗ hổng, cấu hình sai, bí mật và SBOM trong container, Kubernetes, kho lưu trữ mã, đám mây và nhiều hệ thống khác.

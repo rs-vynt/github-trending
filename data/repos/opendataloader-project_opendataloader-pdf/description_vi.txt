@@ -1,0 +1,1 @@
+OpenDataLoader PDF là công cụ mã nguồn mở mạnh mẽ giúp phân tích và trích xuất dữ liệu có cấu trúc từ PDF với độ chính xác cao cho các hệ thống AI, đồng thời tự động hóa việc tạo Tagged PDF nhằm tuân thủ các quy định về khả năng truy cập.

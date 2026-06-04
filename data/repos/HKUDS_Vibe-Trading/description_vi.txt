@@ -1,0 +1,1 @@
+Vibe-Trading là một nền tảng tác nhân AI giao dịch cá nhân mã nguồn mở, cho phép phân tích thị trường, mô phỏng backtest chiến lược, và tự động hóa giao dịch đa nền tảng thông qua ngôn ngữ tự nhiên.

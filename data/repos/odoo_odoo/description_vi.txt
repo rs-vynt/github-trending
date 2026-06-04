@@ -1,0 +1,1 @@
+Odoo là một bộ phần mềm quản trị doanh nghiệp (ERP) mã nguồn mở toàn diện, cung cấp hàng loạt các ứng dụng tích hợp liền mạch như CRM, kế toán, bán hàng, và kho bãi trên cùng một nền tảng.

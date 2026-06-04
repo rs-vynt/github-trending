@@ -1,0 +1,1 @@
+Hermes Agent của Nous Research là một AI agent đa nền tảng tiên tiến với khả năng tự động học hỏi, tạo kỹ năng từ kinh nghiệm, tự tối ưu hóa bộ nhớ qua từng phiên trò chuyện và hỗ trợ linh hoạt nhiều mô hình ngôn ngữ lớn khác nhau.

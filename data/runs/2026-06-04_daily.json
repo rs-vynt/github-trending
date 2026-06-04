@@ -1,0 +1,91 @@
+{
+  "id": "2026-06-04_daily",
+  "date": "2026-06-04",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "chopratejas_headroom",
+      "stars": 10345,
+      "rank": 1,
+      "isNew": false
+    },
+    {
+      "id": "affaan-m_ECC",
+      "stars": 206036,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "aquasecurity_trivy",
+      "stars": 35464,
+      "rank": 3,
+      "isNew": true
+    },
+    {
+      "id": "NousResearch_hermes-agent",
+      "stars": 179497,
+      "rank": 4,
+      "isNew": true
+    },
+    {
+      "id": "microsoft_markitdown",
+      "stars": 143135,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "nesquena_hermes-webui",
+      "stars": 13176,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "D4Vinci_Scrapling",
+      "stars": 60457,
+      "rank": 7,
+      "isNew": false
+    },
+    {
+      "id": "opendataloader-project_opendataloader-pdf",
+      "stars": 23414,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "odoo_odoo",
+      "stars": 52019,
+      "rank": 9,
+      "isNew": true
+    },
+    {
+      "id": "Open-LLM-VTuber_Open-LLM-VTuber",
+      "stars": 9077,
+      "rank": 10,
+      "isNew": false
+    },
+    {
+      "id": "jwasham_coding-interview-university",
+      "stars": 349158,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "lyogavin_airllm",
+      "stars": 19008,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "supermemoryai_supermemory",
+      "stars": 25280,
+      "rank": 13,
+      "isNew": false
+    },
+    {
+      "id": "HKUDS_Vibe-Trading",
+      "stars": 10148,
+      "rank": 14,
+      "isNew": true
+    }
+  ]
+}

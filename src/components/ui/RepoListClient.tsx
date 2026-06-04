@@ -15,6 +15,7 @@ interface RepoWithSummary {
   descriptionVi?: string;
   default_branch?: string;
   fullName?: string;
+  isNew?: boolean;
 }
 
 interface RepoListClientProps {

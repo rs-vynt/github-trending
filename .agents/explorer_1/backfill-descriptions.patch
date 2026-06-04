@@ -1,0 +1,14 @@
+--- scripts/backfill-descriptions.ts
++++ scripts/backfill-descriptions.ts
+@@ -32,6 +32,11 @@
+     const metaPath = path.join(repoPath, 'meta.json');
+     const descViPath = path.join(repoPath, 'description_vi.txt');
+     
++    if (fs.existsSync(descViPath)) {
++      // Skip if the file already exists as per the scope requirements
++      continue;
++    }
++
+     if (fs.existsSync(metaPath)) {
+       const meta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+       const desc = meta.description || '';

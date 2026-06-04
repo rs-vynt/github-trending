@@ -1,0 +1,10 @@
+{
+  "id": "aquasecurity_trivy",
+  "fullName": "aquasecurity/trivy",
+  "name": "trivy",
+  "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+  "stars": 35464,
+  "forks": 0,
+  "readmeHash": "af03b8a022c201b92f689780a6254f3b",
+  "tags": []
+}

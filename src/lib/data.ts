@@ -21,7 +21,7 @@ export interface RunInfo {
   date: string;
   since: string;
   total_fetched: number;
-  repos: (RepoDetails & { rank: number; folder: string })[];
+  repos: (RepoDetails & { rank: number; folder: string; isNew?: boolean })[];
 }
 
 const dataDir = path.join(process.cwd(), 'data');

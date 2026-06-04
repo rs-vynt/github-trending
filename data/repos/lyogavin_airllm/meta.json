@@ -1,0 +1,10 @@
+{
+  "id": "lyogavin_airllm",
+  "fullName": "lyogavin/airllm",
+  "name": "airllm",
+  "description": "AirLLM 70B inference with single 4GB GPU",
+  "stars": 19008,
+  "forks": 0,
+  "readmeHash": "35363144925470f65ada6ff528ad3903",
+  "tags": []
+}

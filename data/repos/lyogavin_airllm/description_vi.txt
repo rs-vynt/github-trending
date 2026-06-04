@@ -1,0 +1,1 @@
+AirLLM là một thư viện tối ưu hóa bộ nhớ suy luận, cho phép chạy các mô hình ngôn ngữ lớn như 70B tham số trên một GPU 4GB duy nhất hoặc Llama3.1 405B trên GPU 8GB mà không cần cắt tỉa hay chưng cất, giúp tiết kiệm đáng kể chi phí phần cứng.
