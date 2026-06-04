@@ -80,11 +80,11 @@
   {
     "id": "HKUDS_Vibe-Trading",
     "name": "HKUDS/Vibe-Trading",
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "description": "Vibe-Trading là một nền tảng tác nhân AI giao dịch cá nhân mã nguồn mở, cho phép phân tích thị trường, mô phỏng backtest chiến lược, và tự động hóa giao dịch đa nền tảng thông qua ngôn ngữ tự nhiên.",
     "tags": [],
     "stars": 10148,
     "folder": "HKUDS_Vibe-Trading",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 HKUDS_Vibe-Trading\n\n## 🌟 Trọng tâm\nVibe-Trading là một không gian nghiên cứu mã nguồn mở (open-source research workspace) giúp biến các câu hỏi tài chính thành những phân tích và chiến lược giao dịch có thể chạy được thực tế thông qua các tác nhân AI (AI agents). Nền tảng này giúp kết nối các lời nhắc ngôn ngữ tự nhiên với các nguồn cung cấp dữ liệu thị trường, bộ tạo chiến lược, công cụ backtest, và bộ nhớ nghiên cứu.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Tự động hóa quá trình nghiên cứu thị trường, kiểm thử lại (backtest) các ý tưởng chiến lược, phân tích nhật ký giao dịch để tìm ra điểm yếu (Shadow Account), và tự động hóa giao dịch trên nhiều thị trường (chứng khoán, crypto, forex, futures).\n- **Khách hàng mục tiêu:** Các nhà nghiên cứu định lượng (quants), nhà đầu tư cá nhân, nhà giao dịch tự động, và lập trình viên muốn xây dựng các hệ thống giao dịch tự động thông minh bằng AI mà không cần tự viết mã từ con số không.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ & Framework:** Backend viết bằng Python 3.11+ (FastAPI), Frontend bằng React 19.\n- **Tác nhân AI (AI Agents):** Tích hợp đa dạng các LLMs (OpenAI, DeepSeek, Gemini, Groq, Ollama...) để phân tích, viết code và ra quyết định.\n- **Nền tảng dữ liệu & Kết nối (Connectors):** Hỗ trợ nhiều nguồn dữ liệu (yfinance, tushare, akshare, mootdx, ccxt, futu) và kết nối broker (IBKR, Robinhood, Tiger, OKX, Binance...).\n- **Giao thức:** Hỗ trợ Model Context Protocol (MCP) để có thể cắm trực tiếp vào các hệ thống AI khác như Claude Desktop, Cursor.\n\n## 💡 Tại sao đáng chú ý?\n- **Sử dụng ngôn ngữ tự nhiên:** Chỉ cần ra lệnh bằng tiếng Anh (hoặc tiếng khác), hệ thống có thể tự động viết code chiến lược, tải dữ liệu và chạy backtest ra báo cáo đầy đủ.\n- **Tính năng Shadow Account:** Cho phép tải lên lịch sử giao dịch cá nhân để AI phân tích hành vi, tìm ra các lỗi tâm lý (fomo, gồng lỗ) và tạo ra chiến lược so sánh.\n- **Alpha Zoo tích hợp sẵn:** Cung cấp sẵn 452 bộ tín hiệu alpha định lượng (từ Qlib, Kakushadze, GTJA) để người dùng có thể test nhanh trên các tập cổ phiếu.\n- **Hệ thống Multi-Agent (Swarm):** Cung cấp 29 đội ngũ AI (preset teams) đóng vai trò như các hội đồng đầu tư, quản trị rủi ro để tranh luận và đưa ra quyết định mua bán tối ưu nhất.\n"
   },
   {
     "id": "Imbad0202_academic-research-skills",
@@ -119,11 +119,11 @@
   {
     "id": "NousResearch_hermes-agent",
     "name": "NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
+    "description": "Hermes Agent của Nous Research là một AI agent đa nền tảng tiên tiến với khả năng tự động học hỏi, tạo kỹ năng từ kinh nghiệm, tự tối ưu hóa bộ nhớ qua từng phiên trò chuyện và hỗ trợ linh hoạt nhiều mô hình ngôn ngữ lớn khác nhau.",
     "tags": [],
     "stars": 179497,
     "folder": "NousResearch_hermes-agent",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 NousResearch_hermes-agent \n \n## 🌟 Trọng tâm \nDự án tập trung vào việc xây dựng một AI agent có khả năng tự cải thiện bản thân thông qua vòng lặp học tập tích hợp sẵn (closed learning loop). Agent này tự tạo ra các kỹ năng, tự duy trì kiến thức, và cá nhân hóa quá trình tương tác thông qua việc nhớ các cuộc trò chuyện trước đó và xây dựng hồ sơ người dùng.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu \n- **Bài toán giải quyết:** Vượt qua rào cản của các AI agent tĩnh bằng cách cung cấp một agent có bộ nhớ, lịch trình linh hoạt và có khả năng tương tác liên tục, hỗ trợ chạy tự động đa nền tảng cũng như kết hợp các công cụ tự sinh.\n- **Khách hàng mục tiêu:** Các nhà phát triển, nhà nghiên cứu AI (đặc biệt thích hợp cho nghiên cứu huấn luyện mô hình calling-tool), cũng như người dùng nâng cao muốn một AI cá nhân mạnh mẽ chạy trên VPS, máy chủ hoặc thậm chí cả trên laptop/PC cá nhân mà không phụ thuộc vào một nhà cung cấp LLM cụ thể.\n\n## 🛠️ Công nghệ cốt lõi \n- **Vòng lặp tự học & Kỹ năng (Learning loop & Skills):** Có khả năng tự tạo kỹ năng mới và hoàn thiện kỹ năng hiện tại; hỗ trợ tiêu chuẩn `agentskills.io`.\n- **Đa nền tảng giao diện:** Tích hợp giao diện dòng lệnh (TUI) và Messaging Gateway (Telegram, Discord, Slack, WhatsApp, Signal...).\n- **Tìm kiếm bộ nhớ (Memory & Search):** Sử dụng FTS5 cùng LLM để tóm tắt các cuộc hội thoại và Honcho dialectic user modeling.\n- **Hỗ trợ đa mô hình (Model Agnostic):** Tương thích linh hoạt với nhiều nhà cung cấp LLM như Nous Portal, OpenRouter, OpenAI, Hugging Face, v.v...\n- **Kiến trúc Serverless & Đa môi trường:** Chạy cục bộ, Docker, Modal, Daytona (tối ưu chi phí bằng cách ngủ đông khi rảnh).\n- **Hệ thống lịch trình (Cron Scheduler):** Tích hợp tính năng lập lịch tự động báo cáo, sao lưu.\n\n## 💡 Tại sao đáng chú ý?\nHermes Agent là AI agent duy nhất hiện nay sở hữu \"vòng lặp học tập tích hợp sẵn\" thực sự, giúp nó không ngừng tiến hóa thông qua kinh nghiệm. Đặc biệt, sự linh hoạt tuyệt đối – không khóa hệ sinh thái LLM (no lock-in), cho phép triển khai tiết kiệm trên đám mây (Cloud) lẫn máy cá nhân và khả năng mở rộng mạnh mẽ qua các Subagent cùng MCP làm nó trở nên vô cùng toàn diện, phục vụ từ hỗ trợ cá nhân cho đến nghiên cứu chuyên sâu.\n"
   },
   {
     "id": "Open-LLM-VTuber_Open-LLM-VTuber",
@@ -197,11 +197,11 @@
   {
     "id": "aquasecurity_trivy",
     "name": "aquasecurity/trivy",
-    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "description": "Trivy là một công cụ quét bảo mật mã nguồn mở linh hoạt và toàn diện, giúp phát hiện lỗ hổng, cấu hình sai, bí mật và SBOM trong container, Kubernetes, kho lưu trữ mã, đám mây và nhiều hệ thống khác.",
     "tags": [],
     "stars": 35464,
     "folder": "aquasecurity_trivy",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 aquasecurity_trivy \n## 🌟 Trọng tâm \nTrivy là một công cụ quét bảo mật toàn diện và linh hoạt, tập trung vào việc tìm kiếm các lỗ hổng bảo mật, cấu hình sai, thông tin nhạy cảm và kiểm tra giấy phép (SBOM).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Tự động hoá quá trình kiểm tra an toàn thông tin và phát hiện sớm các nguy cơ về bảo mật (lỗ hổng CVE, lộ bí mật, cấu hình sai IaC...) trên nhiều môi trường khác nhau.\n- **Khách hàng mục tiêu:** Các nhà phát triển phần mềm (Developers), Kỹ sư DevOps, chuyên gia bảo mật (DevSecOps) và quản trị viên hệ thống quản lý ứng dụng trên nền tảng đám mây, Kubernetes hoặc CI/CD.\n\n## 🛠️ Công nghệ cốt lõi\n- Hỗ trợ đa nền tảng quét mục tiêu: Container Image, Filesystem, Git Repository, Virtual Machine Image, và Kubernetes.\n- Có khả năng phát hiện: SBOM, lỗ hổng (CVEs), vấn đề của IaC (Infrastructure as Code), thông tin bí mật (secrets) và giấy phép (licenses).\n- Tích hợp mạnh mẽ với hệ sinh thái như GitHub Actions, Kubernetes operator, VS Code plugin và CI/CD pipelines.\n\n## 💡 Tại sao đáng chú ý?\n- Triển khai cực kỳ đơn giản (thông qua brew, docker, binary) và tính linh hoạt rất cao.\n- Có tốc độ quét nhanh, phạm vi bao phủ ngôn ngữ và nền tảng vô cùng rộng, và đặc biệt là một dự án mã nguồn mở rất phổ biến với hơn 35k stars trên GitHub.\n"
   },
   {
     "id": "bytedance_UI-TARS-desktop",
@@ -320,20 +320,20 @@
   {
     "id": "jwasham_coding-interview-university",
     "name": "jwasham/coding-interview-university",
-    "description": "A complete computer science study plan to become a software engineer.",
+    "description": "Một lộ trình học tập Khoa học Máy tính toàn diện giúp bạn chuẩn bị kiến thức và kỹ năng để trở thành kỹ sư phần mềm tại các công ty công nghệ lớn.",
     "tags": [],
     "stars": 349158,
     "folder": "jwasham_coding-interview-university",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 jwasham_coding-interview-university\n\n## 🌟 Trọng tâm\nKế hoạch học tập Khoa học Máy tính (Computer Science) toàn diện nhằm chuẩn bị cho các cuộc phỏng vấn kỹ sư phần mềm tại các công ty công nghệ lớn.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Lấp đầy khoảng trống kiến thức nền tảng về Khoa học Máy tính, cung cấp lộ trình bài bản để ôn luyện thuật toán, cấu trúc dữ liệu và thiết kế hệ thống nhằm vượt qua các vòng phỏng vấn kỹ thuật khắt khe.\n- **Khách hàng mục tiêu:** Các lập trình viên tự học, người tham gia bootcamp, sinh viên mới ra trường hoặc bất kỳ ai muốn hệ thống hóa kiến thức để ứng tuyển vị trí kỹ sư phần mềm tại các tập đoàn lớn (Big Tech).\n\n## 🛠️ Công nghệ cốt lõi\n- Cấu trúc dữ liệu & Thuật toán (Data Structures & Algorithms)\n- Thiết kế hệ thống (System Design)\n- Mạng máy tính, Cơ sở dữ liệu và Kiến trúc máy tính\n- Kỹ năng giải quyết vấn đề và phỏng vấn kỹ thuật\n\n## 💡 Tại sao đáng chú ý?\nDự án này thu hút được sự quan tâm khổng lồ với hơn 349.000 stars trên GitHub nhờ vào việc cung cấp một lộ trình rõ ràng, miễn phí và vô cùng chi tiết. Nó được đúc kết từ chính quá trình tự học và chuẩn bị phỏng vấn thành công của tác giả, mang lại giá trị thực tiễn cao cho cộng đồng lập trình.\n"
   },
   {
     "id": "lyogavin_airllm",
     "name": "lyogavin/airllm",
-    "description": "AirLLM 70B inference with single 4GB GPU",
+    "description": "AirLLM là một thư viện tối ưu hóa bộ nhớ suy luận, cho phép chạy các mô hình ngôn ngữ lớn như 70B tham số trên một GPU 4GB duy nhất hoặc Llama3.1 405B trên GPU 8GB mà không cần cắt tỉa hay chưng cất, giúp tiết kiệm đáng kể chi phí phần cứng.",
     "tags": [],
     "stars": 19008,
     "folder": "lyogavin_airllm",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 lyogavin_airllm \n## 🌟 Trọng tâm\nAirLLM tập trung vào việc tối ưu hóa hiệu suất bộ nhớ khi thực hiện quá trình suy luận cho các mô hình ngôn ngữ lớn (LLM). Cốt lõi của nó là khả năng chạy các mô hình cực lớn trên phần cứng hạn chế về dung lượng VRAM.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n*   **Bài toán giải quyết:** Việc chạy suy luận cho các LLM có kích thước lớn (như 70B hay 405B) thường đòi hỏi phần cứng (GPU) cực kỳ đắt đỏ với dung lượng bộ nhớ khổng lồ. AirLLM giải quyết bài toán \"khát\" phần cứng này, cho phép suy luận các mô hình này trên những GPU thông thường, giá rẻ.\n*   **Khách hàng mục tiêu:** Các nhà nghiên cứu AI, nhà phát triển ứng dụng, học sinh sinh viên, và các doanh nghiệp vừa và nhỏ có ngân sách eo hẹp cho hạ tầng GPU, những người muốn thử nghiệm hoặc triển khai các LLM khổng lồ một cách tiết kiệm nhất.\n\n## 🛠️ Công nghệ cốt lõi\n*   **Phân rã mô hình theo lớp (Layer-wise model decomposition):** Trong quá trình suy luận, mô hình gốc sẽ được phân tách thành từng lớp và lưu trên đĩa (disk). Dữ liệu sẽ được tải từ đĩa vào RAM theo từng lớp một cách linh hoạt, tránh tình trạng tràn VRAM.\n*   **Nén mô hình dựa trên lượng tử hóa khối (Block-wise quantization):** Hỗ trợ lượng tử hóa 4-bit và 8-bit trên trọng số mô hình (weights) để làm giảm kích thước bộ nhớ tải từ đĩa, giúp tăng tốc độ xử lý mà không làm mất quá nhiều độ chính xác.\n*   **Kỹ thuật Prefetching:** Tìm nạp trước dữ liệu để quá trình tính toán và tải mô hình lên VRAM diễn ra song song (overlapping), giúp cải thiện thời gian suy luận.\n\n## 💡 Tại sao đáng chú ý?\n*   **Hiệu suất phi thường:** Chạy được mô hình 70B tham số chỉ với GPU 4GB, và thậm chí chạy được Llama3.1 405B trên GPU 8GB - một sự cải thiện phần cứng không tưởng so với các phương pháp truyền thống.\n*   **Bảo toàn độ chính xác:** Cho phép chạy suy luận nguyên bản mà không bị ép buộc phải dùng các phương pháp gây hao hụt độ chính xác nhiều như lượng tử hóa toàn bộ (chỉ lượng tử hóa đĩa), chưng cất hay cắt tỉa mô hình.\n*   **Tốc độ:** Nhờ việc áp dụng nén mô hình và lượng tử hóa, tốc độ chạy có thể cải thiện gấp 3 lần.\n*   **Tính tương thích cao:** Hỗ trợ được nhiều mô hình lớn nhất hiện nay (Llama2, Llama3, Llama3.1, QWen, ChatGLM, Mistral, v.v.), tương thích trên Linux, MacOS (Apple Silicon) cũng như CPU.\n"
   },
   {
     "id": "mattpocock_skills",
@@ -371,20 +371,20 @@
   {
     "id": "odoo_odoo",
     "name": "odoo/odoo",
-    "description": "Odoo. Open Source Apps To Grow Your Business.",
+    "description": "Odoo là một bộ phần mềm quản trị doanh nghiệp (ERP) mã nguồn mở toàn diện, cung cấp hàng loạt các ứng dụng tích hợp liền mạch như CRM, kế toán, bán hàng, và kho bãi trên cùng một nền tảng.",
     "tags": [],
     "stars": 52019,
     "folder": "odoo_odoo",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 odoo_odoo \n\n## 🌟 Trọng tâm\nOdoo là một bộ ứng dụng doanh nghiệp (Business Apps) mã nguồn mở toàn diện trên nền tảng web, cung cấp các giải pháp quản trị kinh doanh tích hợp liền mạch như CRM, thương mại điện tử, kế toán, quản lý kho, nhân sự, v.v.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Thay thế các hệ thống phần mềm doanh nghiệp rời rạc, đắt đỏ bằng một bộ công cụ duy nhất, tích hợp xuyên suốt để quản lý toàn bộ các khía cạnh của doanh nghiệp (Bán hàng, Kế toán, Nhân sự, Kho bãi...).\n- **Khách hàng mục tiêu:** Các doanh nghiệp ở mọi quy mô (từ startup nhỏ đến các tập đoàn lớn) đang tìm kiếm một hệ thống linh hoạt, tùy biến cao và tiết kiệm chi phí để số hóa hoạt động kinh doanh.\n\n## 🛠️ Công nghệ cốt lõi\n- Nền tảng Web (Web-based platform)\n- Python (Ngôn ngữ chính)\n- PostgreSQL (Hệ quản trị cơ sở dữ liệu)\n- Kiến trúc Modular (Các ứng dụng độc lập có khả năng tích hợp tự động với nhau)\n\n## 💡 Tại sao đáng chú ý?\nOdoo đáng chú ý bởi vì nó mang đến sức mạnh của một hệ thống ERP đầy đủ tính năng thông qua kiến trúc mô-đun: bạn có thể bắt đầu bằng một ứng dụng độc lập duy nhất và mở rộng hệ thống theo tốc độ phát triển của công ty. Nó kết hợp giao diện hiện đại, tính dễ sử dụng với sức mạnh của hệ sinh thái mã nguồn mở (sở hữu hơn 52.000 sao trên GitHub).\n"
   },
   {
     "id": "opendataloader-project_opendataloader-pdf",
     "name": "opendataloader-project/opendataloader-pdf",
-    "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+    "description": "OpenDataLoader PDF là công cụ mã nguồn mở mạnh mẽ giúp phân tích và trích xuất dữ liệu có cấu trúc từ PDF với độ chính xác cao cho các hệ thống AI, đồng thời tự động hóa việc tạo Tagged PDF nhằm tuân thủ các quy định về khả năng truy cập.",
     "tags": [],
     "stars": 23414,
     "folder": "opendataloader-project_opendataloader-pdf",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 opendataloader-project_opendataloader-pdf\n\n## 🌟 Trọng tâm\nCông cụ phân tích cú pháp PDF (PDF Parser) mã nguồn mở hàng đầu giúp trích xuất dữ liệu có cấu trúc chất lượng cao sẵn sàng cho các mô hình AI và pipeline RAG. Đồng thời, cung cấp giải pháp tự động hóa khả năng truy cập PDF (tự động gắn thẻ Tagged PDF).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Xử lý việc mất cấu trúc PDF khi trích xuất (mất thứ tự đọc, hỏng bảng biểu, không có tọa độ). Giải quyết các nội dung phức tạp như PDF được quét, bảng biểu phức tạp, công thức và biểu đồ. Tiết kiệm chi phí khắc phục tính truy cập PDF thủ công đắt đỏ.\n- **Khách hàng mục tiêu**: Các nhà phát triển AI, kỹ sư dữ liệu xây dựng hệ thống RAG/LLM, và các tổ chức/doanh nghiệp cần tuân thủ các quy định về khả năng truy cập kỹ thuật số (EAA, ADA, Mục 508).\n\n## 🛠️ Công nghệ cốt lõi\n- **Trích xuất cục bộ tất định**: Sử dụng thuật toán XY-Cut++ để xử lý thứ tự đọc, xuất ra các định dạng Markdown, JSON (kèm tọa độ hộp giới hạn - bounding boxes) và HTML.\n- **Chế độ Hybrid (Lai)**: Tích hợp mô hình AI (như SmolVLM) và OCR (hỗ trợ hơn 80 ngôn ngữ) để xử lý các tài liệu phức tạp, công thức LaTeX và mô tả hình ảnh.\n- **Tính năng An toàn AI**: Tự động lọc các cuộc tấn công prompt injection ẩn trong PDF.\n- **SDK đa nền tảng**: Hỗ trợ Python, Node.js, Java và tích hợp trực tiếp với LangChain.\n\n## 💡 Tại sao đáng chú ý?\n- Xếp hạng **#1** trong các điểm chuẩn (benchmarks) về độ chính xác trích xuất tổng thể (0.907).\n- Là công cụ **mã nguồn mở đầu tiên** hỗ trợ tự động gắn thẻ PDF (Tagged PDF) từ đầu đến cuối mà không phụ thuộc vào SDK độc quyền.\n- Chạy cục bộ hoàn toàn trên CPU (với tốc độ cao), bảo mật tuyệt đối cho dữ liệu của người dùng, được phân phối với giấy phép Apache-2.0.\n"
   },
   {
     "id": "p-e-w_heretic",
@@ -493,11 +493,11 @@
   {
     "id": "stefan-jansen_machine-learning-for-trading",
     "name": "stefan-jansen/machine-learning-for-trading",
-    "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...",
+    "description": "Dự án cung cấp hàng trăm sổ tay Python minh họa quy trình ứng dụng toàn diện các kỹ thuật học máy, học sâu và học tăng cường vào việc thiết kế, kiểm thử ngược và thực thi chiến lược giao dịch thuật toán.",
     "tags": [],
     "stars": 18494,
     "folder": "stefan-jansen_machine-learning-for-trading",
-    "summary": "# Edge Cases Repo\n![ParentPath](../docs/image2.png)\n"
+    "summary": "# 🚀 stefan-jansen_machine-learning-for-trading\n## 🌟 Trọng tâm\nDự án là mã nguồn đi kèm cuốn sách \"Machine Learning for Algorithmic Trading, 2nd edition\" (Học máy cho Giao dịch Thuật toán, Ấn bản lần 2). Trọng tâm của dự án là áp dụng các mô hình và thuật toán học máy từ cơ bản đến nâng cao (Hồi quy tuyến tính, Rừng ngẫu nhiên, Xử lý ngôn ngữ tự nhiên, Học sâu, Học tăng cường) vào việc xây dựng, kiểm thử ngược và đánh giá các chiến lược giao dịch thực tế trên thị trường tài chính dựa trên nhiều nguồn dữ liệu khác nhau (dữ liệu thị trường, báo cáo tài chính, tin tức, hình ảnh vệ tinh).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Hướng dẫn cách xử lý lượng lớn dữ liệu tài chính (có cấu trúc và phi cấu trúc), trích xuất các đặc trưng và tín hiệu có giá trị (alpha factors) để tối ưu hóa quy trình đầu tư và tự động hóa các chiến lược mua bán trên thị trường.\n- **Khách hàng mục tiêu:** Các nhà nghiên cứu định lượng (quant), kỹ sư học máy, chuyên gia phân tích tài chính, và các nhà giao dịch thuật toán muốn ứng dụng công nghệ AI để tăng cường lợi thế cạnh tranh.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** Python\n- **Thư viện/Framework học máy & Dữ liệu:** NumPy, pandas, scikit-learn, TensorFlow, PyTorch, Keras.\n- **Thư viện NLP & Nhúng từ:** spaCy, TextBlob, gensim.\n- **Công cụ tài chính & Kiểm thử ngược:** Zipline, backtrader, TA-Lib, pyfolio, alphalens, empyrical.\n- **Khác:** OpenAI Gym (cho Học tăng cường), PyMC3 (Học máy Bayes), XGBoost, LightGBM, CatBoost.\n\n## 💡 Tại sao đáng chú ý?\nDự án cung cấp hơn 150 sổ tay (notebooks) thực tiễn vô cùng đồ sộ minh họa một quy trình làm việc toàn diện (end-to-end) từ kỹ thuật dữ liệu đến kiểm thử ngược. Nó không chỉ cung cấp lý thuyết mà còn tái tạo lại nhiều nghiên cứu giao dịch xuất sắc gần đây trên các tạp chí hàng đầu (như áp dụng CNN vào dữ liệu ảnh vệ tinh, GAN để tạo chuỗi thời gian tổng hợp), đi kèm cấu trúc code bài bản để người học có thể tự xây dựng chiến lược giao dịch dựa trên AI của riêng mình.\n"
   },
   {
     "id": "supermemoryai_supermemory",
