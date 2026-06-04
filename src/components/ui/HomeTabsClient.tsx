@@ -14,7 +14,7 @@ interface HomeTabsClientProps {
 }
 
 export function HomeTabsClient({ runs, searchIndex }: HomeTabsClientProps) {
-  const [activeTab, setActiveTab] = useState<"explore" | "history">("explore");
+  const [activeTab, setActiveTab] = useState<"explore" | "history">("history");
 
   return (
     <div className="w-full">

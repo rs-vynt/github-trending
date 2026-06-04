@@ -83,7 +83,7 @@ export function RepoCardClient({ repo, index, dateSince, summary }: RepoCardClie
             </button>
           </div>
         </div>
-        <p className="text-zinc-400 leading-relaxed max-w-4xl flex-1">
+        <p className="text-zinc-400 leading-relaxed max-w-4xl flex-1 break-words">
           {repo.descriptionVi || repo.description}
         </p>
         

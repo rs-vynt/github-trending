@@ -40,7 +40,7 @@ export default async function RepoPage({ params }: { params: Promise<{ date_sinc
               View on GitHub <ExternalLink size={14} />
             </a>
           </div>
-          <p className="text-lg text-zinc-300 leading-relaxed max-w-3xl">
+          <p className="text-lg text-zinc-300 leading-relaxed max-w-3xl break-words">
             {repo.descriptionVi || repo.description}
           </p>
         </header>
