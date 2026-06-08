@@ -1,0 +1,10 @@
+{
+  "id": "ggml-org_llama.cpp",
+  "fullName": "ggml-org/llama.cpp",
+  "name": "llama.cpp",
+  "description": "LLM inference in C/C++",
+  "stars": 115357,
+  "forks": 0,
+  "readmeHash": "f265b8aa18cc8cb018ff96c0987b82e2",
+  "tags": []
+}

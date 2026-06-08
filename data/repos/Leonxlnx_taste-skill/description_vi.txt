@@ -1,0 +1,1 @@
+Taste-Skill là một bộ kỹ năng (agent skills) chuyên biệt giúp các mô hình AI lập trình tạo ra các giao diện frontend có tính thẩm mỹ cao cấp, bố cục tinh tế, chuyển động linh hoạt và tránh khỏi các khuôn mẫu thiết kế nhàm chán, chung chung.

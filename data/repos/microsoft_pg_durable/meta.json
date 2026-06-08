@@ -1,0 +1,10 @@
+{
+  "id": "microsoft_pg_durable",
+  "fullName": "microsoft/pg_durable",
+  "name": "pg_durable",
+  "description": "PostgreSQL in-database durable execution",
+  "stars": 1474,
+  "forks": 0,
+  "readmeHash": "8ce0d86a962b34ea1a8cf8bf91ebeead",
+  "tags": []
+}

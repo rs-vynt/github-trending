@@ -1,0 +1,1 @@
+Open Notebook là một giải pháp mã nguồn mở, bảo mật quyền riêng tư thay thế cho Google Notebook LM, cho phép bạn tự quản lý tài liệu nghiên cứu và sử dụng linh hoạt hơn 18 mô hình AI khác nhau để tìm kiếm, trò chuyện và tạo podcast đa diễn giả.

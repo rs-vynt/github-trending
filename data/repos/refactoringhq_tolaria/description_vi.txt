@@ -1,0 +1,1 @@
+Tolaria là một ứng dụng máy tính mã nguồn mở quản lý cơ sở kiến thức cá nhân bằng các tệp markdown ưu tiên ngoại tuyến, quản lý phiên bản qua Git và thân thiện với các công cụ AI.

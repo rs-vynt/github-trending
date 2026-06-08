@@ -1,0 +1,1 @@
+turbovec là một chỉ mục vector cực nhanh và tiết kiệm bộ nhớ viết bằng Rust với Python bindings, dựa trên thuật toán TurboQuant của Google Research giúp tìm kiếm cục bộ an toàn, nén dữ liệu lên tới 16 lần và vượt qua hiệu năng của FAISS.

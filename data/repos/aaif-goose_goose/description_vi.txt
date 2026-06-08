@@ -1,0 +1,1 @@
+Goose là một AI agent mã nguồn mở đa năng chạy cục bộ trên máy tính (desktop, CLI, API) hỗ trợ từ viết code đến nghiên cứu, tích hợp nhiều mô hình LLM và kết nối qua Model Context Protocol.

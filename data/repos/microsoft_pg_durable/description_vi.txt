@@ -1,0 +1,1 @@
+pg_durable là một tiện ích mở rộng của PostgreSQL cho phép định nghĩa và chạy ngầm các luồng công việc chịu lỗi, bền vững trực tiếp bằng SQL mà không cần dịch vụ điều phối bên ngoài.

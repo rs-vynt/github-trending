@@ -1,0 +1,10 @@
+{
+  "id": "RyanCodrai_turbovec",
+  "fullName": "RyanCodrai/turbovec",
+  "name": "turbovec",
+  "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+  "stars": 7250,
+  "forks": 0,
+  "readmeHash": "9b1ecfbe186e232f32a481b552b677da",
+  "tags": []
+}

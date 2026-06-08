@@ -1,0 +1,1 @@
+Kho lưu trữ này cung cấp các ví dụ mẫu mực về cách thiết lập và tích hợp plugin, skill, agent và Model Context Protocol (MCP) cho hệ sinh thái OpenAI Codex.

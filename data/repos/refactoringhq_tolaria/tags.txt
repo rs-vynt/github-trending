@@ -1,0 +1,1 @@
+markdown, knowledge-base, tauri, rust, second-brain

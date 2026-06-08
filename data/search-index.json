@@ -30,6 +30,15 @@
     "summary": "# 🚀 CloakHQ/CloakBrowser\n## 🌟 Trọng tâm\nCloakBrowser là một phiên bản trình duyệt Chromium tàng hình, được sửa đổi mã nguồn C++ ở cấp độ nhị phân (binary) nhằm qua mặt các hệ thống phát hiện bot. Nó không phải là một cấu hình được chắp vá hay một đoạn mã JavaScript được tiêm vào, mà là một trình duyệt thực thụ có thể vượt qua các bài kiểm tra antibot với điểm số như một người dùng thông thường.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Các công cụ tự động hóa web (như Playwright, Puppeteer) hoặc các thư viện ngụy trang (stealth libraries) thường dựa vào việc thay đổi cấu hình hoặc chèn script. Các hệ thống chống bot như Cloudflare Turnstile, reCAPTCHA v3, FingerprintJS dễ dàng phát hiện ra những can thiệp bề mặt này và tiến hành chặn truy cập, gây lỗi tự động hóa.\n- **Khách hàng mục tiêu:** Các nhà phát triển web scraping, những người làm tự động hóa trình duyệt (browser automation, AI agents), kỹ sư dữ liệu và các chuyên viên kiểm thử tự động (QA testers) cần một môi trường duyệt web ổn định, không bị gián đoạn bởi các cơ chế chống bot khắt khe.\n\n## 🛠️ Công nghệ cốt lõi\n- **Trình duyệt Chromium tùy biến (C++ patches):** Sở hữu 58 bản vá ở cấp độ mã nguồn C++ giúp ngụy trang các đặc điểm nhận dạng (fingerprints) như WebGL, canvas, font chữ, GPU, phần cứng, WebRTC, v.v.\n- **Hành vi mô phỏng con người (Humanize behavior):** Hỗ trợ cờ `humanize=True` để tự động hóa các thao tác chuột (đường cong Bézier), tốc độ gõ phím ngẫu nhiên và kiểu cuộn trang y hệt người thật.\n- **Khả năng thay thế liền mạch (Drop-in replacement):** Tương thích 100% với API của Playwright và Puppeteer trên cả Python và JavaScript. Chỉ cần thay đổi lệnh import là có thể hoạt động.\n- **Tự động cập nhật nhị phân:** Trình duyệt tự động tải xuống cấu hình và cập nhật file thực thi (binary) tương thích trên đa nền tảng.\n\n## 💡 Tại sao đáng chú ý?\nKhác với các công cụ stealth thông thường dễ bị vô hiệu hóa sau mỗi bản cập nhật của Chrome hoặc bị phát hiện do sử dụng kỹ thuật JS injection, sự can thiệp từ gốc của CloakBrowser giúp nó đạt điểm reCAPTCHA v3 lên tới 0.9 (chuẩn người dùng), giải quyết tự động Cloudflare Turnstile và qua mặt dễ dàng FingerprintJS. Thêm vào đó, dự án này hoàn toàn miễn phí, mã nguồn mở, hỗ trợ linh hoạt cả qua script và Docker.\n"
   },
   {
+    "id": "Crosstalk-Solutions_project-nomad",
+    "name": "Crosstalk-Solutions/project-nomad",
+    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+    "tags": [],
+    "stars": 29755,
+    "folder": "Crosstalk-Solutions_project-nomad",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "D4Vinci_Scrapling",
     "name": "D4Vinci/Scrapling",
     "description": "🕷️ Khung Quét Web thích ứng có thể xử lý mọi thứ từ một yêu cầu duy nhất đến thu thập thông tin trên quy mô đầy đủ!",
@@ -87,6 +96,15 @@
     "summary": "# 🚀 HKUDS_Vibe-Trading\n\n## 🌟 Trọng tâm\nVibe-Trading là một không gian nghiên cứu mã nguồn mở (open-source research workspace) giúp biến các câu hỏi tài chính thành những phân tích và chiến lược giao dịch có thể chạy được thực tế thông qua các tác nhân AI (AI agents). Nền tảng này giúp kết nối các lời nhắc ngôn ngữ tự nhiên với các nguồn cung cấp dữ liệu thị trường, bộ tạo chiến lược, công cụ backtest, và bộ nhớ nghiên cứu.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Tự động hóa quá trình nghiên cứu thị trường, kiểm thử lại (backtest) các ý tưởng chiến lược, phân tích nhật ký giao dịch để tìm ra điểm yếu (Shadow Account), và tự động hóa giao dịch trên nhiều thị trường (chứng khoán, crypto, forex, futures).\n- **Khách hàng mục tiêu:** Các nhà nghiên cứu định lượng (quants), nhà đầu tư cá nhân, nhà giao dịch tự động, và lập trình viên muốn xây dựng các hệ thống giao dịch tự động thông minh bằng AI mà không cần tự viết mã từ con số không.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ & Framework:** Backend viết bằng Python 3.11+ (FastAPI), Frontend bằng React 19.\n- **Tác nhân AI (AI Agents):** Tích hợp đa dạng các LLMs (OpenAI, DeepSeek, Gemini, Groq, Ollama...) để phân tích, viết code và ra quyết định.\n- **Nền tảng dữ liệu & Kết nối (Connectors):** Hỗ trợ nhiều nguồn dữ liệu (yfinance, tushare, akshare, mootdx, ccxt, futu) và kết nối broker (IBKR, Robinhood, Tiger, OKX, Binance...).\n- **Giao thức:** Hỗ trợ Model Context Protocol (MCP) để có thể cắm trực tiếp vào các hệ thống AI khác như Claude Desktop, Cursor.\n\n## 💡 Tại sao đáng chú ý?\n- **Sử dụng ngôn ngữ tự nhiên:** Chỉ cần ra lệnh bằng tiếng Anh (hoặc tiếng khác), hệ thống có thể tự động viết code chiến lược, tải dữ liệu và chạy backtest ra báo cáo đầy đủ.\n- **Tính năng Shadow Account:** Cho phép tải lên lịch sử giao dịch cá nhân để AI phân tích hành vi, tìm ra các lỗi tâm lý (fomo, gồng lỗ) và tạo ra chiến lược so sánh.\n- **Alpha Zoo tích hợp sẵn:** Cung cấp sẵn 452 bộ tín hiệu alpha định lượng (từ Qlib, Kakushadze, GTJA) để người dùng có thể test nhanh trên các tập cổ phiếu.\n- **Hệ thống Multi-Agent (Swarm):** Cung cấp 29 đội ngũ AI (preset teams) đóng vai trò như các hội đồng đầu tư, quản trị rủi ro để tranh luận và đưa ra quyết định mua bán tối ưu nhất.\n"
   },
   {
+    "id": "HunxByts_GhostTrack",
+    "name": "HunxByts/GhostTrack",
+    "description": "Useful tool to track location or mobile number",
+    "tags": [],
+    "stars": 13751,
+    "folder": "HunxByts_GhostTrack",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "Imbad0202_academic-research-skills",
     "name": "Imbad0202/academic-research-skills",
     "description": "Kỹ năng Nghiên cứu Học thuật dành cho Claude Code: nghiên cứu → viết → phản biện → chỉnh sửa → hoàn thiện",
@@ -100,6 +118,15 @@
     "stars": 25490,
     "folder": "Imbad0202_academic-research-skills",
     "summary": "# 🚀 Academic Research Skills\n## 🌟 Trọng tâm\nMột bộ kỹ năng toàn diện dành cho Claude Code (Claude Code skills) nhằm hỗ trợ quy trình nghiên cứu học thuật. Công cụ này bao quát toàn bộ các bước từ lên ý tưởng, nghiên cứu tài liệu, viết lách, phản biện, chỉnh sửa cho đến khi hoàn thiện bài báo.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n**Bài toán giải quyết:** Hỗ trợ xử lý các công việc mang tính cơ học, lặp đi lặp lại và tốn thời gian trong nghiên cứu như tìm kiếm tài liệu, định dạng trích dẫn, xác minh dữ liệu và kiểm tra tính nhất quán logic. Công cụ không viết thay bài luận mà hoạt động như một người đồng hành (copilot) để giúp người dùng tập trung vào phần tư duy nghiên cứu cốt lõi.\n**Khách hàng mục tiêu:** Các nhà nghiên cứu, học giả, sinh viên đại học và sau đại học cần tối ưu hóa quy trình làm việc học thuật và nâng cao chất lượng bài viết của mình.\n\n## 🛠️ Công nghệ cốt lõi\n- **Hệ thống đa tác nhân (Multi-agent):** Tích hợp 13 tác nhân (agent) cho quá trình nghiên cứu sâu (Deep Research), 12 tác nhân hỗ trợ viết luận (Academic Paper), và 7 tác nhân đóng vai trò phản biện đa góc nhìn (Reviewer).\n- **Quy trình Điều phối (Orchestrator) 10 bước:** Tự động điều phối toàn bộ vòng đời của một bài luận học thuật với các điểm kiểm tra tính toàn vẹn (integrity checkpoints) theo từng giai đoạn.\n- **Tích hợp API và công cụ:** Xác minh nguồn gốc qua API của Semantic Scholar/Crossref, hỗ trợ trích dẫn ba lớp (three-layer citation anchors), áp dụng phương pháp tương tác Socratic, và biên dịch định dạng chuẩn 학 thuật sang PDF qua LaTeX.\n\n## 💡 Tại sao đáng chú ý?\nDự án áp dụng triết lý \"Human-in-the-loop\", giúp kết hợp khả năng tự động hóa của AI và tư duy kiểm soát của con người để ngăn chặn các rủi ro thường gặp ở AI tự trị (như ảo giác trích dẫn, sai lệch phương pháp). Việc trang bị các chốt kiểm tra nghiêm ngặt, rào cản ngăn chặn sự bợ đỡ (anti-sycophancy) và tính năng hiệu chuẩn phong cách viết giúp duy trì tiếng nói riêng cũng như tính liêm chính khoa học của người viết mà không đánh mất đi sự nguyên bản.\n"
+  },
+  {
+    "id": "Leonxlnx_taste-skill",
+    "name": "Leonxlnx/taste-skill",
+    "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+    "tags": [],
+    "stars": 36791,
+    "folder": "Leonxlnx_taste-skill",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "Lum1104_Understand-Anything",
@@ -150,6 +177,24 @@
     "summary": "# Tóm tắt dự án: VoxCPM\n\n**VoxCPM** là một hệ thống Text-to-Speech (TTS) tiên tiến không sử dụng tokenizer, do nhóm OpenBMB phát triển. Dự án này tận dụng kiến trúc tự hồi quy khuếch tán (diffusion autoregressive) đầu cuối để chuyển đổi trực tiếp văn bản thành giọng nói chất lượng cao 48kHz. Phiên bản mới nhất, VoxCPM2, có 2 tỷ tham số, được đào tạo với hơn 2 triệu giờ dữ liệu và hỗ trợ tới 30 ngôn ngữ khác nhau mà không cần cấu hình thẻ ngôn ngữ. \n\nCác tính năng nổi bật của VoxCPM bao gồm \"Thiết kế Giọng nói\" (Voice Design) cho phép tạo ra những giọng nói hoàn toàn mới chỉ thông qua các đoạn mô tả bằng ngôn ngữ tự nhiên về độ tuổi, giới tính và cảm xúc. Ngoài ra, tính năng \"Nhân bản Giọng nói Có thể Kiểm soát\" (Controllable Voice Cloning) cho phép sao chép bất kỳ âm sắc nào từ một đoạn ghi âm ngắn, trong khi người dùng vẫn có thể điều chỉnh phong cách, cảm xúc và nhịp độ. Hơn nữa, với mô hình hỗ trợ tối ưu qua Nano-vLLM và vLLM-Omni, VoxCPM mang tới khả năng hoạt động trực tuyến thời gian thực (real-time streaming) với tốc độ vô cùng ấn tượng.\n\nĐể bắt đầu, bạn chỉ cần cài đặt thư viện qua pip (`pip install voxcpm`). VoxCPM cung cấp một Python API rõ ràng để dễ dàng tạo giọng nói, nhân bản âm thanh hoặc tùy chỉnh giọng qua code. Công cụ cũng đi kèm với CLI trực quan và bản web demo giúp người dùng thử nghiệm tính năng nhanh chóng. Hơn thế, dự án hoàn toàn mở mã nguồn với giấy phép Apache-2.0, thích hợp cho cả việc nghiên cứu học thuật lẫn sử dụng cho các ứng dụng thương mại.\n"
   },
   {
+    "id": "RyanCodrai_turbovec",
+    "name": "RyanCodrai/turbovec",
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+    "tags": [],
+    "stars": 7250,
+    "folder": "RyanCodrai_turbovec",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "TapXWorld_ChinaTextbook",
+    "name": "TapXWorld/ChinaTextbook",
+    "description": "所有小初高、大学PDF教材。",
+    "tags": [],
+    "stars": 72516,
+    "folder": "TapXWorld_ChinaTextbook",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "TauricResearch_TradingAgents",
     "name": "TauricResearch/TradingAgents",
     "description": "TradingAgents là một framework mã nguồn mở ứng dụng các Mô hình ngôn ngữ lớn (LLM) để xây dựng hệ thống giao dịch tài chính tự động thông qua sự phối hợp của nhiều tác nhân AI chuyên biệt.",
@@ -163,6 +208,15 @@
     "stars": 82005,
     "folder": "TauricResearch_TradingAgents",
     "summary": "TradingAgents là một nền tảng giao dịch tài chính đa tác nhân mã nguồn mở dựa trên Mô hình Ngôn ngữ Lớn (LLM), được thiết kế để mô phỏng hệ sinh thái giao dịch thực tế. Nền tảng này phân chia các nhiệm vụ giao dịch phức tạp cho các tác nhân chuyên biệt như chuyên viên phân tích cơ bản, phân tích tâm lý, phân tích kỹ thuật, nhà nghiên cứu và quản lý danh mục đầu tư. Các tác nhân này phối hợp đánh giá thị trường, thảo luận chiến lược và đưa ra quyết định giao dịch tự động.\n\nDự án nổi bật với khả năng linh hoạt và tính mô-đun cao nhờ được xây dựng trên LangGraph, hỗ trợ đa dạng các nhà cung cấp LLM phổ biến hiện nay. Nó tích hợp các tính năng nâng cao như nhật ký quyết định liên tục (persistent decision log) giúp nền tảng học hỏi từ các giao dịch trước đó, và khả năng khôi phục từ điểm lưu (checkpoint resume) nhằm bảo vệ quá trình phân tích khỏi những sự cố gián đoạn.\n\nĐể bắt đầu, người dùng cần nhân bản (clone) kho lưu trữ, cài đặt các thư viện phụ thuộc bằng lệnh `pip install .` hoặc chạy thông qua Docker. Sau khi thiết lập các khóa API (API keys) cần thiết trong file `.env`, bạn có thể chạy công cụ giao diện dòng lệnh (CLI) bằng lệnh `tradingagents` để trực tiếp lựa chọn mã chứng khoán cần phân tích, hoặc dễ dàng tích hợp framework này vào mã Python thông qua thư viện `tradingagents`.\n"
+  },
+  {
+    "id": "aaif-goose_goose",
+    "name": "aaif-goose/goose",
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "tags": [],
+    "stars": 47539,
+    "folder": "aaif-goose_goose",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "affaan-m_ECC",
@@ -279,6 +333,15 @@
     "summary": "# 🚀 9Router\n## 🌟 Trọng tâm\n9Router là một hệ thống proxy và smart router mã nguồn mở giúp tiết kiệm token và quản lý API AI hiệu quả dành cho lập trình viên. Công cụ này hoạt động như một lớp trung gian giữa các CLI/IDE code AI (như Claude Code, Cursor, Copilot, Cline) và hơn 40 nhà cung cấp AI, giúp bạn tối đa hóa các gói đăng ký hiện có và tận dụng các model miễn phí hoặc giá rẻ.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nSản phẩm giải quyết nỗi đau của các lập trình viên khi sử dụng công cụ AI: cạn kiệt hạn mức đăng ký (quota) mà chưa dùng hết công năng, lỗi giới hạn tỷ lệ (rate limit) khi đang code dở dang, tiêu tốn quá nhiều token cho các kết quả trả về từ công cụ (như git diff, grep) và chi phí API đắt đỏ. Khách hàng mục tiêu là các lập trình viên sử dụng AI hàng ngày, muốn có trải nghiệm code mượt mà 24/7 với chi phí tối ưu nhất, hoặc thậm chí là hoàn toàn miễn phí.\n\n## 🛠️ Công nghệ cốt lõi\n- **RTK Token Saver:** Tự động nén dữ liệu đầu ra của các lệnh (như git diff, grep, ls) một cách thông minh trước khi gửi lên LLM, giúp tiết kiệm 20-40% input token.\n- **Smart 3-Tier Fallback:** Tự động định tuyến dự phòng qua 3 tầng (Gói đăng ký → Giá rẻ → Miễn phí) để đảm bảo không bao giờ bị gián đoạn.\n- **Format Translation:** Chuyển đổi định dạng API liền mạch giữa OpenAI, Claude, Gemini, Cursor, v.v., tương thích với mọi công cụ CLI.\n- **Quota Tracking & Multi-Account:** Theo dõi hạn mức sử dụng theo thời gian thực và hỗ trợ cấu hình đa tài khoản (round-robin) để cân bằng tải.\n\n## 💡 Tại sao đáng chú ý?\n9Router cho phép người dùng cấu hình linh hoạt vô số \"combos\" kết hợp mô hình AI để đạt được mức chi phí $0 mà vẫn trải nghiệm được chất lượng cao. Hơn nữa, với tính năng \"Caveman Mode\", 9Router ép LLM trả lời ngắn gọn, giữ nguyên trọng tâm kỹ thuật, tiết kiệm thêm tới 65% output token. Với khả năng cài đặt cực dễ qua NPM, Docker hay trên VPS, công cụ này thực sự là giải pháp tối thượng để hack năng suất và dẹp bỏ nỗi lo về chi phí cho dân dev.\n"
   },
   {
+    "id": "ggml-org_llama.cpp",
+    "name": "ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "tags": [],
+    "stars": 115357,
+    "folder": "ggml-org_llama.cpp",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "godotengine_godot",
     "name": "godotengine/godot",
     "description": "Godot Engine là một game engine 2D và 3D mã nguồn mở, miễn phí và đa nền tảng, giúp bạn dễ dàng tạo và xuất bản trò chơi trên nhiều hệ điều hành và thiết bị.",
@@ -327,6 +390,15 @@
     "summary": "# 🚀 jwasham_coding-interview-university\n\n## 🌟 Trọng tâm\nKế hoạch học tập Khoa học Máy tính (Computer Science) toàn diện nhằm chuẩn bị cho các cuộc phỏng vấn kỹ sư phần mềm tại các công ty công nghệ lớn.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Lấp đầy khoảng trống kiến thức nền tảng về Khoa học Máy tính, cung cấp lộ trình bài bản để ôn luyện thuật toán, cấu trúc dữ liệu và thiết kế hệ thống nhằm vượt qua các vòng phỏng vấn kỹ thuật khắt khe.\n- **Khách hàng mục tiêu:** Các lập trình viên tự học, người tham gia bootcamp, sinh viên mới ra trường hoặc bất kỳ ai muốn hệ thống hóa kiến thức để ứng tuyển vị trí kỹ sư phần mềm tại các tập đoàn lớn (Big Tech).\n\n## 🛠️ Công nghệ cốt lõi\n- Cấu trúc dữ liệu & Thuật toán (Data Structures & Algorithms)\n- Thiết kế hệ thống (System Design)\n- Mạng máy tính, Cơ sở dữ liệu và Kiến trúc máy tính\n- Kỹ năng giải quyết vấn đề và phỏng vấn kỹ thuật\n\n## 💡 Tại sao đáng chú ý?\nDự án này thu hút được sự quan tâm khổng lồ với hơn 349.000 stars trên GitHub nhờ vào việc cung cấp một lộ trình rõ ràng, miễn phí và vô cùng chi tiết. Nó được đúc kết từ chính quá trình tự học và chuẩn bị phỏng vấn thành công của tác giả, mang lại giá trị thực tiễn cao cho cộng đồng lập trình.\n"
   },
   {
+    "id": "lfnovo_open-notebook",
+    "name": "lfnovo/open-notebook",
+    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "tags": [],
+    "stars": 27310,
+    "folder": "lfnovo_open-notebook",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "lyogavin_airllm",
     "name": "lyogavin/airllm",
     "description": "AirLLM là một thư viện tối ưu hóa bộ nhớ suy luận, cho phép chạy các mô hình ngôn ngữ lớn như 70B tham số trên một GPU 4GB duy nhất hoặc Llama3.1 405B trên GPU 8GB mà không cần cắt tỉa hay chưng cất, giúp tiết kiệm đáng kể chi phí phần cứng.",
@@ -360,6 +432,24 @@
     "summary": "# 🚀 Tên Repo\nMarkItDown\n\n## 🌟 Trọng tâm\nMarkItDown là một công cụ Python gọn nhẹ giúp chuyển đổi đa dạng các định dạng file (PDF, Word, Excel, Audio, HTML...) sang Markdown, tối ưu hóa nội dung để sử dụng trong các quy trình AI và mô hình ngôn ngữ lớn (LLM).\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nCác mô hình ngôn ngữ lớn (như GPT-4o) hiểu và xử lý định dạng Markdown rất tốt, nhưng các tài liệu trong thực tế lại ở dưới nhiều định dạng phức tạp như PDF, PowerPoint, hoặc Excel.\nMarkItDown giải quyết bài toán này bằng cách cung cấp một tiện ích dễ sử dụng, cho phép trích xuất nội dung văn bản và bảo toàn cấu trúc tài liệu (tiêu đề, bảng biểu, danh sách) từ nhiều nguồn khác nhau. Mục tiêu là tạo ra một đầu vào sạch, hiệu quả về mặt token (token-efficient) cho các công cụ phân tích văn bản và hệ thống AI mà không cần phải thiết lập các pipeline phức tạp.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ**: Python (yêu cầu bản 3.10 trở lên)\n- **Kiến trúc**: Hỗ trợ giao diện dòng lệnh (CLI) và Python API.\n- **Tích hợp**: Hỗ trợ gọi các LLM Vision (như GPT-4o qua OpenAI API) để mô tả hình ảnh hoặc OCR, và tích hợp với các dịch vụ đám mây mạnh mẽ như Azure Content Understanding và Azure Document Intelligence.\n- **Hệ sinh thái**: Hỗ trợ mở rộng thông qua các plugin (ví dụ: `markitdown-ocr`).\n\n## 💡 Tại sao đáng chú ý?\nMarkItDown đang cực kỳ thu hút vì nó là một mảnh ghép thiết yếu trong hệ sinh thái RAG (Retrieval-Augmented Generation) và AI Agents. Việc xây dựng ứng dụng AI đòi hỏi phải xử lý dữ liệu từ đủ mọi nguồn file khác nhau, và MarkItDown xử lý tất cả chúng một cách gọn nhẹ thông qua một API duy nhất. Điểm đặc biệt là nó tận dụng chính các LLM để thực hiện OCR và mô tả hình ảnh, biến mọi tài liệu thành Markdown – định dạng \"ngôn ngữ mẹ đẻ\" mà các LLM cực kỳ yêu thích.\n"
   },
   {
+    "id": "microsoft_pg_durable",
+    "name": "microsoft/pg_durable",
+    "description": "PostgreSQL in-database durable execution",
+    "tags": [],
+    "stars": 1474,
+    "folder": "microsoft_pg_durable",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "mvanhorn_last30days-skill",
+    "name": "mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "tags": [],
+    "stars": 31209,
+    "folder": "mvanhorn_last30days-skill",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "nesquena_hermes-webui",
     "name": "nesquena/hermes-webui",
     "description": "Hermes WebUI: Cách tốt nhất để sử dụng Hermes Agent từ web hoặc từ điện thoại của bạn!",
@@ -376,6 +466,24 @@
     "stars": 52019,
     "folder": "odoo_odoo",
     "summary": "# 🚀 odoo_odoo \n\n## 🌟 Trọng tâm\nOdoo là một bộ ứng dụng doanh nghiệp (Business Apps) mã nguồn mở toàn diện trên nền tảng web, cung cấp các giải pháp quản trị kinh doanh tích hợp liền mạch như CRM, thương mại điện tử, kế toán, quản lý kho, nhân sự, v.v.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Thay thế các hệ thống phần mềm doanh nghiệp rời rạc, đắt đỏ bằng một bộ công cụ duy nhất, tích hợp xuyên suốt để quản lý toàn bộ các khía cạnh của doanh nghiệp (Bán hàng, Kế toán, Nhân sự, Kho bãi...).\n- **Khách hàng mục tiêu:** Các doanh nghiệp ở mọi quy mô (từ startup nhỏ đến các tập đoàn lớn) đang tìm kiếm một hệ thống linh hoạt, tùy biến cao và tiết kiệm chi phí để số hóa hoạt động kinh doanh.\n\n## 🛠️ Công nghệ cốt lõi\n- Nền tảng Web (Web-based platform)\n- Python (Ngôn ngữ chính)\n- PostgreSQL (Hệ quản trị cơ sở dữ liệu)\n- Kiến trúc Modular (Các ứng dụng độc lập có khả năng tích hợp tự động với nhau)\n\n## 💡 Tại sao đáng chú ý?\nOdoo đáng chú ý bởi vì nó mang đến sức mạnh của một hệ thống ERP đầy đủ tính năng thông qua kiến trúc mô-đun: bạn có thể bắt đầu bằng một ứng dụng độc lập duy nhất và mở rộng hệ thống theo tốc độ phát triển của công ty. Nó kết hợp giao diện hiện đại, tính dễ sử dụng với sức mạnh của hệ sinh thái mã nguồn mở (sở hữu hơn 52.000 sao trên GitHub).\n"
+  },
+  {
+    "id": "openai_plugins",
+    "name": "openai/plugins",
+    "description": "OpenAI Plugins",
+    "tags": [],
+    "stars": 2055,
+    "folder": "openai_plugins",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "opencv_opencv",
+    "name": "opencv/opencv",
+    "description": "Open Source Computer Vision Library",
+    "tags": [],
+    "stars": 88116,
+    "folder": "opencv_opencv",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "opendataloader-project_opendataloader-pdf",
@@ -429,6 +537,15 @@
     "stars": 4530,
     "folder": "reconurge_flowsint",
     "summary": "# 🚀 reconurge_flowsint\n## 🌟 Trọng tâm\nFlowsint là một công cụ phân tích tình báo nguồn mở (OSINT) và khám phá bằng đồ thị. Trọng tâm của dự án là hỗ trợ các cuộc điều tra đạo đức, minh bạch và có tính xác minh, thông qua việc trực quan hóa các mối quan hệ giữa các thực thể và tự động hóa việc làm giàu dữ liệu (enrichment).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết nhu cầu trinh sát, thu thập thông tin và liên kết các thực thể phức tạp (như Domain, IP, Mạng xã hội, Email, Tổ chức, Website, Crypto, v.v.) trong các cuộc điều tra số. Đặc biệt đảm bảo tính riêng tư an toàn do mọi dữ liệu điều tra đều được lưu trữ hoàn toàn trên thiết bị nội bộ của người dùng.\n- **Khách hàng mục tiêu:** Các nhà phân tích và nghiên cứu an ninh mạng, các nhà báo điều tra, đội ngũ phòng chống gian lận và thực thi pháp luật, cũng như các chuyên gia tình báo mối đe dọa nội bộ (threat intelligence).\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc mô-đun (Modular Architecture):** Phân tách rõ ràng giữa `flowsint-core` (lõi orchestrator, vault), `flowsint-types` (Pydantic models), `flowsint-enrichers` (logic quét và công cụ thu thập), `flowsint-api` (FastAPI backend server) và `flowsint-app` (Frontend).\n- **Backend & Database:** Viết bằng Python, sử dụng FastAPI. Tích hợp các cơ sở dữ liệu PostgreSQL và Neo4j (Graph Database) chuyên biệt cho việc xử lý cấu trúc đồ thị.\n- **Frontend:** Ứng dụng có giao diện hiện đại, dễ sử dụng, được tối ưu hóa để hiển thị mượt mà hàng ngàn điểm dữ liệu (nodes) mà không gặp hiện tượng giật lag.\n- **Triển khai:** Khởi chạy cực kỳ dễ dàng thông qua Docker và Make.\n\n## 💡 Tại sao đáng chú ý?\n- **Hệ sinh thái Enricher mạnh mẽ:** Hỗ trợ sẵn hàng chục công cụ làm giàu dữ liệu mạnh mẽ như tra cứu DNS, IP, quét MXH (tích hợp Maigret), trích xuất liên kết website, truy vết giao dịch ví Crypto và quét rò rỉ dữ liệu qua Email/Số điện thoại.\n- **Bảo vệ quyền riêng tư:** Toàn bộ công việc OSINT đều được thực hiện locally, mang lại sự an tâm tuyệt đối khi điều tra các dữ liệu nhạy cảm.\n- **Sức mạnh trực quan hóa:** Chuyển đổi lượng dữ liệu tình báo lớn và rời rạc thành các bản đồ quan hệ tương tác đồ họa sinh động.\n- **Linh hoạt và dễ mở rộng:** Dễ dàng bổ sung các module phân tích mới, tích hợp API bên ngoài (như N8n Connector) nhờ cấu trúc project tiêu chuẩn.\n"
+  },
+  {
+    "id": "refactoringhq_tolaria",
+    "name": "refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "tags": [],
+    "stars": 12912,
+    "folder": "refactoringhq_tolaria",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "revfactory_harness",

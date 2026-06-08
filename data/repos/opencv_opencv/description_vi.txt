@@ -1,0 +1,1 @@
+OpenCV là thư viện mã nguồn mở hàng đầu thế giới cung cấp hơn 2500 thuật toán tối ưu hóa cho các tác vụ thị giác máy tính và học máy đa nền tảng.

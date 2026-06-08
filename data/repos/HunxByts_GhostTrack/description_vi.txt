@@ -1,0 +1,1 @@
+GhostTrack là một công cụ mã nguồn mở hữu ích dành cho việc thu thập thông tin tình báo (OSINT), cho phép người dùng dễ dàng theo dõi và tìm kiếm thông tin chi tiết qua địa chỉ IP, số điện thoại di động và tên người dùng mạng xã hội.

@@ -1,0 +1,1 @@
+llama.cpp là một dự án mã nguồn mở uy tín viết bằng C/C++ thuần túy, cho phép thực hiện suy luận các mô hình ngôn ngữ lớn (LLM) đa nền tảng với hiệu suất vượt trội và tài nguyên tối ưu mà không phụ thuộc vào thư viện bên ngoài.

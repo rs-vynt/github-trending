@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-08_daily",
+  "date": "2026-06-08",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "mvanhorn_last30days-skill",
+      "stars": 31209,
+      "rank": 1,
+      "isNew": true
+    },
+    {
+      "id": "opencv_opencv",
+      "stars": 88116,
+      "rank": 2,
+      "isNew": true
+    },
+    {
+      "id": "Leonxlnx_taste-skill",
+      "stars": 36791,
+      "rank": 3,
+      "isNew": true
+    },
+    {
+      "id": "NousResearch_hermes-agent",
+      "stars": 186026,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "lfnovo_open-notebook",
+      "stars": 27310,
+      "rank": 5,
+      "isNew": true
+    },
+    {
+      "id": "yikart_AiToEarn",
+      "stars": 18815,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "aaif-goose_goose",
+      "stars": 47539,
+      "rank": 7,
+      "isNew": true
+    },
+    {
+      "id": "Crosstalk-Solutions_project-nomad",
+      "stars": 29755,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "ggml-org_llama.cpp",
+      "stars": 115357,
+      "rank": 9,
+      "isNew": true
+    },
+    {
+      "id": "RyanCodrai_turbovec",
+      "stars": 7250,
+      "rank": 10,
+      "isNew": true
+    },
+    {
+      "id": "TapXWorld_ChinaTextbook",
+      "stars": 72516,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "openai_plugins",
+      "stars": 2055,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "refactoringhq_tolaria",
+      "stars": 12912,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "HunxByts_GhostTrack",
+      "stars": 13751,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "microsoft_pg_durable",
+      "stars": 1474,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}
