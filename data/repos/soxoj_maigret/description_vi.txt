@@ -1,0 +1,1 @@
+Maigret là một công cụ OSINT mạnh mẽ giúp thu thập toàn diện thông tin và hồ sơ của một cá nhân trên hơn 3.000 trang web trực tuyến chỉ bằng tên người dùng (username) mà không cần dùng đến API key.

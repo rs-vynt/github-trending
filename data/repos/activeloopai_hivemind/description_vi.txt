@@ -1,0 +1,1 @@
+Hivemind là bộ não dùng chung, tự động học hỏi cho các agent AI hỗ trợ lập trình, giúp ghi lại, mã hóa và lan truyền các giải pháp hiệu quả trong toàn bộ nhóm để tiết kiệm chi phí và tăng hiệu suất.

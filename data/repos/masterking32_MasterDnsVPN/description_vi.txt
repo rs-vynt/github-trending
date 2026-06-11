@@ -1,0 +1,1 @@
+MasterDnsVPN là một giải pháp đường hầm DNS (DNS tunneling) tiên tiến, được thiết kế với giao thức tùy chỉnh, ARQ, và khả năng cân bằng tải giữa nhiều resolver nhằm vượt qua các biện pháp kiểm duyệt mạng khắt khe nhất với tốc độ và độ ổn định cao.

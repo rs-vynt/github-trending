@@ -1,0 +1,10 @@
+{
+  "id": "masterking32_MasterDnsVPN",
+  "fullName": "masterking32/MasterDnsVPN",
+  "name": "MasterDnsVPN",
+  "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+  "stars": 5365,
+  "forks": 0,
+  "readmeHash": "032828b41c3f35511b7398b5c1185b2a",
+  "tags": []
+}

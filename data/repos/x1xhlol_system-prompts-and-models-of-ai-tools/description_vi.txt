@@ -1,0 +1,1 @@
+Một bộ sưu tập khổng lồ chứa các câu lệnh hệ thống (system prompts), công cụ nội bộ và mô hình AI bị rò rỉ hoặc được mã nguồn mở từ các nền tảng AI phổ biến như Cursor, Devin AI, Claude Code và nhiều công cụ khác.

@@ -1,0 +1,1 @@
+agent-skills cung cấp một tập hợp các quy trình làm việc và kỹ năng kỹ thuật cấp độ sản xuất giúp định hướng các tác nhân AI lập trình viết code an toàn, có thể kiểm thử và bảo trì giống như một kỹ sư phần mềm cao cấp.

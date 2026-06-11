@@ -1,0 +1,1 @@
+PM Skills Marketplace là một bộ công cụ AI toàn diện cung cấp hơn 100 kỹ năng và lệnh cấu trúc theo các framework quản lý sản phẩm hàng đầu, giúp các Product Manager tối ưu hóa quy trình từ lên ý tưởng, chiến lược, thực thi đến ra mắt sản phẩm trên các nền tảng như Claude Code và Cowork.

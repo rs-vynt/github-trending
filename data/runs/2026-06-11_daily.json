@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-11_daily",
+  "date": "2026-06-11",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "addyosmani_agent-skills",
+      "stars": 52706,
+      "rank": 1,
+      "isNew": true
+    },
+    {
+      "id": "phuryn_pm-skills",
+      "stars": 15483,
+      "rank": 2,
+      "isNew": true
+    },
+    {
+      "id": "refactoringhq_tolaria",
+      "stars": 15090,
+      "rank": 3,
+      "isNew": false
+    },
+    {
+      "id": "mvanhorn_last30days-skill",
+      "stars": 39326,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "soxoj_maigret",
+      "stars": 32206,
+      "rank": 5,
+      "isNew": true
+    },
+    {
+      "id": "x1xhlol_system-prompts-and-models-of-ai-tools",
+      "stars": 139636,
+      "rank": 6,
+      "isNew": true
+    },
+    {
+      "id": "obra_superpowers",
+      "stars": 223969,
+      "rank": 7,
+      "isNew": true
+    },
+    {
+      "id": "masterking32_MasterDnsVPN",
+      "stars": 5365,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "harry0703_MoneyPrinterTurbo",
+      "stars": 85410,
+      "rank": 9,
+      "isNew": false
+    },
+    {
+      "id": "maziyarpanahi_openmed",
+      "stars": 2416,
+      "rank": 10,
+      "isNew": true
+    },
+    {
+      "id": "luongnv89_claude-howto",
+      "stars": 36691,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "activeloopai_hivemind",
+      "stars": 953,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "ruvnet_RuView",
+      "stars": 73018,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "roboflow_supervision",
+      "stars": 43701,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "google_skills",
+      "stars": 13420,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}

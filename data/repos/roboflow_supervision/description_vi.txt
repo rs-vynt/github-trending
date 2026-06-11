@@ -1,0 +1,1 @@
+Supervision cung cấp các công cụ và tiện ích linh hoạt, không phụ thuộc mô hình để xây dựng ứng dụng thị giác máy tính nhanh chóng và dễ dàng hơn.

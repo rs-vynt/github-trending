@@ -1,0 +1,1 @@
+OpenMed là một công cụ AI y tế mã nguồn mở hoạt động hoàn toàn trên thiết bị, giúp trích xuất thực thể và ẩn danh dữ liệu cá nhân từ văn bản lâm sàng một cách an toàn mà không cần kết nối internet.

@@ -1,0 +1,1 @@
+Superpowers là một khung phương pháp luận phát triển phần mềm cung cấp các luồng kỹ năng tự động giúp các AI agent lập trình như Claude Code hay Cursor làm việc bài bản, từ khâu lên thiết kế, lập kế hoạch, viết kiểm thử đến lập trình dựa trên các subagent tự chủ.
