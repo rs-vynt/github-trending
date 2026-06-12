@@ -1,0 +1,10 @@
+{
+  "id": "restic_restic",
+  "fullName": "restic/restic",
+  "name": "restic",
+  "description": "Fast, secure, efficient backup program",
+  "stars": 34146,
+  "forks": 0,
+  "readmeHash": "4c8a570e0bb025528f7334dadf509028",
+  "tags": []
+}

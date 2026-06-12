@@ -144,6 +144,15 @@
     "summary": "# 🚀 Understand Anything\n\n## 🌟 Trọng tâm\nUnderstand Anything giúp biến bất kỳ cơ sở mã, cơ sở tri thức hoặc tài liệu nào thành một đồ thị tri thức tương tác. Mục tiêu cốt lõi không phải là vẽ ra một đồ thị phức tạp để gây ấn tượng, mà là tạo ra một đồ thị có khả năng hướng dẫn và giúp bạn hiểu rõ cách các thành phần trong hệ thống liên kết với nhau.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nGiải quyết khó khăn khi tiếp cận các dự án lớn (hàng trăm nghìn dòng code) bằng cách cung cấp sơ đồ trực quan, tìm kiếm ngữ nghĩa và phân tích tác động của code. Công cụ hướng đến mọi đối tượng từ lập trình viên (junior/senior) cần hiểu kiến trúc và gỡ lỗi, cho đến Quản lý sản phẩm (PM) muốn nắm bắt luồng logic nghiệp vụ.\n\n## 🛠️ Công nghệ cốt lõi\nSử dụng phương pháp lai (hybrid) giữa Tree-sitter (phân tích tĩnh, trích xuất cấu trúc như hàm, lớp, phụ thuộc một cách tất định) và LLM (đường ống đa tác nhân phân tích ngữ nghĩa, tạo tóm tắt, nhóm kiến trúc và luồng nghiệp vụ). Công cụ tự động phát hiện ngôn ngữ và hỗ trợ phân tích tăng dần (incremental).\n\n## 💡 Tại sao đáng chú ý?\nHỗ trợ đa nền tảng mạnh mẽ (Claude Code, Cursor, VS Code Copilot, Gemini CLI, v.v.) và đa ngôn ngữ. Đồ thị tạo ra (dưới dạng JSON) có thể được lưu trữ cùng mã nguồn (docs-as-code) để toàn đội ngũ cùng sử dụng mà không cần chạy lại phân tích, lý tưởng cho việc đào tạo nhân sự mới và đánh giá Pull Request.\n"
   },
   {
+    "id": "NVIDIA_SkillSpector",
+    "name": "NVIDIA/SkillSpector",
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+    "tags": [],
+    "stars": 2619,
+    "folder": "NVIDIA_SkillSpector",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "NousResearch_hermes-agent",
     "name": "NousResearch/hermes-agent",
     "description": "Hermes Agent của Nous Research là một AI agent đa nền tảng tiên tiến với khả năng tự động học hỏi, tạo kỹ năng từ kinh nghiệm, tự tối ưu hóa bộ nhớ qua từng phiên trò chuyện và hỗ trợ linh hoạt nhiều mô hình ngôn ngữ lớn khác nhau.",
@@ -221,20 +230,20 @@
   {
     "id": "activeloopai_hivemind",
     "name": "activeloopai/hivemind",
-    "description": "One brain for all your agents",
+    "description": "Hivemind là bộ não dùng chung, tự động học hỏi cho các agent AI hỗ trợ lập trình, giúp ghi lại, mã hóa và lan truyền các giải pháp hiệu quả trong toàn bộ nhóm để tiết kiệm chi phí và tăng hiệu suất.",
     "tags": [],
     "stars": 953,
     "folder": "activeloopai_hivemind",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Hivemind\n\n## 🌟 Trọng tâm\nHivemind là bộ não dùng chung, tự động học hỏi, được hỗ trợ bởi đám mây dành cho các agent lập trình (như Claude Code, OpenClaw, Codex, Cursor, Hermes, pi).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Các agent trí tuệ nhân tạo thường hoạt động độc lập và không thể chia sẻ ngữ cảnh hay kinh nghiệm với nhau. Khi một agent giải quyết được một vấn đề phức tạp, kiến thức đó không được lưu lại để tái sử dụng, dẫn đến việc lãng phí token, thời gian và chi phí cho những lần giải quyết tương tự.\n- **Khách hàng mục tiêu:** Các nhóm kỹ sư phần mềm, lập trình viên sử dụng các công cụ AI hỗ trợ lập trình (AI coding agents) muốn đồng bộ hóa, chia sẻ kinh nghiệm, và tái sử dụng các mẫu mã lập trình hiệu quả trong nội bộ nhóm.\n\n## 🛠️ Công nghệ cốt lõi\n- **Truy xuất và nhúng (Embeddings & Retrieval):** Tìm kiếm dấu vết kết hợp giữa từ vựng và ngữ nghĩa (hybrid semantic + lexical search), dự phòng bằng thuật toán BM25.\n- **Phân tích dấu vết (Trace Mining):** Ghi lại mọi tương tác (prompt, công cụ, phản hồi) và khai thác bằng background worker để mã hóa thành các tập tin `SKILL.md`.\n- **Hệ thống tập tin ảo (Virtual File System):** Đánh chặn các hoạt động tập tin thông qua hệ thống tập tin ảo được SQL hỗ trợ (`~/.deeplake/memory/`).\n- **Tóm tắt bằng AI (AI Summarization):** Tự động tóm tắt các phiên làm việc và tạo thành trang wiki chung cho các thành viên.\n\n## 💡 Tại sao đáng chú ý?\nHivemind không chỉ lưu trữ ngữ cảnh; nó phân tích các mô hình tương tác để nhận ra các giải pháp, kỹ năng và quy tắc hiệu quả, biến chúng thành kỹ năng mã hóa (`SKILL.md`) để có thể tái sử dụng ngay lập tức trên tất cả các agent của nhóm. Việc chia sẻ \"bộ não\" này giúp giảm tới 25% chi phí, tốn ít hơn 1,7 lần số lượng token và số lượt tương tác giảm 31%, tối ưu đáng kể hiệu suất làm việc của cả một đội ngũ.\n"
   },
   {
     "id": "addyosmani_agent-skills",
     "name": "addyosmani/agent-skills",
-    "description": "Production-grade engineering skills for AI coding agents.",
+    "description": "agent-skills cung cấp một tập hợp các quy trình làm việc và kỹ năng kỹ thuật cấp độ sản xuất giúp định hướng các tác nhân AI lập trình viết code an toàn, có thể kiểm thử và bảo trì giống như một kỹ sư phần mềm cao cấp.",
     "tags": [],
     "stars": 52706,
     "folder": "addyosmani_agent-skills",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 agent-skills\n## 🌟 Trọng tâm\nBộ kỹ năng kỹ thuật (engineering skills) ở cấp độ sản xuất dành riêng cho các tác nhân AI (AI coding agents). Chúng cung cấp các quy trình làm việc chuẩn mực từ khâu thiết kế, lập kế hoạch, code, kiểm thử đến triển khai, giúp AI tuân thủ các thực hành tốt nhất (best practices) giống như một kỹ sư phần mềm cao cấp.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Các AI lập trình thường có xu hướng tìm đường tắt (bỏ qua viết tài liệu, bỏ qua test, thiếu kiểm tra bảo mật), dẫn đến code thiếu tin cậy và khó bảo trì. Repo này giải quyết điều đó bằng cách ép AI đi qua các quy trình có kiểm soát (workflows), tích hợp các quy tắc từ văn hóa kỹ sư của Google.\n- **Khách hàng mục tiêu:** Các nhà phát triển, kỹ sư phần mềm, và quản lý dự án đang sử dụng các trợ lý lập trình AI (như Claude Code, Cursor, Antigravity CLI, Gemini CLI, Windsurf, Copilot) muốn đầu ra từ AI đạt tiêu chuẩn sản xuất cao nhất.\n\n## 🛠️ Công nghệ cốt lõi\n- **Hệ thống cấu trúc kỹ năng bằng Markdown:** Mỗi kỹ năng là một file `SKILL.md` (chứa siêu dữ liệu YAML) và nội dung Markdown, đóng vai trò như một quy trình làm việc từng bước thay vì chỉ là lời nhắc (prompt).\n- **Slash Commands & Meta-skills:** Hệ thống lệnh (như `/spec`, `/plan`, `/build`) tích hợp với các AI CLI để kích hoạt kỹ năng tương ứng.\n- **Anti-rationalization & Verification:** Cơ chế \"chống ngụy biện\" và yêu cầu bằng chứng xác minh (test qua, build thành công) được nhúng sâu vào kỹ năng để chặn AI bỏ qua các bước quan trọng.\n\n## 💡 Tại sao đáng chú ý?\n- Cung cấp đến **24 kỹ năng** (skills) và **4 persona chuyên gia** bao trùm toàn bộ vòng đời phát triển phần mềm (SDLC).\n- Đưa các khái niệm kỹ thuật chuyên sâu (như Hyrum's Law, Chesterton's Fence, Trunk-based development, Shift Left) trực tiếp vào ngữ cảnh làm việc của AI.\n- Dễ dàng tích hợp với hầu hết các IDE và CLI phổ biến (Claude Code, Cursor, Gemini, Copilot, v.v.).\n"
   },
   {
     "id": "affaan-m_ECC",
@@ -252,6 +261,15 @@
     "summary": "# 🚀 affaan-m_ECC\n## 🌟 Trọng tâm\nECC là một hệ thống tối ưu hóa và quản lý hiệu suất (operator system) dành cho các tác nhân AI (AI agents) hoạt động trên nhiều nền tảng (multi-harness). Hệ thống cung cấp một bộ công cụ hoàn chỉnh bao gồm các kỹ năng (skills), bản năng (instincts), tối ưu hóa bộ nhớ, học tập liên tục và quét bảo mật.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Vượt qua giới hạn của các cấu hình đơn giản bằng cách cung cấp một hệ thống toàn diện để thiết lập, quản lý và bảo mật quy trình làm việc của tác nhân AI. Giải quyết các vấn đề về token, giới hạn bộ nhớ, và sự thiếu đồng bộ khi làm việc trên nhiều môi trường khác nhau.\n- **Khách hàng mục tiêu:** Các lập trình viên, kỹ sư phần mềm, và các nhóm phát triển sử dụng công cụ AI (như Claude Code, Cursor, Codex, OpenCode, Zed) mong muốn xây dựng các quy trình tự động hóa mạnh mẽ, an toàn và sẵn sàng cho môi trường sản xuất.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ hỗ trợ:** Hỗ trợ hơn 12 hệ sinh thái ngôn ngữ bao gồm TypeScript, Python, Go, Java, C++, Rust, v.v.\n- **Công nghệ nền tảng:** Node.js, Shell scripting.\n- **Nền tảng tích hợp (Harnesses):** Claude Code CLI, Cursor, OpenAI Codex, OpenCode, Zed, Gemini, GitHub Copilot.\n- **Bảo mật:** Tích hợp AgentShield (Security Auditor) để quét tĩnh, kiểm tra quyền và phát hiện rủi ro bảo mật trong quy trình AI.\n\n## 💡 Tại sao đáng chú ý?\n- **Sự ủng hộ cực lớn từ cộng đồng:** Đạt hơn 182,000 sao, 28,000 forks và hơn 170 người đóng góp trên GitHub.\n- **Hệ sinh thái công cụ đồ sộ:** Tích hợp sẵn 63 subagents chuyên dụng và 249 kỹ năng xử lý mọi khía cạnh từ lập trình, TDD, review code đến viết tài liệu và quản trị hệ thống.\n- **Khả năng tự động hóa và học tập:** Trang bị tính năng học tập liên tục (Continuous Learning v2) tự động trích xuất mẫu từ phiên làm việc, cùng khả năng điều phối đa tác nhân (multi-agent orchestration).\n- **Tính di động và tương thích cao:** Hoạt động liền mạch xuyên suốt các hệ điều hành (Windows, macOS, Linux) và tương thích hoàn toàn với nhiều CLI và IDE hiện đại.\n"
   },
   {
+    "id": "alchaincyf_zhangxuefeng-skill",
+    "name": "alchaincyf/zhangxuefeng-skill",
+    "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+    "tags": [],
+    "stars": 7933,
+    "folder": "alchaincyf_zhangxuefeng-skill",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "anthropics_financial-services",
     "name": "anthropics/financial-services",
     "description": "Tập hợp các tác nhân AI, kỹ năng và trình kết nối dữ liệu dựa trên Claude, được thiết kế để tự động hóa các quy trình làm việc trong lĩnh vực dịch vụ tài chính.",
@@ -265,6 +283,15 @@
     "stars": 29201,
     "folder": "anthropics_financial-services",
     "summary": "# 🚀 Claude for Financial Services\n\n## 🌟 Trọng tâm\nDự án cung cấp các tác nhân tham chiếu (reference agents), bộ kỹ năng (skills) và trình kết nối dữ liệu (data connectors) được tối ưu hóa cho các quy trình làm việc phổ biến trong lĩnh vực dịch vụ tài chính, bao gồm ngân hàng đầu tư, nghiên cứu cổ phiếu, vốn cổ phần tư nhân và quản lý gia sản.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nGiải quyết bài toán tự động hóa và tăng cường hiệu suất trong các tác vụ tài chính phức tạp như phân tích công ty so sánh, định giá DCF, theo dõi danh mục đầu tư và kiểm toán báo cáo. Khách hàng mục tiêu là các chuyên gia tài chính, nhà phân tích, quản lý quỹ và cố vấn tài sản tại các tổ chức tài chính, giúp họ nhanh chóng tạo ra các bản thảo tài liệu chuyên nghiệp để con người đánh giá và ký duyệt.\n\n## 🛠️ Công nghệ cốt lõi\nHệ thống sử dụng Claude Managed Agents API, kiến trúc Model Context Protocol (MCP) để kết nối dữ liệu, và Claude Cowork dưới dạng plugin. Các thành phần được xây dựng hoàn toàn dựa trên tệp (markdown, YAML, JSON), cho phép triển khai linh hoạt (headless hoặc qua giao diện). Nó cũng tích hợp sẵn với hệ sinh thái Microsoft 365 và các nhà cung cấp dữ liệu hàng đầu (S&P Global, PitchBook, FactSet, LSEG).\n\n## 💡 Tại sao đáng chú ý?\nKho lưu trữ cung cấp một giải pháp \"hai trong một\" ấn tượng: vừa là công cụ cài đặt dùng ngay, vừa là bộ khung (framework) dễ dàng tùy chỉnh theo ngữ cảnh của từng công ty. Với sự hỗ trợ mạnh mẽ cho các thao tác Excel, PowerPoint và khả năng kết nối dữ liệu theo thời gian thực qua MCP, dự án này giúp các luồng công việc tài chính chuyên sâu trở nên chuẩn hóa, nhanh chóng và giảm thiểu sai sót một cách đáng kể.\n"
+  },
+  {
+    "id": "apple_container",
+    "name": "apple/container",
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+    "tags": [],
+    "stars": 32326,
+    "folder": "apple_container",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "aquasecurity_trivy",
@@ -304,6 +331,15 @@
     "stars": 9659,
     "folder": "can1357_oh-my-pi",
     "summary": "Dự án \"oh-my-pi\" (omp) là một AI coding agent mạnh mẽ dành cho terminal, được phân nhánh (fork) từ dự án Pi, với thiết kế chú trọng vào tương tác trực tiếp và tích hợp sâu với quy trình lập trình. omp nổi bật nhờ khả năng kết nối trực tiếp với các tính năng của IDE (thông qua LSP), cho phép agent thực hiện các thao tác phức tạp như cấu trúc lại mã, đổi tên an toàn, và thậm chí điều khiển các trình gỡ lỗi (debugger) thực thụ đối với các dự án C, Go, hoặc Python. Thay vì gọi các lệnh shell bên ngoài một cách chậm chạp, hệ thống sử dụng hơn 27.000 dòng mã Rust lõi để tăng tốc tối đa các thao tác xử lý file, tìm kiếm, mô phỏng shell và phân tích cú pháp AST.\n\nBên cạnh đó, dự án sở hữu một hệ sinh thái cực kỳ linh hoạt: hỗ trợ hơn 40 nhà cung cấp LLM khác nhau và cung cấp 32 công cụ tích hợp sẵn. Agent có thể điều khiển trình duyệt, tìm kiếm và phân tích nội dung web (kể cả PDF và báo cáo từ arxiv), chia nhỏ công việc bằng cách sinh ra các subagent (đại lý phụ) xử lý song song trong môi trường bị cô lập, và xử lý xung đột hợp nhất (merge conflict) của Git dễ dàng. Agent còn tự động ghi nhớ bối cảnh các kho mã lưu trữ thông qua cơ chế \"Hindsight\", và đọc hiểu trực tiếp các file quy tắc từ các công cụ khác như Cursor, Cline hay Copilot.\n\nĐể bắt đầu, lập trình viên có thể dễ dàng cài đặt qua lệnh shell (`curl -fsSL https://omp.sh/install | sh`) trên môi trường macOS/Linux, hoặc thông qua package manager như Bun (`bun install -g @oh-my-pi/pi-coding-agent`). Sau khi cài đặt, chỉ cần gọi lệnh `omp` tại terminal để mở một giao diện đồ họa đầu cuối (TUI) trực quan. Bạn có thể thay đổi các mô hình AI trực tiếp trong phiên bằng câu lệnh `/model`, cấu hình kết nối trực tiếp vào trong IDE (thông qua ACP), và tận hưởng sự trợ giúp đắc lực của một trong những công cụ coding agent nhanh và mạnh nhất hiện nay.\n"
+  },
+  {
+    "id": "chatwoot_chatwoot",
+    "name": "chatwoot/chatwoot",
+    "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+    "tags": [],
+    "stars": 30346,
+    "folder": "chatwoot_chatwoot",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "chopratejas_headroom",
@@ -377,11 +413,11 @@
   {
     "id": "google_skills",
     "name": "google/skills",
-    "description": "Agent Skills for Google products and technologies",
+    "description": "Agent Skills cung cấp tập hợp các kỹ năng cho tác nhân AI để tương tác và làm việc với các sản phẩm, công nghệ của Google.",
     "tags": [],
     "stars": 13420,
     "folder": "google_skills",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 google/skills\n\n## 🌟 Trọng tâm\nKho lưu trữ này cung cấp tập hợp các \"Agent Skills\" (Kỹ năng của tác nhân AI) chính thức cho các sản phẩm và nền tảng công nghệ của Google, đặc biệt tập trung mạnh vào Google Cloud (GCP) và Gemini.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giúp các tác nhân AI (AI agents) dễ dàng tích hợp, tương tác và thực hiện các tác vụ quản lý, vận hành trên nền tảng đám mây và hệ sinh thái công nghệ của Google (như BigQuery, Cloud Run, Firebase, GKE, Gemini API, v.v.).\n- **Khách hàng mục tiêu:** Các lập trình viên AI, nhà phát triển Agentic Framework, và các kỹ sư điện toán đám mây muốn xây dựng các trợ lý ảo hoặc tác nhân AI có khả năng thao tác trực tiếp với các dịch vụ của Google Cloud.\n\n## 🛠️ Công nghệ cốt lõi\n- Hệ sinh thái **Agent Skills** (có thể cài đặt qua `npx skills`).\n- **Google Cloud Platform (GCP)**: AlloyDB, BigQuery, Cloud Run, Cloud SQL, GKE, Firebase.\n- **AI/ML**: Gemini API, Managed Agents API.\n- Cấu trúc thư mục chứa các hướng dẫn dạng Markdown/prompt định hướng cho các AI Agent.\n\n## 💡 Tại sao đáng chú ý?\nDự án cung cấp các phương pháp hay nhất (best practices) và cấu trúc sẵn có (Well-Architected Framework) trực tiếp từ Google, đảm bảo các tác nhân AI khi làm việc với hạ tầng Google Cloud sẽ tuân thủ đúng các nguyên tắc về bảo mật, hiệu suất, chi phí và độ tin cậy. Số lượng sao (hơn 13,000 stars) cho thấy sự quan tâm rất lớn từ cộng đồng trong việc kết hợp AI Agents với hệ sinh thái Google.\n"
   },
   {
     "id": "harry0703_MoneyPrinterTurbo",
@@ -417,6 +453,15 @@
     "summary": "# 🚀 jwasham_coding-interview-university\n\n## 🌟 Trọng tâm\nKế hoạch học tập Khoa học Máy tính (Computer Science) toàn diện nhằm chuẩn bị cho các cuộc phỏng vấn kỹ sư phần mềm tại các công ty công nghệ lớn.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Lấp đầy khoảng trống kiến thức nền tảng về Khoa học Máy tính, cung cấp lộ trình bài bản để ôn luyện thuật toán, cấu trúc dữ liệu và thiết kế hệ thống nhằm vượt qua các vòng phỏng vấn kỹ thuật khắt khe.\n- **Khách hàng mục tiêu:** Các lập trình viên tự học, người tham gia bootcamp, sinh viên mới ra trường hoặc bất kỳ ai muốn hệ thống hóa kiến thức để ứng tuyển vị trí kỹ sư phần mềm tại các tập đoàn lớn (Big Tech).\n\n## 🛠️ Công nghệ cốt lõi\n- Cấu trúc dữ liệu & Thuật toán (Data Structures & Algorithms)\n- Thiết kế hệ thống (System Design)\n- Mạng máy tính, Cơ sở dữ liệu và Kiến trúc máy tính\n- Kỹ năng giải quyết vấn đề và phỏng vấn kỹ thuật\n\n## 💡 Tại sao đáng chú ý?\nDự án này thu hút được sự quan tâm khổng lồ với hơn 349.000 stars trên GitHub nhờ vào việc cung cấp một lộ trình rõ ràng, miễn phí và vô cùng chi tiết. Nó được đúc kết từ chính quá trình tự học và chuẩn bị phỏng vấn thành công của tác giả, mang lại giá trị thực tiễn cao cho cộng đồng lập trình.\n"
   },
   {
+    "id": "kenn-io_agentsview",
+    "name": "kenn-io/agentsview",
+    "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+    "tags": [],
+    "stars": 1623,
+    "folder": "kenn-io_agentsview",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "lfnovo_open-notebook",
     "name": "lfnovo/open-notebook",
     "description": "Open Notebook là một giải pháp mã nguồn mở, bảo mật quyền riêng tư thay thế cho Google Notebook LM, cho phép bạn tự quản lý tài liệu nghiên cứu và sử dụng linh hoạt hơn 18 mô hình AI khác nhau để tìm kiếm, trò chuyện và tạo podcast đa diễn giả.",
@@ -428,11 +473,11 @@
   {
     "id": "luongnv89_claude-howto",
     "name": "luongnv89/claude-howto",
-    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "description": "Một hướng dẫn trực quan, dựa trên ví dụ thực tế về Claude Code — từ các khái niệm cơ bản đến các agent nâng cao, đi kèm với các template sao chép-dán mang lại giá trị tức thì.",
     "tags": [],
     "stars": 36691,
     "folder": "luongnv89_claude-howto",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 claude-howto\n\n## 🌟 Trọng tâm\nCung cấp hướng dẫn toàn diện, trực quan và dựa trên ví dụ thực tế về Claude Code. Repo bao gồm từ các khái niệm cơ bản đến việc điều phối các agent nâng cao, hooks, skills và MCP servers, cung cấp các template có thể sao chép-dán mang lại giá trị sử dụng ngay lập tức.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Việc tài liệu chính thức chỉ mô tả tính năng mà không hướng dẫn cách kết hợp chúng (như slash commands với hooks, memory, và subagents) làm người dùng khó xây dựng luồng công việc hiệu quả. Repo giải quyết điều này bằng cách cung cấp lộ trình học tập rõ ràng cùng các ví dụ ở cấp độ production.\n- **Khách hàng mục tiêu**: Các lập trình viên và kỹ sư phần mềm đã cài đặt Claude Code và muốn tối đa hóa hiệu suất làm việc bằng cách thiết lập tự động hóa, quy trình review code, hoặc hệ thống AI agent phức tạp.\n\n## 🛠️ Công nghệ cốt lõi\n- Claude Code (v2.1+)\n- Markdown & Mermaid diagrams (để trực quan hóa kiến trúc)\n- Model Context Protocol (MCP)\n- Shell Scripting (cho Hooks)\n- Python (cho kiểm thử, sinh EPUB ebook)\n\n## 💡 Tại sao đáng chú ý?\n- **Đạt top #1 GitHub Trending**: Được cộng đồng lập trình viên đón nhận và sử dụng rộng rãi (hơn 36.000 sao).\n- **Học tập có lộ trình**: Cung cấp bài kiểm tra tự đánh giá và lộ trình học tập từ 15 phút (cơ bản) đến khóa học hoàn chỉnh cuối tuần (11-13 giờ).\n- **Tính thực tiễn cao**: Chứa các cấu hình copy-paste để thiết lập nhanh chóng slash commands, plugins, subagents, và memory cho mọi dự án.\n- **Cập nhật liên tục**: Luôn đồng bộ với các phiên bản Claude Code mới nhất (v2.1.160) và hỗ trợ các mô hình AI mới như Claude Sonnet 4.6, Opus 4.8.\n"
   },
   {
     "id": "lyogavin_airllm",
@@ -446,11 +491,11 @@
   {
     "id": "masterking32_MasterDnsVPN",
     "name": "masterking32/MasterDnsVPN",
-    "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+    "description": "MasterDnsVPN là một giải pháp đường hầm DNS (DNS tunneling) tiên tiến, được thiết kế với giao thức tùy chỉnh, ARQ, và khả năng cân bằng tải giữa nhiều resolver nhằm vượt qua các biện pháp kiểm duyệt mạng khắt khe nhất với tốc độ và độ ổn định cao.",
     "tags": [],
     "stars": 5365,
     "folder": "masterking32_MasterDnsVPN",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 MasterDnsVPN\n## 🌟 Trọng tâm\nDự án VPN dựa trên kỹ thuật đường hầm DNS (DNS tunneling) tiên tiến nhằm vượt qua kiểm duyệt mạng khắt khe, tối ưu hóa sự ổn định, tốc độ và khả năng chống mất gói tin so với các dự án như DNSTT và SlipStream.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Vượt qua tình trạng chặn Internet toàn diện hoặc kiểm duyệt mạng gắt gao (như việc chỉ cho phép truy cập intranet) bằng cách ngụy trang dữ liệu dưới dạng các truy vấn DNS thông thường.\n- **Khách hàng mục tiêu:** Người dùng tại các quốc gia bị kiểm duyệt Internet mạnh, các nhà nghiên cứu an ninh mạng, và những người cần kết nối mạng an toàn, ẩn danh thông qua DNS.\n\n## 🛠️ Công nghệ cốt lõi\n- **Giao thức tùy chỉnh & ARQ:** Giảm thiểu chi phí truyền tải dữ liệu, tăng hiệu năng và tự động truyền lại khi mất gói tin.\n- **Multipath & Packet Duplication:** Sử dụng nhiều resolver cùng lúc và nhân bản gói tin để tăng tỷ lệ gửi thành công trên các mạng kém ổn định.\n- **Smart Resolver Selection:** Lựa chọn resolver dựa trên độ trễ và tỷ lệ mất gói tin, tích hợp cơ chế tự động loại bỏ và kiểm tra lại resolver bị lỗi.\n- **Mã hóa linh hoạt:** Hỗ trợ nhiều chuẩn mã hóa như AES-GCM, ChaCha20, XOR để cân bằng giữa tốc độ và bảo mật.\n\n## 💡 Tại sao đáng chú ý?\nMasterDnsVPN đã được thử nghiệm thực tế và chứng minh hiệu quả trong các đợt cắt đứt Internet toàn diện (như ở Iran), giúp người dùng duy trì kết nối với thế giới bên ngoài nhờ khả năng ngụy trang tinh vi, chia nhỏ dữ liệu và phân phối qua nhiều luồng DNS khác nhau mà không yêu cầu phần mềm phụ trợ phức tạp.\n"
   },
   {
     "id": "mattpocock_skills",
@@ -470,11 +515,11 @@
   {
     "id": "maziyarpanahi_openmed",
     "name": "maziyarpanahi/openmed",
-    "description": "open-source healthcare ai",
+    "description": "OpenMed là một công cụ AI y tế mã nguồn mở hoạt động hoàn toàn trên thiết bị, giúp trích xuất thực thể và ẩn danh dữ liệu cá nhân từ văn bản lâm sàng một cách an toàn mà không cần kết nối internet.",
     "tags": [],
     "stars": 2416,
     "folder": "maziyarpanahi_openmed",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 maziyarpanahi/openmed\n\n## 🌟 Trọng tâm\nOpenMed là công cụ AI y tế mã nguồn mở ưu tiên chạy hoàn toàn trên thiết bị (local-first), cung cấp khả năng trích xuất thực thể y tế và phi định danh thông tin cá nhân (PII) từ văn bản lâm sàng mà không cần gửi dữ liệu lên đám mây, đảm bảo bảo mật tuyệt đối.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Rủi ro rò rỉ dữ liệu nhạy cảm (PII/PHI) khi sử dụng các API đám mây, chi phí cao từ việc gọi API, và nhu cầu về một hệ thống AI mạnh mẽ, có thể tùy chỉnh nhưng hoạt động hoàn toàn ngoại tuyến.\n- **Khách hàng mục tiêu:** Các nhà phát triển phần mềm y tế, bệnh viện, phòng khám, các tổ chức nghiên cứu y tế, và bất kỳ ai cần xử lý, trích xuất hoặc ẩn danh văn bản lâm sàng đồng thời phải tuân thủ nghiêm ngặt quy định bảo mật (ví dụ: HIPAA).\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ & Nền tảng:** Python, Swift (OpenMedKit), hỗ trợ native cho iOS, iPadOS, macOS.\n- **Backend AI & Tăng tốc:** Apple MLX (tăng tốc gấp 24-33 lần trên Apple Silicon), PyTorch (CPU/CUDA), Hugging Face Transformers.\n- **Mô hình AI:** Hơn 1.000 mô hình NER chuyên biệt (bệnh, thuốc, giải phẫu, v.v.), nhận diện PII cho 12 ngôn ngữ (với các mô hình như OpenAI Privacy Filter, Nemotron-PII).\n- **Kiến trúc:** Dịch vụ REST API thông qua FastAPI (có hỗ trợ Docker), khả năng xử lý hàng loạt (BatchProcessor).\n\n## 💡 Tại sao đáng chú ý?\n- **Hoạt động 100% trên thiết bị:** Không cần kết nối internet, đảm bảo quyền riêng tư tuyệt đối cho dữ liệu bệnh nhân.\n- **Hiệu suất mạnh mẽ & Tương thích rộng:** Hỗ trợ tới 12 ngôn ngữ và hoạt động trơn tru trên mọi nền tảng (Linux, macOS, Windows) với khả năng tối ưu hóa sâu qua MLX trên hệ sinh thái Apple.\n- **Không khóa hệ sinh thái (Zero vendor lock-in):** Được cấp phép Apache-2.0, miễn phí và hoàn toàn mở.\n- **Đa dạng và chuyên sâu:** Sở hữu hơn 1.000 mô hình y khoa đặc thù, tính năng phi định danh cực kỳ thông minh với chuẩn an toàn HIPAA.\n"
   },
   {
     "id": "microsoft_markitdown",
@@ -493,6 +538,15 @@
     "stars": 1474,
     "folder": "microsoft_pg_durable",
     "summary": "# 🚀 microsoft/pg_durable\n\n## 🌟 Trọng tâm\npg_durable là một tiện ích mở rộng (extension) cho PostgreSQL cho phép \"Thực thi Bền vững\" (Durable Execution) trực tiếp bên trong cơ sở dữ liệu. Tiện ích này cho phép bạn định nghĩa các luồng công việc (workflows) dài hạn, chịu lỗi thông qua SQL mà không cần đến các cơ sở hạ tầng dịch vụ bên ngoài.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Thay thế việc thiết lập và quản lý phức tạp các hệ thống job worker, cron job, hàng đợi, bảng lưu trạng thái... bằng một giải pháp lưu trạng thái tại chỗ. Nó tự động tạo các điểm kiểm tra (checkpoint) để luồng công việc tự động khôi phục và chạy tiếp từ đoạn bị lỗi thay vì phải chạy lại từ đầu khi hệ thống khởi động lại, crash, hoặc lỗi bước gọi API.\n- **Khách hàng mục tiêu:** Các kỹ sư backend, kỹ sư dữ liệu, DBA (Quản trị viên CSDL), SRE muốn đặt luồng công việc gần với nơi lưu dữ liệu của họ, hay những đội nhóm đang phát triển các luồng xử lý AI, phân tích dữ liệu lô lớn, gọi API ngoại, cron job bảo trì cần độ tin cậy và theo dõi trạng thái rõ ràng.\n\n## 🛠️ Công nghệ cốt lõi\n- Xây dựng dưới dạng một tiện ích mở rộng cho PostgreSQL sử dụng framework `pgrx` với ngôn ngữ Rust.\n- Sử dụng framework điều phối `duroxide` ở dưới nền để chạy luồng công việc với replay deterministic, checkpoints, sub-orchestrators và định thời gian.\n- `duroxide-pg` dùng cho việc quản lý state ngay bên trong PostgreSQL cho duroxide.\n- Định nghĩa logic với các SQL DSL được cung cấp như `df.start()`, `~>`, `|=>`, và các primitives hạng nhất cho SQL: scheduling, loop, conditions, paralleling...\n\n## 💡 Tại sao đáng chú ý?\nDự án cho phép đem các mẫu (pattern) hệ thống điều phối phân tán (như Temporal, AWS Step Functions hay Apache Airflow) thẳng vào trong một cơ sở dữ liệu quen thuộc là PostgreSQL mà **không cần hạ tầng phụ**. Mọi thứ chạy ngầm với PostgreSQL (Background workers), tránh đi rủi ro lỗi hoàn thành một phần của quá trình thực thi trên máy chủ ứng dụng và giảm bớt việc lập trình luồng chạy phức tạp trong code backend truyền thống.\n"
+  },
+  {
+    "id": "msitarzewski_agency-agents",
+    "name": "msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "tags": [],
+    "stars": 111529,
+    "folder": "msitarzewski_agency-agents",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "mvanhorn_last30days-skill",
@@ -515,11 +569,11 @@
   {
     "id": "obra_superpowers",
     "name": "obra/superpowers",
-    "description": "An agentic skills framework & software development methodology that works.",
+    "description": "Superpowers là một khung phương pháp luận phát triển phần mềm cung cấp các luồng kỹ năng tự động giúp các AI agent lập trình như Claude Code hay Cursor làm việc bài bản, từ khâu lên thiết kế, lập kế hoạch, viết kiểm thử đến lập trình dựa trên các subagent tự chủ.",
     "tags": [],
     "stars": 223969,
     "folder": "obra_superpowers",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 obra/superpowers\n## 🌟 Trọng tâm\nMột khung kỹ năng (skills framework) và phương pháp phát triển phần mềm hoàn chỉnh dành cho các agent lập trình, giúp chúng làm việc một cách tự chủ, có hệ thống và hiệu quả hơn.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Các AI agent lập trình thường bỏ qua bước thiết kế, nhào ngay vào viết code dẫn đến chất lượng kém, hoặc không tuân thủ các quy trình kỹ thuật phần mềm chuẩn (như TDD, lên kế hoạch chi tiết, đánh giá code).\n- **Khách hàng mục tiêu:** Các nhà phát triển phần mềm sử dụng AI coding agent (Claude Code, Cursor, Copilot, Codex, Gemini, v.v.) muốn có một trợ lý AI làm việc bài bản và đáng tin cậy hơn.\n\n## 🛠️ Công nghệ cốt lõi\n- Tích hợp dưới dạng plugin/extension vào nhiều nền tảng AI coding agent phổ biến.\n- Cung cấp một thư viện các kỹ năng (skills) có thể kết hợp (composable) chạy tự động dựa trên ngữ cảnh.\n- Phát triển dựa trên subagent (subagent-driven-development) với các luồng công việc như brainstorming, lập kế hoạch, TDD (RED-GREEN-REFACTOR), gỡ lỗi có hệ thống, code review và quản lý git worktrees.\n\n## 💡 Tại sao đáng chú ý?\nDự án giúp biến các AI agent từ những công cụ \"nhập lệnh là code\" thành những \"kỹ sư phần mềm\" thực thụ với quy trình làm việc bài bản (từ hỏi rõ yêu cầu, chốt thiết kế, lập kế hoạch đến viết test và code), giúp nâng cao tính tự chủ và chất lượng mã nguồn đáng kể.\n"
   },
   {
     "id": "odoo_odoo",
@@ -589,11 +643,11 @@
   {
     "id": "phuryn_pm-skills",
     "name": "phuryn/pm-skills",
-    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "description": "PM Skills Marketplace là một bộ công cụ AI toàn diện cung cấp hơn 100 kỹ năng và lệnh cấu trúc theo các framework quản lý sản phẩm hàng đầu, giúp các Product Manager tối ưu hóa quy trình từ lên ý tưởng, chiến lược, thực thi đến ra mắt sản phẩm trên các nền tảng như Claude Code và Cowork.",
     "tags": [],
     "stars": 15483,
     "folder": "phuryn_pm-skills",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 PM Skills Marketplace\n\n## 🌟 Trọng tâm\nDự án này là một tập hợp phong phú gồm 68 kỹ năng PM và 42 quy trình làm việc được chia thành 9 plugin, hoạt động như một hệ điều hành AI để giúp các Nhà quản lý sản phẩm (Product Managers) đưa ra các quyết định tốt hơn thông qua các khuôn khổ có cấu trúc (discovery, strategy, execution, growth...). Tương thích tốt nhất với Claude Code, Cowork nhưng cũng hỗ trợ các trợ lý AI khác như Codex, Gemini CLI, Cursor.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n**Bài toán:** AI thông thường chỉ cung cấp văn bản chung chung. PM cần các cấu trúc vững chắc và quy trình làm việc từng bước dựa trên các framework quản lý sản phẩm đã được kiểm chứng (như của Teresa Torres, Marty Cagan) trong công việc hàng ngày của họ. Thêm vào đó, việc sử dụng AI để tạo mã nguồn cần các quy trình kiểm toán, kiểm thử và ghi tài liệu hiệu quả.\n\n**Khách hàng mục tiêu:** Các Nhà quản lý sản phẩm (Product Managers), những người sáng lập (Founders), và các chuyên gia sản phẩm muốn tận dụng tối đa AI để tối ưu hóa quy trình từ lúc tìm kiếm ý tưởng, xác định chiến lược, thực thi (viết PRD, OKR, Roadmap), phát triển thị trường (GTM, pricing), đến việc kiểm duyệt các dự án ứng dụng do AI tự động lập trình.\n\n## 🛠️ Công nghệ cốt lõi\n- Các tệp kỹ năng (`SKILL.md`) theo chuẩn kỹ năng AI agent phổ biến có thể nạp vào nhiều môi trường.\n- Hệ thống lệnh (slash commands) như `/discover`, `/strategy`, `/write-prd` được thiết kế đặc thù cho Claude Code và Cowork CLI.\n- Cấu trúc thư mục dạng Plugin để phân nhóm kỹ năng theo các lĩnh vực PM (như pm-product-discovery, pm-product-strategy, pm-execution...).\n- Sự tích hợp và tính tương thích với các CLI/Trợ lý AI đa dạng bao gồm Claude Code, Codex CLI, Gemini CLI, OpenCode, Cursor, Kiro.\n\n## 💡 Tại sao đáng chú ý?\nDự án này vượt ra ngoài việc sử dụng AI để sinh văn bản thụ động bằng cách cung cấp quy trình \"có cấu trúc\", thay thế cho những tư vấn chung chung. Nó số hóa và đưa thẳng các \"tuyệt chiêu\" của các chuyên gia sản phẩm hàng đầu vào trong luồng công việc hằng ngày của người dùng, nâng cao tính chuyên nghiệp và tính chính xác thông qua hệ thống lệnh (commands) được xâu chuỗi thông minh. Hơn nữa, nó còn tích hợp các tiện ích đặc biệt quan trọng hiện nay như \"PM AI Shipping Kit\" để đánh giá và kiểm duyệt các hệ thống phần mềm do AI tự động lập trình.\n"
   },
   {
     "id": "reconurge_flowsint",
@@ -620,6 +674,15 @@
     "summary": "# 🚀 Tolaria\n\n## 🌟 Trọng tâm\nTolaria là một ứng dụng máy tính dành cho macOS, Windows và Linux, tập trung vào việc quản lý cơ sở kiến thức và ghi chú cá nhân dưới dạng tệp markdown thuần túy (plain markdown files). \n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Tổ chức, quản lý và lưu trữ một khối lượng lớn ghi chú/kiến thức (second brain) một cách ngoại tuyến, không bị khóa vào bất kỳ hệ sinh thái đám mây nào và có thể quản lý qua Git. Giải quyết nhu cầu có một hệ thống tài liệu tiêu chuẩn, dễ dàng kết hợp và làm ngữ cảnh cho các tác nhân AI.\n- **Khách hàng mục tiêu**: Những người cần quản lý \"bộ não thứ hai\" (second brain), quản lý tài liệu công ty cho AI, những người dùng chuyên nghiệp (power-users) thích sử dụng bàn phím, cũng như bất kỳ ai muốn lưu trữ và làm việc với ghi chú một cách độc lập, bảo mật (offline-first).\n\n## 🛠️ Công nghệ cốt lõi\n- **Tauri**: Framework chính để xây dựng ứng dụng máy tính nhẹ và hiệu suất cao.\n- **React & TypeScript**: Quản lý giao diện và logic ứng dụng Frontend.\n- **Rust**: Viết backend an toàn và xử lý hiệu năng cho hệ thống máy tính cục bộ.\n- **Git**: Sử dụng làm hệ thống lưu trữ và quản lý phiên bản cho từng kho lưu trữ (vault).\n\n## 💡 Tại sao đáng chú ý?\n- **Sở hữu dữ liệu hoàn toàn**: 100% tệp tin markdown nằm trên máy cá nhân, dễ dàng đồng bộ và lưu phiên bản thông qua Git mà không lo về việc bị phụ thuộc vào máy chủ hay ứng dụng bên thứ ba.\n- **Hỗ trợ mạnh mẽ cho AI (AI-first)**: Khả năng tích hợp thân thiện với các công cụ AI (Claude Code, Codex CLI, Gemini CLI) nhờ định dạng markdown tiêu chuẩn và cung cấp sẵn tệp cấu hình AGENTS.\n- **Tối ưu trải nghiệm**: Được xây dựng từ chính nhu cầu thực tế của tác giả để quản lý kho dữ liệu khổng lồ (hơn 10.000 ghi chú), mang lại trải nghiệm tối ưu qua hệ phím tắt, giao diện không ràng buộc (types as lenses).\n"
   },
   {
+    "id": "restic_restic",
+    "name": "restic/restic",
+    "description": "Fast, secure, efficient backup program",
+    "tags": [],
+    "stars": 34146,
+    "folder": "restic_restic",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "revfactory_harness",
     "name": "revfactory/harness",
     "description": "Harness là một plugin dành cho Claude Code giúp tự động thiết kế và tạo ra các nhóm tác nhân AI cùng hệ thống kỹ năng chuyên biệt dựa trên 6 mẫu kiến trúc định sẵn.",
@@ -637,11 +700,11 @@
   {
     "id": "roboflow_supervision",
     "name": "roboflow/supervision",
-    "description": "We write your reusable computer vision tools. 💜",
+    "description": "Supervision cung cấp các công cụ và tiện ích linh hoạt, không phụ thuộc mô hình để xây dựng ứng dụng thị giác máy tính nhanh chóng và dễ dàng hơn.",
     "tags": [],
     "stars": 43701,
     "folder": "roboflow_supervision",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 roboflow/supervision\n\n## 🌟 Trọng tâm\nCung cấp các công cụ thị giác máy tính có thể tái sử dụng, giúp đơn giản hóa các tác vụ như vẽ chú thích, phát hiện đối tượng, theo dõi và xử lý tập dữ liệu. Thư viện này không phụ thuộc vào mô hình (model-agnostic) nên có thể dễ dàng kết nối với các mô hình phổ biến như Ultralytics, Transformers, v.v.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Rút ngắn thời gian và độ phức tạp khi xây dựng các ứng dụng thị giác máy tính từ đầu (ví dụ: tiền xử lý tập dữ liệu, vẽ bounding box, đếm đối tượng, theo dõi).\n- **Khách hàng mục tiêu:** Các nhà phát triển AI/Computer Vision, kỹ sư học máy, và nhà nghiên cứu cần một bộ công cụ tiêu chuẩn, dễ sử dụng, tương thích rộng để phát triển hoặc triển khai mô hình.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** Python (>=3.9)\n- **Kiến trúc linh hoạt:** Hoạt động như một lớp tiện ích (utility layer) trung gian tương thích với nhiều framework khác (YOLO, OpenCV, Inference, Transformers).\n- **Tính năng nổi bật:** Annotators (vẽ hộp, đa giác, v.v.), Dataset utils (tải, lưu, hợp nhất, chia dữ liệu), Detections (chuyển đổi chuẩn hóa kết quả từ các mô hình).\n\n## 💡 Tại sao đáng chú ý?\n- Được cộng đồng ủng hộ cực mạnh (hơn 43k stars trên GitHub).\n- Giải quyết trực tiếp các thao tác lặp đi lặp lại mệt mỏi trong Computer Vision bằng một API thống nhất, đơn giản.\n- Khả năng tích hợp liền mạch với các pipeline có sẵn và tài liệu hướng dẫn cực kỳ phong phú (bao gồm các tutorial hữu ích như tính toán thời gian dừng, ước tính tốc độ).\n"
   },
   {
     "id": "rohitg00_agentmemory",
@@ -676,11 +739,11 @@
   {
     "id": "ruvnet_RuView",
     "name": "ruvnet/RuView",
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "description": "RuView biến mạng WiFi thông thường thành một hệ thống radar và nhận thức không gian thông minh, giúp theo dõi sự hiện diện, nhịp tim, nhịp thở và chuyển động của con người xuyên tường theo thời gian thực mà hoàn toàn không cần dùng đến camera hay thiết bị đeo.",
     "tags": [],
     "stars": 73018,
     "folder": "ruvnet_RuView",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 RuView\n## 🌟 Trọng tâm\nBiến tín hiệu WiFi thông thường thành hệ thống nhận thức không gian và cảm biến thông minh. Nền tảng có khả năng phát hiện con người, đo nhịp thở, nhịp tim, theo dõi chuyển động và giám sát không gian xuyên tường, trong bóng tối mà không cần sử dụng bất kỳ camera hay thiết bị đeo nào.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giám sát an ninh, an toàn sức khỏe và nhận thức không gian một cách liên tục nhưng phải đảm bảo tuyệt đối quyền riêng tư (không dùng video/hình ảnh), giải quyết hạn chế của camera (điểm mù, bóng tối, vật cản) và chi phí cao của các hệ thống radar chuyên dụng.\n- **Khách hàng mục tiêu:** Cơ sở y tế và viện dưỡng lão, hệ thống nhà thông minh, cửa hàng bán lẻ, nhà máy công nghiệp, hệ thống tự động hóa tòa nhà và các lực lượng tìm kiếm cứu nạn/quân sự.\n\n## 🛠️ Công nghệ cốt lõi\n- **Thu thập dữ liệu:** Sử dụng Channel State Information (CSI) từ các vi điều khiển giá rẻ (như ESP32-S3) và bộ định tuyến WiFi thông thường.\n- **Xử lý tín hiệu & AI tại biên (Edge AI):** Ứng dụng mô hình mạng nơ-ron tiên tiến (như Contrastive CSI Encoder, Transformer, SNN) hoạt động cục bộ (Edge computing), mô hình ước lượng tư thế 17 điểm khớp và học tự giám sát (Self-Supervised Learning) qua RuVector.\n- **Kiến trúc phân tán:** Tích hợp với 105 mô-đun biên (edge modules), chạy độc lập không cần Internet hoặc đám mây, tích hợp dễ dàng qua MQTT và Matter.\n\n## 💡 Tại sao đáng chú ý?\nRuView mang tính đột phá vì nó \"bẻ khóa\" được khả năng biến sóng WiFi sẵn có thành một hệ thống radar chi phí siêu rẻ (chỉ khoảng 9 USD mỗi node). Giải pháp này đảm bảo 100% quyền riêng tư nhờ không sử dụng camera, vẫn có thể nhận diện xuyên tường, hoạt động trong bóng tối và dễ dàng tích hợp vào các hệ sinh thái nhà thông minh phổ biến như Home Assistant, Apple Home, Google Home.\n"
   },
   {
     "id": "ruvnet_ruflo",
@@ -700,11 +763,11 @@
   {
     "id": "soxoj_maigret",
     "name": "soxoj/maigret",
-    "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+    "description": "Maigret là một công cụ OSINT mạnh mẽ giúp thu thập toàn diện thông tin và hồ sơ của một cá nhân trên hơn 3.000 trang web trực tuyến chỉ bằng tên người dùng (username) mà không cần dùng đến API key.",
     "tags": [],
     "stars": 32206,
     "folder": "soxoj_maigret",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 soxoj/maigret\n## 🌟 Trọng tâm \nCông cụ OSINT mạnh mẽ giúp thu thập hồ sơ về một người dùng bằng cách tìm kiếm thông tin tài khoản trên hơn 3.000 trang web và nền tảng trực tuyến chỉ từ một tên người dùng (username) duy nhất.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu \n- **Bài toán:** Tiết kiệm thời gian trong việc tìm kiếm, xác minh danh tính và thu thập dữ liệu công khai trên không gian mạng về một cá nhân đang sử dụng chung username trên nhiều nền tảng, vốn đòi hỏi nhiều công sức nếu làm thủ công. Nó giải quyết bài toán chống bị chặn với khả năng vượt qua CAPTCHA và các lớp bảo vệ kiểm duyệt.\n- **Khách hàng mục tiêu:** Các nhà nghiên cứu bảo mật, điều tra viên OSINT, chuyên gia phân tích an ninh mạng, lực lượng thực thi pháp luật và các lập trình viên muốn tích hợp tính năng tra cứu người dùng vào hệ thống của họ.\n## 🛠️ Công nghệ cốt lõi \n- Được viết bằng Python (yêu cầu Python 3.10+).\n- Hỗ trợ bất đồng bộ (async) cho tốc độ thu thập nhanh chóng.\n- Phân tích và trích xuất dữ liệu tự động bằng thư viện `socid_extractor`.\n- Hỗ trợ vượt qua Cloudflare qua FlareSolverr và các cổng proxy như Tor, I2P.\n- Tích hợp AI (tương thích API OpenAI) để tạo báo cáo điều tra tự động.\n## 💡 Tại sao đáng chú ý?\n- Không yêu cầu API keys cho các trang web được tìm kiếm.\n- Có khả năng tạo báo cáo trực quan dưới nhiều định dạng (HTML, PDF, JSON, XMind) và đồ thị.\n- Tìm kiếm đệ quy sâu để phát hiện thêm thông tin.\n- Có sẵn giao diện web và dễ dàng tích hợp qua thư viện Python, nhận được hơn 32.000 stars trên GitHub chứng minh độ tin cậy và phổ biến.\n"
   },
   {
     "id": "stefan-jansen_machine-learning-for-trading",
@@ -727,11 +790,11 @@
   {
     "id": "x1xhlol_system-prompts-and-models-of-ai-tools",
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
-    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "description": "Một bộ sưu tập khổng lồ chứa các câu lệnh hệ thống (system prompts), công cụ nội bộ và mô hình AI bị rò rỉ hoặc được mã nguồn mở từ các nền tảng AI phổ biến như Cursor, Devin AI, Claude Code và nhiều công cụ khác.",
     "tags": [],
     "stars": 139636,
     "folder": "x1xhlol_system-prompts-and-models-of-ai-tools",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 x1xhlol/system-prompts-and-models-of-ai-tools\n\n## 🌟 Trọng tâm\nKho lưu trữ này là một bộ sưu tập toàn diện các câu lệnh hệ thống (system prompts), công cụ nội bộ và mô hình AI bị rò rỉ hoặc được mã nguồn mở từ nhiều công cụ và nền tảng AI phổ biến hiện nay như Claude Code, Cursor, Devin AI, Perplexity, Lovable, v.v.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Cung cấp thông tin chi tiết và minh bạch về cách thức hoạt động, các câu lệnh hệ thống và mô hình đằng sau nhiều công cụ AI thương mại và mã nguồn mở. Nó cũng nâng cao nhận thức về rủi ro rò rỉ dữ liệu (prompt injection/extraction) cho các startup AI.\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư Prompt (Prompt Engineers), nhà nghiên cứu AI, các chuyên gia bảo mật và các nhà sáng lập startup AI muốn học hỏi từ các hệ thống hiện có hoặc bảo vệ hệ thống của riêng họ.\n\n## 🛠️ Công nghệ cốt lõi\nKho lưu trữ chủ yếu tập trung vào dữ liệu thô (system prompts) và tài liệu về các mô hình ngôn ngữ lớn (LLMs). Không có ngôn ngữ lập trình cốt lõi, nhưng nó cung cấp cái nhìn sâu sắc về kiến trúc và cách thiết kế câu lệnh cho LLM.\n\n## 💡 Tại sao đáng chú ý?\n- Cung cấp một lượng dữ liệu lớn và hiếm có về các câu lệnh hệ thống \"thực chiến\" từ các công ty AI hàng đầu.\n- Là một nguồn tài nguyên học tập vô giá để tối ưu hóa thiết kế câu lệnh và xây dựng các tác nhân AI (AI agents).\n- Cảnh báo mạnh mẽ về các vấn đề bảo mật trong AI (như prompt injection) với khuyến nghị sử dụng các dịch vụ như ZeroLeaks.\n"
   },
   {
     "id": "yikart_AiToEarn",

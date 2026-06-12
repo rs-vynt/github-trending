@@ -1,0 +1,1 @@
+Restic là một chương trình sao lưu dữ liệu đa nền tảng nhanh chóng, hiệu quả và an toàn, hỗ trợ khử trùng lặp và mã hóa trên nhiều dịch vụ lưu trữ đám mây.

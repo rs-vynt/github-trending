@@ -1,0 +1,1 @@
+Chatwoot là nền tảng hỗ trợ khách hàng đa kênh, mã nguồn mở và tự lưu trữ, đóng vai trò như một giải pháp thay thế hoàn hảo cho Zendesk hay Intercom trong việc quản lý tập trung mọi tương tác với khách hàng.

@@ -1,0 +1,1 @@
+Công cụ viết bằng Swift giúp tạo và chạy các container Linux dưới dạng máy ảo nhẹ, tương thích chuẩn OCI, và được tối ưu hóa đặc biệt cho máy Mac sử dụng chip Apple silicon.

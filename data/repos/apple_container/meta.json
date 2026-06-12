@@ -1,0 +1,10 @@
+{
+  "id": "apple_container",
+  "fullName": "apple/container",
+  "name": "container",
+  "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+  "stars": 32326,
+  "forks": 0,
+  "readmeHash": "65b3266c715199cf95d588bd2bcc5ab8",
+  "tags": []
+}

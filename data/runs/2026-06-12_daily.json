@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-12_daily",
+  "date": "2026-06-12",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "apple_container",
+      "stars": 32326,
+      "rank": 1,
+      "isNew": true
+    },
+    {
+      "id": "addyosmani_agent-skills",
+      "stars": 54656,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "maziyarpanahi_openmed",
+      "stars": 2737,
+      "rank": 3,
+      "isNew": false
+    },
+    {
+      "id": "phuryn_pm-skills",
+      "stars": 16184,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "NVIDIA_SkillSpector",
+      "stars": 2619,
+      "rank": 5,
+      "isNew": true
+    },
+    {
+      "id": "soxoj_maigret",
+      "stars": 32593,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "x1xhlol_system-prompts-and-models-of-ai-tools",
+      "stars": 139859,
+      "rank": 7,
+      "isNew": false
+    },
+    {
+      "id": "refactoringhq_tolaria",
+      "stars": 15373,
+      "rank": 8,
+      "isNew": false
+    },
+    {
+      "id": "obra_superpowers",
+      "stars": 224788,
+      "rank": 9,
+      "isNew": false
+    },
+    {
+      "id": "restic_restic",
+      "stars": 34146,
+      "rank": 10,
+      "isNew": true
+    },
+    {
+      "id": "msitarzewski_agency-agents",
+      "stars": 111529,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "masterking32_MasterDnsVPN",
+      "stars": 5676,
+      "rank": 12,
+      "isNew": false
+    },
+    {
+      "id": "chatwoot_chatwoot",
+      "stars": 30346,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "kenn-io_agentsview",
+      "stars": 1623,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "alchaincyf_zhangxuefeng-skill",
+      "stars": 7933,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}

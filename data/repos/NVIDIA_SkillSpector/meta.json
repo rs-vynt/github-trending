@@ -1,0 +1,10 @@
+{
+  "id": "NVIDIA_SkillSpector",
+  "fullName": "NVIDIA/SkillSpector",
+  "name": "SkillSpector",
+  "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+  "stars": 2619,
+  "forks": 0,
+  "readmeHash": "54a9640f3673b60706adb1e71d4fe482",
+  "tags": []
+}
