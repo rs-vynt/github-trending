@@ -1,0 +1,1 @@
+Cypress là công cụ kiểm thử tự động mạnh mẽ, nhanh chóng và đáng tin cậy dành cho các ứng dụng web chạy trên trình duyệt.

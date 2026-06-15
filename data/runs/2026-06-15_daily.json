@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-15_daily",
+  "date": "2026-06-15",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "iptv-org_iptv",
+      "stars": 121092,
+      "rank": 1,
+      "isNew": true
+    },
+    {
+      "id": "freeCodeCamp_freeCodeCamp",
+      "stars": 447241,
+      "rank": 2,
+      "isNew": true
+    },
+    {
+      "id": "pytest-dev_pytest",
+      "stars": 14051,
+      "rank": 3,
+      "isNew": true
+    },
+    {
+      "id": "swc-project_swc",
+      "stars": 33786,
+      "rank": 4,
+      "isNew": true
+    },
+    {
+      "id": "chatwoot_chatwoot",
+      "stars": 31256,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "NVIDIA_SkillSpector",
+      "stars": 5355,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "meshery_meshery",
+      "stars": 10410,
+      "rank": 7,
+      "isNew": true
+    },
+    {
+      "id": "cypress-io_cypress",
+      "stars": 49961,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "GorvGoyl_Clone-Wars",
+      "stars": 35493,
+      "rank": 9,
+      "isNew": true
+    },
+    {
+      "id": "Introduction-to-Autonomous-Robots_Introduction-to-Autonomous-Robots",
+      "stars": 2743,
+      "rank": 10,
+      "isNew": true
+    },
+    {
+      "id": "shiyu-coder_Kronos",
+      "stars": 29927,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "music-assistant_server",
+      "stars": 2199,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "Free-TV_IPTV",
+      "stars": 16953,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "puppeteer_puppeteer",
+      "stars": 94650,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "andrewyng_aisuite",
+      "stars": 14403,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}

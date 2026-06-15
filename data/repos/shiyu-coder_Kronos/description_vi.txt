@@ -1,0 +1,1 @@
+Kronos là mô hình nền tảng mã nguồn mở đầu tiên chuyên xử lý và dự báo dữ liệu nến tài chính (K-lines) được huấn luyện trên 45 sàn giao dịch toàn cầu, hỗ trợ tinh chỉnh và backtest cho các chiến lược định lượng.

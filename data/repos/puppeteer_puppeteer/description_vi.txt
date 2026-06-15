@@ -1,0 +1,1 @@
+Puppeteer là một thư viện JavaScript phổ biến cung cấp API cấp cao để điều khiển Chrome hoặc Firefox qua DevTools Protocol, hỗ trợ mạnh mẽ cho tự động hóa trình duyệt và kiểm thử e2e.

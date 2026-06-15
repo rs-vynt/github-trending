@@ -1,0 +1,1 @@
+Khung kiểm thử pytest giúp dễ dàng viết các bài kiểm thử nhỏ gọn và có khả năng mở rộng để hỗ trợ kiểm thử chức năng phức tạp trong Python.

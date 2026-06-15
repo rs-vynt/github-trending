@@ -1,0 +1,1 @@
+SWC (Speedy Web Compiler) là một trình biên dịch TypeScript và JavaScript siêu nhanh được viết bằng ngôn ngữ Rust, giúp tối ưu hóa và tăng tốc đáng kể quá trình phát triển web.

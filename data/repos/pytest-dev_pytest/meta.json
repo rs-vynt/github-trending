@@ -1,0 +1,10 @@
+{
+  "id": "pytest-dev_pytest",
+  "fullName": "pytest-dev/pytest",
+  "name": "pytest",
+  "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+  "stars": 14051,
+  "forks": 0,
+  "readmeHash": "524ad1b595dc23b8532ebcc10a7753a7",
+  "tags": []
+}

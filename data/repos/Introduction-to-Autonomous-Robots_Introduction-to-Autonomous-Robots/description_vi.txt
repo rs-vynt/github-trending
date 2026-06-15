@@ -1,0 +1,1 @@
+Mã nguồn mở của cuốn sách giáo trình về nguyên lý tính toán, cảm biến và thuật toán của robot tự hành, cho phép người dùng tự biên dịch bằng LaTeX.

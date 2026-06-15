@@ -1,0 +1,1 @@
+Meshery là một trình quản lý cloud native mã nguồn mở, cung cấp nền tảng tự phục vụ trực quan dựa trên GitOps để thiết kế, triển khai, và quản lý các ứng dụng cũng như cơ sở hạ tầng đa đám mây trên nền Kubernetes.

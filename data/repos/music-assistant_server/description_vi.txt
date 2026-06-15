@@ -1,0 +1,1 @@
+Music Assistant Server là máy chủ quản lý thư viện đa phương tiện nguồn mở, kết nối các dịch vụ phát nhạc với hệ thống loa thông minh và tích hợp sâu với Home Assistant.
