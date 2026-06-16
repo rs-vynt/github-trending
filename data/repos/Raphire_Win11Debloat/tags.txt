@@ -1,0 +1,5 @@
+windows
+powershell
+debloat
+optimization
+privacy

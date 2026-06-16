@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-16_daily",
+  "date": "2026-06-16",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "iptv-org_iptv",
+      "stars": 122828,
+      "rank": 1,
+      "isNew": false
+    },
+    {
+      "id": "teslamate-org_teslamate",
+      "stars": 8223,
+      "rank": 2,
+      "isNew": true
+    },
+    {
+      "id": "Panniantong_Agent-Reach",
+      "stars": 30087,
+      "rank": 3,
+      "isNew": true
+    },
+    {
+      "id": "meshery_meshery",
+      "stars": 10622,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "chatwoot_chatwoot",
+      "stars": 31665,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "krahets_hello-algo",
+      "stars": 126876,
+      "rank": 6,
+      "isNew": true
+    },
+    {
+      "id": "freeCodeCamp_freeCodeCamp",
+      "stars": 447866,
+      "rank": 7,
+      "isNew": false
+    },
+    {
+      "id": "trycua_cua",
+      "stars": 18134,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "jwasham_coding-interview-university",
+      "stars": 352285,
+      "rank": 9,
+      "isNew": false
+    },
+    {
+      "id": "rohitg00_ai-engineering-from-scratch",
+      "stars": 33059,
+      "rank": 10,
+      "isNew": false
+    },
+    {
+      "id": "music-assistant_server",
+      "stars": 2380,
+      "rank": 11,
+      "isNew": false
+    },
+    {
+      "id": "Free-TV_IPTV",
+      "stars": 17267,
+      "rank": 12,
+      "isNew": false
+    },
+    {
+      "id": "Introduction-to-Autonomous-Robots_Introduction-to-Autonomous-Robots",
+      "stars": 3054,
+      "rank": 13,
+      "isNew": false
+    },
+    {
+      "id": "Raphire_Win11Debloat",
+      "stars": 48006,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "mikeroyal_Self-Hosting-Guide",
+      "stars": 21000,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}

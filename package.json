@@ -10,11 +10,13 @@
     "scrape": "python3 ../src/scraper.py --since daily --limit 15 && npx tsx scripts/regenerate-index.ts"
   },
   "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
     "clsx": "^2.1.1",
     "fast-check": "^4.8.0",
     "framer-motion": "^12.40.0",
     "fuse.js": "^7.4.1",
     "lucide-react": "^1.17.0",
+    "markdown-it": "^14.2.0",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -26,6 +28,7 @@
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
     "tailwind-merge": "^3.6.0",
+    "translate-markdown": "^1.1.0",
     "unified": "^11.0.5"
   },
   "devDependencies": {

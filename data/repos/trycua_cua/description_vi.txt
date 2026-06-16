@@ -1,0 +1,1 @@
+Cua là cơ sở hạ tầng mã nguồn mở bao gồm các sandbox, SDK và công cụ đánh giá chuẩn (benchmark) giúp xây dựng, huấn luyện và triển khai các tác nhân AI có khả năng tự động điều khiển máy tính trên macOS, Linux và Windows.

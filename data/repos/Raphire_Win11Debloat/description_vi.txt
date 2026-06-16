@@ -1,0 +1,1 @@
+Win11Debloat là một script PowerShell nhẹ và an toàn, giúp bạn dễ dàng gỡ bỏ các ứng dụng rác, vô hiệu hóa tính năng theo dõi và tùy chỉnh tối ưu hóa cho Windows 10/11 mà không cần cài đặt.

@@ -74,20 +74,20 @@
   {
     "id": "Free-TV_IPTV",
     "name": "Free-TV/IPTV",
-    "description": "M3U Playlist for free TV channels",
+    "description": "Free-TV/IPTV là bộ sưu tập danh sách phát M3U tổng hợp các kênh truyền hình chính thống, miễn phí trên toàn thế giới với tiêu chí ưu tiên chất lượng HD và độ ổn định cao.",
     "tags": [],
     "stars": 16953,
     "folder": "Free-TV_IPTV",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Free-TV/IPTV\n\n## 🌟 Trọng tâm\nDự án cung cấp một danh sách phát định dạng M3U cho các kênh truyền hình miễn phí trên toàn thế giới, nhằm mang lại trải nghiệm xem TV chất lượng và không tính phí.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết khó khăn trong việc tìm kiếm các kênh truyền hình miễn phí, hợp pháp, chất lượng HD và ổn định. Dự án giúp tập hợp tất cả các luồng phát nội địa hoặc trên Internet vào một danh sách phát dễ sử dụng.\n- **Khách hàng mục tiêu:** Những người dùng muốn xem các kênh truyền hình chính thống (tin tức, giải trí cơ bản) của nhiều quốc gia hoàn toàn miễn phí mà không cần trả phí cáp hay dịch vụ đăng ký.\n\n## 🛠️ Công nghệ cốt lõi\n- **M3U/M3U8:** Định dạng danh sách phát phổ biến tương thích với hầu hết các trình phát IPTV.\n- **Python Script (`make_playlist.py`):** Tự động sinh ra danh sách m3u8 từ các file markdown.\n- **Markdown (`.md`):** Dùng để quản lý thông tin kênh của từng quốc gia/khu vực một cách có tổ chức.\n\n## 💡 Tại sao đáng chú ý?\nDự án sở hữu 16,953 sao trên GitHub, chứng minh độ phổ biến lớn. Điểm nổi bật là tiêu chí \"chất lượng hơn số lượng\", chỉ tập trung duy trì các kênh hoạt động tốt, có chất lượng HD, là kênh chính thống và hoàn toàn miễn phí, đi kèm với quy trình quản lý đóng góp rõ ràng và nghiêm ngặt qua Pull Request.\n"
   },
   {
     "id": "GorvGoyl_Clone-Wars",
     "name": "GorvGoyl/Clone-Wars",
-    "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+    "description": "Bộ sưu tập hơn 100 bản sao và giải pháp thay thế mã nguồn mở của các trang web/ứng dụng nổi tiếng, cung cấp mã nguồn, bài hướng dẫn và demo thực tế nhằm phục vụ mục đích học tập.",
     "tags": [],
     "stars": 35493,
     "folder": "GorvGoyl_Clone-Wars",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 GorvGoyl/Clone-Wars\n\n## 🌟 Trọng tâm\nTổng hợp danh sách hơn 100 mã nguồn mở là các bản sao (clones) và các giải pháp thay thế (alternatives) của các trang web/ứng dụng phổ biến như Airbnb, Amazon, Instagram, Netflix, TikTok, Spotify, v.v.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Giúp các lập trình viên dễ dàng tìm kiếm các dự án mẫu thực tế để tham khảo, học hỏi cách thiết kế, xây dựng ứng dụng (full-stack, UI/UX) hoặc tìm kiếm các giải pháp mã nguồn mở thay thế cho các phần mềm thương mại.\n- **Khách hàng mục tiêu**: Lập trình viên (từ người mới học đến có kinh nghiệm) muốn nghiên cứu mã nguồn, sinh viên IT, và những người đam mê mã nguồn mở.\n\n## 🛠️ Công nghệ cốt lõi\nDự án không có tech stack riêng lẻ mà là nơi tổng hợp hàng trăm dự án với các tech stack phổ biến:\n- **Frontend**: React, Vue.js, Next.js, Angular, React Native, Flutter, Tailwind CSS.\n- **Backend**: Node.js, Python (Django), PHP, Go, Ruby on Rails.\n- **Database/BaaS**: Firebase, Supabase, PostgreSQL, MongoDB, GraphQL.\n\n## 💡 Tại sao đáng chú ý?\n- Cung cấp kho tài nguyên học tập khổng lồ và thực tế với liên kết trực tiếp tới các bài hướng dẫn, mã nguồn và bản demo.\n- Các dự án được phân loại rõ ràng thành bản sao (dành cho học tập) và giải pháp thay thế (đầy đủ chức năng có thể sử dụng thực tế).\n- Đặc biệt phổ biến trong cộng đồng lập trình viên với hơn 35,000 sao trên GitHub.\n"
   },
   {
     "id": "HKUDS_ViMax",
@@ -140,11 +140,11 @@
   {
     "id": "Introduction-to-Autonomous-Robots_Introduction-to-Autonomous-Robots",
     "name": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
-    "description": "Introduction to Autonomous Robots",
+    "description": "Mã nguồn mở của cuốn sách giáo trình về nguyên lý tính toán, cảm biến và thuật toán của robot tự hành, cho phép người dùng tự biên dịch bằng LaTeX.",
     "tags": [],
     "stars": 2743,
     "folder": "Introduction-to-Autonomous-Robots_Introduction-to-Autonomous-Robots",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Introduction-to-Autonomous-Robots\n\n## 🌟 Trọng tâm\nDự án này là mã nguồn mở của một cuốn sách giáo trình về các nguyên lý tính toán của robot tự hành (Introduction to Autonomous Robots).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Cung cấp tài liệu giáo dục và mã nguồn hướng dẫn chi tiết về cấu tạo, cơ chế, cảm biến, cơ cấu chấp hành và thuật toán điều khiển của robot tự hành.\n- **Khách hàng mục tiêu:** Sinh viên, giảng viên, nhà nghiên cứu, người đam mê robotics và kỹ sư muốn học về nền tảng lý thuyết lẫn tính toán trong lĩnh vực robot tự hành.\n\n## 🛠️ Công nghệ cốt lõi\n- LaTeX (pdflatex, bibtex) để biên dịch tài liệu.\n- Overleaf cho môi trường soạn thảo/biên dịch trực tuyến.\n\n## 💡 Tại sao đáng chú ý?\nLà một nguồn tài liệu giáo khoa mở có chất lượng (được xuất bản bởi MIT Press) cho phép sử dụng phi thương mại, cung cấp toàn bộ quy trình để người dùng có thể tự biên dịch thành PDF thông qua hệ thống LaTeX.\n"
   },
   {
     "id": "Leonxlnx_taste-skill",
@@ -211,6 +211,24 @@
     "stars": 25147,
     "folder": "OpenBMB_VoxCPM",
     "summary": "# Tóm tắt dự án: VoxCPM\n\n**VoxCPM** là một hệ thống Text-to-Speech (TTS) tiên tiến không sử dụng tokenizer, do nhóm OpenBMB phát triển. Dự án này tận dụng kiến trúc tự hồi quy khuếch tán (diffusion autoregressive) đầu cuối để chuyển đổi trực tiếp văn bản thành giọng nói chất lượng cao 48kHz. Phiên bản mới nhất, VoxCPM2, có 2 tỷ tham số, được đào tạo với hơn 2 triệu giờ dữ liệu và hỗ trợ tới 30 ngôn ngữ khác nhau mà không cần cấu hình thẻ ngôn ngữ. \n\nCác tính năng nổi bật của VoxCPM bao gồm \"Thiết kế Giọng nói\" (Voice Design) cho phép tạo ra những giọng nói hoàn toàn mới chỉ thông qua các đoạn mô tả bằng ngôn ngữ tự nhiên về độ tuổi, giới tính và cảm xúc. Ngoài ra, tính năng \"Nhân bản Giọng nói Có thể Kiểm soát\" (Controllable Voice Cloning) cho phép sao chép bất kỳ âm sắc nào từ một đoạn ghi âm ngắn, trong khi người dùng vẫn có thể điều chỉnh phong cách, cảm xúc và nhịp độ. Hơn nữa, với mô hình hỗ trợ tối ưu qua Nano-vLLM và vLLM-Omni, VoxCPM mang tới khả năng hoạt động trực tuyến thời gian thực (real-time streaming) với tốc độ vô cùng ấn tượng.\n\nĐể bắt đầu, bạn chỉ cần cài đặt thư viện qua pip (`pip install voxcpm`). VoxCPM cung cấp một Python API rõ ràng để dễ dàng tạo giọng nói, nhân bản âm thanh hoặc tùy chỉnh giọng qua code. Công cụ cũng đi kèm với CLI trực quan và bản web demo giúp người dùng thử nghiệm tính năng nhanh chóng. Hơn thế, dự án hoàn toàn mở mã nguồn với giấy phép Apache-2.0, thích hợp cho cả việc nghiên cứu học thuật lẫn sử dụng cho các ứng dụng thương mại.\n"
+  },
+  {
+    "id": "Panniantong_Agent-Reach",
+    "name": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "tags": [],
+    "stars": 30087,
+    "folder": "Panniantong_Agent-Reach",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "Raphire_Win11Debloat",
+    "name": "Raphire/Win11Debloat",
+    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+    "tags": [],
+    "stars": 48006,
+    "folder": "Raphire_Win11Debloat",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "RyanCodrai_turbovec",
@@ -299,11 +317,11 @@
   {
     "id": "andrewyng_aisuite",
     "name": "andrewyng/aisuite",
-    "description": "Simple, unified interface to multiple Generative AI providers",
+    "description": "aisuite là thư viện Python cung cấp giao diện hợp nhất để tương tác với nhiều LLM khác nhau và framework xây dựng AI agent mạnh mẽ với khả năng sử dụng công cụ và hỗ trợ nguyên bản MCP.",
     "tags": [],
     "stars": 14403,
     "folder": "andrewyng_aisuite",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 aisuite\n\n## 🌟 Trọng tâm\nMột thư viện Python nhẹ cung cấp giao diện thống nhất để gọi nhiều API mô hình ngôn ngữ lớn (LLM) khác nhau (như OpenAI, Anthropic, Google, Ollama, v.v.) và framework để xây dựng các AI agent với khả năng sử dụng công cụ mạnh mẽ. Đi kèm là OpenCoworker, một desktop AI agent có thể hỗ trợ thực hiện các tác vụ thực tế trên máy tính.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giảm thiểu sự phức tạp và sự phụ thuộc (vendor lock-in) khi phải làm việc với các SDK khác nhau của từng nhà cung cấp LLM. Đơn giản hóa việc xây dựng AI agent, cung cấp cho LLM các công cụ (tools) Python, bộ công cụ (toolkits) sandbox hoặc tích hợp MCP mà không cần nhiều mã soạn sẵn (boilerplate).\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư phần mềm muốn xây dựng ứng dụng AI linh hoạt với nhiều LLM, và người dùng máy tính cần một trợ lý ảo desktop (OpenCoworker) để tự động hóa tác vụ hàng ngày.\n\n## 🛠️ Công nghệ cốt lõi\n- **Chat Completions API:** Giao diện kiểu OpenAI, chuẩn hóa tham số đầu vào và đầu ra cho nhiều nhà cung cấp LLM khác nhau qua một string cấu hình (`<provider>:<model-name>`).\n- **Agents API:** Hỗ trợ gọi công cụ (tool calling) dễ dàng bằng các hàm Python, tích hợp Toolkits (files, git, shell) chạy trong môi trường sandbox, và quản lý luồng với `max_turns`.\n- **Model Context Protocol (MCP):** Hỗ trợ nguyên bản MCP, cho phép LLM giao tiếp liền mạch với các máy chủ MCP bên ngoài.\n\n## 💡 Tại sao đáng chú ý?\n- **Tính thống nhất & Linh hoạt:** Thay đổi nhà cung cấp LLM chỉ bằng một dòng code mà không cần cấu hình lại hệ thống.\n- **Tiện ích thực tế:** Tích hợp sẵn OpenCoworker - một sản phẩm AI agent chạy trực tiếp trên desktop (hỗ trợ macOS và Windows).\n- **Mở rộng dễ dàng:** Dễ dàng tự viết thêm adapter để hỗ trợ các mô hình/nhà cung cấp mới thông qua quy ước đơn giản.\n"
   },
   {
     "id": "anthropics_financial-services",
@@ -410,11 +428,11 @@
   {
     "id": "cypress-io_cypress",
     "name": "cypress-io/cypress",
-    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "description": "Cypress là công cụ kiểm thử tự động mạnh mẽ, nhanh chóng và đáng tin cậy dành cho các ứng dụng web chạy trên trình duyệt.",
     "tags": [],
     "stars": 49961,
     "folder": "cypress-io_cypress",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Cypress\n\n## 🌟 Trọng tâm\nCypress là một công cụ kiểm thử (testing tool) hiện đại dành riêng cho các ứng dụng web chạy trên trình duyệt. Trọng tâm của nó là mang lại trải nghiệm kiểm thử frontend end-to-end (E2E) và component testing nhanh chóng, dễ dàng và đáng tin cậy.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Các công cụ kiểm thử E2E truyền thống thường gặp vấn đề về tốc độ chậm, thiết lập môi trường phức tạp, tính không ổn định (flaky tests) và rất khó để debug lỗi.\n- **Khách hàng mục tiêu:** Các lập trình viên Frontend, kỹ sư QA (Quality Assurance), và các nhóm phát triển web muốn đảm bảo chất lượng phần mềm thông qua kiểm thử tự động một cách liền mạch.\n\n## 🛠️ Công nghệ cốt lõi\n- Được xây dựng bằng JavaScript/Node.js, hoạt động trực tiếp bên trong trình duyệt cùng với ứng dụng được kiểm thử.\n- Kiến trúc độc đáo cho phép truy cập trực tiếp vào các đối tượng DOM, mạng (network), và timer của trình duyệt.\n- Hỗ trợ tích hợp mạnh mẽ với các hệ thống CI/CD và cung cấp dịch vụ Cypress Cloud để quản lý, theo dõi kết quả kiểm thử trên diện rộng.\n\n## 💡 Tại sao đáng chú ý?\n- **Khắc phục Flakiness:** Tự động chờ (auto-waiting) các phần tử xuất hiện trước khi tương tác, giảm thiểu các lỗi không rõ nguyên nhân.\n- **Trải nghiệm Developer (DX) xuất sắc:** Giao diện debug trực quan (time-travel debugging), dễ dàng xem lại các trạng thái UI tại mỗi bước kiểm thử thông qua snapshot.\n- **Cộng đồng lớn mạnh:** Có gần 50,000 stars trên GitHub, được sử dụng rộng rãi bởi các công ty hàng đầu và có hệ sinh thái tài liệu vô cùng phong phú.\n"
   },
   {
     "id": "decolua_9router",
@@ -434,11 +452,11 @@
   {
     "id": "freeCodeCamp_freeCodeCamp",
     "name": "freeCodeCamp/freeCodeCamp",
-    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "description": "freeCodeCamp là một nền tảng học lập trình trực tuyến miễn phí và mã nguồn mở, cung cấp hàng ngàn thử thách thực hành, dự án và chứng chỉ giúp người học phát triển kỹ năng công nghệ và tìm được việc làm lập trình đầu tiên.",
     "tags": [],
     "stars": 447241,
     "folder": "freeCodeCamp_freeCodeCamp",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 freeCodeCamp\n## 🌟 Trọng tâm\nCung cấp một nền tảng học lập trình miễn phí và mã nguồn mở, giúp hàng triệu người chuyển đổi nghề nghiệp sang lĩnh vực công nghệ thông qua các chương trình đào tạo lập trình full-stack, học máy, cơ sở dữ liệu và tiếng Anh/ngôn ngữ.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- Bài toán: Nhu cầu học lập trình ngày càng cao nhưng rào cản chi phí và thiếu môi trường thực hành chất lượng làm khó nhiều người.\n- Khách hàng mục tiêu: Người lớn bận rộn muốn chuyển sang ngành công nghệ, những người tự học lập trình, mong muốn rèn luyện qua các dự án thực tế để lấy chứng chỉ và tìm công việc phát triển phần mềm đầu tiên của họ.\n## 🛠️ Công nghệ cốt lõi\n- Nền tảng học tập trực tuyến mã nguồn mở.\n- Tích hợp hàng ngàn thử thách lập trình tương tác và bài kiểm tra trên trình duyệt.\n- Chương trình đào tạo toàn diện: Responsive Web Design, JavaScript, Front-End Libraries, Python, Relational Databases, Back-End và API.\n## 💡 Tại sao đáng chú ý?\nfreeCodeCamp.org là một tổ chức phi lợi nhuận 501(c)(3) được cộng đồng tài trợ, đã giúp hơn 100.000 người có được công việc công nghệ đầu tiên. Nó cung cấp các chứng chỉ quốc tế uy tín hoàn toàn miễn phí, có diễn đàn hỗ trợ nhanh chóng và được duy trì phát triển bởi hàng ngàn tình nguyện viên. Đây là một trong những kho lưu trữ phổ biến và được yêu thích nhất trên GitHub.\n"
   },
   {
     "id": "ggml-org_llama.cpp",
@@ -485,11 +503,11 @@
   {
     "id": "iptv-org_iptv",
     "name": "iptv-org/iptv",
-    "description": "Collection of publicly available IPTV channels from all over the world",
+    "description": "Bộ sưu tập khổng lồ các kênh truyền hình IPTV công khai và miễn phí từ khắp nơi trên thế giới, được tổng hợp thành các danh sách phát m3u dễ sử dụng.",
     "tags": [],
     "stars": 121092,
     "folder": "iptv-org_iptv",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 iptv-org/iptv\n\n## 🌟 Trọng tâm\nDự án là một bộ sưu tập khổng lồ các kênh truyền hình IPTV (Internet Protocol television) công khai từ khắp nơi trên thế giới, được tổng hợp thành các danh sách phát (playlist) định dạng M3U dễ sử dụng.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n*   **Bài toán giải quyết:** Giải quyết khó khăn trong việc tìm kiếm và gom nhóm các nguồn phát truyền hình trực tiếp hợp pháp, miễn phí trên Internet. Dự án tự động cập nhật và phân loại hàng nghìn kênh TV thành các danh sách dễ truy cập.\n*   **Khách hàng mục tiêu:** Bất kỳ ai muốn xem truyền hình trực tiếp miễn phí qua Internet, người dùng các ứng dụng phát video (như VLC, Kodi), hoặc các nhà phát triển muốn tích hợp luồng IPTV vào ứng dụng của họ.\n\n## 🛠️ Công nghệ cốt lõi\n*   **Danh sách phát M3U:** Định dạng chuẩn để lưu trữ danh sách các kênh IPTV.\n*   **GitHub Actions:** Tự động hóa quá trình cập nhật, kiểm tra tính hợp lệ của các liên kết luồng video (stream).\n*   **Hệ sinh thái liên kết:** Bao gồm EPG (Electronic Program Guide - Lịch phát sóng), Database (Cơ sở dữ liệu kênh) và API để truy vấn dữ liệu kênh.\n\n## 💡 Tại sao đáng chú ý?\n*   **Quy mô đồ sộ:** Hàng nghìn kênh truyền hình từ hầu hết các quốc gia trên thế giới được tập hợp tại một nơi.\n*   **Cộng đồng mạnh mẽ:** Dự án mã nguồn mở với sự đóng góp và báo lỗi liên tục từ cộng đồng, giúp các liên kết luôn được cập nhật và làm sạch.\n*   **Dễ sử dụng:** Chỉ cần dán một URL (ví dụ: `https://iptv-org.github.io/iptv/index.m3u`) vào bất kỳ trình phát video tương thích nào là có thể bắt đầu xem ngay lập tức.\n*   **Hợp pháp và Công khai:** Chỉ thu thập các luồng video được cung cấp công khai trên Internet.\n"
   },
   {
     "id": "jamwithai_production-agentic-rag-course",
@@ -523,6 +541,15 @@
     "stars": 1623,
     "folder": "kenn-io_agentsview",
     "summary": "# 🚀 agentsview\n\n## 🌟 Trọng tâm\nagentsview là một công cụ phân tích và theo dõi phiên làm việc cục bộ (local-first) dành cho các tác nhân AI (AI coding agents). Nó cung cấp một giải pháp nhanh chóng và toàn diện để duyệt, tìm kiếm, tính toán mức sử dụng token và theo dõi chi phí trên nhiều agent khác nhau.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Giúp lập trình viên theo dõi, tìm kiếm và phân tích toàn bộ lịch sử trò chuyện, số token đã tiêu thụ, cùng chi phí của hơn 20 loại AI coding agents (Claude Code, Codex, Cursor,...) một cách tập trung, nhanh chóng (nhờ SQLite/DuckDB) và an toàn (dữ liệu nằm hoàn toàn ở máy cục bộ, không gửi lên cloud).\n- **Khách hàng mục tiêu**: Các lập trình viên cá nhân, kỹ sư AI, hoặc nhóm phát triển đang sử dụng một hoặc nhiều tác nhân AI hỗ trợ lập trình và cần quản lý chi phí, số lượng token, hoặc muốn xem lại chi tiết lịch sử trò chuyện với AI một cách tiện lợi.\n\n## 🛠️ Công nghệ cốt lõi\n- **Backend**: Go (Go 1.26+)\n- **Frontend**: Svelte 5 (Vite, TypeScript)\n- **Database / Backend Engines**: SQLite (mặc định, FTS5 tìm kiếm toàn văn bản), DuckDB (mirror phân tích/Quack protocol), PostgreSQL (sync cho team dashboards).\n- **Desktop Wrapper**: Tauri\n\n## 💡 Tại sao đáng chú ý?\n- **Siêu nhanh**: Các truy vấn về mức sử dụng/chi phí token nhanh hơn gấp 100 lần so với các công cụ đọc lại file gốc nhờ sử dụng cơ sở dữ liệu SQLite đã được index.\n- **Tương thích cực rộng**: Hỗ trợ tự động nhận diện hơn 20+ nền tảng AI Agent (Claude Code, Cursor, Copilot, Zed, Gemini CLI...).\n- **Quyền riêng tư tuyệt đối (Local-first)**: Dữ liệu được lưu trữ và xử lý trực tiếp trên máy người dùng mà không cần tạo tài khoản hay đồng bộ đám mây bắt buộc.\n- **Tính năng mạnh mẽ**: Cho phép tìm kiếm toàn văn bản tất cả các cuộc trò chuyện, biểu đồ nhiệt độ hoạt động (heatmaps), xuất dữ liệu, giao diện web cực kỳ đẹp mắt, và hỗ trợ PostgreSQL cho nhóm (team dashboards) hoặc DuckDB/Quack cho xử lý phân tích nâng cao.\n"
+  },
+  {
+    "id": "krahets_hello-algo",
+    "name": "krahets/hello-algo",
+    "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+    "tags": [],
+    "stars": 126876,
+    "folder": "krahets_hello-algo",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "lfnovo_open-notebook",
@@ -587,11 +614,11 @@
   {
     "id": "meshery_meshery",
     "name": "meshery/meshery",
-    "description": "Meshery, the cloud native manager",
+    "description": "Meshery là một trình quản lý cloud native mã nguồn mở, cung cấp nền tảng tự phục vụ trực quan dựa trên GitOps để thiết kế, triển khai, và quản lý các ứng dụng cũng như cơ sở hạ tầng đa đám mây trên nền Kubernetes.",
     "tags": [],
     "stars": 10410,
     "folder": "meshery_meshery",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Meshery\n\n## 🌟 Trọng tâm\nMeshery là một nền tảng kỹ thuật tự phục vụ, trình quản lý mã nguồn mở cloud native (native đám mây) cho phép thiết kế và quản lý tất cả cơ sở hạ tầng và ứng dụng dựa trên Kubernetes (multi-cloud/đa đám mây). Nền tảng này hỗ trợ GitOps trực quan và có tính cộng tác cao.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Sự phức tạp trong việc quản lý vòng đời, cấu hình, và hoạt động của cơ sở hạ tầng Cloud và nhiều cụm Kubernetes. Cần một công cụ thống nhất để quản lý các thành phần phân tán, trực quan hóa mối quan hệ, và đánh giá hiệu năng.\n- **Khách hàng mục tiêu:** Kỹ sư DevOps, Kỹ sư nền tảng (Platform Engineers), Quản trị viên hệ thống (SysAdmins), và các nhà phát triển làm việc với Kubernetes và cơ sở hạ tầng Cloud Native.\n\n## 🛠️ Công nghệ cốt lõi\n- Hơn 380+ tích hợp cơ sở hạ tầng Cloud Native.\n- Hỗ trợ triển khai đa đám mây và nhiều cụm Kubernetes (Multi-cluster & Multi-cloud).\n- Mô phỏng triển khai (Dry-run) qua API Kubernetes.\n- Quản lý hạ tầng bằng GitOps trực quan (MeshMap).\n- Tích hợp Open Policy Agent (OPA) để thực thi chính sách ngữ cảnh.\n- Tạo tải và đánh giá hiệu năng (Fortio, Prometheus, Grafana).\n- Mở rộng qua gRPC, React, Golang plugins, REST/GraphQL API.\n\n## 💡 Tại sao đáng chú ý?\n- **Quản lý trực quan & cộng tác:** Workspaces cho phép các nhóm thiết kế, cấu hình và thao tác kiến trúc đám mây như một \"Google Drive cho dự án cloud native\".\n- **Tính tiêu chuẩn cao:** Là một dự án thuộc Cloud Native Computing Foundation (CNCF), có hàng ngàn ngôi sao trên GitHub và tuân thủ chặt chẽ các chỉ số hoạt động mở (OpenSSF).\n- **Mở rộng dễ dàng:** Phục vụ hoàn hảo như một nền tảng kỹ thuật tự phục vụ nội bộ (Internal Developer Platform).\n"
   },
   {
     "id": "microsoft_markitdown",
@@ -612,6 +639,15 @@
     "summary": "# 🚀 microsoft/pg_durable\n\n## 🌟 Trọng tâm\npg_durable là một tiện ích mở rộng (extension) cho PostgreSQL cho phép \"Thực thi Bền vững\" (Durable Execution) trực tiếp bên trong cơ sở dữ liệu. Tiện ích này cho phép bạn định nghĩa các luồng công việc (workflows) dài hạn, chịu lỗi thông qua SQL mà không cần đến các cơ sở hạ tầng dịch vụ bên ngoài.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Thay thế việc thiết lập và quản lý phức tạp các hệ thống job worker, cron job, hàng đợi, bảng lưu trạng thái... bằng một giải pháp lưu trạng thái tại chỗ. Nó tự động tạo các điểm kiểm tra (checkpoint) để luồng công việc tự động khôi phục và chạy tiếp từ đoạn bị lỗi thay vì phải chạy lại từ đầu khi hệ thống khởi động lại, crash, hoặc lỗi bước gọi API.\n- **Khách hàng mục tiêu:** Các kỹ sư backend, kỹ sư dữ liệu, DBA (Quản trị viên CSDL), SRE muốn đặt luồng công việc gần với nơi lưu dữ liệu của họ, hay những đội nhóm đang phát triển các luồng xử lý AI, phân tích dữ liệu lô lớn, gọi API ngoại, cron job bảo trì cần độ tin cậy và theo dõi trạng thái rõ ràng.\n\n## 🛠️ Công nghệ cốt lõi\n- Xây dựng dưới dạng một tiện ích mở rộng cho PostgreSQL sử dụng framework `pgrx` với ngôn ngữ Rust.\n- Sử dụng framework điều phối `duroxide` ở dưới nền để chạy luồng công việc với replay deterministic, checkpoints, sub-orchestrators và định thời gian.\n- `duroxide-pg` dùng cho việc quản lý state ngay bên trong PostgreSQL cho duroxide.\n- Định nghĩa logic với các SQL DSL được cung cấp như `df.start()`, `~>`, `|=>`, và các primitives hạng nhất cho SQL: scheduling, loop, conditions, paralleling...\n\n## 💡 Tại sao đáng chú ý?\nDự án cho phép đem các mẫu (pattern) hệ thống điều phối phân tán (như Temporal, AWS Step Functions hay Apache Airflow) thẳng vào trong một cơ sở dữ liệu quen thuộc là PostgreSQL mà **không cần hạ tầng phụ**. Mọi thứ chạy ngầm với PostgreSQL (Background workers), tránh đi rủi ro lỗi hoàn thành một phần của quá trình thực thi trên máy chủ ứng dụng và giảm bớt việc lập trình luồng chạy phức tạp trong code backend truyền thống.\n"
   },
   {
+    "id": "mikeroyal_Self-Hosting-Guide",
+    "name": "mikeroyal/Self-Hosting-Guide",
+    "description": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+    "tags": [],
+    "stars": 21000,
+    "folder": "mikeroyal_Self-Hosting-Guide",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "msitarzewski_agency-agents",
     "name": "msitarzewski/agency-agents",
     "description": "Một bộ sưu tập gồm hơn 232 đặc vụ AI chuyên biệt, được thiết kế với cá tính, quy trình và tiêu chí đầu ra rõ ràng, hoạt động như một agency hoàn chỉnh để tối ưu hóa quy trình làm việc trên đa nền tảng.",
@@ -623,11 +659,11 @@
   {
     "id": "music-assistant_server",
     "name": "music-assistant/server",
-    "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+    "description": "Music Assistant Server là máy chủ quản lý thư viện đa phương tiện nguồn mở, kết nối các dịch vụ phát nhạc với hệ thống loa thông minh và tích hợp sâu với Home Assistant.",
     "tags": [],
     "stars": 2199,
     "folder": "music-assistant_server",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 music-assistant/server\n\n## 🌟 Trọng tâm\nMusic Assistant Server là hệ thống quản lý thư viện phương tiện nguồn mở, đóng vai trò là lõi trung tâm kết nối các dịch vụ phát nhạc trực tuyến với nhiều loại loa thông minh khác nhau.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Nhu cầu quản lý và phát nhạc từ nhiều nguồn (streaming) khác nhau ra nhiều thiết bị loa được kết nối trong mạng gia đình một cách tập trung và tự động hóa.\n- **Khách hàng mục tiêu:** Những người dùng yêu thích nhà thông minh (đặc biệt là cộng đồng Home Assistant), những người muốn có một hệ thống âm thanh đa phòng tự lưu trữ, có khả năng kết nối linh hoạt và chạy trên các thiết bị luôn bật (như Raspberry Pi, NAS).\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** Python (chủ yếu).\n- **Phụ thuộc:** Yêu cầu các thành phần hệ điều hành như `ffmpeg` và các tệp nhị phân tùy chỉnh.\n- **Triển khai:** Chỉ hỗ trợ chạy qua Docker container hoặc dưới dạng Home Assistant Add-on.\n\n## 💡 Tại sao đáng chú ý?\n- Dự án là sản phẩm của Open Home Foundation, hoàn toàn miễn phí và mã nguồn mở.\n- Tích hợp sâu và được thiết kế đặc biệt để hoạt động song song với Home Assistant, tối ưu hóa cho hệ sinh thái nhà thông minh.\n- Thu hút sự quan tâm lớn với 2199 sao trên GitHub, cho thấy sự phát triển mạnh mẽ của cộng đồng tự quản lý giải trí tại gia (self-hosted media).\n"
   },
   {
     "id": "mvanhorn_last30days-skill",
@@ -733,20 +769,20 @@
   {
     "id": "puppeteer_puppeteer",
     "name": "puppeteer/puppeteer",
-    "description": "JavaScript API for Chrome and Firefox",
+    "description": "Puppeteer là một thư viện JavaScript phổ biến cung cấp API cấp cao để điều khiển Chrome hoặc Firefox qua DevTools Protocol, hỗ trợ mạnh mẽ cho tự động hóa trình duyệt và kiểm thử e2e.",
     "tags": [],
     "stars": 94650,
     "folder": "puppeteer_puppeteer",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Puppeteer\n\n## 🌟 Trọng tâm\nCung cấp một thư viện JavaScript mạnh mẽ và dễ sử dụng với API cấp cao để điều khiển các trình duyệt web (như Chrome và Firefox) nhằm thực hiện các tác vụ tự động hóa một cách đáng tin cậy.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Tự động hóa các tác vụ trên trình duyệt như quét dữ liệu (web scraping), kiểm thử tự động (E2E testing), chụp ảnh màn hình, tạo tệp PDF từ trang web, và kiểm tra hiệu suất.\n- **Khách hàng mục tiêu:** Các nhà phát triển web, kỹ sư kiểm thử (QA/Test engineers), và các nhà phân tích dữ liệu cần công cụ để tương tác và trích xuất dữ liệu từ các ứng dụng web.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** JavaScript/TypeScript.\n- **Giao thức:** Chrome DevTools Protocol và WebDriver BiDi.\n- **Hệ sinh thái:** Hoạt động trơn tru với Node.js, npm, và hỗ trợ các tính năng hiện đại thông qua MCP (Model Context Protocol).\n\n## 💡 Tại sao đáng chú ý?\nPuppeteer là tiêu chuẩn công nghiệp cho việc tự động hóa trình duyệt nhờ sự hỗ trợ chính thức từ Google, khả năng chạy ổn định ở chế độ headless (không cần giao diện), và API trực quan, dễ tích hợp vào bất kỳ dự án Node.js nào.\n"
   },
   {
     "id": "pytest-dev_pytest",
     "name": "pytest-dev/pytest",
-    "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+    "description": "Khung kiểm thử pytest giúp dễ dàng viết các bài kiểm thử nhỏ gọn và có khả năng mở rộng để hỗ trợ kiểm thử chức năng phức tạp trong Python.",
     "tags": [],
     "stars": 14051,
     "folder": "pytest-dev_pytest",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 pytest\n\n## 🌟 Trọng tâm\nKhung kiểm thử (framework) pytest giúp việc viết các bài kiểm thử nhỏ trở nên dễ dàng, đồng thời có khả năng mở rộng để hỗ trợ quá trình kiểm thử chức năng phức tạp.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Đơn giản hóa quá trình viết mã kiểm thử (testing) trong Python, từ những bài kiểm thử đơn vị (unit tests) đơn giản cho đến các bài kiểm thử chức năng (functional tests) phức tạp mà không cần nhiều mã lặp lại (boilerplate code).\n- **Khách hàng mục tiêu:** Lập trình viên Python, kỹ sư kiểm thử phần mềm (QA), và các nhóm phát triển cần một công cụ kiểm thử linh hoạt, mạnh mẽ.\n\n## 🛠️ Công nghệ cốt lõi\n- Python\n\n## 💡 Tại sao đáng chú ý?\npytest là một trong những công cụ kiểm thử phổ biến và được ưa chuộng nhất trong hệ sinh thái Python nhờ cú pháp ngắn gọn, tính năng `assert` thông minh tự động cung cấp thông tin lỗi chi tiết, và một hệ sinh thái plugin phong phú cho phép mở rộng dễ dàng.\n"
   },
   {
     "id": "reconurge_flowsint",
@@ -862,11 +898,11 @@
   {
     "id": "shiyu-coder_Kronos",
     "name": "shiyu-coder/Kronos",
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "description": "Kronos là mô hình nền tảng mã nguồn mở đầu tiên chuyên xử lý và dự báo dữ liệu nến tài chính (K-lines) được huấn luyện trên 45 sàn giao dịch toàn cầu, hỗ trợ tinh chỉnh và backtest cho các chiến lược định lượng.",
     "tags": [],
     "stars": 29927,
     "folder": "shiyu-coder_Kronos",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Kronos \n## 🌟 Trọng tâm \nKronos là mô hình nền tảng (foundation model) mã nguồn mở đầu tiên dành cho chuỗi nến tài chính (K-lines), được thiết kế đặc biệt cho \"ngôn ngữ\" của các thị trường tài chính toàn cầu.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu \n- **Bài toán giải quyết**: Khắc phục những hạn chế của các mô hình học máy chuỗi thời gian thông thường khi xử lý dữ liệu tài chính có độ nhiễu cao, phi tuyến tính và đa chiều (OHLCV). Kronos cung cấp khả năng dự báo mạnh mẽ và độ chính xác cao đối với xu hướng giá cả.\n- **Khách hàng mục tiêu**: Các nhà nghiên cứu định lượng (quant researchers), kỹ sư dữ liệu tài chính, trader theo thuật toán, và những người yêu thích giao dịch tự động đang tìm kiếm các mô hình AI tiên tiến để tạo chiến lược giao dịch hoặc tối ưu hóa danh mục đầu tư.\n## 🛠️ Công nghệ cốt lõi \n- **Kiến trúc Transformer Decoder-Only**: Tương tự như các mô hình ngôn ngữ lớn, cho phép dự báo tự hồi quy mạnh mẽ.\n- **Lượng tử hóa hai giai đoạn**: Sử dụng một Tokenizer chuyên biệt để lượng tử hóa dữ liệu K-line (OHLCV) liên tục thành các token rời rạc phân cấp, sau đó mới đưa vào Transformer.\n- **Hỗ trợ Qlib**: Có sẵn pipeline đầy đủ từ việc tiền xử lý dữ liệu (với Qlib) cho đến tinh chỉnh (fine-tuning) và kiểm tra ngược (backtesting) chiến lược.\n- **Hỗ trợ GPU Parallelism**: Cho phép dự đoán theo lô (batch prediction) cực nhanh và huấn luyện phân tán với `torchrun`.\n## 💡 Tại sao đáng chú ý? \n- Là dự án mã nguồn mở tiên phong mang khái niệm \"Foundation Model\" áp dụng thẳng vào dữ liệu K-lines tài chính thô, được huấn luyện trên 45 sàn giao dịch lớn trên thế giới.\n- Cung cấp đa dạng các kích thước mô hình (từ 4.1M đến 499.2M tham số), phục vụ tốt cả môi trường tài nguyên hạn chế lẫn hệ thống backend mạnh mẽ.\n- Có mã nguồn đầy đủ, dễ dàng mở rộng và tinh chỉnh trên tập dữ liệu riêng (như chứng khoán nội địa hoặc Crypto) chỉ với vài dòng lệnh.\n"
   },
   {
     "id": "soxoj_maigret",
@@ -898,10 +934,28 @@
   {
     "id": "swc-project_swc",
     "name": "swc-project/swc",
-    "description": "Rust-based platform for the Web",
+    "description": "SWC (Speedy Web Compiler) là một trình biên dịch TypeScript và JavaScript siêu nhanh được viết bằng ngôn ngữ Rust, giúp tối ưu hóa và tăng tốc đáng kể quá trình phát triển web.",
     "tags": [],
     "stars": 33786,
     "folder": "swc-project_swc",
+    "summary": "# 🚀 swc-project/swc\n\n## 🌟 Trọng tâm\nSWC (Speedy Web Compiler) là một nền tảng và trình biên dịch siêu nhanh dành cho TypeScript và JavaScript trên môi trường Web, được xây dựng bằng ngôn ngữ lập trình Rust.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n* **Bài toán giải quyết**: Giảm thiểu thời gian biên dịch, chuyển đổi và đóng gói mã nguồn JavaScript/TypeScript so với các công cụ truyền thống (như Babel).\n* **Khách hàng mục tiêu**: Các nhà phát triển web, kỹ sư phần mềm frontend và các công ty xây dựng công cụ hệ sinh thái phát triển web cần một giải pháp xử lý mã nguồn hiệu năng cao để tối ưu thời gian build.\n\n## 🛠️ Công nghệ cốt lõi\n* **Rust**: Ngôn ngữ lập trình hệ thống mang lại hiệu năng cao và an toàn bộ nhớ, là thành phần cốt lõi để xây dựng SWC.\n* Hỗ trợ sử dụng đa nền tảng, tích hợp sâu vào hệ sinh thái JavaScript (thông qua Node.js) và Rust (thông qua các crate).\n\n## 💡 Tại sao đáng chú ý?\n* Hiệu năng biên dịch siêu việt (chạy cực nhanh nhờ sức mạnh của Rust).\n* Đã và đang trở thành lựa chọn thay thế mạnh mẽ cho Babel trong nhiều dự án lớn và các công cụ phát triển hiện đại (ví dụ như Next.js).\n* Sở hữu cộng đồng mã nguồn mở lớn mạnh với hơn 33.700 sao trên GitHub và được hỗ trợ bởi nhiều nhà tài trợ cũng như công ty lớn.\n"
+  },
+  {
+    "id": "teslamate-org_teslamate",
+    "name": "teslamate-org/teslamate",
+    "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+    "tags": [],
+    "stars": 8223,
+    "folder": "teslamate-org_teslamate",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "trycua_cua",
+    "name": "trycua/cua",
+    "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+    "tags": [],
+    "stars": 18134,
+    "folder": "trycua_cua",
     "summary": "Chưa có bản tóm tắt AI."
   },
   {

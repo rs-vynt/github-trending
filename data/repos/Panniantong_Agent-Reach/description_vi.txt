@@ -1,0 +1,1 @@
+Agent-Reach là một công cụ dòng lệnh miễn phí giúp trang bị khả năng tìm kiếm và đọc dữ liệu Internet từ các nền tảng như Twitter, Reddit, YouTube, Bilibili cho mọi AI Agent một cách tự động và không cần phí API.

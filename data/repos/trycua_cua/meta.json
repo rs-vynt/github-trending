@@ -1,0 +1,10 @@
+{
+  "id": "trycua_cua",
+  "fullName": "trycua/cua",
+  "name": "cua",
+  "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+  "stars": 18134,
+  "forks": 0,
+  "readmeHash": "91783e3b1bdc73b409be8ff26c83e744",
+  "tags": []
+}
