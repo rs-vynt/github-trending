@@ -1,0 +1,1 @@
+Herdr là một trình quản lý đa kênh và duy trì phiên trực tiếp trên terminal, giúp theo dõi, tổ chức và điều phối dễ dàng các AI agent cũng như tiến trình công việc của bạn.

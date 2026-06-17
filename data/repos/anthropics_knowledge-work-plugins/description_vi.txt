@@ -1,0 +1,1 @@
+Kho lưu trữ mã nguồn mở chứa các plugin giúp tùy chỉnh Claude thành chuyên gia cho từng vai trò, kết nối trực tiếp với công cụ và quy trình làm việc của doanh nghiệp.

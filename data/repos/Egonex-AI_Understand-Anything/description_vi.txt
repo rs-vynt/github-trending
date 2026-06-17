@@ -1,0 +1,1 @@
+Understand Anything là một plugin AI mã nguồn mở giúp phân tích và biến các cơ sở mã lớn thành sơ đồ tri thức tương tác trực quan, giúp lập trình viên nhanh chóng hiểu rõ kiến trúc và logic nghiệp vụ.

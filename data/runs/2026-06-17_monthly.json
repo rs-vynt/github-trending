@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-17_monthly",
+  "date": "2026-06-17",
+  "since": "monthly",
+  "repos": [
+    {
+      "id": "chopratejas_headroom",
+      "stars": 30083,
+      "rank": 1,
+      "isNew": false
+    },
+    {
+      "id": "colbymchenry_codegraph",
+      "stars": 50350,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "Egonex-AI_Understand-Anything",
+      "stars": 61673,
+      "rank": 3,
+      "isNew": true
+    },
+    {
+      "id": "harry0703_MoneyPrinterTurbo",
+      "stars": 88853,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "rohitg00_ai-engineering-from-scratch",
+      "stars": 33699,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "apple_container",
+      "stars": 37875,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "can1357_oh-my-pi",
+      "stars": 12876,
+      "rank": 7,
+      "isNew": false
+    },
+    {
+      "id": "hardikpandya_stop-slop",
+      "stars": 10983,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "Imbad0202_academic-research-skills",
+      "stars": 32116,
+      "rank": 9,
+      "isNew": false
+    },
+    {
+      "id": "ruvnet_RuView",
+      "stars": 74230,
+      "rank": 10,
+      "isNew": false
+    },
+    {
+      "id": "microsoft_markitdown",
+      "stars": 154698,
+      "rank": 11,
+      "isNew": false
+    },
+    {
+      "id": "Leonxlnx_taste-skill",
+      "stars": 45288,
+      "rank": 12,
+      "isNew": false
+    },
+    {
+      "id": "anthropics_knowledge-work-plugins",
+      "stars": 20935,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "tinyhumansai_openhuman",
+      "stars": 32446,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "ogulcancelik_herdr",
+      "stars": 6003,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}
