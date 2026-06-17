@@ -215,20 +215,20 @@
   {
     "id": "Panniantong_Agent-Reach",
     "name": "Panniantong/Agent-Reach",
-    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "description": "Agent-Reach là một công cụ dòng lệnh miễn phí giúp trang bị khả năng tìm kiếm và đọc dữ liệu Internet từ các nền tảng như Twitter, Reddit, YouTube, Bilibili cho mọi AI Agent một cách tự động và không cần phí API.",
     "tags": [],
     "stars": 30087,
     "folder": "Panniantong_Agent-Reach",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Agent-Reach\n\n## 🌟 Trọng tâm\nCung cấp khả năng truy cập Internet (đọc và tìm kiếm) cho mọi AI Agent thông qua một công cụ CLI duy nhất mà không tốn phí API. Dự án tự động hóa việc lựa chọn, cài đặt, kiểm tra và định tuyến đến các công cụ thu thập dữ liệu (backend) tốt nhất cho từng nền tảng cụ thể.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n**Bài toán giải quyết:** Các AI Agent gặp khó khăn trong việc thu thập dữ liệu từ Internet do rào cản từ các API trả phí, bị chặn IP, yêu cầu đăng nhập, hoặc cơ chế chống thu thập dữ liệu của các nền tảng (như YouTube, Twitter, Reddit, Bilibili, Tiểu Hồng Thư). Người dùng thường mất nhiều thời gian để tự cấu hình, tích hợp và sửa lỗi khi các công cụ bị hỏng.\n**Khách hàng mục tiêu:** Các nhà phát triển AI, người sử dụng AI Agent (như Claude Code, Cursor, OpenClaw, Windsurf) muốn Agent của mình có khả năng lướt web, tìm kiếm và truy xuất nội dung từ các mạng xã hội và web một cách mượt mà và tự động.\n\n## 🛠️ Công nghệ cốt lõi\nAgent Reach hoạt động như một \"capability layer\" (tầng khả năng) chứ không chỉ là một công cụ đơn lẻ, với kiến trúc có thể cắm rút (pluggable):\n- **Định tuyến thông minh (Smart Routing):** Sử dụng danh sách các backend \"Ưu tiên + Dự phòng\" (ví dụ: `twitter-cli` ưu tiên hơn `OpenCLI`). Tự động phát hiện lỗi và chuyển sang backend thay thế mà người dùng không cần sửa code.\n- **Tích hợp các công cụ mã nguồn mở hàng đầu:** `yt-dlp` (YouTube), `bili-cli` (Bilibili), `twitter-cli`, `Jina Reader` (Web), `Exa` qua `mcporter` (Tìm kiếm ngữ nghĩa toàn mạng), `feedparser` (RSS), v.v.\n- **Xác thực dựa trên Cookie:** Khai thác cookie từ trình duyệt cục bộ thay vì dùng API Keys, lưu trữ an toàn tại máy cục bộ (không gửi lên server) để vượt qua các yêu cầu đăng nhập khắt khe.\n- **MCP (Model Context Protocol):** Sử dụng MCP cho các nền tảng phức tạp hoặc cần môi trường máy chủ (ví dụ: Exa Search, LinkedIn MCP, XiaoHongShu MCP).\n\n## 💡 Tại sao đáng chú ý?\n- **Hoàn toàn miễn phí:** Sử dụng các công cụ mã nguồn mở và không tốn phí API, thậm chí là các nền tảng thường yêu cầu trả phí cao như Twitter.\n- **Không yêu cầu bảo trì thủ công:** Dự án liên tục cập nhật và thay đổi định tuyến các công cụ dưới nền khi nền tảng thay đổi thuật toán chống thu thập dữ liệu (như vụ Bilibili chặn yt-dlp).\n- **Trải nghiệm cài đặt dễ dàng (One-liner):** Cài đặt và cập nhật chỉ qua một lệnh prompt duy nhất cho Agent. Agent sẽ tự động cài đặt các công cụ, đánh giá môi trường (máy chủ hay cục bộ) và thiết lập file `SKILL.md` để tự biết cách dùng.\n- **Hỗ trợ đa nền tảng mạnh mẽ:** Hỗ trợ hầu hết các nền tảng khó nhằn: Twitter, Reddit, YouTube, Bilibili, Tiểu Hồng Thư, LinkedIn, Xueqiu, V2EX.\n"
   },
   {
     "id": "Raphire_Win11Debloat",
     "name": "Raphire/Win11Debloat",
-    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+    "description": "Win11Debloat là một script PowerShell nhẹ và an toàn, giúp bạn dễ dàng gỡ bỏ các ứng dụng rác, vô hiệu hóa tính năng theo dõi và tùy chỉnh tối ưu hóa cho Windows 10/11 mà không cần cài đặt.",
     "tags": [],
     "stars": 48006,
     "folder": "Raphire_Win11Debloat",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Win11Debloat\n\n## 🌟 Trọng tâm\nWin11Debloat là một công cụ bằng PowerShell nhẹ và không cần cài đặt, được thiết kế để tự động dọn dẹp, tùy chỉnh và tối ưu hóa hệ điều hành Windows 10 và Windows 11 bằng cách gỡ bỏ bloatware, tắt telemetry và cải thiện hiệu năng.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n**Bài toán giải quyết:** Windows 10/11 đi kèm với nhiều ứng dụng rác (bloatware), các tính năng theo dõi người dùng (telemetry), quảng cáo, và những thành phần hệ thống không cần thiết làm chậm máy tính và làm phiền người dùng. Việc tự tắt thủ công tốn rất nhiều thời gian và công sức.\n\n**Khách hàng mục tiêu:**\n- Người dùng Windows 10/11 muốn có một hệ điều hành sạch sẽ, nhanh và tôn trọng quyền riêng tư.\n- Quản trị viên hệ thống (Sysadmins) cần triển khai tự động hóa việc làm sạch Windows trên nhiều máy thông qua giao diện dòng lệnh hoặc chế độ Sysprep.\n- Những người dùng am hiểu công nghệ (Power users) muốn kiểm soát sâu các thiết lập Windows.\n\n## 🛠️ Công nghệ cốt lõi\n- **PowerShell:** Script được viết hoàn toàn bằng PowerShell, giúp dễ dàng thực thi trực tiếp trên bất kỳ máy Windows nào mà không cần phần mềm bên thứ 3.\n- Cấu hình qua Command-Line Interface (CLI) hoặc giao diện trực quan thân thiện.\n- Can thiệp vào Registry và các dịch vụ (Services) của Windows để tắt các chức năng không mong muốn.\n\n## 💡 Tại sao đáng chú ý?\n- **Đơn giản & An toàn:** Có thể chạy ngay qua 1 dòng lệnh PowerShell. Script được thiết kế cẩn thận để không làm hỏng chức năng cốt lõi của hệ điều hành.\n- **Khả năng khôi phục:** Mọi thay đổi đều có thể được hoàn tác dễ dàng.\n- **Tùy biến cực sâu:** Vô hiệu hóa từ telemetry, AI (Copilot, Recall), quảng cáo, tối ưu hóa giao diện (Start menu, File Explorer, Taskbar) cho đến bật các tính năng nâng cao (WSL, Sandbox).\n- Hỗ trợ triển khai cho nhiều người dùng (Audit mode/Sysprep), rất lý tưởng cho môi trường doanh nghiệp.\n"
   },
   {
     "id": "RyanCodrai_turbovec",
@@ -262,6 +262,15 @@
     "stars": 82005,
     "folder": "TauricResearch_TradingAgents",
     "summary": "TradingAgents là một nền tảng giao dịch tài chính đa tác nhân mã nguồn mở dựa trên Mô hình Ngôn ngữ Lớn (LLM), được thiết kế để mô phỏng hệ sinh thái giao dịch thực tế. Nền tảng này phân chia các nhiệm vụ giao dịch phức tạp cho các tác nhân chuyên biệt như chuyên viên phân tích cơ bản, phân tích tâm lý, phân tích kỹ thuật, nhà nghiên cứu và quản lý danh mục đầu tư. Các tác nhân này phối hợp đánh giá thị trường, thảo luận chiến lược và đưa ra quyết định giao dịch tự động.\n\nDự án nổi bật với khả năng linh hoạt và tính mô-đun cao nhờ được xây dựng trên LangGraph, hỗ trợ đa dạng các nhà cung cấp LLM phổ biến hiện nay. Nó tích hợp các tính năng nâng cao như nhật ký quyết định liên tục (persistent decision log) giúp nền tảng học hỏi từ các giao dịch trước đó, và khả năng khôi phục từ điểm lưu (checkpoint resume) nhằm bảo vệ quá trình phân tích khỏi những sự cố gián đoạn.\n\nĐể bắt đầu, người dùng cần nhân bản (clone) kho lưu trữ, cài đặt các thư viện phụ thuộc bằng lệnh `pip install .` hoặc chạy thông qua Docker. Sau khi thiết lập các khóa API (API keys) cần thiết trong file `.env`, bạn có thể chạy công cụ giao diện dòng lệnh (CLI) bằng lệnh `tradingagents` để trực tiếp lựa chọn mã chứng khoán cần phân tích, hoặc dễ dàng tích hợp framework này vào mã Python thông qua thư viện `tradingagents`.\n"
+  },
+  {
+    "id": "Universal-Debloater-Alliance_universal-android-debloater-next-generation",
+    "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+    "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+    "tags": [],
+    "stars": 7282,
+    "folder": "Universal-Debloater-Alliance_universal-android-debloater-next-generation",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "aaif-goose_goose",
@@ -313,6 +322,15 @@
     "stars": 7933,
     "folder": "alchaincyf_zhangxuefeng-skill",
     "summary": "# 🚀 zhangxuefeng-skill\n\n## 🌟 Trọng tâm\nKỹ năng AI giúp các LLM (như Claude, Cursor) mô phỏng chính xác phương pháp và tư duy ra quyết định của Trương Tuyết Phong (Zhang Xuefeng) trong việc tư vấn chọn ngành, học lên cao học và phát triển sự nghiệp.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Tránh những sai lầm khi chọn ngành học, chọn trường; đưa ra các chiến lược lựa chọn thực tế, tối ưu lợi ích và đảm bảo khả năng sinh tồn dựa trên hoàn cảnh cá nhân và điều kiện gia đình.\n- **Khách hàng mục tiêu:** Học sinh THPT sắp thi đại học, sinh viên chuẩn bị thi cao học, những người trẻ đang định hướng sự nghiệp và các bậc phụ huynh cần tư vấn thực tế.\n\n## 🛠️ Công nghệ cốt lõi\n- **Giao thức Agent Skills:** Tương thích với hơn 50 AI agent runtime (Claude Code, Cursor, Codex, v.v.).\n- **Công cụ Nữ Oa.skill (Nuwa):** Tự động thu thập, phân tích chéo và đúc kết mô hình tư duy từ 6 nguồn tài liệu khác nhau.\n- **Prompt Engineering Nâng Cao:** Tích hợp 5 mô hình tư duy cốt lõi, 8 nguyên tắc ra quyết định và DNA biểu đạt phong cách riêng.\n\n## 💡 Tại sao đáng chú ý?\nĐây không chỉ là bộ câu nói rập khuôn, mà là một \"hệ điều hành nhận thức\" thực sự có khả năng vận dụng cách tư duy phản biện, góc nhìn thực tế và sắc bén của Trương Tuyết Phong vào từng hoàn cảnh cụ thể. Nó sử dụng dữ liệu thực và phương pháp luận rõ ràng để mang lại giá trị tư vấn sát sườn.\n"
+  },
+  {
+    "id": "alibaba_zvec",
+    "name": "alibaba/zvec",
+    "description": "A lightweight, lightning-fast, in-process vector database",
+    "tags": [],
+    "stars": 10438,
+    "folder": "alibaba_zvec",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "andrewyng_aisuite",
@@ -545,11 +563,11 @@
   {
     "id": "krahets_hello-algo",
     "name": "krahets/hello-algo",
-    "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+    "description": "Hello Algo là một cuốn sách trực tuyến hướng dẫn học cấu trúc dữ liệu và thuật toán bằng hình ảnh động trực quan, hỗ trợ chạy code nhanh bằng hơn 12 ngôn ngữ lập trình khác nhau, được thiết kế đặc biệt dành cho người mới bắt đầu.",
     "tags": [],
     "stars": 126876,
     "folder": "krahets_hello-algo",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 hello-algo\n\n## 🌟 Trọng tâm\nDự án cung cấp một tài liệu hướng dẫn học Cấu trúc Dữ liệu và Thuật toán (DSA) miễn phí, mã nguồn mở với hình minh họa động trực quan và khả năng chạy code ngay lập tức.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Việc học cấu trúc dữ liệu và thuật toán thường khô khan, khó hình dung và khó thực hành đối với người mới.\n- **Khách hàng mục tiêu:** Người mới bắt đầu học lập trình, sinh viên IT, và những người cần củng cố kiến thức về cấu trúc dữ liệu và thuật toán.\n\n## 🛠️ Công nghệ cốt lõi\nHỗ trợ mã nguồn bằng 12+ ngôn ngữ lập trình phổ biến (Python, Java, C++, C, C#, JavaScript, Go, Swift, Rust, Ruby, Kotlin, TypeScript, Dart).\n\n## 💡 Tại sao đáng chú ý?\nTrực quan hóa thuật toán bằng ảnh động rõ ràng, thân thiện với người mới bắt đầu. Sự ủng hộ lớn từ cộng đồng (hơn 126.000 sao trên GitHub) cùng đánh giá cao từ các chuyên gia hàng đầu (Giáo sư Đại học Thanh Hoa, Trưởng nhóm Khoa học gia cấp cao của Amazon).\n"
   },
   {
     "id": "lfnovo_open-notebook",
@@ -641,11 +659,11 @@
   {
     "id": "mikeroyal_Self-Hosting-Guide",
     "name": "mikeroyal/Self-Hosting-Guide",
-    "description": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+    "description": "Hướng dẫn toàn diện về tự lưu trữ (self-hosting), từ các công cụ quản lý container, VPN, đến triển khai các dịch vụ AI và hệ thống nhà thông minh cục bộ.",
     "tags": [],
     "stars": 21000,
     "folder": "mikeroyal_Self-Hosting-Guide",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 mikeroyal/Self-Hosting-Guide\n\n## 🌟 Trọng tâm\nMột hướng dẫn toàn diện và chi tiết về self-hosting (tự lưu trữ). Kho lưu trữ này tổng hợp các công cụ, phần mềm, thiết bị phần cứng, và dịch vụ giúp người dùng tự cài đặt, vận hành và quản lý hệ thống trên các máy chủ cá nhân, thiết bị tại gia (on-premises) hoặc máy chủ riêng tư thay vì phụ thuộc vào các dịch vụ phần mềm dạng đăng ký (SaaS).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết các vấn đề về quyền kiểm soát dữ liệu, chi phí sử dụng dịch vụ đám mây công cộng (SaaS), rủi ro rò rỉ quyền riêng tư, cũng như cung cấp một tài liệu tra cứu tập trung cho những ai muốn tự thiết lập một hệ thống từ A đến Z (từ VPN, DNS, Tự động hoá, CI/CD đến AI).\n- **Khách hàng mục tiêu:** Các nhà phát triển, quản trị viên hệ thống (sysadmin), những người đam mê homelab (homelabber), doanh nghiệp nhỏ muốn xây dựng hạ tầng nội bộ độc lập, và bất kỳ ai đề cao bảo mật và quyền riêng tư dữ liệu.\n\n## 🛠️ Công nghệ cốt lõi\n- **Hạ tầng & Containerization:** Docker, Kubernetes, Proxmox, Ansible.\n- **Mạng lưới & Bảo mật:** WireGuard, Tailscale, Nginx, Traefik, HAProxy.\n- **Phần cứng:** Raspberry Pi, Home server, NAS.\n- **Lưu trữ & Dịch vụ:** Nextcloud, MinIO, Databases (SQL/NoSQL).\n- **AI & Công nghệ mới:** Local LLMs (llama.cpp, GPT4All), Home Assistant, IoT Protocols.\n\n## 💡 Tại sao đáng chú ý?\nRepo này hoạt động như một \"cuốn bách khoa toàn thư\" dành cho cộng đồng self-hosted với hơn 21.000 sao trên GitHub. Nó không chỉ liệt kê các phần mềm mà còn hướng dẫn chi tiết các khái niệm cốt lõi, bao phủ một phạm vi khổng lồ từ những dịch vụ nhỏ nhất như quản lý mật khẩu, theo dõi thời gian, cho đến các hệ thống đồ sộ như Kubernetes hay tự chạy các mô hình AI ngôn ngữ lớn (LLMs) ngay tại nhà.\n"
   },
   {
     "id": "msitarzewski_agency-agents",
@@ -673,6 +691,15 @@
     "stars": 31209,
     "folder": "mvanhorn_last30days-skill",
     "summary": "# 🚀 mvanhorn/last30days-skill\n\n## 🌟 Trọng tâm\nMột AI agent hoạt động như một công cụ tìm kiếm, nghiên cứu đa nền tảng nhằm tổng hợp thông tin, dư luận và tương tác thực tế của người dùng từ các nguồn mạng xã hội (Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub...) trong 30 ngày qua và đưa ra bản tóm tắt có giá trị.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Các công cụ tìm kiếm truyền thống như Google thường bỏ sót các thảo luận chân thực, xu hướng nóng hổi và đánh giá từ cộng đồng đang diễn ra trên các nền tảng mạng xã hội đóng kín. Trong khi đó, việc nghiên cứu thủ công từng nền tảng lại tốn quá nhiều thời gian.\n- **Khách hàng mục tiêu:** Các nhà nghiên cứu, nhà phát triển (đặc biệt trong lĩnh vực AI), nhà sáng tạo nội dung, nhân viên bán hàng, nhà đầu tư hoặc bất kỳ ai muốn nắm bắt nhanh chóng dư luận và thông tin thực tế về một chủ đề/con người/sản phẩm cụ thể trước khi tham gia cuộc họp, viết lách hoặc ra quyết định.\n\n## 🛠️ Công nghệ cốt lõi\n- Viết bằng ngôn ngữ **Python 3.12+** và **Node.js**.\n- Tích hợp nhiều công cụ truy xuất dữ liệu mạnh mẽ như `yt-dlp` (để lấy bản ghi âm YouTube), Bird client (để tìm kiếm trên X), API ScrapeCreators (cho TikTok, Instagram, Threads...).\n- AI Agent được tối ưu với cấu trúc \"nghiên cứu trước\" (pre-research brain) giúp hiểu ngữ cảnh, phân giải các handle, hashtag và subreddit có liên quan trước khi thực sự truy vấn; sau đó đánh giá cả tính liên quan lẫn độ lan truyền/hài hước.\n\n## 💡 Tại sao đáng chú ý?\n- Xếp hạng thông tin dựa trên **\"tương tác thật\" và \"tiền thật\"** (upvotes trên Reddit, likes trên X, odds trên Polymarket) thay vì các chiến thuật SEO, mang lại góc nhìn chính xác và không qua chọn lọc của người thật.\n- Có khả năng tổng hợp nhiều luồng thông tin đa nền tảng về cùng một chủ đề (cross-source cluster merging) thành một bản báo cáo duy nhất.\n- Hỗ trợ xuất dữ liệu ra định dạng HTML dễ dàng chia sẻ (Shareable HTML briefs).\n- Hoàn toàn mã nguồn mở, hỗ trợ nhiều plugin (Claude Code, Codex, Copilot...), đang nhận được sự ủng hộ khổng lồ từ cộng đồng với hơn 31.000 ngôi sao trên GitHub và luôn nằm trong top Trending.\n"
+  },
+  {
+    "id": "n0-computer_iroh",
+    "name": "n0-computer/iroh",
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "tags": [],
+    "stars": 9273,
+    "folder": "n0-computer_iroh",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "nesquena_hermes-webui",
@@ -833,6 +860,15 @@
     "summary": "# Tóm tắt: revfactory/harness\n\nHarness (`revfactory/harness`) là một plugin \"nhà máy kiến trúc nhóm\" (team-architecture factory) dành cho hệ sinh thái Claude Code. Khi người dùng cung cấp một câu mô tả về một lĩnh vực hoặc dự án cụ thể, Harness sẽ tự động thiết kế và tạo ra một nhóm các AI agent (tác nhân) chuyên biệt cùng với các kỹ năng (skills) tương ứng. Công cụ này dựa trên 6 mẫu kiến trúc định sẵn để phân chia và phối hợp giải quyết các tác vụ phức tạp một cách tự động.\n\nCác tính năng nổi bật của dự án bao gồm khả năng thiết kế nhóm theo nhiều mô hình linh hoạt (như Pipeline, Supervisor, Fan-out/Fan-in, v.v.); tự động sinh file định nghĩa kỹ năng với tính năng Tiết lộ Dần dần (Progressive Disclosure) giúp tối ưu ngữ cảnh; và điều phối giao tiếp, truyền dữ liệu, cũng như xử lý lỗi giữa các tác nhân. Hệ thống cũng cung cấp cơ chế kiểm thử để xác thực tính hiệu quả, đã được nghiên cứu chứng minh có thể cải thiện 60% chất lượng đầu ra của các tác nhân mã LLM.\n\nĐể bắt đầu, bạn cần bật tính năng Agent Teams trên Claude Code (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`). Bạn có thể cài đặt Harness thông qua marketplace bằng lệnh `/plugin marketplace add revfactory/harness` và `/plugin install harness@harness-marketplace`. Sau khi cài đặt, chỉ cần gọi các prompt như \"Build a harness for this project\" trong Claude Code, plugin sẽ tự động sinh ra các file cấu hình cần thiết nằm trong thư mục `.claude/agents/` và `.claude/skills/` của dự án.\n"
   },
   {
+    "id": "rmyndharis_OpenWA",
+    "name": "rmyndharis/OpenWA",
+    "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+    "tags": [],
+    "stars": 9070,
+    "folder": "rmyndharis_OpenWA",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "roboflow_supervision",
     "name": "roboflow/supervision",
     "description": "Supervision cung cấp các công cụ và tiện ích linh hoạt, không phụ thuộc mô hình để xây dựng ứng dụng thị giác máy tính nhanh chóng và dễ dàng hơn.",
@@ -943,20 +979,20 @@
   {
     "id": "teslamate-org_teslamate",
     "name": "teslamate-org/teslamate",
-    "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+    "description": "TeslaMate là một bộ lưu trữ và phân tích dữ liệu xe Tesla tự lưu trữ mạnh mẽ, giúp theo dõi hiệu suất pin, chi phí sạc và lịch trình lái xe mà không làm hao pin rò rỉ.",
     "tags": [],
     "stars": 8223,
     "folder": "teslamate-org_teslamate",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 teslamate\n## 🌟 Trọng tâm\nTeslaMate là một giải pháp ghi log và phân tích dữ liệu tự lưu trữ (self-hosted) mạnh mẽ dành riêng cho xe điện Tesla.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nBài toán: Người dùng xe Tesla cần một hệ thống quản lý, phân tích và lưu trữ chi tiết các dữ liệu liên quan đến xe (lịch sử sạc, chi phí, mức tiêu thụ, hiệu suất pin) mà không muốn phụ thuộc vào dịch vụ đám mây của bên thứ ba do lo ngại rủi ro bảo mật hoặc chi phí, đồng thời hệ thống không được làm xe bị hao pin (vampire drain).\nKhách hàng mục tiêu: Chủ sở hữu xe điện Tesla, người đam mê nhà thông minh (Smart Home), những người có am hiểu về kỹ thuật mong muốn có quyền kiểm soát tuyệt đối dữ liệu phương tiện cá nhân.\n## 🛠️ Công nghệ cốt lõi\n- Elixir\n- PostgreSQL (Cơ sở dữ liệu)\n- Grafana (Trực quan hóa dữ liệu)\n- MQTT Broker (Tích hợp Smart Home)\n## 💡 Tại sao đáng chú ý?\nTeslaMate cung cấp khả năng phân tích cực kỳ chi tiết mọi dữ liệu của xe (khoảng cách, mức tiêu thụ năng lượng, tốc độ suy giảm pin, chi phí sạc) thông qua hàng loạt bảng điều khiển Grafana dựng sẵn tuyệt đẹp. Đặc biệt, công cụ này giúp xe Tesla đi vào trạng thái ngủ nhanh nhất có thể để ngăn chặn hiện tượng rò rỉ pin, đồng thời tích hợp mượt mà với Home Assistant và Node-Red, đóng vai trò như một bộ não trung tâm quản lý xe cục bộ hoàn hảo mà không đánh đổi sự riêng tư.\n"
   },
   {
     "id": "trycua_cua",
     "name": "trycua/cua",
-    "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+    "description": "Cua là cơ sở hạ tầng mã nguồn mở bao gồm các sandbox, SDK và công cụ đánh giá chuẩn (benchmark) giúp xây dựng, huấn luyện và triển khai các tác nhân AI có khả năng tự động điều khiển máy tính trên macOS, Linux và Windows.",
     "tags": [],
     "stars": 18134,
     "folder": "trycua_cua",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 cua\n## 🌟 Trọng tâm\nDự án tập trung vào việc cung cấp cơ sở hạ tầng mã nguồn mở để xây dựng, đánh giá chuẩn (benchmark) và triển khai các tác nhân AI sử dụng máy tính (Computer-Use Agents). Bao gồm các công cụ sandbox, SDK, và driver điều khiển màn hình máy tính nền (background).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết khó khăn trong việc thiết lập môi trường (hộp cát - sandbox), điều khiển hệ điều hành (macOS, Linux, Windows), và đánh giá các mô hình AI để chúng có thể thao tác với máy tính như con người (nhấp chuột, gõ phím, chụp màn hình).\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư nghiên cứu Reinforcement Learning (RL), và những người muốn xây dựng các trợ lý AI hoặc tác nhân tự động có khả năng tương tác trực tiếp với giao diện người dùng máy tính.\n\n## 🛠️ Công nghệ cốt lõi\n- **cua-driver:** Driver điều khiển máy tính chạy nền cho macOS, Windows và Linux, tích hợp MCP Server.\n- **cua-sandbox:** API/SDK (bằng Python) thống nhất để tạo hộp cát tác nhân trên các nền tảng (VM, Container, Local QEMU, Cloud).\n- **cua-bench:** Bộ công cụ đánh giá benchmark (trên OSWorld, ScreenSpot, Windows Arena) và môi trường RL cho tác nhân sử dụng máy tính.\n- **Lume:** Ảo hóa macOS/Linux với hiệu năng cao trên Apple Silicon sử dụng Virtualization.Framework.\n\n## 💡 Tại sao đáng chú ý?\nCua mang tới một giải pháp trọn gói và cực kỳ tiện dụng cho trào lưu phát triển \"Computer-Use AI Agents\". Dự án cung cấp khả năng điều khiển giao diện trong nền mà không chiếm đoạt chuột thật, hỗ trợ lập trình bằng Python API cực kỳ thống nhất trên mọi hệ điều hành. Hơn nữa, nó đi kèm với hệ thống benchmark chuẩn mực và cả công cụ ảo hoá Lume giúp giả lập macOS dễ dàng trên Apple Silicon. Điều này thúc đẩy tốc độ phát triển và kiểm thử các agent một cách đáng kể.\n"
   },
   {
     "id": "x1xhlol_system-prompts-and-models-of-ai-tools",

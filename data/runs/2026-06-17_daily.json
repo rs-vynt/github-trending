@@ -1,0 +1,85 @@
+{
+  "id": "2026-06-17_daily",
+  "date": "2026-06-17",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "freeCodeCamp_freeCodeCamp",
+      "stars": 448535,
+      "rank": 1,
+      "isNew": false
+    },
+    {
+      "id": "swc-project_swc",
+      "stars": 33963,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "teslamate-org_teslamate",
+      "stars": 8397,
+      "rank": 3,
+      "isNew": false
+    },
+    {
+      "id": "iptv-org_iptv",
+      "stars": 124020,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "puppeteer_puppeteer",
+      "stars": 94876,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "meshery_meshery",
+      "stars": 10840,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "cypress-io_cypress",
+      "stars": 50197,
+      "rank": 7,
+      "isNew": false
+    },
+    {
+      "id": "music-assistant_server",
+      "stars": 2559,
+      "rank": 8,
+      "isNew": false
+    },
+    {
+      "id": "Universal-Debloater-Alliance_universal-android-debloater-next-generation",
+      "stars": 7282,
+      "rank": 9,
+      "isNew": true
+    },
+    {
+      "id": "OpenBMB_VoxCPM",
+      "stars": 30116,
+      "rank": 10,
+      "isNew": false
+    },
+    {
+      "id": "alibaba_zvec",
+      "stars": 10438,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "rmyndharis_OpenWA",
+      "stars": 9070,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "n0-computer_iroh",
+      "stars": 9273,
+      "rank": 13,
+      "isNew": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "Universal-Debloater-Alliance_universal-android-debloater-next-generation",
+  "fullName": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+  "name": "universal-android-debloater-next-generation",
+  "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+  "stars": 7282,
+  "forks": 0,
+  "readmeHash": "2e2a100fa67543e8d616c7a7c8eaa88c",
+  "tags": []
+}

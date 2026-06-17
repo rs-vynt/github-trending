@@ -1,0 +1,1 @@
+Zvec là một cơ sở dữ liệu vector mã nguồn mở, hoạt động in-process siêu nhẹ và cực nhanh, được thiết kế để nhúng trực tiếp vào các ứng dụng với khả năng tìm kiếm lai mạnh mẽ.

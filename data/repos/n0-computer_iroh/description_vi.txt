@@ -1,0 +1,1 @@
+Iroh là một mạng lưới giao tiếp mô-đun được viết bằng Rust, cho phép kết nối trực tiếp và an toàn giữa các thiết bị thông qua khóa công khai thay vì địa chỉ IP dễ gặp sự cố.

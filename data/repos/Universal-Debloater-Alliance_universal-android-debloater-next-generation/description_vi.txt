@@ -1,0 +1,1 @@
+Công cụ GUI đa nền tảng sử dụng ADB để gỡ các ứng dụng rác trên Android không cần root, giúp tối ưu bảo mật, quyền riêng tư và thời lượng pin.

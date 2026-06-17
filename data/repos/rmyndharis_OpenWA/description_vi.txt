@@ -1,0 +1,1 @@
+OpenWA là cổng API WhatsApp mã nguồn mở, miễn phí và tự lưu trữ, cung cấp REST API, giao diện quản lý đa phiên và kiến trúc linh hoạt cho phép tùy biến cơ sở dữ liệu mà không bị phụ thuộc vào nhà cung cấp.
