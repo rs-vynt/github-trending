@@ -1,0 +1,5 @@
+AI Coding Agent
+Open Source
+VS Code Extension
+CLI Tool
+LLM Integration

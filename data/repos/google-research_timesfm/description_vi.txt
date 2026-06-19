@@ -1,0 +1,1 @@
+TimesFM là một mô hình nền tảng AI dự báo chuỗi thời gian dựa trên kiến trúc decoder-only do Google Research phát triển, hỗ trợ độ dài ngữ cảnh lớn và có thể tinh chỉnh hiệu quả.

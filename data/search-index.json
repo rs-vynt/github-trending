@@ -48,13 +48,22 @@
     "summary": "# 🚀 Scrapling\n## 🌟 Trọng tâm\nScrapling là một framework Web Scraping có khả năng thích ứng cao, xử lý mọi thứ từ các yêu cầu đơn lẻ đến việc thu thập dữ liệu (crawl) ở quy mô toàn diện.\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nViệc thu thập dữ liệu web thường xuyên gặp khó khăn khi cấu trúc trang web thay đổi hoặc bị chặn bởi các hệ thống chống bot như Cloudflare Turnstile. Mục tiêu của Scrapling là giải quyết các vấn đề này một cách tự động và linh hoạt. Parser của framework này có khả năng tự học từ những thay đổi của trang web và tự động định vị lại các thành phần khi trang web cập nhật. Nó cũng cho phép vượt qua các hệ thống chống bot ngay từ đầu, hỗ trợ crawl đồng thời, đa phiên với khả năng tạm dừng/tiếp tục và tự động xoay vòng proxy.\n\n## 🛠️ Công nghệ cốt lõi\n- **Python 3.10+**\n- **Scrapy-like Spider API**: Xử lý crawling quy mô lớn với concurrency, multi-session, stream mode, và checkpoint.\n- **Fetchers (HTTP, Dynamic, Stealthy)**: Tích hợp requests siêu tốc, Playwright Chromium/Google Chrome, và cơ chế spoofing (ẩn danh) chống bot.\n- **Adaptive Parser**: Sử dụng thuật toán tương đồng thông minh, Regex, XPath, CSS selectors linh hoạt.\n- **MCP Server**: Tích hợp AI (Claude/Cursor) cho việc cào và trích xuất dữ liệu.\n\n## 💡 Tại sao đáng chú ý?\nScrapling nổi bật nhờ tính năng \"thích ứng\" thông minh (adaptive scraping) giúp code không bị hỏng khi website thay đổi giao diện, và khả năng qua mặt các cơ chế bảo vệ khắt khe nhất như Cloudflare. Hơn thế nữa, nó mang lại hiệu suất vượt trội (nhanh hơn các thư viện parse khác nhiều lần), hỗ trợ CLI, môi trường tương tác (interactive shell) cùng sự tương thích mạnh mẽ với trí tuệ nhân tạo (AI MCP Server), tất cả gói gọn trong một thư viện Python duy nhất mà không yêu cầu thiết lập phức tạp.\n"
   },
   {
+    "id": "DeusData_codebase-memory-mcp",
+    "name": "DeusData/codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "tags": [],
+    "stars": 7064,
+    "folder": "DeusData_codebase-memory-mcp",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "Egonex-AI_Understand-Anything",
     "name": "Egonex-AI/Understand-Anything",
-    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "description": "Understand Anything là một plugin AI mã nguồn mở giúp phân tích và biến các cơ sở mã lớn thành sơ đồ tri thức tương tác trực quan, giúp lập trình viên nhanh chóng hiểu rõ kiến trúc và logic nghiệp vụ.",
     "tags": [],
     "stars": 61673,
     "folder": "Egonex-AI_Understand-Anything",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Egonex-AI/Understand-Anything\n\n## 🌟 Trọng tâm\nUnderstand Anything là một công cụ giúp biến bất kỳ cơ sở mã, cơ sở tri thức hoặc tài liệu nào thành một sơ đồ tri thức tương tác trực quan mà người dùng có thể dễ dàng khám phá, tìm kiếm và đặt câu hỏi.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Khắc phục tình trạng \"đọc mã mù quáng\" khi tham gia vào một dự án mới có cơ sở mã khổng lồ (ví dụ: hàng trăm ngàn dòng code). Công cụ giúp người dùng không bị lạc lối bằng cách cung cấp cái nhìn tổng thể về kiến trúc, mối quan hệ giữa các tệp, hàm, lớp và sự phụ thuộc.\n- **Khách hàng mục tiêu:** Các lập trình viên (nhất là những người mới gia nhập dự án), quản lý dự án (PM), các kiến trúc sư phần mềm cần nắm bắt kiến trúc tổng thể, tác động của sự thay đổi mã và hiểu rõ logic nghiệp vụ.\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc Hybrid (Tree-sitter + LLM):** Kết hợp phân tích tĩnh (Tree-sitter) để trích xuất cú pháp cụ thể, độ phụ thuộc một cách tất định và các mô hình ngôn ngữ lớn (LLM) để phân tích ngữ nghĩa, tạo tóm tắt tiếng Anh đơn giản, gắn thẻ và ánh xạ với miền nghiệp vụ.\n- **Đường ống đa tác tử (Multi-Agent Pipeline):** Điều phối lên đến 6 tác tử chuyên biệt (project-scanner, file-analyzer, architecture-analyzer, tour-builder, graph-reviewer, domain-analyzer) chạy song song và hỗ trợ cập nhật tăng dần (incremental updates).\n\n## 💡 Tại sao đáng chú ý?\n- **Khả năng tương thích rộng rãi:** Hoạt động tốt với hầu hết các môi trường lập trình AI hiện nay như Claude Code, Codex, Cursor, Copilot, Gemini CLI, v.v.\n- **Dashboard trực quan và đa tính năng:** Giao diện đồ họa giúp trực quan hóa kiến trúc theo lớp, tìm kiếm mờ & ngữ nghĩa (fuzzy & semantic search), phân tích tác động trước khi commit (diff impact analysis), và cung cấp các chuyến tham quan mã nguồn (guided tours) tự động.\n- **Dễ dàng chia sẻ:** Sơ đồ xuất ra dưới dạng JSON, có thể commit thẳng vào source control để đồng bộ cho toàn bộ nhóm phát triển mà không cần chạy lại phân tích.\n"
   },
   {
     "id": "EveryInc_compound-engineering-plugin",
@@ -154,6 +163,24 @@
     "stars": 2743,
     "folder": "Introduction-to-Autonomous-Robots_Introduction-to-Autonomous-Robots",
     "summary": "# 🚀 Introduction-to-Autonomous-Robots\n\n## 🌟 Trọng tâm\nDự án này là mã nguồn mở của một cuốn sách giáo trình về các nguyên lý tính toán của robot tự hành (Introduction to Autonomous Robots).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Cung cấp tài liệu giáo dục và mã nguồn hướng dẫn chi tiết về cấu tạo, cơ chế, cảm biến, cơ cấu chấp hành và thuật toán điều khiển của robot tự hành.\n- **Khách hàng mục tiêu:** Sinh viên, giảng viên, nhà nghiên cứu, người đam mê robotics và kỹ sư muốn học về nền tảng lý thuyết lẫn tính toán trong lĩnh vực robot tự hành.\n\n## 🛠️ Công nghệ cốt lõi\n- LaTeX (pdflatex, bibtex) để biên dịch tài liệu.\n- Overleaf cho môi trường soạn thảo/biên dịch trực tuyến.\n\n## 💡 Tại sao đáng chú ý?\nLà một nguồn tài liệu giáo khoa mở có chất lượng (được xuất bản bởi MIT Press) cho phép sử dụng phi thương mại, cung cấp toàn bộ quy trình để người dùng có thể tự biên dịch thành PDF thông qua hệ thống LaTeX.\n"
+  },
+  {
+    "id": "Kilo-Org_kilocode",
+    "name": "Kilo-Org/kilocode",
+    "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+    "tags": [],
+    "stars": 22162,
+    "folder": "Kilo-Org_kilocode",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
+    "id": "Kong_insomnia",
+    "name": "Kong/insomnia",
+    "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+    "tags": [],
+    "stars": 38687,
+    "folder": "Kong_insomnia",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "Leonxlnx_taste-skill",
@@ -368,11 +395,11 @@
   {
     "id": "anthropics_knowledge-work-plugins",
     "name": "anthropics/knowledge-work-plugins",
-    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "description": "Kho lưu trữ mã nguồn mở chứa các plugin giúp tùy chỉnh Claude thành chuyên gia cho từng vai trò, kết nối trực tiếp với công cụ và quy trình làm việc của doanh nghiệp.",
     "tags": [],
     "stars": 20935,
     "folder": "anthropics_knowledge-work-plugins",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 anthropics/knowledge-work-plugins\n\n## 🌟 Trọng tâm\nTập hợp các plugin mã nguồn mở giúp tùy biến AI (Claude) thành các chuyên gia chuyên trách cho từng vai trò công việc cụ thể trong doanh nghiệp.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: AI chung chung thiếu hiểu biết sâu sắc về bối cảnh, quy trình, công cụ riêng và các tiêu chuẩn của từng nhóm làm việc hoặc vai trò cụ thể.\n- **Khách hàng mục tiêu**: Người dùng Claude Cowork, Claude Code, các nhân sự làm việc tri thức (sales, marketing, product, finance, legal...) và các quản trị viên/trưởng nhóm muốn chuẩn hóa chất lượng công việc thông qua AI.\n\n## 🛠️ Công nghệ cốt lõi\n- Tích hợp hệ thống Model Context Protocol (MCP) servers để kết nối với các công cụ ngoại vi (Slack, Notion, Jira, Snowflake, HubSpot...).\n- Cấu trúc file-based (Markdown & JSON) đơn giản, không cần viết code: bao gồm Kỹ năng (Skills), Lệnh gạch chéo (Commands) và Trình kết nối (Connectors).\n\n## 💡 Tại sao đáng chú ý?\n- Cung cấp sẵn 11 plugin chất lượng cao cho nhiều phòng ban quan trọng, có tính ứng dụng tức thì.\n- Cho phép doanh nghiệp dễ dàng tinh chỉnh (\"cá nhân hóa\") AI với công cụ và thuật ngữ nội bộ mà không cần hạ tầng phần mềm phức tạp, giúp tạo ra một hệ sinh thái AI am hiểu quy trình của công ty.\n"
   },
   {
     "id": "apple_container",
@@ -486,6 +513,15 @@
     "summary": "# 🚀 9Router\n## 🌟 Trọng tâm\n9Router là một hệ thống proxy và smart router mã nguồn mở giúp tiết kiệm token và quản lý API AI hiệu quả dành cho lập trình viên. Công cụ này hoạt động như một lớp trung gian giữa các CLI/IDE code AI (như Claude Code, Cursor, Copilot, Cline) và hơn 40 nhà cung cấp AI, giúp bạn tối đa hóa các gói đăng ký hiện có và tận dụng các model miễn phí hoặc giá rẻ.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nSản phẩm giải quyết nỗi đau của các lập trình viên khi sử dụng công cụ AI: cạn kiệt hạn mức đăng ký (quota) mà chưa dùng hết công năng, lỗi giới hạn tỷ lệ (rate limit) khi đang code dở dang, tiêu tốn quá nhiều token cho các kết quả trả về từ công cụ (như git diff, grep) và chi phí API đắt đỏ. Khách hàng mục tiêu là các lập trình viên sử dụng AI hàng ngày, muốn có trải nghiệm code mượt mà 24/7 với chi phí tối ưu nhất, hoặc thậm chí là hoàn toàn miễn phí.\n\n## 🛠️ Công nghệ cốt lõi\n- **RTK Token Saver:** Tự động nén dữ liệu đầu ra của các lệnh (như git diff, grep, ls) một cách thông minh trước khi gửi lên LLM, giúp tiết kiệm 20-40% input token.\n- **Smart 3-Tier Fallback:** Tự động định tuyến dự phòng qua 3 tầng (Gói đăng ký → Giá rẻ → Miễn phí) để đảm bảo không bao giờ bị gián đoạn.\n- **Format Translation:** Chuyển đổi định dạng API liền mạch giữa OpenAI, Claude, Gemini, Cursor, v.v., tương thích với mọi công cụ CLI.\n- **Quota Tracking & Multi-Account:** Theo dõi hạn mức sử dụng theo thời gian thực và hỗ trợ cấu hình đa tài khoản (round-robin) để cân bằng tải.\n\n## 💡 Tại sao đáng chú ý?\n9Router cho phép người dùng cấu hình linh hoạt vô số \"combos\" kết hợp mô hình AI để đạt được mức chi phí $0 mà vẫn trải nghiệm được chất lượng cao. Hơn nữa, với tính năng \"Caveman Mode\", 9Router ép LLM trả lời ngắn gọn, giữ nguyên trọng tâm kỹ thuật, tiết kiệm thêm tới 65% output token. Với khả năng cài đặt cực dễ qua NPM, Docker hay trên VPS, công cụ này thực sự là giải pháp tối thượng để hack năng suất và dẹp bỏ nỗi lo về chi phí cho dân dev.\n"
   },
   {
+    "id": "dotnet_aspnetcore",
+    "name": "dotnet/aspnetcore",
+    "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+    "tags": [],
+    "stars": 38097,
+    "folder": "dotnet_aspnetcore",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "freeCodeCamp_freeCodeCamp",
     "name": "freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp là một nền tảng học lập trình trực tuyến miễn phí và mã nguồn mở, cung cấp hàng ngàn thử thách thực hành, dự án và chứng chỉ giúp người học phát triển kỹ năng công nghệ và tìm được việc làm lập trình đầu tiên.",
@@ -519,6 +555,15 @@
     "summary": "Godot Engine là một phần mềm phát triển trò chơi đa nền tảng mạnh mẽ và phong phú các tính năng, cho phép người dùng sáng tạo cả trò chơi 2D lẫn 3D thông qua một giao diện duy nhất. Điểm đặc biệt của Godot là việc cung cấp hệ sinh thái công cụ toàn diện giúp các nhà phát triển tập trung trực tiếp vào quá trình thiết kế game, đồng thời hỗ trợ xuất trò chơi chỉ với một cú nhấp chuột lên vô số nền tảng phổ biến hiện nay như Windows, macOS, Linux, iOS, Android, hệ thống web và các thiết bị máy chơi game chuyên dụng (consoles).\n\nMã nguồn của Godot Engine hoàn toàn miễn phí và được cấp phép dưới giấy phép MIT, mang lại quyền lợi sử dụng mở mà không thu phí bản quyền, đảm bảo rằng người dùng có toàn quyền sở hữu đối với các sản phẩm game mà họ đã sáng tạo. Hệ thống được thúc đẩy bởi cộng đồng phát triển mã nguồn mở nhiệt huyết cùng sự hỗ trợ chính thức từ tổ chức phi lợi nhuận Godot Foundation, tạo ra một môi trường mở rộng và không ngừng nâng cấp nhằm đáp ứng mọi kỳ vọng từ cả những nhà phát triển độc lập lẫn các studio.\n\nĐể bắt đầu làm việc với Godot, người dùng có thể dễ dàng tải trực tiếp các bản cài đặt biên dịch sẵn trên trang web chính thức hoặc tự tay thực hiện việc biên dịch từ mã nguồn theo tài liệu hướng dẫn. Hệ thống tài liệu cực kỳ chi tiết, nhiều ví dụ demo mã nguồn mở, cùng loạt các tài nguyên từ cộng đồng sẽ cung cấp một nền tảng vững chắc để người học nhanh chóng tiếp cận và thành thạo engine này.\n"
   },
   {
+    "id": "google-research_timesfm",
+    "name": "google-research/timesfm",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "tags": [],
+    "stars": 23195,
+    "folder": "google-research_timesfm",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "google_skills",
     "name": "google/skills",
     "description": "Agent Skills cung cấp tập hợp các kỹ năng cho tác nhân AI để tương tác và làm việc với các sản phẩm, công nghệ của Google.",
@@ -530,11 +575,11 @@
   {
     "id": "hardikpandya_stop-slop",
     "name": "hardikpandya/stop-slop",
-    "description": "A skill file for removing AI tells from prose",
+    "description": "Stop Slop cung cấp một bộ quy tắc và hướng dẫn chuyên sâu giúp các mô hình ngôn ngữ nhận diện và loại bỏ các khuôn mẫu văn phong đặc trưng của AI, từ đó tạo ra những đoạn văn xuôi tự nhiên và chân thực như con người viết.",
     "tags": [],
     "stars": 10983,
     "folder": "hardikpandya_stop-slop",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 hardikpandya/stop-slop\n\n## 🌟 Trọng tâm\nDự án cung cấp một bộ \"skill\" (kỹ năng) thiết kế riêng để nhận diện và loại bỏ các văn phong, cấu trúc, và cụm từ đặc trưng (tells) do AI tạo ra, giúp văn bản tự nhiên và chân thực giống con người hơn.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Các văn bản do mô hình ngôn ngữ (như Claude, ChatGPT) sinh ra thường có khuôn mẫu dễ đoán, nhịp điệu đều đều, lạm dụng trạng từ hoặc sáo rỗng về mặt cấu trúc.\n- **Khách hàng mục tiêu:** Người dùng Claude, các nhà phát triển tích hợp LLM qua API, các tác giả, copywriter và người làm nội dung muốn làm sạch các văn bản do AI tạo ra để chúng không bị nhận diện là \"văn mẫu AI\".\n\n## 🛠️ Công nghệ cốt lõi\n- **Prompt Engineering:** Sử dụng hệ thống cấu trúc \"Skill\" cho các Agent/LLM.\n- **Cấu trúc tri thức:** Phân chia quy tắc rõ ràng và khoa học thành hướng dẫn lõi (`SKILL.md`), cụm từ bị cấm (`phrases.md`), cấu trúc cần tránh (`structures.md`).\n- **Hệ thống chấm điểm đa chiều:** Khung đánh giá tự động dựa trên 5 khía cạnh (Sự trực tiếp, Nhịp điệu, Niềm tin, Tính xác thực, Mật độ) để đánh giá chất lượng văn bản.\n\n## 💡 Tại sao đáng chú ý?\nDự án này là một giải pháp cực kỳ thiết thực cho tình trạng rác nội dung (slop) do AI sinh ra ngày càng nhiều. Việc chuẩn hóa quá trình \"tẩy AI\" thành một kỹ năng dễ dàng tích hợp qua Claude Code, Projects hoặc API gọi hệ thống giúp cải thiện đáng kể chất lượng nội dung cuối cùng, nhận được sự quan tâm lớn với hơn 10.000 sao trên GitHub.\n"
   },
   {
     "id": "harry0703_MoneyPrinterTurbo",
@@ -622,6 +667,15 @@
     "stars": 19008,
     "folder": "lyogavin_airllm",
     "summary": "# 🚀 lyogavin_airllm \n## 🌟 Trọng tâm\nAirLLM tập trung vào việc tối ưu hóa hiệu suất bộ nhớ khi thực hiện quá trình suy luận cho các mô hình ngôn ngữ lớn (LLM). Cốt lõi của nó là khả năng chạy các mô hình cực lớn trên phần cứng hạn chế về dung lượng VRAM.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n*   **Bài toán giải quyết:** Việc chạy suy luận cho các LLM có kích thước lớn (như 70B hay 405B) thường đòi hỏi phần cứng (GPU) cực kỳ đắt đỏ với dung lượng bộ nhớ khổng lồ. AirLLM giải quyết bài toán \"khát\" phần cứng này, cho phép suy luận các mô hình này trên những GPU thông thường, giá rẻ.\n*   **Khách hàng mục tiêu:** Các nhà nghiên cứu AI, nhà phát triển ứng dụng, học sinh sinh viên, và các doanh nghiệp vừa và nhỏ có ngân sách eo hẹp cho hạ tầng GPU, những người muốn thử nghiệm hoặc triển khai các LLM khổng lồ một cách tiết kiệm nhất.\n\n## 🛠️ Công nghệ cốt lõi\n*   **Phân rã mô hình theo lớp (Layer-wise model decomposition):** Trong quá trình suy luận, mô hình gốc sẽ được phân tách thành từng lớp và lưu trên đĩa (disk). Dữ liệu sẽ được tải từ đĩa vào RAM theo từng lớp một cách linh hoạt, tránh tình trạng tràn VRAM.\n*   **Nén mô hình dựa trên lượng tử hóa khối (Block-wise quantization):** Hỗ trợ lượng tử hóa 4-bit và 8-bit trên trọng số mô hình (weights) để làm giảm kích thước bộ nhớ tải từ đĩa, giúp tăng tốc độ xử lý mà không làm mất quá nhiều độ chính xác.\n*   **Kỹ thuật Prefetching:** Tìm nạp trước dữ liệu để quá trình tính toán và tải mô hình lên VRAM diễn ra song song (overlapping), giúp cải thiện thời gian suy luận.\n\n## 💡 Tại sao đáng chú ý?\n*   **Hiệu suất phi thường:** Chạy được mô hình 70B tham số chỉ với GPU 4GB, và thậm chí chạy được Llama3.1 405B trên GPU 8GB - một sự cải thiện phần cứng không tưởng so với các phương pháp truyền thống.\n*   **Bảo toàn độ chính xác:** Cho phép chạy suy luận nguyên bản mà không bị ép buộc phải dùng các phương pháp gây hao hụt độ chính xác nhiều như lượng tử hóa toàn bộ (chỉ lượng tử hóa đĩa), chưng cất hay cắt tỉa mô hình.\n*   **Tốc độ:** Nhờ việc áp dụng nén mô hình và lượng tử hóa, tốc độ chạy có thể cải thiện gấp 3 lần.\n*   **Tính tương thích cao:** Hỗ trợ được nhiều mô hình lớn nhất hiện nay (Llama2, Llama3, Llama3.1, QWen, ChatGLM, Mistral, v.v.), tương thích trên Linux, MacOS (Apple Silicon) cũng như CPU.\n"
+  },
+  {
+    "id": "makeplane_plane",
+    "name": "makeplane/plane",
+    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+    "tags": [],
+    "stars": 51846,
+    "folder": "makeplane_plane",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "masterking32_MasterDnsVPN",
@@ -758,11 +812,11 @@
   {
     "id": "ogulcancelik_herdr",
     "name": "ogulcancelik/herdr",
-    "description": "agent multiplexer that lives in your terminal.",
+    "description": "Herdr là một trình quản lý đa kênh và duy trì phiên trực tiếp trên terminal, giúp theo dõi, tổ chức và điều phối dễ dàng các AI agent cũng như tiến trình công việc của bạn.",
     "tags": [],
     "stars": 6003,
     "folder": "ogulcancelik_herdr",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 herdr\n## 🌟 Trọng tâm\nHerdr là một \"agent multiplexer\" (trình dồn kênh cho agent) chạy trực tiếp trong terminal, cung cấp khả năng duy trì phiên làm việc, phân chia không gian làm việc, quản lý các agent (bị chặn, đang làm việc, hoàn thành) thông qua một thiết kế gọn nhẹ, không cần GUI.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán**: Quản lý nhiều công cụ và AI agent chạy nền thường gặp khó khăn về việc theo dõi trạng thái, bảo toàn phiên làm việc khi ngắt kết nối và tổ chức các không gian làm việc.\n- **Khách hàng mục tiêu**: Lập trình viên, kỹ sư hệ thống và những người thường xuyên làm việc trên terminal muốn một công cụ quản lý các tiến trình/agent thông minh và mạnh mẽ.\n\n## 🛠️ Công nghệ cốt lõi\n- Viết bằng ngôn ngữ Rust, chỉ là một tệp nhị phân duy nhất, không phụ thuộc thư viện phức tạp.\n- Terminal Multiplexing, nhận biết tiến trình thông minh.\n- Local Unix Socket API để giao tiếp với các agent khác.\n\n## 💡 Tại sao đáng chú ý?\nHerdr kết hợp điểm mạnh của tmux (giữ phiên) và các ứng dụng GUI quản lý agent nhưng hoàn toàn chạy trong terminal. Hỗ trợ hàng loạt các AI agent hiện đại (như Claude, Copilot, Codex, Devin) cùng khả năng tự động khôi phục ngữ cảnh (session persistence) khiến nó trở thành công cụ đắc lực cho những ai đam mê giao diện dòng lệnh.\n"
   },
   {
     "id": "openai_plugins",
@@ -790,6 +844,15 @@
     "stars": 23414,
     "folder": "opendataloader-project_opendataloader-pdf",
     "summary": "# 🚀 opendataloader-project_opendataloader-pdf\n\n## 🌟 Trọng tâm\nCông cụ phân tích cú pháp PDF (PDF Parser) mã nguồn mở hàng đầu giúp trích xuất dữ liệu có cấu trúc chất lượng cao sẵn sàng cho các mô hình AI và pipeline RAG. Đồng thời, cung cấp giải pháp tự động hóa khả năng truy cập PDF (tự động gắn thẻ Tagged PDF).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Xử lý việc mất cấu trúc PDF khi trích xuất (mất thứ tự đọc, hỏng bảng biểu, không có tọa độ). Giải quyết các nội dung phức tạp như PDF được quét, bảng biểu phức tạp, công thức và biểu đồ. Tiết kiệm chi phí khắc phục tính truy cập PDF thủ công đắt đỏ.\n- **Khách hàng mục tiêu**: Các nhà phát triển AI, kỹ sư dữ liệu xây dựng hệ thống RAG/LLM, và các tổ chức/doanh nghiệp cần tuân thủ các quy định về khả năng truy cập kỹ thuật số (EAA, ADA, Mục 508).\n\n## 🛠️ Công nghệ cốt lõi\n- **Trích xuất cục bộ tất định**: Sử dụng thuật toán XY-Cut++ để xử lý thứ tự đọc, xuất ra các định dạng Markdown, JSON (kèm tọa độ hộp giới hạn - bounding boxes) và HTML.\n- **Chế độ Hybrid (Lai)**: Tích hợp mô hình AI (như SmolVLM) và OCR (hỗ trợ hơn 80 ngôn ngữ) để xử lý các tài liệu phức tạp, công thức LaTeX và mô tả hình ảnh.\n- **Tính năng An toàn AI**: Tự động lọc các cuộc tấn công prompt injection ẩn trong PDF.\n- **SDK đa nền tảng**: Hỗ trợ Python, Node.js, Java và tích hợp trực tiếp với LangChain.\n\n## 💡 Tại sao đáng chú ý?\n- Xếp hạng **#1** trong các điểm chuẩn (benchmarks) về độ chính xác trích xuất tổng thể (0.907).\n- Là công cụ **mã nguồn mở đầu tiên** hỗ trợ tự động gắn thẻ PDF (Tagged PDF) từ đầu đến cuối mà không phụ thuộc vào SDK độc quyền.\n- Chạy cục bộ hoàn toàn trên CPU (với tốc độ cao), bảo mật tuyệt đối cho dữ liệu của người dùng, được phân phối với giấy phép Apache-2.0.\n"
+  },
+  {
+    "id": "owainlewis_awesome-artificial-intelligence",
+    "name": "owainlewis/awesome-artificial-intelligence",
+    "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+    "tags": [],
+    "stars": 14403,
+    "folder": "owainlewis_awesome-artificial-intelligence",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "p-e-w_heretic",
@@ -1024,11 +1087,11 @@
   {
     "id": "tinyhumansai_openhuman",
     "name": "tinyhumansai/openhuman",
-    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "description": "OpenHuman là siêu trí tuệ AI cá nhân mã nguồn mở hoạt động ngay trên máy của bạn với khả năng ghi nhớ liên tục, tích hợp hơn 118+ dịch vụ và mang lại trải nghiệm tương tác tự nhiên, an toàn mà không cần cấu hình phức tạp.",
     "tags": [],
     "stars": 32446,
     "folder": "tinyhumansai_openhuman",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 OpenHuman\n\n## 🌟 Trọng tâm\nTrợ lý AI cá nhân mã nguồn mở với khả năng bộ nhớ sâu (Memory Tree + Obsidian vault) và tích hợp liền mạch với hơn 118+ dịch vụ bên thứ ba. Điểm nổi bật là trải nghiệm cài đặt vô cùng đơn giản với giao diện desktop, một linh vật ảo tương tác được và giữ lại ngữ cảnh cục bộ một cách an toàn.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Các trợ lý AI hiện nay tốn rất nhiều thời gian để \"hiểu\" về stack, lịch trình và dữ liệu của người dùng hoặc mất chi phí ẩn lớn, bị rò rỉ dữ liệu quan trọng ra đám mây của nhà cung cấp.\n- **Khách hàng mục tiêu:** Lập trình viên, người dùng nâng cao (power users) và bất kỳ ai cần một trợ lý AI cá nhân thực thụ, có khả năng kết nối email, lịch trình, hệ thống tệp và tích hợp mạnh mẽ với các công cụ làm việc hàng ngày trong khi vẫn ưu tiên sự an toàn và riêng tư (lưu trữ cục bộ).\n\n## 🛠️ Công nghệ cốt lõi\n- **Node.js & Rust & Tauri/CEF:** Dành cho việc xây dựng kiến trúc hệ thống và desktop app.\n- **SQLite:** Lưu trữ cục bộ các tệp Cây bộ nhớ (Memory Tree) và Vault Obsidian.\n- **TokenJuice:** Lớp nén token thông minh giúp giảm 80% chi phí và độ trễ.\n- **Composio Connector Layer:** Để hỗ trợ luồng OAuth một chạm cho các API bên thứ 3.\n- **Tích hợp mô hình AI nội bộ (Ollama) hoặc quản lý đám mây:** Cung cấp định tuyến mô hình, TTS (ElevenLabs), STT và scraping web.\n\n## 💡 Tại sao đáng chú ý?\nBởi vì nó làm được một việc chưa từng có: **cung cấp toàn bộ ngữ cảnh về bạn cho AI chỉ trong vài phút thay vì vài tuần**. Với hệ thống auto-fetch 20 phút/lần lưu thông tin cục bộ theo chuẩn Obsidian, một linh vật hỗ trợ có thể nói chuyện và tham gia Google Meets, và tính năng nén token đặc biệt, OpenHuman cung cấp một AI thực sự \"thấu hiểu\" người dùng ngay từ lúc mở ứng dụng.\n"
   },
   {
     "id": "trycua_cua",
@@ -1040,6 +1103,15 @@
     "summary": "# 🚀 cua\n## 🌟 Trọng tâm\nDự án tập trung vào việc cung cấp cơ sở hạ tầng mã nguồn mở để xây dựng, đánh giá chuẩn (benchmark) và triển khai các tác nhân AI sử dụng máy tính (Computer-Use Agents). Bao gồm các công cụ sandbox, SDK, và driver điều khiển màn hình máy tính nền (background).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết khó khăn trong việc thiết lập môi trường (hộp cát - sandbox), điều khiển hệ điều hành (macOS, Linux, Windows), và đánh giá các mô hình AI để chúng có thể thao tác với máy tính như con người (nhấp chuột, gõ phím, chụp màn hình).\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư nghiên cứu Reinforcement Learning (RL), và những người muốn xây dựng các trợ lý AI hoặc tác nhân tự động có khả năng tương tác trực tiếp với giao diện người dùng máy tính.\n\n## 🛠️ Công nghệ cốt lõi\n- **cua-driver:** Driver điều khiển máy tính chạy nền cho macOS, Windows và Linux, tích hợp MCP Server.\n- **cua-sandbox:** API/SDK (bằng Python) thống nhất để tạo hộp cát tác nhân trên các nền tảng (VM, Container, Local QEMU, Cloud).\n- **cua-bench:** Bộ công cụ đánh giá benchmark (trên OSWorld, ScreenSpot, Windows Arena) và môi trường RL cho tác nhân sử dụng máy tính.\n- **Lume:** Ảo hóa macOS/Linux với hiệu năng cao trên Apple Silicon sử dụng Virtualization.Framework.\n\n## 💡 Tại sao đáng chú ý?\nCua mang tới một giải pháp trọn gói và cực kỳ tiện dụng cho trào lưu phát triển \"Computer-Use AI Agents\". Dự án cung cấp khả năng điều khiển giao diện trong nền mà không chiếm đoạt chuột thật, hỗ trợ lập trình bằng Python API cực kỳ thống nhất trên mọi hệ điều hành. Hơn nữa, nó đi kèm với hệ thống benchmark chuẩn mực và cả công cụ ảo hoá Lume giúp giả lập macOS dễ dàng trên Apple Silicon. Điều này thúc đẩy tốc độ phát triển và kiểm thử các agent một cách đáng kể.\n"
   },
   {
+    "id": "withastro_flue",
+    "name": "withastro/flue",
+    "description": "The sandbox agent framework.",
+    "tags": [],
+    "stars": 5514,
+    "folder": "withastro_flue",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "x1xhlol_system-prompts-and-models-of-ai-tools",
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "Một bộ sưu tập khổng lồ chứa các câu lệnh hệ thống (system prompts), công cụ nội bộ và mô hình AI bị rò rỉ hoặc được mã nguồn mở từ các nền tảng AI phổ biến như Cursor, Devin AI, Claude Code và nhiều công cụ khác.",
@@ -1047,6 +1119,15 @@
     "stars": 139636,
     "folder": "x1xhlol_system-prompts-and-models-of-ai-tools",
     "summary": "# 🚀 x1xhlol/system-prompts-and-models-of-ai-tools\n\n## 🌟 Trọng tâm\nKho lưu trữ này là một bộ sưu tập toàn diện các câu lệnh hệ thống (system prompts), công cụ nội bộ và mô hình AI bị rò rỉ hoặc được mã nguồn mở từ nhiều công cụ và nền tảng AI phổ biến hiện nay như Claude Code, Cursor, Devin AI, Perplexity, Lovable, v.v.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Cung cấp thông tin chi tiết và minh bạch về cách thức hoạt động, các câu lệnh hệ thống và mô hình đằng sau nhiều công cụ AI thương mại và mã nguồn mở. Nó cũng nâng cao nhận thức về rủi ro rò rỉ dữ liệu (prompt injection/extraction) cho các startup AI.\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư Prompt (Prompt Engineers), nhà nghiên cứu AI, các chuyên gia bảo mật và các nhà sáng lập startup AI muốn học hỏi từ các hệ thống hiện có hoặc bảo vệ hệ thống của riêng họ.\n\n## 🛠️ Công nghệ cốt lõi\nKho lưu trữ chủ yếu tập trung vào dữ liệu thô (system prompts) và tài liệu về các mô hình ngôn ngữ lớn (LLMs). Không có ngôn ngữ lập trình cốt lõi, nhưng nó cung cấp cái nhìn sâu sắc về kiến trúc và cách thiết kế câu lệnh cho LLM.\n\n## 💡 Tại sao đáng chú ý?\n- Cung cấp một lượng dữ liệu lớn và hiếm có về các câu lệnh hệ thống \"thực chiến\" từ các công ty AI hàng đầu.\n- Là một nguồn tài nguyên học tập vô giá để tối ưu hóa thiết kế câu lệnh và xây dựng các tác nhân AI (AI agents).\n- Cảnh báo mạnh mẽ về các vấn đề bảo mật trong AI (như prompt injection) với khuyến nghị sử dụng các dịch vụ như ZeroLeaks.\n"
+  },
+  {
+    "id": "yifanfeng97_Hyper-Extract",
+    "name": "yifanfeng97/Hyper-Extract",
+    "description": "Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+    "tags": [],
+    "stars": 1789,
+    "folder": "yifanfeng97_Hyper-Extract",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "yikart_AiToEarn",
@@ -1062,5 +1143,14 @@
     "stars": 17286,
     "folder": "yikart_AiToEarn",
     "summary": "\n# Test Repo\nHere is a relative image:\n![Relative](docs/image.png)\n![Absolute](https://example.com/image.png)\n"
+  },
+  {
+    "id": "zai-org_GLM-5",
+    "name": "zai-org/GLM-5",
+    "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "tags": [],
+    "stars": 4138,
+    "folder": "zai-org_GLM-5",
+    "summary": "Chưa có bản tóm tắt AI."
   }
 ]

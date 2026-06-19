@@ -1,0 +1,1 @@
+Insomnia là một công cụ API client đa nền tảng mã nguồn mở mạnh mẽ, hỗ trợ GraphQL, REST, gRPC, WebSockets cùng các tùy chọn lưu trữ dữ liệu cục bộ, Git và đám mây an toàn.

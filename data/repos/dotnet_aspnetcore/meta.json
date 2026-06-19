@@ -1,0 +1,10 @@
+{
+  "id": "dotnet_aspnetcore",
+  "fullName": "dotnet/aspnetcore",
+  "name": "aspnetcore",
+  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+  "stars": 38097,
+  "forks": 0,
+  "readmeHash": "458fa9370f7420aef2c2ad0461fbb601",
+  "tags": []
+}

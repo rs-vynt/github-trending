@@ -1,0 +1,1 @@
+ASP.NET Core là một framework mã nguồn mở, đa nền tảng của Microsoft dùng để xây dựng các ứng dụng web, IoT và backend hiện đại, hiệu suất cao trên nền tảng đám mây.

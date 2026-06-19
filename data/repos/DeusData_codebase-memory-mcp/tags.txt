@@ -1,0 +1,5 @@
+mcp
+code-intelligence
+ai-coding-agents
+knowledge-graph
+tree-sitter

@@ -1,0 +1,1 @@
+codebase-memory-mcp là một máy chủ MCP cung cấp engine trí tuệ mã nguồn tốc độ siêu cao, giúp các AI coding agents lập chỉ mục và truy vấn cấu trúc dự án dưới dạng biểu đồ tri thức một cách hiệu quả, tiết kiệm 99% lượng token.

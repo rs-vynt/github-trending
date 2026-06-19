@@ -1,0 +1,1 @@
+Hyper-Extract là một công cụ CLI mã nguồn mở sử dụng sức mạnh của các mô hình ngôn ngữ lớn (LLM) để trích xuất và biến đổi các tài liệu phi cấu trúc thành các đồ thị tri thức có cấu trúc mạnh mẽ chỉ với một dòng lệnh.

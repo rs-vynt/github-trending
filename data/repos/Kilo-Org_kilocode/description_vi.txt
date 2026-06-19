@@ -1,0 +1,1 @@
+Kilo Code là một đại lý lập trình AI mã nguồn mở linh hoạt, hoạt động trên VS Code, JetBrains và CLI, hỗ trợ hơn 500 mô hình AI để giúp bạn viết mã, sửa lỗi và xây dựng phần mềm nhanh chóng.

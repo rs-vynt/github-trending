@@ -1,0 +1,1 @@
+Flue là một framework TypeScript giúp xây dựng và vận hành các AI agent tự chủ trong môi trường sandbox an toàn với các công cụ, kỹ năng và quy trình linh hoạt.

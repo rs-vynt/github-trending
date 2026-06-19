@@ -1,0 +1,10 @@
+{
+  "id": "DeusData_codebase-memory-mcp",
+  "fullName": "DeusData/codebase-memory-mcp",
+  "name": "codebase-memory-mcp",
+  "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph \u2014 average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+  "stars": 7064,
+  "forks": 0,
+  "readmeHash": "21dcf6ce067844fbbc767ec2d0c132ee",
+  "tags": []
+}

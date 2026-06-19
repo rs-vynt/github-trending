@@ -1,0 +1,1 @@
+Plane là một nền tảng quản lý dự án mã nguồn mở hiện đại, thay thế cho Jira hay Linear, giúp các nhóm dễ dàng theo dõi vấn đề, chu kỳ phát triển và lộ trình sản phẩm.

@@ -1,0 +1,1 @@
+GLM-5 là chuỗi mô hình ngôn ngữ lớn mã nguồn mở với ngữ cảnh lên đến 1 triệu token, tập trung mạnh vào khả năng xử lý các tác vụ agentic dài hạn và lập trình hệ thống phức tạp.

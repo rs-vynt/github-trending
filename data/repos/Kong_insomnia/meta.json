@@ -1,0 +1,10 @@
+{
+  "id": "Kong_insomnia",
+  "fullName": "Kong/insomnia",
+  "name": "insomnia",
+  "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+  "stars": 38687,
+  "forks": 0,
+  "readmeHash": "cbe8a5ce37920bc04b9c78f8c9695ac1",
+  "tags": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-19_daily",
+  "date": "2026-06-19",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "google-research_timesfm",
+      "stars": 23195,
+      "rank": 1,
+      "isNew": true
+    },
+    {
+      "id": "n0-computer_iroh",
+      "stars": 10011,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "freeCodeCamp_freeCodeCamp",
+      "stars": 449546,
+      "rank": 3,
+      "isNew": false
+    },
+    {
+      "id": "obra_superpowers",
+      "stars": 232432,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "zai-org_GLM-5",
+      "stars": 4138,
+      "rank": 5,
+      "isNew": true
+    },
+    {
+      "id": "DeusData_codebase-memory-mcp",
+      "stars": 7064,
+      "rank": 6,
+      "isNew": true
+    },
+    {
+      "id": "yifanfeng97_Hyper-Extract",
+      "stars": 1789,
+      "rank": 7,
+      "isNew": true
+    },
+    {
+      "id": "alibaba_zvec",
+      "stars": 11226,
+      "rank": 8,
+      "isNew": false
+    },
+    {
+      "id": "withastro_flue",
+      "stars": 5514,
+      "rank": 9,
+      "isNew": true
+    },
+    {
+      "id": "Kilo-Org_kilocode",
+      "stars": 22162,
+      "rank": 10,
+      "isNew": true
+    },
+    {
+      "id": "makeplane_plane",
+      "stars": 51846,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "Kong_insomnia",
+      "stars": 38687,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "Universal-Debloater-Alliance_universal-android-debloater-next-generation",
+      "stars": 7926,
+      "rank": 13,
+      "isNew": false
+    },
+    {
+      "id": "dotnet_aspnetcore",
+      "stars": 38097,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "owainlewis_awesome-artificial-intelligence",
+      "stars": 14403,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}
