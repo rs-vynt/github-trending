@@ -1,0 +1,1 @@
+gstack là bộ 23 công cụ AI do CEO YC Garry Tan phát triển để biến Claude Code thành một đội ngũ kỹ sư phần mềm ảo giúp lập trình viên độc lập tăng tốc độ phát triển dự án lên hàng trăm lần.

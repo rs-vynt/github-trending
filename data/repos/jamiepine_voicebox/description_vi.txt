@@ -1,0 +1,1 @@
+Voicebox là một ứng dụng studio giọng nói AI mã nguồn mở hoàn toàn cục bộ, cho phép bạn nhân bản giọng nói, đọc chính tả và tương tác với các AI agent qua công nghệ chuyển đổi âm thanh và văn bản tiên tiến.

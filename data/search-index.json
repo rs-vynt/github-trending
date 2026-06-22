@@ -165,6 +165,15 @@
     "summary": "# 🚀 Introduction-to-Autonomous-Robots\n\n## 🌟 Trọng tâm\nDự án này là mã nguồn mở của một cuốn sách giáo trình về các nguyên lý tính toán của robot tự hành (Introduction to Autonomous Robots).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Cung cấp tài liệu giáo dục và mã nguồn hướng dẫn chi tiết về cấu tạo, cơ chế, cảm biến, cơ cấu chấp hành và thuật toán điều khiển của robot tự hành.\n- **Khách hàng mục tiêu:** Sinh viên, giảng viên, nhà nghiên cứu, người đam mê robotics và kỹ sư muốn học về nền tảng lý thuyết lẫn tính toán trong lĩnh vực robot tự hành.\n\n## 🛠️ Công nghệ cốt lõi\n- LaTeX (pdflatex, bibtex) để biên dịch tài liệu.\n- Overleaf cho môi trường soạn thảo/biên dịch trực tuyến.\n\n## 💡 Tại sao đáng chú ý?\nLà một nguồn tài liệu giáo khoa mở có chất lượng (được xuất bản bởi MIT Press) cho phép sử dụng phi thương mại, cung cấp toàn bộ quy trình để người dùng có thể tự biên dịch thành PDF thông qua hệ thống LaTeX.\n"
   },
   {
+    "id": "JCodesMore_ai-website-cloner-template",
+    "name": "JCodesMore/ai-website-cloner-template",
+    "description": "Clone any website with one command using AI coding agents",
+    "tags": [],
+    "stars": 17606,
+    "folder": "JCodesMore_ai-website-cloner-template",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "Kilo-Org_kilocode",
     "name": "Kilo-Org/kilocode",
     "description": "Kilo Code là một đại lý lập trình AI mã nguồn mở linh hoạt, hoạt động trên VS Code, JetBrains và CLI, hỗ trợ hơn 500 mô hình AI để giúp bạn viết mã, sửa lỗi và xây dựng phần mềm nhanh chóng.",
@@ -276,6 +285,15 @@
     "summary": "# 🚀 turbovec\n\n## 🌟 Trọng tâm\nMột chỉ mục vector (vector index) cực nhanh và nhẹ viết bằng Rust (kèm Python bindings), được xây dựng trên thuật toán **TurboQuant** của Google Research. Giải pháp này giúp nén vector hiệu quả mà không cần giai đoạn huấn luyện (training phase).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Vấn đề tiêu tốn quá nhiều bộ nhớ khi lưu trữ vector cho tìm kiếm (như nén 10 triệu tài liệu từ 31 GB RAM xuống chỉ còn 4 GB) nhưng vẫn duy trì hoặc vượt qua tốc độ tìm kiếm của các công cụ hàng đầu hiện nay như FAISS. Hỗ trợ thêm vector ngay lập tức (online ingest) và lọc kết quả hiệu suất cao.\n- **Khách hàng mục tiêu:** Các nhà phát triển hệ thống RAG (Retrieval-Augmented Generation), kỹ sư AI, data scientist cần tìm kiếm vector nhanh chóng, tiết kiệm tài nguyên hệ thống, hoặc xây dựng các hệ thống AI hoàn toàn bảo mật, bị cách ly mạng (air-gapped) chạy cục bộ.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** Rust (hiệu năng cao, an toàn) và Python (thông qua bindings).\n- **Thuật toán TurboQuant:** Một bộ lượng tử hóa độc lập dữ liệu (data-oblivious quantizer), tiệm cận giới hạn độ biến dạng Shannon, sử dụng phân phối Beta và lượng tử hóa vô hướng Lloyd-Max.\n- **Nhân SIMD tùy chỉnh (Custom SIMD kernels):** Tối ưu hóa tối đa thông lượng tìm kiếm với NEON (trên ARM/Apple Silicon) và AVX-512BW/AVX2 (trên x86).\n- **Cơ chế lọc trực tiếp (Filtered search):** Lọc ứng viên ở mức SIMD kernel, bỏ qua việc tính toán các block không thỏa mãn nhằm duy trì hiệu năng cao cho hybrid retrieval (truy xuất lai).\n\n## 💡 Tại sao đáng chú ý?\n- **Hiệu năng vượt trội:** Nén dữ liệu lên tới 16 lần, tìm kiếm nhanh hơn FAISS từ 12-20% trên ARM và ngang bằng/vượt trên x86.\n- **Tiện dụng:** Không cần huấn luyện trước (no train step), không cần thiết lập tham số phức tạp hay phải build lại index khi dữ liệu lớn lên.\n- **Bảo mật tuyệt đối:** Hoạt động hoàn toàn ở môi trường local, không gọi API qua mạng.\n- **Tích hợp linh hoạt:** Thay thế hoàn hảo (drop-in replacement) cho in-memory vector store của các framework phổ biến như LangChain, LlamaIndex, Haystack và Agno.\n"
   },
   {
+    "id": "Stirling-Tools_Stirling-PDF",
+    "name": "Stirling-Tools/Stirling-PDF",
+    "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+    "tags": [],
+    "stars": 82715,
+    "folder": "Stirling-Tools_Stirling-PDF",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "TapXWorld_ChinaTextbook",
     "name": "TapXWorld/ChinaTextbook",
     "description": "ChinaTextbook là một kho lưu trữ mã nguồn mở cung cấp miễn phí toàn bộ sách giáo khoa Toán học chất lượng cao từ cấp tiểu học đến đại học của Trung Quốc, nhằm mục đích phổ cập giáo dục và hỗ trợ cộng đồng Hoa kiều.",
@@ -311,11 +329,11 @@
   {
     "id": "ZhuLinsen_daily_stock_analysis",
     "name": "ZhuLinsen/daily_stock_analysis",
-    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "description": "Hệ thống phân tích cổ phiếu đa thị trường thông minh được thúc đẩy bởi LLM: cung cấp dữ liệu thị trường đa nguồn, tin tức thời gian thực, bảng điều khiển quyết định và đẩy thông báo tự động, hỗ trợ chạy định kỳ với chi phí bằng không.",
     "tags": [],
     "stars": 45008,
     "folder": "ZhuLinsen_daily_stock_analysis",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 daily_stock_analysis\n\n## 🌟 Trọng tâm\nMột hệ thống tự động phân tích cổ phiếu thông minh đa thị trường (Cổ phiếu A/Hồng Kông/Mỹ/Nhật/Hàn) dựa trên sức mạnh của các mô hình ngôn ngữ lớn (LLM). Hệ thống giúp thu thập dữ liệu thị trường, phân tích tin tức thời gian thực và tự động tạo báo cáo/bảng điều khiển quyết định, sau đó đẩy thông báo đến các nền tảng chat phổ biến.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Thay vì phải tra cứu thông tin ở nhiều nơi, người dùng giờ đây có thể nhận các báo cáo tóm tắt tự động hàng ngày (bao gồm các điểm mua bán, xu hướng, rủi ro, và yếu tố xúc tác) mà không tốn nhiều thời gian. Đồng thời giải quyết bài toán tốn kém bằng việc hỗ trợ chạy định kỳ hoàn toàn miễn phí thông qua GitHub Actions.\n- **Khách hàng mục tiêu:** Các nhà đầu tư cá nhân, những người theo dõi chứng khoán chuyên nghiệp, nhà phát triển tài chính, hoặc bất kỳ ai muốn tự động hóa quy trình phân tích và theo dõi thị trường hàng ngày bằng AI.\n\n## 🛠️ Công nghệ cốt lõi\n- **Mô hình AI đa dạng:** Hỗ trợ nhiều LLM hàng đầu như GPT-4 (OpenAI), Claude, Gemini, DeepSeek, Qwen, và các mô hình cục bộ qua Ollama.\n- **Dữ liệu Đa nguồn:** Tích hợp lấy báo giá từ AkShare, YFinance, Tushare, TickFlow... và tìm kiếm tin tức qua Anspire, SerpAPI, Tavily...\n- **Tự động hóa & Thông báo:** Tích hợp với GitHub Actions cho việc chạy tự động miễn phí; đẩy thông báo qua WeChat Work, Feishu, Telegram, Discord, Slack và Email.\n- **Giao diện & Bot chiến lược:** Cung cấp Web UI đầy đủ tính năng bằng Python FastAPI, cùng với tính năng Agent giúp hỏi đáp tương tác linh hoạt về các chiến lược chứng khoán.\n\n## 💡 Tại sao đáng chú ý?\nDự án nổi bật với khả năng bao phủ nhiều thị trường chứng khoán quốc tế và đưa ra các đánh giá sâu sắc nhờ vào AI. Với kiến trúc dễ dàng triển khai (đặc biệt là 5 phút cài đặt qua GitHub Actions miễn phí) và các báo cáo tự động trình bày đẹp mắt trực tiếp trên điện thoại/máy tính, hệ thống đã thu hút sự chú ý mạnh mẽ trong cộng đồng. Nó không chỉ cung cấp thông tin mà còn tổng hợp tâm lý thị trường và định hướng hành động rõ ràng.\n"
   },
   {
     "id": "aaif-goose_goose",
@@ -431,20 +449,20 @@
   {
     "id": "asgeirtj_system_prompts_leaks",
     "name": "asgeirtj/system_prompts_leaks",
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "description": "Kho lưu trữ này tập hợp các câu lệnh hệ thống (system prompts) bị rò rỉ từ các AI hàng đầu như Claude, ChatGPT và Gemini để nghiên cứu cách định hình hành vi của AI.",
     "tags": [],
     "stars": 44696,
     "folder": "asgeirtj_system_prompts_leaks",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 system_prompts_leaks\n\n## 🌟 Trọng tâm\nLưu trữ và tổng hợp các System Prompt (Câu lệnh hệ thống) bị rò rỉ hoặc được trích xuất từ các chatbot AI và trợ lý ảo hàng đầu hiện nay.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Làm sáng tỏ cách các AI hàng đầu (Claude, ChatGPT, Gemini, Copilot...) được hướng dẫn để định hình hành vi, nhân cách, và giới hạn an toàn, từ đó giúp người dùng hiểu rõ hơn về hoạt động nội tại của chúng.\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư prompt, nhà nghiên cứu bảo mật AI, và những người đam mê công nghệ muốn học hỏi cách viết system prompt từ các công ty hàng đầu.\n\n## 🛠️ Công nghệ cốt lõi\n- Thu thập và trích xuất dữ liệu prompt từ nhiều nguồn/API của các mô hình AI khác nhau.\n- Lưu trữ dưới dạng văn bản Markdown để dễ dàng tham khảo và chia sẻ mã nguồn.\n\n## 💡 Tại sao đáng chú ý?\n- Cập nhật liên tục các system prompt mới nhất của các mô hình AI tiên tiến (như Claude Fable 5, GPT-5.5, Gemini 3.5 Flash).\n- Thu hút lượng lớn sự quan tâm (gần 45k stars trên GitHub) do tính tò mò và giá trị nghiên cứu cao, được nhắc đến trên các tờ báo lớn như The Washington Post.\n"
   },
   {
     "id": "byoungd_English-level-up-tips",
     "name": "byoungd/English-level-up-tips",
-    "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+    "description": "English-level-up-tips là một cẩm nang học tiếng Anh toàn diện và tiên tiến, kết hợp giữa kinh nghiệm thực chiến và sức mạnh của công nghệ AI hiện đại nhằm giúp người học chinh phục ngoại ngữ một cách tự nhiên và hiệu quả.",
     "tags": [],
     "stars": 54165,
     "folder": "byoungd_English-level-up-tips",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 English-level-up-tips\n\n## 🌟 Trọng tâm\nDự án là một cẩm nang hướng dẫn học tiếng Anh toàn diện và tiên tiến, kết hợp giữa kinh nghiệm tự học thành công của tác giả với các phương pháp khoa học và công nghệ AI hiện đại. Trọng tâm của cẩm nang là giúp người đọc thay đổi tư duy học ngoại ngữ và xây dựng lộ trình rèn luyện kỹ năng nghe, nói, đọc, viết một cách tự nhiên.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết tình trạng học tiếng Anh một cách máy móc, kém hiệu quả và thiếu định hướng. Dự án giúp phá bỏ những lầm tưởng trong việc học ngôn ngữ và hướng dẫn cách ứng dụng AI để tối ưu hóa quá trình học tập.\n- **Khách hàng mục tiêu:** Dành cho những người đang gặp khó khăn, bế tắc hoặc vấp ngã trên con đường học tiếng Anh (đặc biệt là học sinh, sinh viên và người đi làm), những người mong muốn tìm ra phương pháp học tập thực sự hiệu quả.\n\n## 🛠️ Công nghệ cốt lõi\n- **Trí tuệ nhân tạo (AI):** Tích hợp sâu rộng các công cụ AI như Gemini (engine chính cho việc học), ChatGPT, Claude, Perplexity, và DeepL Write vào quy trình học tập.\n- **Hệ thống đào tạo:** Xây dựng chuỗi liên kết các công cụ đào tạo AI như Live, Guided Learning, Canvas, quiz, flashcards.\n- **Nền tảng hỗ trợ:** Khuyên dùng các cổng kết nối AI thông minh như token.love để đảm bảo hiệu năng và tính ổn định.\n\n## 💡 Tại sao đáng chú ý?\n- **Độ tin cậy cao:** Được đúc kết từ kinh nghiệm thực tế của tác giả (từng đạt điểm cao nhất tỉnh hai môn tiếng Anh và Ngữ văn).\n- **Cộng đồng lớn mạnh:** Repo nhận được sự quan tâm rất lớn từ cộng đồng với hơn 54.000 lượt Stars trên GitHub.\n- **Cập nhật liên tục:** Nội dung được làm mới theo các tiến bộ công nghệ (cập nhật chương AI năm 2026), tập trung vào cách tận dụng AI như một \"chất xúc tác\" thực sự thay vì chỉ là công cụ dịch thuật.\n- **Giá trị nhân văn:** Tác giả chia sẻ cẩm nang này hoàn toàn miễn phí, từ chối mọi khoản tài trợ bằng tiền với mong muốn độc giả dùng số tiền đó để mua sách tự phát triển bản thân.\n"
   },
   {
     "id": "bytedance_UI-TARS-desktop",
@@ -464,20 +482,20 @@
   {
     "id": "bytedance_deer-flow",
     "name": "bytedance/deer-flow",
-    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "description": "DeerFlow là một nền tảng siêu tác nhân mã nguồn mở linh hoạt, kết hợp bộ nhớ, hộp cát an toàn và hệ thống tác nhân phụ để tự động hóa các quy trình nghiên cứu, lập trình và sáng tạo nội dung phức tạp.",
     "tags": [],
     "stars": 72820,
     "folder": "bytedance_deer-flow",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 bytedance/deer-flow\n\n## 🌟 Trọng tâm\nDeerFlow là một nền tảng siêu tác nhân (super agent harness) mã nguồn mở giúp điều phối các tác nhân phụ, bộ nhớ và sandbox để thực hiện các tác vụ từ nghiên cứu đến sáng tạo nội dung và tự động hóa với khả năng mở rộng nhờ hệ thống kỹ năng (skills).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Xử lý các luồng công việc phức tạp, nhiều bước, đòi hỏi thời gian chạy kéo dài từ vài phút đến nhiều giờ mà các trợ lý AI thông thường không thể làm được. Nó phân rã các tác vụ khó thành các phần việc nhỏ giao cho các tác nhân phụ chạy song song.\n- **Khách hàng mục tiêu**: Các lập trình viên, nhà nghiên cứu, nhà sáng tạo nội dung và các kỹ sư hệ thống cần một môi trường tác nhân có máy tính và hệ thống tệp riêng để tự động hóa công việc.\n\n## 🛠️ Công nghệ cốt lõi\n- Xây dựng trên các framework **LangGraph** và **LangChain**.\n- Kiến trúc **Sub-Agents** thực thi song song trong các ngữ cảnh biệt lập.\n- Hệ thống **Sandbox & File System** an toàn hỗ trợ Docker và AioSandbox để chạy code và thao tác tệp tin.\n- **Memory** dài hạn để duy trì sở thích và kiến thức của người dùng xuyên suốt các phiên.\n- Hỗ trợ kết nối với các **MCP Server**, **Extensible Skills**, và nhiều nền tảng ứng dụng IM (Slack, Telegram, Feishu,...).\n\n## 💡 Tại sao đáng chú ý?\nDeerFlow không chỉ cung cấp một khung tác nhân mà còn là một không gian runtime hoàn chỉnh. Khả năng tự động gọi công cụ nghiêm ngặt, quản lý ngữ cảnh thông minh và kiến trúc tác nhân phụ của nó đã giúp nó dễ dàng ứng dụng vào mọi mặt thực tiễn, đồng thời dự án đã từng đạt **Top 1 GitHub Trending** khi ra mắt phiên bản 2.0.\n"
   },
   {
     "id": "calesthio_OpenMontage",
     "name": "calesthio/OpenMontage",
-    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "description": "OpenMontage là hệ thống sản xuất video AI tự động mã nguồn mở đầu tiên, giúp biến trợ lý lập trình của bạn thành một studio chuyên nghiệp để lên ý tưởng, thu thập dữ liệu và kết xuất video hoàn chỉnh.",
     "tags": [],
     "stars": 9633,
     "folder": "calesthio_OpenMontage",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 calesthio/OpenMontage\n\n## 🌟 Trọng tâm\nOpenMontage là hệ thống sản xuất video bằng AI agent mã nguồn mở đầu tiên, biến trợ lý lập trình AI của bạn (như Claude Code, Cursor, Copilot) thành một studio sản xuất video hoàn chỉnh. Hệ thống tự động hóa toàn bộ quy trình từ nghiên cứu, kịch bản, tạo tài nguyên, đến chỉnh sửa và xuất bản.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Việc sản xuất video từ AI hiện nay thường yêu cầu sử dụng nhiều công cụ khác nhau hoặc chỉ giới hạn ở việc biến một hình ảnh thành video tĩnh, thiếu một quy trình (pipeline) tổng thể từ khâu lên ý tưởng đến kết xuất cuối cùng.\n- **Khách hàng mục tiêu:** Các nhà sáng tạo nội dung, marketer, lập trình viên AI và bất kỳ ai muốn tạo ra video chuyên nghiệp (từ hoạt hình, giới thiệu sản phẩm đến phim tài liệu) mà không cần chuyên môn sâu về chỉnh sửa video, tận dụng sức mạnh của các trợ lý AI.\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc Agent-first:** Hoạt động qua trợ lý lập trình AI bằng cách sử dụng các tệp hướng dẫn YAML và Markdown để điều phối.\n- **Tạo và Kết xuất:** Sử dụng Remotion (React) hoặc HyperFrames (HTML/CSS/GSAP) cho video đồ họa chuyển động và FFmpeg cho hậu kỳ.\n- **Đa Nhà cung cấp AI:** Hỗ trợ 52 công cụ và nhiều nhà cung cấp (Kling, Runway, OpenAI, ElevenLabs, FLUX, v.v.), có khả năng chạy miễn phí cục bộ hoặc qua đám mây.\n- **Tự động hóa:** Tích hợp nghiên cứu web trực tiếp, đánh giá chất lượng tự động (ffprobe, trích xuất khung hình) và quản lý ngân sách.\n\n## 💡 Tại sao đáng chú ý?\n- **Khác biệt hoàn toàn:** Không chỉ tạo ảnh động đơn giản, hệ thống thực sự thu thập dữ liệu web, lấy video stock/lưu trữ miễn phí và chỉnh sửa trên timeline.\n- **Không khóa nhà cung cấp:** Linh hoạt chuyển đổi giữa API đám mây trả phí và các mô hình cục bộ hoàn toàn miễn phí.\n- **Cơ chế đánh giá & quản trị ngân sách:** Ngăn chặn xuất bản \"rác\", cảnh báo chi phí trước khi thực hiện để không có khoản phí bất ngờ nào xảy ra.\n- **12 quy trình tùy biến:** Hỗ trợ sản xuất cho hàng loạt mục đích như video giải thích, cắt ngắn podcast, video điện ảnh hay lồng tiếng địa phương hóa.\n"
   },
   {
     "id": "can1357_oh-my-pi",
@@ -567,6 +585,15 @@
     "summary": "# 🚀 dotnet/aspnetcore\n\n## 🌟 Trọng tâm\nASP.NET Core là một framework mã nguồn mở, đa nền tảng do Microsoft phát triển để xây dựng các ứng dụng hiện đại kết nối internet trên nền tảng điện toán đám mây.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Cung cấp một bộ khung (framework) tối ưu, nhẹ và linh hoạt cho việc phát triển và triển khai đa dạng các loại ứng dụng như ứng dụng web, API, ứng dụng IoT và backend cho thiết bị di động. Nó giải quyết vấn đề hiệu năng, khả năng mở rộng và hạn chế phụ thuộc nền tảng hệ điều hành.\n- **Khách hàng mục tiêu:** Các lập trình viên .NET, kiến trúc sư phần mềm, và các doanh nghiệp muốn xây dựng các ứng dụng web và dịch vụ backend hiệu suất cao, có thể chạy linh hoạt trên Windows, macOS, hoặc Linux, đồng thời dễ dàng triển khai lên đám mây (Cloud).\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** C#, F#\n- **Nền tảng:** .NET (chạy đa nền tảng)\n- **Kiến trúc:** Modular components (Các thành phần mô-đun)\n- **Hệ sinh thái liên quan:** Entity Framework Core (ORM), Razor (UI toolkit), .NET Runtime.\n\n## 💡 Tại sao đáng chú ý?\nASP.NET Core nổi bật nhờ hiệu năng cực cao, thiết kế theo hướng mô-đun giúp tối thiểu hóa tài nguyên tiêu thụ, khả năng chạy đa nền tảng (cross-platform), và sự hỗ trợ mạnh mẽ từ cộng đồng mã nguồn mở cũng như Microsoft. Đây là một trong những framework hàng đầu hiện nay cho việc phát triển web backend, tích hợp dễ dàng với các dịch vụ đám mây và hệ sinh thái .NET khổng lồ.\n"
   },
   {
+    "id": "firecrawl_firecrawl",
+    "name": "firecrawl/firecrawl",
+    "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+    "tags": [],
+    "stars": 137015,
+    "folder": "firecrawl_firecrawl",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "freeCodeCamp_freeCodeCamp",
     "name": "freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp là một nền tảng học lập trình trực tuyến miễn phí và mã nguồn mở, cung cấp hàng ngàn thử thách thực hành, dự án và chứng chỉ giúp người học phát triển kỹ năng công nghệ và tìm được việc làm lập trình đầu tiên.",
@@ -574,6 +601,15 @@
     "stars": 447241,
     "folder": "freeCodeCamp_freeCodeCamp",
     "summary": "# 🚀 freeCodeCamp\n## 🌟 Trọng tâm\nCung cấp một nền tảng học lập trình miễn phí và mã nguồn mở, giúp hàng triệu người chuyển đổi nghề nghiệp sang lĩnh vực công nghệ thông qua các chương trình đào tạo lập trình full-stack, học máy, cơ sở dữ liệu và tiếng Anh/ngôn ngữ.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- Bài toán: Nhu cầu học lập trình ngày càng cao nhưng rào cản chi phí và thiếu môi trường thực hành chất lượng làm khó nhiều người.\n- Khách hàng mục tiêu: Người lớn bận rộn muốn chuyển sang ngành công nghệ, những người tự học lập trình, mong muốn rèn luyện qua các dự án thực tế để lấy chứng chỉ và tìm công việc phát triển phần mềm đầu tiên của họ.\n## 🛠️ Công nghệ cốt lõi\n- Nền tảng học tập trực tuyến mã nguồn mở.\n- Tích hợp hàng ngàn thử thách lập trình tương tác và bài kiểm tra trên trình duyệt.\n- Chương trình đào tạo toàn diện: Responsive Web Design, JavaScript, Front-End Libraries, Python, Relational Databases, Back-End và API.\n## 💡 Tại sao đáng chú ý?\nfreeCodeCamp.org là một tổ chức phi lợi nhuận 501(c)(3) được cộng đồng tài trợ, đã giúp hơn 100.000 người có được công việc công nghệ đầu tiên. Nó cung cấp các chứng chỉ quốc tế uy tín hoàn toàn miễn phí, có diễn đàn hỗ trợ nhanh chóng và được duy trì phát triển bởi hàng ngàn tình nguyện viên. Đây là một trong những kho lưu trữ phổ biến và được yêu thích nhất trên GitHub.\n"
+  },
+  {
+    "id": "garrytan_gstack",
+    "name": "garrytan/gstack",
+    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "tags": [],
+    "stars": 112959,
+    "folder": "garrytan_gstack",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "ggml-org_llama.cpp",
@@ -636,6 +672,15 @@
     "summary": "# 🚀 MoneyPrinterTurbo\n## 🌟 Trọng tâm\nTự động hóa hoàn toàn quy trình sản xuất video ngắn chất lượng cao chỉ từ một từ khóa hoặc chủ đề.\n\n## 🎯 Bài toán giải quyết & Mục tiêu\nMoneyPrinterTurbo giải quyết khó khăn trong việc sáng tạo nội dung video ngắn thông qua việc tự động hóa các công đoạn phức tạp. Dự án hướng tới mục tiêu cung cấp giải pháp trọn gói tạo video chỉ với một nút bấm (one-click) từ kịch bản, âm thanh, phụ đề đến cảnh quay, giúp nhà sáng tạo nội dung, những nhà tiếp thị tiết kiệm hàng giờ chỉnh sửa thủ công và có thể sản xuất nội dung hàng loạt một cách nhất quán, dễ dàng hơn.\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc:** MVC hỗ trợ cả giao diện Web và API\n- **Ngôn ngữ:** Python (mặc định 3.11, quản lý môi trường với `uv`)\n- **Tích hợp LLM:** OpenAI, Claude, Gemini, DeepSeek, Moonshot, Azure, Tongyi Qianwen, Ollama, AIHubMix,...\n- **Xử lý âm thanh/phụ đề:** TTS đa giọng, Whisper, Edge TTS\n- **Xử lý Video/Hình ảnh:** ImageMagick, ffmpeg\n- **Triển khai:** Streamlit (WebUI), FastAPI (API), Docker Compose, Google Colab\n\n## 💡 Tại sao đáng chú ý?\nDự án cung cấp khả năng tự động hóa \"end-to-end\" từ ý tưởng cho đến sản phẩm video hoàn thiện, loại bỏ hoàn toàn rào cản kỹ thuật. Với việc hỗ trợ linh hoạt hàng loạt nền tảng LLM tiên tiến nhất hiện nay, cung cấp nguồn tài nguyên video HD miễn phí bản quyền và khả năng triển khai đa dạng, đây là công cụ mạnh mẽ tạo ra nội dung chuẩn xu hướng như YouTube Shorts hay TikTok một cách nhanh chóng, hiệu quả.\n"
   },
   {
+    "id": "heygen-com_hyperframes",
+    "name": "heygen-com/hyperframes",
+    "description": "Write HTML. Render video. Built for agents.",
+    "tags": [],
+    "stars": 29852,
+    "folder": "heygen-com_hyperframes",
+    "summary": "Chưa có bản tóm tắt AI."
+  },
+  {
     "id": "iptv-org_iptv",
     "name": "iptv-org/iptv",
     "description": "Bộ sưu tập khổng lồ các kênh truyền hình IPTV công khai và miễn phí từ khắp nơi trên thế giới, được tổng hợp thành các danh sách phát m3u dễ sử dụng.",
@@ -643,6 +688,15 @@
     "stars": 121092,
     "folder": "iptv-org_iptv",
     "summary": "# 🚀 iptv-org/iptv\n\n## 🌟 Trọng tâm\nDự án là một bộ sưu tập khổng lồ các kênh truyền hình IPTV (Internet Protocol television) công khai từ khắp nơi trên thế giới, được tổng hợp thành các danh sách phát (playlist) định dạng M3U dễ sử dụng.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n*   **Bài toán giải quyết:** Giải quyết khó khăn trong việc tìm kiếm và gom nhóm các nguồn phát truyền hình trực tiếp hợp pháp, miễn phí trên Internet. Dự án tự động cập nhật và phân loại hàng nghìn kênh TV thành các danh sách dễ truy cập.\n*   **Khách hàng mục tiêu:** Bất kỳ ai muốn xem truyền hình trực tiếp miễn phí qua Internet, người dùng các ứng dụng phát video (như VLC, Kodi), hoặc các nhà phát triển muốn tích hợp luồng IPTV vào ứng dụng của họ.\n\n## 🛠️ Công nghệ cốt lõi\n*   **Danh sách phát M3U:** Định dạng chuẩn để lưu trữ danh sách các kênh IPTV.\n*   **GitHub Actions:** Tự động hóa quá trình cập nhật, kiểm tra tính hợp lệ của các liên kết luồng video (stream).\n*   **Hệ sinh thái liên kết:** Bao gồm EPG (Electronic Program Guide - Lịch phát sóng), Database (Cơ sở dữ liệu kênh) và API để truy vấn dữ liệu kênh.\n\n## 💡 Tại sao đáng chú ý?\n*   **Quy mô đồ sộ:** Hàng nghìn kênh truyền hình từ hầu hết các quốc gia trên thế giới được tập hợp tại một nơi.\n*   **Cộng đồng mạnh mẽ:** Dự án mã nguồn mở với sự đóng góp và báo lỗi liên tục từ cộng đồng, giúp các liên kết luôn được cập nhật và làm sạch.\n*   **Dễ sử dụng:** Chỉ cần dán một URL (ví dụ: `https://iptv-org.github.io/iptv/index.m3u`) vào bất kỳ trình phát video tương thích nào là có thể bắt đầu xem ngay lập tức.\n*   **Hợp pháp và Công khai:** Chỉ thu thập các luồng video được cung cấp công khai trên Internet.\n"
+  },
+  {
+    "id": "jamiepine_voicebox",
+    "name": "jamiepine/voicebox",
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "tags": [],
+    "stars": 32063,
+    "folder": "jamiepine_voicebox",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "jamwithai_production-agentic-rag-course",
@@ -680,11 +734,11 @@
   {
     "id": "koala73_worldmonitor",
     "name": "koala73/worldmonitor",
-    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "description": "World Monitor là bảng điều khiển tình báo toàn cầu theo thời gian thực, kết hợp AI để tổng hợp tin tức, giám sát địa chính trị và phân tích tương quan dữ liệu trên hệ thống bản đồ 3D đa nền tảng.",
     "tags": [],
     "stars": 58312,
     "folder": "koala73_worldmonitor",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 World Monitor\n\n## 🌟 Trọng tâm\nWorld Monitor là một bảng điều khiển thông tin tình báo toàn cầu theo thời gian thực. Hệ thống này tổng hợp tin tức bằng AI, giám sát địa chính trị và theo dõi cơ sở hạ tầng trong một giao diện nhận thức tình huống thống nhất với bản đồ 3D và 2D tiên tiến.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết tình trạng phân mảnh thông tin bằng cách kết hợp hơn 500 nguồn dữ liệu (địa chính trị, tài chính, năng lượng, hàng không, mạng, quân sự...) vào một nền tảng duy nhất, cung cấp cái nhìn toàn cảnh và đánh giá tương quan đa chiều (như Chỉ số Bất ổn Quốc gia).\n- **Khách hàng mục tiêu:** Các nhà phân tích dữ liệu, chuyên gia an ninh/địa chính trị, nhà đầu tư tài chính, các nhà nghiên cứu, hoặc bất kỳ ai cần theo dõi các diễn biến và thông tin tình báo toàn cầu theo thời gian thực.\n\n## 🛠️ Công nghệ cốt lõi\n- **Frontend:** Vanilla TypeScript, Vite, globe.gl + Three.js (bản đồ 3D), deck.gl + MapLibre GL (bản đồ 2D).\n- **Desktop:** Tauri 2 (Rust) với Node.js sidecar hỗ trợ đa nền tảng.\n- **AI/ML:** Tích hợp Ollama (AI cục bộ), Groq, OpenRouter, và Transformers.js.\n- **API & Triển khai:** Protocol Buffers, Vercel Edge Functions, Railway, Redis (Upstash) cho bộ nhớ đệm.\n\n## 💡 Tại sao đáng chú ý?\n- **Hoạt động với AI cục bộ:** Cho phép chạy toàn bộ hệ thống bằng Ollama mà không cần API key, bảo mật thông tin.\n- **Đa dạng biến thể (6 in 1):** Cung cấp 6 phiên bản (world, tech, finance, commodity, happy, energy) từ cùng một cơ sở mã.\n- **Bản đồ kép trực quan:** Sở hữu 56 lớp bản đồ giúp mô phỏng chi tiết các luồng dữ liệu như chuyến bay, tài chính và thảm họa.\n- **Tính bảo mật và mở mã nguồn:** Giấy phép AGPL-3.0 minh bạch, hỗ trợ đa nền tảng và nhận được nhiều sự quan tâm từ cộng đồng với lượng sao đánh giá cao.\n"
   },
   {
     "id": "krahets_hello-algo",
@@ -803,11 +857,11 @@
   {
     "id": "mikumifa_biliTickerBuy",
     "name": "mikumifa/biliTickerBuy",
-    "description": "b站会员购购票辅助工具",
+    "description": "biliTickerBuy là một công cụ mã nguồn mở miễn phí và thân thiện, giúp hỗ trợ quá trình giành vé các sự kiện trên nền tảng Bilibili (B trạm) một cách hiệu quả và tự động.",
     "tags": [],
     "stars": 3761,
     "folder": "mikumifa_biliTickerBuy",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 biliTickerBuy\n\n## 🌟 Trọng tâm\nbiliTickerBuy là một công cụ mã nguồn mở miễn phí, cung cấp giải pháp hỗ trợ người dùng mua vé các sự kiện trên Bilibili (B trạm) một cách dễ dàng và hiệu quả.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Canh vé và giành vé cho các sự kiện/triển lãm hot trên Bilibili thường vô cùng khó khăn, vì vé có thể hết ngay trong vài giây đầu mở bán do lưu lượng truy cập cao. Công cụ này giải quyết vấn đề đó thông qua việc hỗ trợ quá trình đặt vé trở nên tự động và chính xác hơn.\n- **Khách hàng mục tiêu:** Người dùng nền tảng Bilibili, đặc biệt là cộng đồng yêu thích ACG (Anime, Comic, Games) thường xuyên phải mua vé các buổi triển lãm, sự kiện qua hệ thống \"B trạm Hội viên cấu\" (Bilibili Member Buy).\n\n## 🛠️ Công nghệ cốt lõi\n- Được phát triển như một công cụ ứng dụng thân thiện, dễ cài đặt và sử dụng (thiết kế theo nguyên tắc \"không xâm nhập\").\n- Dự án còn có các nhánh mở rộng bao gồm Phiên bản Skill (`biliTickerSkill`) và Phiên bản hệ thống phân tán (`biliTickerStorm`) để xử lý các nhu cầu đặt vé với kiến trúc phức tạp và mạnh mẽ hơn.\n- Cung cấp tài liệu hướng dẫn cực kỳ chi tiết qua hệ thống Feishu.\n\n## 💡 Tại sao đáng chú ý?\n- Thu hút một lượng sao GitHub lớn (hơn 3,700 sao) chứng tỏ dự án thực sự giải quyết đúng \"nỗi đau\" (pain point) của người dùng thường xuyên trượt vé.\n- Tác giả có ý thức mạnh mẽ về pháp lý và đạo đức mã nguồn mở: cảnh báo rõ ràng rằng dự án chỉ dành cho nghiên cứu cá nhân, nghiêm cấm thương mại hóa hay các dịch vụ \"đầu cơ vé/đặt vé hộ\", đồng thời cam kết tôn trọng hệ thống kỹ thuật của Bilibili.\n"
   },
   {
     "id": "msitarzewski_agency-agents",
@@ -821,11 +875,11 @@
   {
     "id": "mukul975_Anthropic-Cybersecurity-Skills",
     "name": "mukul975/Anthropic-Cybersecurity-Skills",
-    "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+    "description": "Kho lưu trữ cung cấp 754 kỹ năng an ninh mạng nguồn mở được cấu trúc hóa theo chuẩn agentskills.io, giúp trang bị cho các AI agent quy trình phân tích và phòng thủ chuyên sâu được ánh xạ tới 6 framework hàng đầu như MITRE ATT&CK và NIST CSF 2.0.",
     "tags": [],
     "stars": 17947,
     "folder": "mukul975_Anthropic-Cybersecurity-Skills",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Anthropic-Cybersecurity-Skills\n\n## 🌟 Trọng tâm\nDự án cung cấp 754 kỹ năng an ninh mạng cấp độ sản phẩm, có cấu trúc dành riêng cho AI agent, trải dài trên 26 lĩnh vực bảo mật và được ánh xạ với 6 framework lớn trong ngành (như MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, MITRE D3FEND, NIST AI RMF, và MITRE Fight Fraud Framework).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết sự thiếu hụt quy trình thực hành có cấu trúc cho AI agent trong lĩnh vực an ninh mạng. Thay vì chỉ cung cấp script hay wordlist, kho lưu trữ này trang bị cho AI agent các \"sổ tay\" kỹ năng (playbooks) để tự phân tích, rà soát và phòng thủ giống như một chuyên gia bảo mật thực thụ.\n- **Khách hàng mục tiêu:** Các nhóm bảo mật, chuyên gia an ninh mạng, nhà phát triển và các hệ thống sử dụng AI agent (như Claude Code, GitHub Copilot, Cursor, agent tự trị) để tăng cường và tự động hóa điều tra, săn lùng mối đe dọa và phân tích pháp y.\n\n## 🛠️ Công nghệ cốt lõi\n- **agentskills.io standard:** Mỗi kỹ năng tuân theo tiêu chuẩn chuẩn hóa, với YAML frontmatter phục vụ tìm kiếm nhanh (dưới một giây) và phần thân Markdown hướng dẫn quy trình từng bước rõ ràng.\n- **Tương thích đa nền tảng:** Hoạt động liền mạch với nhiều framework phát triển agent như LangChain, CrewAI, AutoGen và hỗ trợ các agent tương thích với MCP.\n- **Ánh xạ đa Framework:** Sử dụng kiến trúc tiến bộ và các thư viện như mitreattack-python để ánh xạ và đánh giá các kỹ thuật phòng thủ, tấn công đến các chuẩn bảo mật phổ biến.\n\n## 💡 Tại sao đáng chú ý?\nĐây là thư viện kỹ năng an ninh mạng nguồn mở lớn nhất có phạm vi bao phủ chéo framework thống nhất cho AI agent. Cơ chế tải theo lớp giúp tiết kiệm token (chỉ ~30 token để quét) giúp các agent xử lý thông tin khối lượng lớn một cách hiệu quả, đem lại khả năng phân tích với độ chính xác cao mà không làm quá tải cửa sổ ngữ cảnh.\n"
   },
   {
     "id": "music-assistant_server",
@@ -944,11 +998,11 @@
   {
     "id": "palmier-io_palmier-pro",
     "name": "palmier-io/palmier-pro",
-    "description": "macOS video editor built for AI",
+    "description": "Palmier Pro là một trình chỉnh sửa video mã nguồn mở trên macOS, được xây dựng bằng Swift và tích hợp giao thức MCP để bạn và các tác nhân AI (như Claude, Cursor) có thể cùng nhau tạo và chỉnh sửa video trực tiếp trên dòng thời gian.",
     "tags": [],
     "stars": 5909,
     "folder": "palmier-io_palmier-pro",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Palmier Pro\n\n## 🌟 Trọng tâm\nPalmier Pro là trình chỉnh sửa video mã nguồn mở dành cho macOS (Tahoe/Apple Silicon), được thiết kế đặc biệt để tích hợp mượt mà với các tác nhân AI thông qua giao thức MCP, cho phép cả người dùng và AI cùng làm việc trên một dự án video.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\nGiải quyết nhu cầu tạo và chỉnh sửa video bằng AI trực tiếp trên dòng thời gian mà không cần luân chuyển qua nhiều công cụ riêng lẻ. Khách hàng mục tiêu là các nhà sáng tạo nội dung, những người chỉnh sửa video chuyên nghiệp và lập trình viên muốn ứng dụng AI (như Claude, Codex, Cursor) vào quy trình biên tập nội dung.\n\n## 🛠️ Công nghệ cốt lõi\n- **Swift:** Ứng dụng được xây dựng hoàn toàn bằng ngôn ngữ native cho macOS.\n- **AI tạo sinh tích hợp sẵn:** Hỗ trợ gọi các mô hình SOTA (Seedance, Kling, Nano Banana Pro) để tạo video và hình ảnh ngay trên dòng thời gian.\n- **Model Context Protocol (MCP):** Cung cấp một HTTP MCP server cho phép Cursor, Claude Code, và các AI agents khác điều khiển và tương tác với timeline.\n\n## 💡 Tại sao đáng chú ý?\nPalmier Pro mang đến một cách tiếp cận hoàn toàn mới mẻ so với Adobe Premiere hay CapCut bằng việc biến AI trở thành một trợ lý chỉnh sửa trực tiếp thông qua MCP. Ứng dụng cốt lõi miễn phí và mã nguồn mở (GPLv3), giúp các nhà phát triển dễ dàng mở rộng và tinh chỉnh.\n"
   },
   {
     "id": "pbakaus_impeccable",
@@ -967,11 +1021,11 @@
   {
     "id": "penpot_penpot",
     "name": "penpot/penpot",
-    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "description": "Penpot là nền tảng thiết kế mã nguồn mở dựa trên web, cung cấp khả năng tự lưu trữ và cộng tác theo thời gian thực, giúp thu hẹp khoảng cách giữa thiết kế và lập trình thông qua các tiêu chuẩn mở như SVG và CSS.",
     "tags": [],
     "stars": 52464,
     "folder": "penpot_penpot",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Penpot\n\n## 🌟 Trọng tâm\nPenpot là nền tảng thiết kế mã nguồn mở, cho phép cộng tác theo thời gian thực và được thiết kế đặc biệt cho các nhóm xây dựng sản phẩm kỹ thuật số ở quy mô lớn. Nó tập trung vào việc cung cấp quyền sở hữu hoàn toàn cơ sở hạ tầng thiết kế và tạo ra quy trình làm việc mượt mà giữa thiết kế và lập trình thông qua cách tiếp cận dựa trên mã (code-based).\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết**: Khắc phục khoảng cách giữa thiết kế và phát triển bằng cách thể hiện thiết kế dưới dạng mã nguồn (SVG, CSS, HTML). Cung cấp giải pháp thay thế các công cụ thiết kế bị khóa bởi nhà cung cấp (vendor lock-in) bằng khả năng tự lưu trữ (self-hosting), đảm bảo quyền sở hữu dữ liệu và hỗ trợ tuân thủ quản trị bảo mật nghiêm ngặt.\n- **Khách hàng mục tiêu**: Các nhóm thiết kế, nhà phát triển front-end, và các tổ chức muốn kiểm soát hoàn toàn môi trường cũng như cơ sở hạ tầng thiết kế của mình.\n\n## 🛠️ Công nghệ cốt lõi\n- **Nền tảng web**: Hoạt động với các tiêu chuẩn mở như SVG, CSS, HTML và JSON. Hỗ trợ CSS Grid và Flex Layout gốc.\n- **API và MCP Server**: Cho phép kết nối đa chiều giữa quy trình làm việc của thiết kế, lập trình và AI.\n- **Hệ thống Design Systems**: Cung cấp Design Tokens, Components và Variants gốc tốt nhất trong lớp để hỗ trợ xây dựng các hệ thống thiết kế nhất quán và có thể mở rộng.\n\n## 💡 Tại sao đáng chú ý?\nLà nền tảng thiết kế duy nhất không phụ thuộc vào cách triển khai (có thể dùng SaaS hoặc tự lưu trữ qua Docker, Kubernetes, Elestio). Với mã nguồn mở hoàn toàn, tích hợp máy chủ MCP để giao tiếp với AI, cùng cộng đồng lớn mạnh với hơn 52.000 sao trên GitHub, Penpot mang lại sự linh hoạt, bảo mật, biến nó thành một nền tảng thiết kế full-stack hoàn chỉnh.\n"
   },
   {
     "id": "phuryn_pm-skills",
@@ -1132,11 +1186,11 @@
   {
     "id": "smicallef_spiderfoot",
     "name": "smicallef/spiderfoot",
-    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "description": "SpiderFoot là một công cụ tình báo nguồn mở (OSINT) mạnh mẽ giúp tự động hóa quá trình thu thập, phân tích thông tin về mục tiêu và vạch ra các bề mặt tấn công mạng.",
     "tags": [],
     "stars": 18877,
     "folder": "smicallef_spiderfoot",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 smicallef/spiderfoot \n## 🌟 Trọng tâm \nTự động hóa hoạt động tình báo nguồn mở (OSINT) thông qua việc thu thập và phân tích dữ liệu từ hàng trăm nguồn khác nhau.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu \n**Bài toán giải quyết:** Tự động hóa quá trình thu thập thông tin tình báo về các mục tiêu như địa chỉ IP, tên miền, email, số điện thoại, tên người dùng, v.v., đồng thời phát hiện rủi ro an ninh, rò rỉ dữ liệu hoặc xác định thông tin của đối tượng.  \n**Khách hàng mục tiêu:** Đội ngũ an ninh mạng (Red team/Blue team), chuyên gia tình báo nguồn mở (OSINT), người kiểm thử xâm nhập (Penetration Testers) và các nhà quản trị hệ thống muốn nắm bắt bề mặt tấn công của tổ chức.\n## 🛠️ Công nghệ cốt lõi \n- Ngôn ngữ: Python 3\n- Cơ sở dữ liệu: SQLite (back-end)\n- Giao diện: Web-based UI & Command-line Interface (CLI)\n- Mô hình hoạt động: Tích hợp hơn 200 API/Mô-đun theo kiến trúc Publisher/Subscriber.\n## 💡 Tại sao đáng chú ý?\nDự án được duy trì ổn định từ năm 2012, có hơn 18,000 sao trên GitHub. Nó hỗ trợ cấu hình cực kì linh hoạt bằng YAML với các công cụ tương quan tiên tiến, hỗ trợ tích hợp với Tor cho Dark web, xuất ra nhiều định dạng báo cáo và sử dụng miễn phí phần lớn các tính năng mã nguồn mở mạnh mẽ nhất.\n"
   },
   {
     "id": "soxoj_maigret",
@@ -1195,11 +1249,11 @@
   {
     "id": "topoteretes_cognee",
     "name": "topoteretes/cognee",
-    "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+    "description": "Cognee là nền tảng bộ nhớ AI mã nguồn mở tự lưu trữ, kết hợp nhúng vector và đồ thị tri thức để cung cấp cho các agent trí nhớ dài hạn bền vững xuyên suốt các phiên làm việc.",
     "tags": [],
     "stars": 18805,
     "folder": "topoteretes_cognee",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Cognee\n## 🌟 Trọng tâm\nCognee là một nền tảng bộ nhớ AI mã nguồn mở giúp cung cấp bộ nhớ dài hạn, duy trì liên tục cho các Agent AI thông qua việc xây dựng đồ thị tri thức tự lưu trữ. Nó kết hợp tìm kiếm vector, đồ thị tri thức và cơ sở bản thể học (ontology) để các agent có thể nhớ, tìm kiếm và truy xuất thông tin có ý nghĩa và có cấu trúc từ nhiều nguồn khác nhau.\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n*   **Bài toán giải quyết:** Các AI Agent hiện nay thường \"mất trí nhớ\" hoặc thiếu ngữ cảnh dài hạn giữa các phiên làm việc, dẫn đến việc xử lý thông tin rời rạc, lặp lại lỗi, và không học hỏi được từ các tương tác trong quá khứ.\n*   **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư hệ thống, và doanh nghiệp muốn xây dựng AI Agent đáng tin cậy, cá nhân hóa cao và có khả năng học hỏi theo thời gian, để phục vụ các ứng dụng như trợ lý chăm sóc khách hàng, copilot chuyên gia (ví dụ SQL copilot), và các nền tảng nội bộ doanh nghiệp.\n## 🛠️ Công nghệ cốt lõi\n*   **Vector Embeddings & Search:** Tìm kiếm thông tin dựa trên ý nghĩa (semantic search).\n*   **Knowledge Graph (Đồ thị tri thức):** Suy luận đồ thị để kết nối các khái niệm và theo dõi mối quan hệ của thông tin.\n*   **Ontology Generation:** Tạo bản thể học tự động dựa trên khoa học nhận thức.\n*   **Đa dạng triển khai:** Hỗ trợ Docker, tích hợp tự nhiên với Neo4j, Postgres/PGVector, tích hợp SDK qua Python, và chạy trên nền tảng đám mây (Cognee Cloud).\n## 💡 Tại sao đáng chú ý?\nCognee đã đưa ra một giải pháp toàn diện (end-to-end) cho vấn đề bộ nhớ AI, đồng thời cung cấp kiến trúc mã nguồn mở có khả năng chạy cục bộ, dễ dàng mở rộng, tích hợp tốt với các công cụ CLI hiện có (như Claude Code). Ngoài ra, khả năng theo dõi các thay đổi (audit trails) và sự cách ly an toàn của Cognee là nền tảng quan trọng giúp xây dựng các Agent có tính đáng tin cậy cao ở mức doanh nghiệp.\n"
   },
   {
     "id": "trycua_cua",
@@ -1213,11 +1267,11 @@
   {
     "id": "tursodatabase_turso",
     "name": "tursodatabase/turso",
-    "description": "Turso is an in-process SQL database, compatible with SQLite.",
+    "description": "Turso là một cơ sở dữ liệu SQL trong tiến trình được viết bằng Rust, tương thích hoàn toàn với SQLite và được tích hợp các tính năng hiện đại như đa phiên bản đồng thời (MVCC), tìm kiếm vector và hỗ trợ I/O bất đồng bộ.",
     "tags": [],
     "stars": 20964,
     "folder": "tursodatabase_turso",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Turso Database\n\n## 🌟 Trọng tâm\nTurso Database là một cơ sở dữ liệu SQL trong tiến trình (in-process) được viết bằng Rust, tương thích hoàn toàn với SQLite nhưng mang lại hiệu suất ghi tốt hơn và các tính năng hiện đại.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết giới hạn về hiệu suất ghi của SQLite truyền thống (thông qua `BEGIN CONCURRENT`), cung cấp các tính năng hiện đại như bắt luồng dữ liệu thay đổi (CDC), hỗ trợ bất đồng bộ (async I/O) và tích hợp tìm kiếm vector, đồng thời hỗ trợ đa ngôn ngữ và chạy trên nhiều nền tảng (kể cả WebAssembly).\n- **Khách hàng mục tiêu:** Các nhà phát triển xây dựng ứng dụng (đặc biệt là môi trường serverless hoặc edge computing) cần một cơ sở dữ liệu nhỏ gọn, cục bộ (hoặc in-process) nhưng đòi hỏi hiệu suất cao, khả năng đồng thời lớn và các tính năng hiện đại như tìm kiếm vector hoặc theo dõi sự thay đổi của dữ liệu. Các kỹ sư xây dựng hệ thống phân tán và ứng dụng AI.\n\n## 🛠️ Công nghệ cốt lõi\n- **Ngôn ngữ:** Rust\n- **Tính năng nổi bật:** `BEGIN CONCURRENT` (MVCC), CDC, `io_uring` (Asynchronous I/O trên Linux), Tích hợp Máy chủ MCP (Model Context Protocol), mã hóa at-rest, tìm kiếm toàn văn bản (với Tantivy).\n- **Tương thích:** SQLite (phương ngữ SQL, file format, C API).\n- **Ngôn ngữ/Nền tảng hỗ trợ:** Rust, JavaScript, Python, Go, Java, .NET, WebAssembly, đa nền tảng (Linux, macOS, Windows).\n\n## 💡 Tại sao đáng chú ý?\nTurso Database là sự \"tiến hóa\" của SQLite khi được viết lại bằng Rust. Nó mang đến sự an toàn bộ nhớ của Rust, tận dụng các công nghệ mới như `io_uring` và hỗ trợ các tính năng cực kỳ thân thiện với ứng dụng AI/hiện đại (tìm kiếm vector, tích hợp trực tiếp MCP cho AI Assistant). Việc viết lại từ đầu bằng Rust cho phép nó vượt qua những rào cản kỹ thuật mà việc chỉ fork (như libSQL) không làm được, đồng thời đang được kiểm thử cực kỳ nghiêm ngặt bằng Deterministic Simulation Testing.\n"
   },
   {
     "id": "withastro_flue",

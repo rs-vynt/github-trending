@@ -1,0 +1,5 @@
+pdf-editor
+open-source
+self-hosted
+document-processing
+rest-api

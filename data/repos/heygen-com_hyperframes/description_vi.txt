@@ -1,0 +1,1 @@
+HyperFrames là một framework mã nguồn mở giúp chuyển đổi mã HTML, CSS và hoạt ảnh thành video MP4 tất định, được thiết kế đặc biệt tối ưu cho các AI coding agent tự động hóa quy trình tạo video.

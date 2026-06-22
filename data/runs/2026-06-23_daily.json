@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-23_daily",
+  "date": "2026-06-23",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "calesthio_OpenMontage",
+      "stars": 11474,
+      "rank": 1,
+      "isNew": false
+    },
+    {
+      "id": "palmier-io_palmier-pro",
+      "stars": 7071,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "jamiepine_voicebox",
+      "stars": 32063,
+      "rank": 3,
+      "isNew": true
+    },
+    {
+      "id": "mukul975_Anthropic-Cybersecurity-Skills",
+      "stars": 18485,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "penpot_penpot",
+      "stars": 52762,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "Stirling-Tools_Stirling-PDF",
+      "stars": 82715,
+      "rank": 6,
+      "isNew": true
+    },
+    {
+      "id": "garrytan_gstack",
+      "stars": 112959,
+      "rank": 7,
+      "isNew": true
+    },
+    {
+      "id": "heygen-com_hyperframes",
+      "stars": 29852,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "tursodatabase_turso",
+      "stars": 21290,
+      "rank": 9,
+      "isNew": false
+    },
+    {
+      "id": "bytedance_deer-flow",
+      "stars": 73119,
+      "rank": 10,
+      "isNew": false
+    },
+    {
+      "id": "DeusData_codebase-memory-mcp",
+      "stars": 11316,
+      "rank": 11,
+      "isNew": false
+    },
+    {
+      "id": "ZhuLinsen_daily_stock_analysis",
+      "stars": 45695,
+      "rank": 12,
+      "isNew": false
+    },
+    {
+      "id": "firecrawl_firecrawl",
+      "stars": 137015,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "JCodesMore_ai-website-cloner-template",
+      "stars": 17606,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "lyogavin_airllm",
+      "stars": 20975,
+      "rank": 15,
+      "isNew": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Firecrawl là API mạnh mẽ hỗ trợ tìm kiếm, cào dữ liệu và tương tác với trang web ở quy mô lớn, giúp chuyển đổi nội dung web thành dữ liệu Markdown hoặc JSON sạch sẵn sàng cho các mô hình AI.

@@ -1,0 +1,1 @@
+Stirling PDF là nền tảng chỉnh sửa PDF mã nguồn mở linh hoạt, cung cấp hơn 50 công cụ xử lý bảo mật tại chỗ mà không cần gửi dữ liệu ra bên ngoài, hỗ trợ từ ứng dụng cá nhân đến hệ thống máy chủ tự lưu trữ kèm API REST cho doanh nghiệp.
