@@ -1,0 +1,10 @@
+{
+  "id": "tursodatabase_turso",
+  "fullName": "tursodatabase/turso",
+  "name": "turso",
+  "description": "Turso is an in-process SQL database, compatible with SQLite.",
+  "stars": 20964,
+  "forks": 0,
+  "readmeHash": "12758b57100e962041bbf6c5b1ab1ece",
+  "tags": []
+}

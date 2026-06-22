@@ -1,0 +1,1 @@
+Palmier Pro là một trình chỉnh sửa video mã nguồn mở trên macOS, được xây dựng bằng Swift và tích hợp giao thức MCP để bạn và các tác nhân AI (như Claude, Cursor) có thể cùng nhau tạo và chỉnh sửa video trực tiếp trên dòng thời gian.

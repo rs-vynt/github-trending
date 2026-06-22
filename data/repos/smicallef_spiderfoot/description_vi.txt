@@ -1,0 +1,1 @@
+SpiderFoot là một công cụ tình báo nguồn mở (OSINT) mạnh mẽ giúp tự động hóa quá trình thu thập, phân tích thông tin về mục tiêu và vạch ra các bề mặt tấn công mạng.

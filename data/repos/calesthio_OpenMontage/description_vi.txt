@@ -1,0 +1,1 @@
+OpenMontage là hệ thống sản xuất video AI tự động mã nguồn mở đầu tiên, giúp biến trợ lý lập trình của bạn thành một studio chuyên nghiệp để lên ý tưởng, thu thập dữ liệu và kết xuất video hoàn chỉnh.

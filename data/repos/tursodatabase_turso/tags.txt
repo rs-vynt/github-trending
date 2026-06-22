@@ -1,0 +1,5 @@
+database
+sqlite-compatible
+rust
+in-process-db
+mcp-server

@@ -1,0 +1,1 @@
+Cognee là nền tảng bộ nhớ AI mã nguồn mở tự lưu trữ, kết hợp nhúng vector và đồ thị tri thức để cung cấp cho các agent trí nhớ dài hạn bền vững xuyên suốt các phiên làm việc.

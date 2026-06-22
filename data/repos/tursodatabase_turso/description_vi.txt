@@ -1,0 +1,1 @@
+Turso là một cơ sở dữ liệu SQL trong tiến trình được viết bằng Rust, tương thích hoàn toàn với SQLite và được tích hợp các tính năng hiện đại như đa phiên bản đồng thời (MVCC), tìm kiếm vector và hỗ trợ I/O bất đồng bộ.

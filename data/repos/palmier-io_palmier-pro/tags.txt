@@ -1,0 +1,5 @@
+video-editor
+macos
+mcp
+generative-ai
+swift

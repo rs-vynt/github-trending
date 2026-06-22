@@ -1,0 +1,1 @@
+Penpot là nền tảng thiết kế mã nguồn mở dựa trên web, cung cấp khả năng tự lưu trữ và cộng tác theo thời gian thực, giúp thu hẹp khoảng cách giữa thiết kế và lập trình thông qua các tiêu chuẩn mở như SVG và CSS.

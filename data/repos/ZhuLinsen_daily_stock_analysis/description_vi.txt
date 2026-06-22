@@ -1,0 +1,1 @@
+Hệ thống phân tích cổ phiếu đa thị trường thông minh được thúc đẩy bởi LLM: cung cấp dữ liệu thị trường đa nguồn, tin tức thời gian thực, bảng điều khiển quyết định và đẩy thông báo tự động, hỗ trợ chạy định kỳ với chi phí bằng không.

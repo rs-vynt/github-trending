@@ -1,0 +1,1 @@
+Kho lưu trữ này tập hợp các câu lệnh hệ thống (system prompts) bị rò rỉ từ các AI hàng đầu như Claude, ChatGPT và Gemini để nghiên cứu cách định hình hành vi của AI.

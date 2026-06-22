@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-22_daily",
+  "date": "2026-06-22",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "palmier-io_palmier-pro",
+      "stars": 5909,
+      "rank": 1,
+      "isNew": true
+    },
+    {
+      "id": "calesthio_OpenMontage",
+      "stars": 9633,
+      "rank": 2,
+      "isNew": true
+    },
+    {
+      "id": "chopratejas_headroom",
+      "stars": 45342,
+      "rank": 3,
+      "isNew": false
+    },
+    {
+      "id": "tursodatabase_turso",
+      "stars": 20964,
+      "rank": 4,
+      "isNew": true
+    },
+    {
+      "id": "penpot_penpot",
+      "stars": 52464,
+      "rank": 5,
+      "isNew": true
+    },
+    {
+      "id": "ZhuLinsen_daily_stock_analysis",
+      "stars": 45008,
+      "rank": 6,
+      "isNew": true
+    },
+    {
+      "id": "koala73_worldmonitor",
+      "stars": 58312,
+      "rank": 7,
+      "isNew": true
+    },
+    {
+      "id": "bytedance_deer-flow",
+      "stars": 72820,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "DeusData_codebase-memory-mcp",
+      "stars": 10715,
+      "rank": 9,
+      "isNew": false
+    },
+    {
+      "id": "mukul975_Anthropic-Cybersecurity-Skills",
+      "stars": 17947,
+      "rank": 10,
+      "isNew": true
+    },
+    {
+      "id": "mikumifa_biliTickerBuy",
+      "stars": 3761,
+      "rank": 11,
+      "isNew": true
+    },
+    {
+      "id": "smicallef_spiderfoot",
+      "stars": 18877,
+      "rank": 12,
+      "isNew": true
+    },
+    {
+      "id": "topoteretes_cognee",
+      "stars": 18805,
+      "rank": 13,
+      "isNew": true
+    },
+    {
+      "id": "byoungd_English-level-up-tips",
+      "stars": 54165,
+      "rank": 14,
+      "isNew": true
+    },
+    {
+      "id": "asgeirtj_system_prompts_leaks",
+      "stars": 44696,
+      "rank": 15,
+      "isNew": true
+    }
+  ]
+}

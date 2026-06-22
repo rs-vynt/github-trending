@@ -1,0 +1,1 @@
+Kho lưu trữ cung cấp 754 kỹ năng an ninh mạng nguồn mở được cấu trúc hóa theo chuẩn agentskills.io, giúp trang bị cho các AI agent quy trình phân tích và phòng thủ chuyên sâu được ánh xạ tới 6 framework hàng đầu như MITRE ATT&CK và NIST CSF 2.0.
