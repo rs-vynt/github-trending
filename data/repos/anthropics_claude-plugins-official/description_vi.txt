@@ -1,0 +1,1 @@
+Danh mục chính thức do Anthropic quản lý, cung cấp các plugin, tác tử và kỹ năng chất lượng cao giúp mở rộng khả năng và tích hợp hệ thống cho Claude Code.

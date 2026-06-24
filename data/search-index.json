@@ -167,11 +167,11 @@
   {
     "id": "JCodesMore_ai-website-cloner-template",
     "name": "JCodesMore/ai-website-cloner-template",
-    "description": "Clone any website with one command using AI coding agents",
+    "description": "Công cụ sao chép và dịch ngược mọi trang web thành dự án Next.js hiện đại bằng cách sử dụng các tác nhân lập trình AI.",
     "tags": [],
     "stars": 17606,
     "folder": "JCodesMore_ai-website-cloner-template",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 ai-website-cloner-template\n\n## 🌟 Trọng tâm\nMẫu dự án (template) mạnh mẽ hỗ trợ việc sử dụng các tác nhân AI (AI agents) để dịch ngược và sao chép bất kỳ trang web nào thành một dự án Next.js 16 sạch sẽ và hiện đại với chỉ một câu lệnh `/clone-website`.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Khôi phục mã nguồn bị mất, nâng cấp và di chuyển nền tảng từ các hệ thống cũ (WordPress, Webflow) sang mã Next.js mới, hoặc học hỏi cách các trang web thực tế xây dựng bố cục và hiệu ứng.\n- **Khách hàng mục tiêu:** Lập trình viên frontend, các nhà phát triển web muốn sao chép nhanh giao diện web (không dùng cho mục đích mạo danh, lừa đảo).\n\n## 🛠️ Công nghệ cốt lõi\n- **Next.js 16** (App Router, React 19, TypeScript strict)\n- **Tailwind CSS v4** (thiết kế với oklch tokens)\n- **shadcn/ui** (dựa trên Radix primitives)\n- **AI Coding Agents:** Hỗ trợ rộng rãi các AI như Claude Code, Gemini CLI, Cursor, Windsurf, v.v.\n\n## 💡 Tại sao đáng chú ý?\nTự động hóa hoàn toàn luồng dịch ngược giao diện web bằng cách trích xuất token thiết kế, phân tích tương tác, viết thông số cho component, và sử dụng tác nhân AI song song để xây dựng và kiểm tra giao diện bằng hình ảnh, giúp tiết kiệm hàng chục giờ code thủ công.\n"
   },
   {
     "id": "Kilo-Org_kilocode",
@@ -287,11 +287,11 @@
   {
     "id": "Stirling-Tools_Stirling-PDF",
     "name": "Stirling-Tools/Stirling-PDF",
-    "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+    "description": "Stirling PDF là nền tảng chỉnh sửa PDF mã nguồn mở linh hoạt, cung cấp hơn 50 công cụ xử lý bảo mật tại chỗ mà không cần gửi dữ liệu ra bên ngoài, hỗ trợ từ ứng dụng cá nhân đến hệ thống máy chủ tự lưu trữ kèm API REST cho doanh nghiệp.",
     "tags": [],
     "stars": 82715,
     "folder": "Stirling-Tools_Stirling-PDF",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Stirling-Tools/Stirling-PDF\n\n## 🌟 Trọng tâm\nStirling PDF là một nền tảng chỉnh sửa PDF mã nguồn mở, cho phép thực hiện hơn 50 thao tác khác nhau trên tệp PDF (như hợp nhất, chia nhỏ, chuyển đổi, ký tên, bôi đen, OCR, nén) mà không cần phải gửi tài liệu ra các dịch vụ bên ngoài, đảm bảo quyền riêng tư tuyệt đối.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Các công cụ xử lý PDF hiện nay thường thu phí đắt đỏ hoặc yêu cầu tải tài liệu lên đám mây của bên thứ ba, tạo rủi ro rò rỉ dữ liệu. Các luồng xử lý tự động PDF số lượng lớn cũng thiếu công cụ UI thân thiện và API đủ mạnh.\n- **Khách hàng mục tiêu:**\n  - Cá nhân cần một ứng dụng chỉnh sửa PDF đa năng, an toàn và có thể sử dụng ở bất kỳ đâu.\n  - Doanh nghiệp cần triển khai hệ thống xử lý tài liệu bảo mật nội bộ (on-premise), có hỗ trợ đăng nhập một lần (SSO) và kiểm toán.\n  - Nhà phát triển muốn tích hợp khả năng thao tác với PDF vào hệ thống hiện có thông qua một REST API linh hoạt.\n\n## 🛠️ Công nghệ cốt lõi\n- **Kiến trúc đa nền tảng:** Có thể hoạt động như một máy khách Desktop, Web UI trên trình duyệt hoặc máy chủ tự lưu trữ thông qua Docker và Kubernetes.\n- **Quy trình làm việc (Workflow):** Cung cấp các luồng xử lý tự động (no-code pipeline) trên giao diện đi kèm hệ thống REST API giúp xử lý hàng triệu file.\n- **Công cụ phát triển (Dev Tooling):** Sử dụng `Task` thay cho hệ thống makefile cổ điển để thống nhất mọi tiến trình build, dev và test.\n\n## 💡 Tại sao đáng chú ý?\nVới hơn 82.000 sao trên GitHub, Stirling PDF chứng minh sức hút của một giải pháp thay thế hoàn hảo cho các phần mềm trả phí. Điểm nhấn lớn nhất là tính riêng tư – một giải pháp \"All-in-one\" xử lý tại chỗ (local), giao diện trực quan hỗ trợ hơn 40 ngôn ngữ và đặc biệt đáp ứng rất tốt cho cả nhu cầu sử dụng phổ thông lẫn tích hợp tự động qua API trong môi trường doanh nghiệp.\n"
   },
   {
     "id": "TapXWorld_ChinaTextbook",
@@ -403,6 +403,15 @@
     "stars": 14403,
     "folder": "andrewyng_aisuite",
     "summary": "# 🚀 aisuite\n\n## 🌟 Trọng tâm\nMột thư viện Python nhẹ cung cấp giao diện thống nhất để gọi nhiều API mô hình ngôn ngữ lớn (LLM) khác nhau (như OpenAI, Anthropic, Google, Ollama, v.v.) và framework để xây dựng các AI agent với khả năng sử dụng công cụ mạnh mẽ. Đi kèm là OpenCoworker, một desktop AI agent có thể hỗ trợ thực hiện các tác vụ thực tế trên máy tính.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giảm thiểu sự phức tạp và sự phụ thuộc (vendor lock-in) khi phải làm việc với các SDK khác nhau của từng nhà cung cấp LLM. Đơn giản hóa việc xây dựng AI agent, cung cấp cho LLM các công cụ (tools) Python, bộ công cụ (toolkits) sandbox hoặc tích hợp MCP mà không cần nhiều mã soạn sẵn (boilerplate).\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư phần mềm muốn xây dựng ứng dụng AI linh hoạt với nhiều LLM, và người dùng máy tính cần một trợ lý ảo desktop (OpenCoworker) để tự động hóa tác vụ hàng ngày.\n\n## 🛠️ Công nghệ cốt lõi\n- **Chat Completions API:** Giao diện kiểu OpenAI, chuẩn hóa tham số đầu vào và đầu ra cho nhiều nhà cung cấp LLM khác nhau qua một string cấu hình (`<provider>:<model-name>`).\n- **Agents API:** Hỗ trợ gọi công cụ (tool calling) dễ dàng bằng các hàm Python, tích hợp Toolkits (files, git, shell) chạy trong môi trường sandbox, và quản lý luồng với `max_turns`.\n- **Model Context Protocol (MCP):** Hỗ trợ nguyên bản MCP, cho phép LLM giao tiếp liền mạch với các máy chủ MCP bên ngoài.\n\n## 💡 Tại sao đáng chú ý?\n- **Tính thống nhất & Linh hoạt:** Thay đổi nhà cung cấp LLM chỉ bằng một dòng code mà không cần cấu hình lại hệ thống.\n- **Tiện ích thực tế:** Tích hợp sẵn OpenCoworker - một sản phẩm AI agent chạy trực tiếp trên desktop (hỗ trợ macOS và Windows).\n- **Mở rộng dễ dàng:** Dễ dàng tự viết thêm adapter để hỗ trợ các mô hình/nhà cung cấp mới thông qua quy ước đơn giản.\n"
+  },
+  {
+    "id": "anthropics_claude-plugins-official",
+    "name": "anthropics/claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "tags": [],
+    "stars": 30860,
+    "folder": "anthropics_claude-plugins-official",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "anthropics_financial-services",
@@ -587,11 +596,11 @@
   {
     "id": "firecrawl_firecrawl",
     "name": "firecrawl/firecrawl",
-    "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+    "description": "Firecrawl là API mạnh mẽ hỗ trợ tìm kiếm, cào dữ liệu và tương tác với trang web ở quy mô lớn, giúp chuyển đổi nội dung web thành dữ liệu Markdown hoặc JSON sạch sẵn sàng cho các mô hình AI.",
     "tags": [],
     "stars": 137015,
     "folder": "firecrawl_firecrawl",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 firecrawl/firecrawl\n## 🌟 Trọng tâm\nFirecrawl là một API cung cấp khả năng tìm kiếm, cào dữ liệu (scrape), và tương tác với các trang web ở quy mô lớn, giúp chuyển đổi nội dung web thành dữ liệu Markdown sạch hoặc JSON có cấu trúc sẵn sàng cho các mô hình ngôn ngữ lớn (LLM) và các ứng dụng AI.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Việc thu thập dữ liệu web thường gặp nhiều khó khăn do trang web sử dụng nhiều JavaScript, bị chặn nội dung, cần quản lý proxy xoay vòng, và HTML chứa nhiều mã rác khó dùng cho LLM. Firecrawl tự động hóa các rào cản này và trích xuất ra dữ liệu chất lượng cao.\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, kỹ sư dữ liệu, và các hệ thống tác nhân tự trị (AI agents) cần tích hợp dữ liệu web thời gian thực một cách dễ dàng và đáng tin cậy.\n\n## 🛠️ Công nghệ cốt lõi\n- Khả năng xử lý và phân tích nội dung từ các trang web phức tạp (JS-heavy), kể cả các tài liệu như PDF, DOCX lưu trữ trên web.\n- Tích hợp tính năng \"Agent\": Tự động tìm kiếm, cuộn trang, nhấp chuột và thu thập dữ liệu chỉ dựa trên prompt (mô tả yêu cầu) mà không cần lập trình URL cụ thể.\n- Hệ thống API linh hoạt hỗ trợ nhiều tính năng (Search, Scrape, Map, Crawl, Batch Scrape) cùng hệ sinh thái SDK đa dạng (Python, Node.js, Java, Rust, v.v.).\n\n## 💡 Tại sao đáng chú ý?\nFirecrawl đạt độ bao phủ lên tới 96% các trang web, đi kèm tốc độ truy xuất cực nhanh (độ trễ P95 chỉ 3.4 giây). Là một dự án mã nguồn mở mạnh mẽ (đạt hơn 130K sao trên GitHub), nó giúp các nhà phát triển xây dựng AI app tiết kiệm đáng kể số lượng token nhờ đầu ra được làm sạch, đồng thời đơn giản hóa tối đa việc thu thập dữ liệu cho bất kỳ AI agent nào.\n"
   },
   {
     "id": "freeCodeCamp_freeCodeCamp",
@@ -605,11 +614,11 @@
   {
     "id": "garrytan_gstack",
     "name": "garrytan/gstack",
-    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "description": "gstack là bộ 23 công cụ AI do CEO YC Garry Tan phát triển để biến Claude Code thành một đội ngũ kỹ sư phần mềm ảo giúp lập trình viên độc lập tăng tốc độ phát triển dự án lên hàng trăm lần.",
     "tags": [],
     "stars": 112959,
     "folder": "garrytan_gstack",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 gstack\n\n## 🌟 Trọng tâm\ngstack là một \"nhà máy phần mềm mã nguồn mở\", bộ công cụ biến Claude Code (và các AI agent khác) thành một đội ngũ kỹ sư phần mềm ảo với 23 chuyên gia và 8 công cụ mạnh mẽ. Nó cung cấp cấu trúc quy trình sprint đầy đủ: từ CEO lên kế hoạch, giám đốc kỹ thuật, chuyên gia thiết kế, kỹ sư QA, đến sĩ quan an ninh mạng để tăng tốc độ phát triển và phát hành phần mềm.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n**Bài toán giải quyết:** Giải quyết vấn đề làm sao một nhà phát triển độc lập có thể làm việc với năng suất tương đương một đội ngũ 20 người nhờ sức mạnh của tác tử AI kết hợp các quy trình tự động hóa khắt khe. Nó giúp quy trình vibe coding trở nên an toàn bằng test và review kĩ lưỡng.\n**Khách hàng mục tiêu:**\n- Các nhà sáng lập (Founders) và CEO kỹ thuật muốn tự tay tung ra sản phẩm siêu tốc.\n- Những người dùng Claude Code lần đầu muốn làm việc theo cấu trúc thay vì nhập prompt trống.\n- Trưởng nhóm kỹ thuật và kỹ sư cấp cao muốn tự động hóa đánh giá, QA và phát hành nghiêm ngặt.\n\n## 🛠️ Công nghệ cốt lõi\n- **AI Agents & LLM:** Claude Code, OpenAI Codex, OpenClaw, Gemini.\n- **Workflow & Automation:** Hệ thống lệnh slash bằng Markdown (ví dụ: `/qa`, `/autoplan`, `/ship`).\n- **Browser Automation:** Tích hợp Chromium để QA thực tế với công nghệ chống bot chặn và điều khiển qua lệnh CDP.\n- **Phòng vệ bảo mật:** Mô hình học máy phân tích nội dung, đối chiếu bằng LLM và token canary để chống lại prompt injection.\n- **Quản lý tri thức:** GBrain - công cụ xây dựng và đồng bộ dữ liệu vào vector database (Supabase, PGLite) để duy trì bộ nhớ cho AI giữa các phiên.\n- **Hệ thống:** Bun, Node.js, Shell Scripts.\n\n## 💡 Tại sao đáng chú ý?\nDự án được tạo ra bởi Garry Tan - Chủ tịch kiêm CEO của Y Combinator. Nhờ gstack, tốc độ phát hành tính năng của ông trong năm 2026 nhanh gấp 810 lần so với năm 2013 dù chỉ làm việc bán thời gian. gstack mang đến một triết lý độc đáo: biến AI không chỉ thành người viết code mà thành những chuyên gia ảo biết tranh luận, phản biện, thực thi và tự kiểm tra lỗi từ đầu đến cuối như một đội ngũ hoàn chỉnh. Hơn nữa, nó bao gồm cả khả năng phối hợp đa tác tử và phòng thủ an ninh vượt trội.\n"
   },
   {
     "id": "ggml-org_llama.cpp",
@@ -674,11 +683,11 @@
   {
     "id": "heygen-com_hyperframes",
     "name": "heygen-com/hyperframes",
-    "description": "Write HTML. Render video. Built for agents.",
+    "description": "HyperFrames là một framework mã nguồn mở giúp chuyển đổi mã HTML, CSS và hoạt ảnh thành video MP4 tất định, được thiết kế đặc biệt tối ưu cho các AI coding agent tự động hóa quy trình tạo video.",
     "tags": [],
     "stars": 29852,
     "folder": "heygen-com_hyperframes",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 heygen-com/hyperframes\n\n## 🌟 Trọng tâm\nHyperFrames là một framework mã nguồn mở giúp chuyển đổi HTML, CSS, hình ảnh/video (media) và các hoạt ảnh có thể điều khiển thời gian (seekable animation) thành các video MP4 tất định. Framework này được thiết kế ưu tiên cho việc sử dụng với các AI coding agent, giao diện dòng lệnh (CLI) hoặc làm lõi render tự động trên cloud.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán giải quyết:** Giải quyết sự phức tạp của việc lập trình video bằng các công cụ nặng nề hay bắt buộc phải có bước build (bundler). Tạo ra quy trình sản xuất video bằng công nghệ web thuần túy (HTML/CSS) mà các AI Agent dễ dàng hiểu và sinh mã được.\n- **Khách hàng mục tiêu:** Lập trình viên, kỹ sư tự động hóa, nhóm marketing (tạo video giới thiệu tính năng, review PR), người làm nội dung cần tự động hóa các chuỗi video từ code, và đặc biệt là người dùng các AI Agent (như Claude, Cursor).\n\n## 🛠️ Công nghệ cốt lõi\n- **HTML-native:** Không yêu cầu framework như React, sử dụng HTML thuần với các thuộc tính (data attributes).\n- **Headless Chrome & FFmpeg:** Sử dụng trình duyệt ẩn (headless Chrome/Puppeteer) để duyệt qua các khung hình và mã hóa video bằng FFmpeg.\n- **Tích hợp linh hoạt:** Hỗ trợ nhiều engine hoạt ảnh như GSAP, CSS, Lottie, Three.js, Anime.js, WAAPI.\n- **Tất định (Deterministic):** Cùng đầu vào sinh ra cùng khung hình, hỗ trợ tốt cho CI/CD và render phân tán bằng AWS Lambda.\n\n## 💡 Tại sao đáng chú ý?\n- **AI-Agent Friendly:** Đặc biệt thân thiện với AI coding agents nhờ đầu vào là HTML thuần không cần thiết lập build phức tạp.\n- **Không có bước Build:** Không yêu cầu quá trình bundle phức tạp, có thể trực tiếp chạy và xem trước một tệp `index.html`.\n- **Hỗ trợ hệ thống Design:** Tính năng `frame.md` cho phép định nghĩa các design system dành riêng cho camera dựa trên chuẩn web, giúp dễ dàng tái sử dụng.\n"
   },
   {
     "id": "iptv-org_iptv",
@@ -692,11 +701,11 @@
   {
     "id": "jamiepine_voicebox",
     "name": "jamiepine/voicebox",
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "description": "Voicebox là một ứng dụng studio giọng nói AI mã nguồn mở hoàn toàn cục bộ, cho phép bạn nhân bản giọng nói, đọc chính tả và tương tác với các AI agent qua công nghệ chuyển đổi âm thanh và văn bản tiên tiến.",
     "tags": [],
     "stars": 32063,
     "folder": "jamiepine_voicebox",
-    "summary": "Chưa có bản tóm tắt AI."
+    "summary": "# 🚀 Voicebox\n\n## 🌟 Trọng tâm\nVoicebox là một studio giọng nói AI mã nguồn mở, hoạt động cục bộ (local-first). Nó kết hợp khả năng nhân bản giọng nói, chuyển đổi văn bản thành giọng nói (TTS) đa ngôn ngữ, nhập liệu bằng giọng nói/đọc chính tả (STT), và tích hợp AI Agent qua Model Context Protocol (MCP) trên cùng một ứng dụng.\n\n## 🎯 Bài toán giải quyết & Khách hàng mục tiêu\n- **Bài toán:** Cung cấp giải pháp xử lý giọng nói toàn diện (I/O loop) hoàn toàn bảo mật và không phụ thuộc vào các dịch vụ đám mây trả phí (như ElevenLabs cho đầu ra hay WisprFlow cho đầu vào).\n- **Khách hàng mục tiêu:** Các nhà phát triển AI, những người tạo nội dung (podcast, trò chơi, tự động hóa), và người dùng cá nhân cần một công cụ giọng nói AI mạnh mẽ, riêng tư và có khả năng tương tác với các AI Agent (Claude Code, Cursor, v.v.).\n\n## 🛠️ Công nghệ cốt lõi\n- **Desktop Framework:** Tauri (Rust) kết hợp với React, TypeScript, Tailwind CSS.\n- **Backend:** FastAPI (Python).\n- **AI Models (TTS/STT/LLM):** Qwen3-TTS, LuxTTS, Chatterbox, HumeAI TADA, Kokoro, Whisper (OpenAI) và Qwen3 LLM.\n- **Tối ưu suy luận (Inference):** MLX cho Apple Silicon và PyTorch (CUDA, ROCm, XPU) cho các phần cứng khác.\n- **Xử lý âm thanh & API:** Pedalboard để xử lý hiệu ứng; FastMCP cho tích hợp agent.\n\n## 💡 Tại sao đáng chú ý?\n- Hoạt động 100% cục bộ, bảo mật tuyệt đối với khả năng hỗ trợ đa dạng (7 TTS engine, 23 ngôn ngữ, sao chép giọng nói zero-shot).\n- Cung cấp phím tắt toàn cầu (global hotkey) để đọc chính tả vào bất kỳ trường văn bản nào.\n- Tính năng \"Voice Personalities\" độc đáo, sử dụng LLM cục bộ để tự động viết lại văn bản theo tính cách của giọng nói trước khi phát.\n- Tích hợp sâu rộng qua API REST và máy chủ MCP, giúp các AI Agent có thể dễ dàng \"trò chuyện\" bằng giọng nói do người dùng tùy chỉnh.\n"
   },
   {
     "id": "jamwithai_production-agentic-rag-course",
@@ -1173,6 +1182,15 @@
     "stars": 57115,
     "folder": "ruvnet_ruflo",
     "summary": "# Edge Cases Repo\n![ProtocolRelative](//example.com/image3.png)"
+  },
+  {
+    "id": "shanraisshan_claude-code-best-practice",
+    "name": "shanraisshan/claude-code-best-practice",
+    "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+    "tags": [],
+    "stars": 59500,
+    "folder": "shanraisshan_claude-code-best-practice",
+    "summary": "Chưa có bản tóm tắt AI."
   },
   {
     "id": "shiyu-coder_Kronos",

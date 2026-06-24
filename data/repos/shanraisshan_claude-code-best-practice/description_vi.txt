@@ -1,0 +1,1 @@
+Kho lưu trữ này tổng hợp các phương pháp thực hành, luồng công việc và mẹo tốt nhất từ đội ngũ phát triển và cộng đồng để làm chủ Claude Code, giúp lập trình viên chuyển đổi từ lập trình cảm tính sang kỹ nghệ tác tử tự động hóa chuyên nghiệp.

@@ -1,0 +1,10 @@
+{
+  "id": "anthropics_claude-plugins-official",
+  "fullName": "anthropics/claude-plugins-official",
+  "name": "claude-plugins-official",
+  "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+  "stars": 30860,
+  "forks": 0,
+  "readmeHash": "7890eaac19d19104c3586a72163aedbc",
+  "tags": []
+}

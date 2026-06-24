@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-24_daily",
+  "date": "2026-06-24",
+  "since": "daily",
+  "repos": [
+    {
+      "id": "calesthio_OpenMontage",
+      "stars": 15814,
+      "rank": 1,
+      "isNew": false
+    },
+    {
+      "id": "ZhuLinsen_daily_stock_analysis",
+      "stars": 47113,
+      "rank": 2,
+      "isNew": false
+    },
+    {
+      "id": "mukul975_Anthropic-Cybersecurity-Skills",
+      "stars": 19741,
+      "rank": 3,
+      "isNew": false
+    },
+    {
+      "id": "garrytan_gstack",
+      "stars": 114118,
+      "rank": 4,
+      "isNew": false
+    },
+    {
+      "id": "bytedance_deer-flow",
+      "stars": 73954,
+      "rank": 5,
+      "isNew": false
+    },
+    {
+      "id": "koala73_worldmonitor",
+      "stars": 59125,
+      "rank": 6,
+      "isNew": false
+    },
+    {
+      "id": "palmier-io_palmier-pro",
+      "stars": 8448,
+      "rank": 7,
+      "isNew": false
+    },
+    {
+      "id": "anthropics_claude-plugins-official",
+      "stars": 30860,
+      "rank": 8,
+      "isNew": true
+    },
+    {
+      "id": "shanraisshan_claude-code-best-practice",
+      "stars": 59500,
+      "rank": 9,
+      "isNew": true
+    },
+    {
+      "id": "revfactory_harness",
+      "stars": 7452,
+      "rank": 10,
+      "isNew": false
+    },
+    {
+      "id": "jamiepine_voicebox",
+      "stars": 33185,
+      "rank": 11,
+      "isNew": false
+    },
+    {
+      "id": "JCodesMore_ai-website-cloner-template",
+      "stars": 18588,
+      "rank": 12,
+      "isNew": false
+    },
+    {
+      "id": "byoungd_English-level-up-tips",
+      "stars": 54506,
+      "rank": 13,
+      "isNew": false
+    },
+    {
+      "id": "DeusData_codebase-memory-mcp",
+      "stars": 12999,
+      "rank": 14,
+      "isNew": false
+    },
+    {
+      "id": "NousResearch_hermes-agent",
+      "stars": 200988,
+      "rank": 15,
+      "isNew": false
+    }
+  ]
+}

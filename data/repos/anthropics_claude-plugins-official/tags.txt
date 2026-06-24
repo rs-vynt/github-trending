@@ -1,0 +1,5 @@
+claude-code
+plugin-directory
+mcp
+ai-agents
+anthropic
